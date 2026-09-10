@@ -120,7 +120,7 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 
 ## 12. Exact Git commit SHA
 
-Canonical tree SHA (stamp; this is the commit to check out): `PENDING_CANONICAL_SHA`
+Canonical tree SHA (stamp; this is the commit to check out): `984af62f25127b43e7d2be248ca1c8123921b8a8`
 
 Science content commit immediately under the stamp: `ce761714b8420df3288f71a78de8734be1a41148`
 
