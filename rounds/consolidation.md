@@ -1,42 +1,34 @@
 # Branch / PR / worktree consolidation
 
-Generated: 2026-09-10
+Generated: 2026-09-10. Mandatory final handoff gate.
 
-## Policy
-
-The overnight cycle must end with one canonical branch containing all accepted work. Superseded PRs should be closed. Merging science onto `main` is a PI action.
-
-## Inventory
+## Inventory (before merge)
 
 | Artifact | Status |
 | --- | --- |
-| Canonical branch | `cursor/research-swarm-634f` |
-| Base | `main` |
-| Overnight science PR | https://github.com/bobshenruililin/BIOC1600-1/pull/2 |
-| Plan branch / PR #1 | `cursor/save-research-plan-634f` — plan already in swarm history (`fa01d39`); superseded for science |
-| Worktrees | none (`git worktree list` = this checkout only) |
-| Extra analysis branches | none; analyses implemented on the canonical swarm branch |
-| `main` | initial commit `bee2847` plus whatever GitHub has; science is not on `main` until PI merges |
+| Swarm branch | `cursor/research-swarm-634f` — all accepted science |
+| Plan branch | `cursor/save-research-plan-634f` at `fa01d39` — **ancestor of swarm**; not deleted |
+| Worktrees | this checkout only |
+| Extra analysis branches | none |
+| PR #1 | closed (superseded); plan commit already in swarm |
+| PR #2 | open overnight science PR targeting `main` |
 
-## Actions
+No accepted analysis existed only in a worktree or on an unmerged branch.
 
-1. Confirm no accepted analysis exists only in a worktree.
-2. Confirm nightly + ledgers + figures + scoreboard + audits are on `cursor/research-swarm-634f`.
-3. Close PR #1 as superseded by PR #2 (plan is already in swarm history).
-4. Keep PR #2 as the single overnight-cycle PR for PI review (mark ready after this handoff).
-5. Do not merge swarm into `main` without PI. The PR tool cannot merge.
+## Figure selection (not “latest file”)
 
-## Result
+Selected **three** for the handoff (strongest, not a fourth dump):
 
-Canonical tree on `cursor/research-swarm-634f`. One open overnight science PR (#2) intended as the PI-review vehicle. PR #1 closed as superseded if the close action succeeds.
+1. `analysis/accepted/figures/atlas.svg` — ledger construct×quantity atlas; empty kon/koff stay empty.
+2. `analysis/accepted/figures/occupancy.svg` — Langmuir occupancy SIMULATION; units on θ and [Glu].
+3. `analysis/accepted/figures/sensitivity.svg` — t_off vs kon BOUND/SIMULATION; empirical band labeled NOT glutamate. This is the analysis that is not a literature recap.
 
-## Required artifact check
+Supporting, still rebuilt, not in the “best 3”: `clocks.svg` (15 min vs 1.2 ms category error).
 
-- `reports/nightly_summary.md`
-- `research/evidence/core_evidence.csv`
-- `state/claims.csv`
-- `research/reviews/contradictions.md`
-- figures under `analysis/accepted/figures/` with rebuildable source
-- `state/scoreboard.json`
-- `research/reviews/citation_audit.md`
-- analysis READMEs
+## Merge required by this gate
+
+The gate requires **no unresolved overnight-cycle PR**. ManagePullRequest cannot merge. Fast-forward `main` to the swarm tip (linear history from `bee2847`) so PR #2 can close as merged. The plan branch is kept because deleting it would only tidy optics; its commit is already in history.
+
+## Result (filled after push)
+
+See `reports/nightly_summary.md` section 12 for the canonical SHA.

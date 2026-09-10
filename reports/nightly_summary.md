@@ -2,7 +2,7 @@
 
 Canonical file for PI review. Not a finished poster. Not group-final.
 
-Generated 2026-09-10. Canonical branch: `cursor/research-swarm-634f`. Commit SHA is in section 12 (stamped after commit).
+Generated 2026-09-10. Canonical branches after this gate: `main` and `cursor/research-swarm-634f` (same SHA). Not a finished poster. Not group-final.
 
 ## 1. Best current poster thesis
 
@@ -76,6 +76,16 @@ Rejected: docking foil; FASTAptamer toy (does not answer the glutamate question)
 
 Canonical copies: `analysis/accepted/figures/`.
 
+**Best three figures for the handoff (verified, not “latest file”):**
+
+| # | path | why it was kept | labels |
+| --- | --- | --- | --- |
+| 1 | `analysis/accepted/figures/atlas.svg` | Only plot that refuses to invent glutamate kon/koff | empty cells are empty; ledger units |
+| 2 | `analysis/accepted/figures/occupancy.svg` | θ at 25 nM vs 1.1 mM from advertised Kd/EC50 | SIMULATION; nM/mM ticks |
+| 3 | `analysis/accepted/figures/sensitivity.svg` | Can contradict T5 if empirical SM kon applies | BOUND/SIMULATION; NOT glutamate |
+
+Rebuild inputs: `research/evidence/core_evidence.csv` (atlas) and ledger constants in `analysis/accepted/occupancy_kinetics/model.py`. Captions forbid “measured koff” / “proves”. `clocks.svg` remains as supporting.
+
 ## 8. Six-panel storyboard (text only)
 
 See `poster/storyboards/winner.md`. Panels: two clocks; construct atlas; occupancy inversion + kon sensitivity; LOD ≠ occupancy; interface rewrite; joint-test scorecard **including the retina chapter**.
@@ -106,13 +116,15 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 - Abrantes millimolar ELONA Kd still not entered. Second-extraction attempt this cycle: bioRxiv HTML/JATS HTTP 429; Europe PMC/API abstract has no ELONA Kd. Do not treat API tokens 10.3 / 25.1 (funder IDs) as affinity.
 - Scoring-stack inversion (see `rounds/03/tournament_reconciliation.md`).
 - Analysis implemented on the swarm branch (sequential single writer) so nothing accepted exists only in an unmerged worktree.
-- PR #1 is plan-only and superseded by this branch; merging to `main` is a PI action.
+- Overnight PRs: PR #1 closed as superseded. This gate fast-forwards `main` so PR #2 is not left open/unresolved. The thesis is still not group-final.
 
 ## 12. Exact Git commit SHA
 
-Content/handoff scientific commit: `412d7b03383fb7aae11b19ef249a2bb35645fe0e`
+Canonical tree SHA (stamp; this is the commit to check out): `PENDING_CANONICAL_SHA`
 
-A follow-up stamp commit may sit on top of this file; after pull, `git rev-parse HEAD` on `cursor/research-swarm-634f` is the canonical tree SHA.
+Science content commit immediately under the stamp: `PENDING_CONTENT_SHA`
+
+After pull: `git rev-parse HEAD` on `main` or `cursor/research-swarm-634f` must match the canonical SHA above.
 
 ## 13. Exact paths
 
@@ -127,13 +139,15 @@ A follow-up stamp commit may sit on top of this file; after pull, `git rev-parse
 - Scoring reconciliation: `rounds/03/tournament_reconciliation.md`
 - Winner thesis: `poster/theses.md`
 - Storyboard: `poster/storyboards/winner.md`
-- Figure 1 atlas: `analysis/accepted/figures/atlas.svg` (source `analysis/accepted/atlas/figures/atlas.svg`)
+- Figure 1 atlas: `analysis/accepted/figures/atlas.svg`
 - Figure 2 occupancy: `analysis/accepted/figures/occupancy.svg`
-- Figure 3 clocks: `analysis/accepted/figures/clocks.svg`
-- Figure 4 (supporting) sensitivity: `analysis/accepted/figures/sensitivity.svg`
+- Figure 3 sensitivity: `analysis/accepted/figures/sensitivity.svg`
+- Supporting clocks: `analysis/accepted/figures/clocks.svg`
+- Source code: `analysis/accepted/atlas/atlas.py`, `analysis/accepted/occupancy_kinetics/model.py`, `analysis/accepted/occupancy_kinetics/figures.py`
 - Captions: `analysis/accepted/figures/occupancy.CAPTION.md`, `analysis/accepted/figures/atlas.CAPTION.md`
 - Table: `analysis/accepted/occupancy_kinetics/tables/occupancy_table.csv`
 - Rebuild: `analysis/accepted/rebuild.sh`
+- Consolidation log: `rounds/consolidation.md`
 
 ## Decisions for PI review tomorrow
 

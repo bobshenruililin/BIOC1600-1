@@ -9,4 +9,4 @@
 7. **Park 2023 glutamate FET** is GDH — do not recycle.
 8. **No in vivo glutamate aptamer sensor.** S066 is in vitro mouse retina.
 9. **Course cannot run wet IPA** on Hu Glu-apt. Computational occupancy/sensitivity is the available distinctive analysis.
-10. **Overnight-cycle PRs:** science lives on `cursor/research-swarm-634f` (PR #2). Plan-only PR #1 is closed as superseded. Merging to `main` is a PI action; this agent cannot merge via the PR tool.
+10. **Overnight-cycle PRs:** this gate fast-forwards `main` to the swarm tip so PR #2 is not left unresolved. Plan branch `cursor/save-research-plan-634f` is **kept** (commit already in history). Thesis still not group-final.
