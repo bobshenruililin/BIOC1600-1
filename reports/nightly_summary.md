@@ -122,7 +122,7 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 
 Canonical tree SHA (stamp; this is the commit to check out): `PENDING_CANONICAL_SHA`
 
-Science content commit immediately under the stamp: `PENDING_CONTENT_SHA`
+Science content commit immediately under the stamp: `ce761714b8420df3288f71a78de8734be1a41148`
 
 After pull: `git rev-parse HEAD` on `main` or `cursor/research-swarm-634f` must match the canonical SHA above.
 
