@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -93,16 +94,10 @@ def main() -> int:
             errors.append(f"{path.name} invents grok-4.7")
 
     theses = (ROOT / "poster/theses.md").read_text(encoding="utf-8")
-    if "Round 3 pending" not in theses:
-        errors.append("poster/theses.md must remain a Round 3 stub during bootstrap")
-
-    claims = (ROOT / "state/claims.csv").read_text(encoding="utf-8").strip().splitlines()
-    if len(claims) > 1:
-        errors.append("Round 0 must not add scientific claim rows")
-
-    sources = (ROOT / "state/sources.csv").read_text(encoding="utf-8").strip().splitlines()
-    if len(sources) > 1:
-        errors.append("Round 0 must not add source rows")
+    scoreboard = json.loads((ROOT / "state/scoreboard.json").read_text(encoding="utf-8"))
+    round3_done = bool(scoreboard.get("theses"))
+    if not round3_done and "Round 3 pending" not in theses:
+        errors.append("poster/theses.md must remain a Round 3 stub until theses are scored")
 
     for pattern in FORBIDDEN_POSTER_GLOBS:
         matches = list(ROOT.glob(pattern))

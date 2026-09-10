@@ -9,6 +9,13 @@
       "status": "complete",
       "core_sources_promoted": 0,
       "notes": "Repository structure and agents created. No scientific claims."
+    },
+    "1": {
+      "name": "literature_scouting",
+      "status": "complete",
+      "candidate_sources": 65,
+      "core_sources_promoted": 0,
+      "notes": "Six isolated scouts merged. Starting PMIDs verified on Europe PMC. No core promotion."
     }
   },
   "theses": [],
