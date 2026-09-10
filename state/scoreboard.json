@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "current_best_thesis": null,
-  "current_best_status": "none",
-  "runner_up_thesis": null,
+  "current_best_thesis": "T1",
+  "current_best_status": "provisional",
+  "runner_up_thesis": "T5",
   "rounds": {
     "0": {
       "name": "bootstrap",
@@ -25,16 +25,55 @@
       "relevant_sources": 25,
       "rejected_sources": 1,
       "evidence_rows": 41,
-      "claims": 26,
+      "claims": 27,
       "notes": "Double extraction plus orchestrator re-verification of OA/PMC text. Hu VoR re-read. No Glu kon/koff found. Park GDH mislabel recorded. Clay 0.73/0.8 s corrected vs an earlier hunter miss."
+    },
+    "3": {
+      "name": "thesis_tournament",
+      "status": "complete",
+      "notes": "Four isolated writers collapsed to one frame; T5 forced as framing challenger. T1 and T5 tied at mean 87; T1 wins tie-break (fewer extra assumptions). Not group-final."
+    },
+    "4": {
+      "name": "analysis_tournament",
+      "status": "complete",
+      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ)."
+    },
+    "5": {
+      "name": "replication",
+      "status": "complete",
+      "notes": "Clean-directory rebuild of accepted analyses passed. Caption audit: BOUND/SIMULATION labels present."
+    },
+    "6": {
+      "name": "meta_improvement",
+      "status": "complete",
+      "notes": "One adopted patch: thesis tournament must include a framing challenger. Stop after that observed-failure class. Constitution untouched."
     }
   },
-  "theses": [],
-  "analyses": [],
+  "theses": [
+    {"id": "T1", "mean": 87.0, "r1": 89, "r2": 85, "decision": "winner_provisional"},
+    {"id": "T5", "mean": 87.0, "r1": 89, "r2": 85, "decision": "runner_up"},
+    {"id": "T4", "mean": 86.0, "r1": 88, "r2": 84, "decision": "hold"},
+    {"id": "T2", "mean": 85.0, "r1": 87, "r2": 83, "decision": "hold"},
+    {"id": "T3", "mean": 80.5, "r1": 83, "r2": 78, "decision": "hold"}
+  ],
+  "analyses": [
+    {"id": "P2_atlas", "total": 76, "status": "accepted", "path": "analysis/accepted/atlas/"},
+    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted", "path": "analysis/accepted/occupancy_kinetics/"},
+    {"id": "P5_fastaptamer", "total": 52, "status": "rejected", "reason": "would not answer the glutamate question without a licensed public FASTQ bundle"},
+    {"id": "docking_foil", "status": "rejected", "reason": "C017; constitution forbids docking-as-proof"}
+  ],
   "meta_improvement": {
-    "rounds_completed": 0,
+    "rounds_completed": 1,
     "consecutive_sub_two_pp_gains": 0,
     "stop_rule": "six meta rounds or two consecutive gains under 2 percentage points",
-    "history": []
+    "history": [
+      {
+        "round": 1,
+        "failure": "thesis-frame collapse 4/4",
+        "patch": "AGENTS.md isolation: require a framing-challenger thesis",
+        "adopted": true,
+        "constitution_edited": false
+      }
+    ]
   }
 }

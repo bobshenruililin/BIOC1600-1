@@ -55,6 +55,7 @@ If a custom agent type is not registered in the Task tool, run `generalPurpose` 
 - Analysis implementations: separate branches and git worktrees (`cursor/analysis-<name>-634f`)
 - Two writers never share a working tree
 - Thesis-tournament agents must not see one another’s proposals during generation
+- At least one thesis candidate must **challenge the current framing** rather than refine it (observed Round 3 failure: 4/4 isolated writers collapsed to the same “cannot claim neurodynamics” sentence). Adopted after one meta A/B on that observed collapse.
 
 ## Evidence rules (summary)
 

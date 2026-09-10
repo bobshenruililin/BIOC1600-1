@@ -74,3 +74,24 @@ Xie/Liu 2026: docking scores fail to separate theophylline from caffeine despite
 ## Hunter error log (this round)
 
 A prior contradiction pass stated Clay 2018 t90 0.73–0.8 s was absent. Re-inspection of PMC5881573 found: “The simulated response time, 0.73 s, also matches very closely with experimental response times (0.8 ± 0.2 s).” That sentence is now C023. The hunter is not an authority over the paper.
+
+## Papers that weaken the *generalization* “aptamers cannot keep up”
+
+These do **not** supply glutamate kon/koff. They weaken treating “too slow” as a property of aptamers rather than of the glutamate papers we have.
+
+| paper | what it shows | limit |
+| --- | --- | --- |
+| White 2008 S033 | cocaine E-AB equilibrates faster than ~4 s scan dead time | cocaine, not glutamate |
+| Abeykoon 2025 S004 / Santos-Cancel 2018 S025 | IPA interrogation 2 ms; tobramycin surface kon/koff measurable | not glutamate; 2 ms is the clock |
+| Arroyo-Currás 2018 S026 | chronoamperometric E-AB in living body on ~300 ms scale | tobramycin in vivo, not glutamate |
+| Kumakli 2023 S029 | ATP E-AB microelectrode 80–140 ms under flow | mass transport, ATP, not glutamate |
+| Zhao 2021 S018 / Wu 2022 S019 | implantable aptamer FETs in vivo | serotonin / dopamine, not glutamate |
+| Helassa 2018 S060 | iGluu τ_off ~2 ms can follow 100 Hz release | protein indicator, not aptamer |
+
+**Hard contradiction to T1?** No. T1 already says joint competence is undemonstrated, not that koff was measured slow.
+
+**Hard contradiction to T5?** If measured glutamate koff at 1.8 nM apparent Kd is ≫ 0.18 s⁻¹, the diffusion bound using that EC50 as molecular Kd fails. That experiment does not exist in the ledger.
+
+## Occupancy identity is no longer review-only
+
+C027 derives the 81-fold 10–90% Langmuir span algebraically. Rousseau 2023 remains a community statement of the same identity, not the sole evidence.

@@ -1,0 +1,193 @@
+{
+  "r1": [
+    {
+      "id": "T1",
+      "total": 89.0,
+      "decision": "finalist",
+      "scores": {
+        "primary-evidence strength": 22,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 13,
+        "reproducibility": 13,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T2",
+      "total": 87.0,
+      "decision": "finalist",
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 13,
+        "reproducibility": 13,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T3",
+      "total": 83.0,
+      "decision": "hold",
+      "scores": {
+        "primary-evidence strength": 18,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 14,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T4",
+      "total": 88.0,
+      "decision": "finalist",
+      "scores": {
+        "primary-evidence strength": 20,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 14,
+        "reproducibility": 13,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T5",
+      "total": 89.0,
+      "decision": "finalist",
+      "scores": {
+        "primary-evidence strength": 18,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 15,
+        "reproducibility": 14,
+        "central-question relevance": 9,
+        "visual explanatory power": 9,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 5
+      }
+    }
+  ],
+  "r2": [
+    {
+      "id": "T1",
+      "total": 85.0,
+      "decision": "finalist",
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 12,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T2",
+      "total": 83.0,
+      "decision": "hold",
+      "scores": {
+        "primary-evidence strength": 20,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 12,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T3",
+      "total": 78.0,
+      "decision": "hold",
+      "scores": {
+        "primary-evidence strength": 17,
+        "BIOC1600 biochemical depth": 12,
+        "critical insight": 13,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 7,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 3
+      }
+    },
+    {
+      "id": "T4",
+      "total": 84.0,
+      "decision": "hold",
+      "scores": {
+        "primary-evidence strength": 19,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 13,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T5",
+      "total": 85.0,
+      "decision": "finalist",
+      "scores": {
+        "primary-evidence strength": 16,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 15,
+        "reproducibility": 13,
+        "central-question relevance": 9,
+        "visual explanatory power": 9,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 5
+      }
+    }
+  ],
+  "means": {
+    "T1": {
+      "mean": 87.0,
+      "r1": 89.0,
+      "r2": 85.0,
+      "d1": "finalist",
+      "d2": "finalist"
+    },
+    "T2": {
+      "mean": 85.0,
+      "r1": 87.0,
+      "r2": 83.0,
+      "d1": "finalist",
+      "d2": "hold"
+    },
+    "T3": {
+      "mean": 80.5,
+      "r1": 83.0,
+      "r2": 78.0,
+      "d1": "hold",
+      "d2": "hold"
+    },
+    "T4": {
+      "mean": 86.0,
+      "r1": 88.0,
+      "r2": 84.0,
+      "d1": "finalist",
+      "d2": "hold"
+    },
+    "T5": {
+      "mean": 87.0,
+      "r1": 89.0,
+      "r2": 85.0,
+      "d1": "finalist",
+      "d2": "finalist"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "scorer": "R1-oral-defensibility",
+  "note": "Independent pass emphasizing mechanism honesty and oral defense. Does not treat T5’s diffusion bound as a measurement.",
+  "results": [
+    {
+      "id": "T1",
+      "scores": {
+        "primary-evidence strength": 22,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 13,
+        "reproducibility": 13,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T2",
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 13,
+        "reproducibility": 13,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T3",
+      "scores": {
+        "primary-evidence strength": 18,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 14,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T4",
+      "scores": {
+        "primary-evidence strength": 20,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 14,
+        "reproducibility": 13,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T5",
+      "scores": {
+        "primary-evidence strength": 18,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 15,
+        "reproducibility": 14,
+        "central-question relevance": 9,
+        "visual explanatory power": 9,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 5
+      }
+    }
+  ]
+}

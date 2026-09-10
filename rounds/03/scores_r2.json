@@ -1,0 +1,71 @@
+{
+  "scorer": "R2-primary-hawk",
+  "note": "Independent pass punishing review-only occupancy, diffusion-limited kon, and abstract-only 1d04 if used as a kinetic conclusion.",
+  "results": [
+    {
+      "id": "T1",
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 12,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T2",
+      "scores": {
+        "primary-evidence strength": 20,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 12,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T3",
+      "scores": {
+        "primary-evidence strength": 17,
+        "BIOC1600 biochemical depth": 12,
+        "critical insight": 13,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 7,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 3
+      }
+    },
+    {
+      "id": "T4",
+      "scores": {
+        "primary-evidence strength": 19,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 13,
+        "reproducibility": 12,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T5",
+      "scores": {
+        "primary-evidence strength": 16,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 15,
+        "reproducibility": 13,
+        "central-question relevance": 9,
+        "visual explanatory power": 9,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 5
+      }
+    }
+  ]
+}

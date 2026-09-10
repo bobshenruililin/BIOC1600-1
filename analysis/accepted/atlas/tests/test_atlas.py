@@ -1,0 +1,37 @@
+import unittest
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from atlas import SELECTED, build_grid, load_ledger, svg, find_repo
+
+CSV = find_repo(Path(__file__).resolve()) / "research/evidence/core_evidence.csv"
+
+
+class AtlasTests(unittest.TestCase):
+    def test_ledger_loads(self):
+        ledger = load_ledger(CSV)
+        self.assertIn("E001", ledger)
+        self.assertIn("E004", ledger)
+
+    def test_glutamate_kon_not_invented(self):
+        grid = build_grid(load_ledger(CSV))
+        for construct in ["1d04 isolate", "glu1 E-AB", "Hu Glu-apt surface", "Xiao SPR oligo", "Xiao CNT FET"]:
+            self.assertEqual(grid.get((construct, "kon"), ""), "")
+            self.assertEqual(grid.get((construct, "koff"), ""), "")
+
+    def test_selected_cells_nonempty(self):
+        grid = build_grid(load_ledger(CSV))
+        self.assertIn("12", grid[("1d04 isolate", "Kd_molecular")])
+        self.assertIn("1.8", grid[("Hu Glu-apt surface", "EC50")])
+        self.assertIn("15", grid[("Hu Glu-apt surface", "measurement_time")])
+
+    def test_svg_mentions_empty_kon(self):
+        text = svg(build_grid(load_ledger(CSV)))
+        self.assertIn("empty", text.lower())
+        self.assertIn("1.8 nM", text.replace("µ", "u"))
+
+
+if __name__ == "__main__":
+    unittest.main()
