@@ -16,6 +16,17 @@
       "candidate_sources": 65,
       "core_sources_promoted": 0,
       "notes": "Six isolated scouts merged. Starting PMIDs verified on Europe PMC. No core promotion."
+    },
+    "2": {
+      "name": "extraction_audit_contradiction",
+      "status": "complete",
+      "candidate_sources": 65,
+      "core_sources_promoted": 16,
+      "relevant_sources": 25,
+      "rejected_sources": 1,
+      "evidence_rows": 41,
+      "claims": 26,
+      "notes": "Double extraction plus orchestrator re-verification of OA/PMC text. Hu VoR re-read. No Glu kon/koff found. Park GDH mislabel recorded. Clay 0.73/0.8 s corrected vs an earlier hunter miss."
     }
   },
   "theses": [],
