@@ -18,11 +18,19 @@ class AnalysisRebuildTests(unittest.TestCase):
         self.assertTrue((ROOT / "analysis/accepted/atlas/figures/atlas.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/occupancy.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/clocks.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/sensitivity.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/figures/atlas.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/figures/occupancy.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/figures/clocks.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/figures/sensitivity.svg").is_file())
 
     def test_captions_forbid_overclaim(self):
         cap = (ROOT / "analysis/accepted/occupancy_kinetics/figures/CAPTION.md").read_text(encoding="utf-8").lower()
         self.assertIn("simulation", cap)
         self.assertIn("bound", cap)
+        self.assertIn("not glutamate", cap)
+        self.assertNotIn("proves", cap)
+        self.assertNotIn("measured koff", cap)
         atlas = (ROOT / "analysis/accepted/atlas/figures/CAPTION.md").read_text(encoding="utf-8").lower()
         self.assertIn("empty", atlas)
 

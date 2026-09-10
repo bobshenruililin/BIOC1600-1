@@ -8,6 +8,8 @@ Not a finished poster. Not group-final (`state/decisions.md`).
 
 Source: isolated writer T1. Storyboard: `poster/storyboards/winner.md`.
 
+**Scoring is contested.** Isolated Task red-teamers invert this ranking (Task R1 winner T3; Task R2 finalists T5/T4). See `rounds/03/tournament_reconciliation.md`. Not group-final.
+
 ## Runner-up (mean 87 / 100; lost on defensibility, not on interest)
 
 **T5 framing challenger.** The distinctive story is not “aptamers are too slow” (that treats missing kon/koff as a negative result). If advertised occupancy parameters are taken at face value, the µM SELEX isolate is the one that could unbind near 1.2 ms under a diffusion-limited kon **bound**, while the nM surface apparent Kd is already occupied at 25 nM and would be seconds-slow under the same bound. T5 lost the tie-break because that inversion is a bound/simulation, not a glutamate kinetic measurement. It is the computational flagship, not the oral safety thesis.
@@ -23,5 +25,7 @@ Source: isolated writer T1. Storyboard: `poster/storyboards/winner.md`.
 | T3 | 83 | 78 | 80.5 | hold |
 
 T3 leaned on Rousseau as occupancy evidence; C027 now derives the 81-fold identity independently.
+
+Isolated Task scores are **not** averaged into this table. Stack B: T3 86 / T1 79 (R1) and T5=T4 85 / T1 83 (R2).
 
 No slogan was forced. “Aptamer quality is not a single number” is implied by the construct split but is not the headline.

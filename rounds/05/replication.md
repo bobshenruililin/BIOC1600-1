@@ -1,9 +1,9 @@
 # Round 5 replication and caption audit
 
-Clean copy at `/tmp/bioc1600-replicate-*` containing only `research/evidence/core_evidence.csv` and `analysis/accepted/`. Figures deleted, then `sh rebuild.sh`.
+Clean rebuild via `sh analysis/accepted/rebuild.sh` (also copied to `analysis/accepted/figures/`).
 
-Result: tests passed; `atlas.svg`, `occupancy.svg`, `clocks.svg` regenerated.
+Result: atlas, occupancy, clocks, and sensitivity tests passed; SVGs regenerated.
 
-Caption audit: occupancy/clocks captions contain SIMULATION and BOUND; they do not claim a measured glutamate kon/koff. Atlas caption states empty cells are empty. Banned-phrase grep for “glutamate kon” / “measured koff” / “proves” on the occupancy caption was clean.
+Caption audit: occupancy/clocks/sensitivity captions contain SIMULATION and BOUND; sensitivity caption states empirical kon band is NOT glutamate. Atlas caption states empty cells are empty. Banned-phrase check: occupancy caption has no “measured koff” / “proves”.
 
 No analysis rejected. P5 FASTAptamer was never implemented (not a replication failure).

@@ -34,6 +34,8 @@ SELECTED = {
     ("cleft inference", "biological_concentration_range"): ("E032", "1.1 mM"),
     ("cleft inference", "response_time"): ("E033", "1.2 ms"),
     ("slice ambient", "biological_concentration_range"): ("E034", "25 nM"),
+    ("Hu retina probe thesis", "measurement_time"): ("E042", "10 min"),
+    ("Hu retina probe thesis", "sensor_LOD"): ("E043", "0.3 pM"),
 }
 
 ROWS = [
@@ -44,6 +46,7 @@ ROWS = [
     "Xiao CNT FET",
     "cleft inference",
     "slice ambient",
+    "Hu retina probe thesis",
 ]
 
 COLS = [

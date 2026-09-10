@@ -11,5 +11,8 @@
 | 200 s | Xiao FET stabilize | Xiao 2025 E027 |
 | 500 ms | GlutOx lower end | Rutherford 2007 E037 |
 | kon 1e8 M⁻¹ s⁻¹ | diffusion-limit bound | assumption, not a paper |
+| kon 96–2e5 M⁻¹ s⁻¹ | ITC envelope | Ding 2024 C010; NOT glutamate |
+| kon 3.5e4 M⁻¹ s⁻¹ | tobramycin IPA | Abeykoon 2025 C008; NOT glutamate |
+| 10 min / 0.3 pM / 1 min | retina probe | Hu 2025 thesis E042–E046; not used as koff |
 
-Rebuild does not download literature. All numbers are hardcoded from the ledger with tests.
+Rebuild does not download literature. Occupancy parameters are hardcoded from the ledger with tests. Atlas cells are copied from `core_evidence.csv`.

@@ -17,7 +17,14 @@ class AtlasTests(unittest.TestCase):
 
     def test_glutamate_kon_not_invented(self):
         grid = build_grid(load_ledger(CSV))
-        for construct in ["1d04 isolate", "glu1 E-AB", "Hu Glu-apt surface", "Xiao SPR oligo", "Xiao CNT FET"]:
+        for construct in [
+            "1d04 isolate",
+            "glu1 E-AB",
+            "Hu Glu-apt surface",
+            "Xiao SPR oligo",
+            "Xiao CNT FET",
+            "Hu retina probe thesis",
+        ]:
             self.assertEqual(grid.get((construct, "kon"), ""), "")
             self.assertEqual(grid.get((construct, "koff"), ""), "")
 
@@ -26,6 +33,8 @@ class AtlasTests(unittest.TestCase):
         self.assertIn("12", grid[("1d04 isolate", "Kd_molecular")])
         self.assertIn("1.8", grid[("Hu Glu-apt surface", "EC50")])
         self.assertIn("15", grid[("Hu Glu-apt surface", "measurement_time")])
+        self.assertIn("0.3", grid[("Hu retina probe thesis", "sensor_LOD")])
+        self.assertIn("10", grid[("Hu retina probe thesis", "measurement_time")])
 
     def test_svg_mentions_empty_kon(self):
         text = svg(build_grid(load_ledger(CSV)))

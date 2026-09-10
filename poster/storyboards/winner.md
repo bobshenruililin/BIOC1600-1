@@ -18,7 +18,7 @@ Six panels for the T1 thesis, with T5’s occupancy inversion as the computation
 
 - **Claim.** Under a diffusion-limited kon bound, 12 µM Kd is empty at 25 nM but could unbind near 1.2 ms; 1.8 nM apparent Kd is full at 25 nM and seconds-slow. SIMULATION/BOUND.
 - **IDs.** C001, C005, C012, C011, C027
-- **Figure.** `analysis/accepted/occupancy_kinetics/figures/occupancy.svg`
+- **Figure.** `analysis/accepted/occupancy_kinetics/figures/occupancy.svg` and `sensitivity.svg` (empirical kon band is NOT glutamate; at C010 high-end kon, 12 µM t_off is seconds).
 
 ## 4. LOD is not occupancy
 
@@ -32,8 +32,8 @@ Six panels for the T1 thesis, with T5’s occupancy inversion as the computation
 - **IDs.** C026, C021, C018, C015
 - **Figure.** Sequence/interface cartoon only (no docking pose).
 
-## 6. Joint-test scorecard
+## 6. Joint-test scorecard, including the retina chapter
 
-- **Claim.** Recognition scatter is documented; glutamate kon/koff, amino-acid selectivity table, and in vivo glutamate aptamer validation are not.
-- **IDs.** C007, C020, C019
-- **Figure.** Five boxes (recognition / selectivity / kinetics / architecture / validation) with empty kinetics/in-vivo glutamate.
+- **Claim.** Recognition scatter is documented; glutamate kon/koff and in vivo glutamate aptamer validation are not. The strongest Glu-apt neural experiment (Hu thesis, in vitro retina) tracks basal light-dependent Glu on a 1 min ACV clock; the authors say this is not synaptic transients.
+- **IDs.** C007, C020, C019, C031, C032
+- **Figure.** Five boxes (recognition / selectivity / kinetics / architecture / validation) with empty kinetics/in-vivo glutamate; retina card stamped IN VITRO / BASAL / MINUTES.

@@ -1,0 +1,1 @@
+Figure: Construct-by-quantity atlas from `core_evidence.csv`. Green cells copy ledger numbers; grey em-dashes are empty. This is not a heatmap of affinity. kon/koff are empty for glutamate constructs. Cleft 1.2 ms is a kinetic inference stored under response_time, not a sensor specification.

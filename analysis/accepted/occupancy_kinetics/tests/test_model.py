@@ -12,11 +12,15 @@ from model import (
     KD_HU_APPARENT_M,
     KD_XIAO_SPR_M,
     KON_DIFFUSION_M_S,
+    KON_ITC_HIGH_M_S,
+    KON_ITC_LOW_M_S,
+    KON_TOBRAMYCIN_IPA_M_S,
     cleft_pulse,
     euler_occupancy,
     koff_diffusion_bound,
     langmuir_span_10_90,
     occupancy,
+    tau_eq,
     toff_diffusion_bound,
 )
 
@@ -70,6 +74,27 @@ class OccupancyTests(unittest.TestCase):
     def test_cleft_pulse_starts_near_peak(self):
         self.assertAlmostEqual(cleft_pulse(0.0), C_TONIC_M + C_CLEFT_M)
         self.assertLess(cleft_pulse(0.01), C_TONIC_M + 1e-5)
+
+    def test_empirical_kon_makes_1d04_toff_seconds(self):
+        t_high = toff_diffusion_bound(KD_1D04_M, KON_ITC_HIGH_M_S)
+        t_tobra = toff_diffusion_bound(KD_1D04_M, KON_TOBRAMYCIN_IPA_M_S)
+        t_low = toff_diffusion_bound(KD_1D04_M, KON_ITC_LOW_M_S)
+        self.assertGreater(t_high, 0.4)
+        self.assertGreater(t_tobra, 2.0)
+        self.assertGreater(t_low, 100.0)
+
+    def test_tau_eq_at_cleft_faster_than_toff(self):
+        kon = KON_ITC_HIGH_M_S
+        t_off = toff_diffusion_bound(KD_1D04_M, kon)
+        t_rise = tau_eq(C_CLEFT_M, KD_1D04_M, kon)
+        self.assertLess(t_rise, t_off / 10.0)
+        self.assertLess(t_rise, 0.02)
+
+    def test_tau_eq_at_tonic_near_toff_when_empty(self):
+        kon = KON_ITC_HIGH_M_S
+        t_off = toff_diffusion_bound(KD_1D04_M, kon)
+        t_tonic = tau_eq(C_TONIC_M, KD_1D04_M, kon)
+        self.assertAlmostEqual(t_tonic / t_off, 1.0, delta=0.05)
 
 
 if __name__ == "__main__":

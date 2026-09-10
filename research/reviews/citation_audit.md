@@ -23,6 +23,7 @@ Identifier rule: a source is `identifier_ok=yes` only if DOI and/or PMID resolve
 | S062 Armbruster 2020 | 32352378 | yes | PMC7255799 XML. iGluSnFR 10–100× longer waveform. |
 | S023 Park 2023 | 37185488 | yes | PMC10136356. Table “Glutamate FET” is PfGDH. |
 | S010 Abrantes 2025 preprint | 10.1101/2025.11.05.686731 | yes | bioRxiv/Europe PMC abstract. Not peer-reviewed. |
+| S066 Hu 2025 thesis | 10.18154/RWTH-2025-07238 | yes | RWTH publications record + OA PDF text extract. Same Glu-apt family as S002. PDF not stored in git. |
 | S008 Ohsawa 2008 | 18187867 | yes | Abstract only this session. JSTAGE PDF 500. Do not enter 580–810 µM. |
 | S038 MacDonald 2019 | 10.1021/acs.jpcc.9b00845 | yes (DOI in ledger) | Full text not re-fetched (ACS 403 / HAL challenge). Surface-crowding numbers not entered as claims. |
 
@@ -50,6 +51,7 @@ Identifier rule: a source is `identifier_ok=yes` only if DOI and/or PMID resolve
 | C021 Hu cites Wu 12 µM | yes | Experimental section: “Glutamate aptamer (Glu-apt, Kd = 12 μM) (Wu et al., 2022)” then the truncated Fc-thiol sequence. |
 | C022–C024 comparators | yes | Enzyme / indicator papers, not aptamers. |
 | C025 Abrantes 1 aM | yes as preprint abstract | ELONA millimolar Kd **not** in abstract; `supports_claim=no` for millimolar Kd. |
+| C028–C032 Hu thesis retina | yes | OA dissertation text extract 2026-09-10. DOI 10.18154/RWTH-2025-07238. In vitro retina, not in vivo. 10 min plateau, 0.3 pM PBS LOD, Ames 10 nM–10 µM, 14 s ACV / 1 min sampling, basal-not-synaptic author sentence. |
 
 ## Secondary-source failures
 

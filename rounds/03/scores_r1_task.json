@@ -1,0 +1,80 @@
+{
+  "scorer": "isolated-Task-R1-oral",
+  "agent": "bc-e10b8084-6cfa-51c4-a505-c538b968eb71",
+  "note": "Verbatim isolated Task red-team. Not the recorded Stack A winner. Ranking inverts vs orchestrator R1.",
+  "results": [
+    {
+      "id": "T1",
+      "total": 79,
+      "scores": {
+        "primary-evidence strength": 20,
+        "BIOC1600 biochemical depth": 12,
+        "critical insight": 11,
+        "reproducibility": 13,
+        "central-question relevance": 8,
+        "visual explanatory power": 7,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T2",
+      "total": 82,
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 12,
+        "critical insight": 11,
+        "reproducibility": 14,
+        "central-question relevance": 8,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T3",
+      "total": 86,
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 13,
+        "reproducibility": 14,
+        "central-question relevance": 9,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T4",
+      "total": 84,
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 12,
+        "reproducibility": 13,
+        "central-question relevance": 9,
+        "visual explanatory power": 7,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T5",
+      "total": 80,
+      "scores": {
+        "primary-evidence strength": 17,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 14,
+        "reproducibility": 12,
+        "central-question relevance": 9,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 3
+      }
+    }
+  ],
+  "ranking": ["T3", "T4", "T2", "T5", "T1"],
+  "discard": [],
+  "finalists": ["T3"]
+}

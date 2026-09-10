@@ -13,6 +13,6 @@ Scored with locked 0–10 criteria (max 80). Docking foil not scored as a candid
 
 P1 assumption/misleading scores are low because a diffusion-limited kon can be misread as a measurement. Implemented anyway as flagship **because it can contradict the preferred thesis** (overnight rule 8) and because captions/tests force BOUND/SIMULATION labels.
 
-Implemented: P2 + P1 (occupancy identity + diffusion bound + optional ODE). P3 is folded into the atlas rows. P5 not implemented (no bundled licensed FASTQ; toy counts would not answer the glutamate question). Docking rejected.
+Implemented: P2 + P1 (occupancy identity + diffusion bound + empirical-kon sensitivity + optional ODE). P3 is folded into the atlas rows. P5 not implemented (no bundled licensed FASTQ; toy counts would not answer the glutamate question). Docking rejected.
 
-P1+P2 remain useful if glutamate kon is later measured: empty kon cells stay empty; bounds can be replaced.
+P1+P2 remain useful if glutamate kon is later measured: empty kon cells stay empty; bounds can be replaced. The sensitivity panel is designed to **contradict** T5 if empirical SM-aptamer kon applies.

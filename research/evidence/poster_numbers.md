@@ -29,6 +29,12 @@ Every row is a number that could appear on a storyboard. Reviews are not used as
 | tobramycin parent aptamer E-AB | IPA flow | tris buffer | koff | 1.39 s⁻¹ | Abeykoon 2025 S004 | yes; **not glutamate** |
 | tobramycin parent aptamer E-AB | IPA | — | measurement_time | 2 ms | Abeykoon 2025 S004 | yes; interrogation clock |
 | cocaine E-AB | ACV/DPV | 1× SSC | response_time | faster than ~4 s scan | White 2008 S033 | yes, PMC HTML; **not glutamate** |
-| glutamate DNA aptamer (any inspected) | E-AB / SPR / FET | — | kon / koff | not reported | Round 2 search | absence; unresolved |
+| glutamate DNA aptamer (any inspected) | E-AB / SPR / FET | — | kon / koff | not reported | Round 2 search plus overnight hunter | absence; unresolved |
+| Hu Glu-apt on parylene-C intraretinal probe | ACV wait after 10 nM Glu | probe calibration | measurement_time | 10 min plateau | Hu 2025 thesis S066 Fig. 6.6 | yes, OA extract |
+| Hu Glu-apt on parylene-C probe | ACV blank+3 RSD | PBS calibration | sensor_LOD | 0.3 pM | Hu 2025 thesis S066 Fig. 6.7 | yes, OA extract |
+| Hu Glu-apt on parylene-C probe | ACV semi-log | Ames medium | analytical_working_range | 10 nM–10 µM | Hu 2025 thesis S066 Fig. 6.9A | yes, OA extract |
+| Hu Glu-apt on parylene-C probe in mouse retina | ACV scan clock | in vitro retina | measurement_time | 14 s / scan | Hu 2025 thesis S066 §6.3 | yes, OA extract |
+| Hu Glu-apt on parylene-C probe in mouse retina | consecutive ACV sampling | in vitro retina | measurement_time | 1 min / point | Hu 2025 thesis S066 §6.3 | yes, OA extract |
 
 Do not plot the not-glutamate kinetic rows as glutamate rates.
+Do not treat the thesis 10 min plateau or 1 min sampling as a measured glutamate koff.

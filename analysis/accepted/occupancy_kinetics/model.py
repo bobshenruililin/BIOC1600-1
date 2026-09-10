@@ -11,6 +11,11 @@ import math
 # Physical-chemistry upper bound for small-molecule bimolecular association
 # in water (order-of-magnitude). Not a glutamate aptamer measurement.
 KON_DIFFUSION_M_S = 1.0e8
+# Empirical small-molecule aptamer kon envelope already in the ledger.
+# NOT glutamate. C010 Ding ITC abstract endpoints; C008 tobramycin IPA.
+KON_ITC_LOW_M_S = 96.0
+KON_ITC_HIGH_M_S = 2.0e5
+KON_TOBRAMYCIN_IPA_M_S = 3.5e4
 
 KD_1D04_M = 12e-6
 KD_HU_APPARENT_M = 1.8e-9
@@ -42,6 +47,18 @@ def koff_diffusion_bound(kd_m: float, kon: float = KON_DIFFUSION_M_S) -> float:
 def toff_diffusion_bound(kd_m: float, kon: float = KON_DIFFUSION_M_S) -> float:
     koff = koff_diffusion_bound(kd_m, kon)
     return 1.0 / koff
+
+
+def tau_eq(conc_m: float, kd_m: float, kon: float) -> float:
+    """Equilibration time 1/(kon c + koff) with koff = kon Kd. SIMULATION.
+
+    At c << Kd this collapses to t_off. At cleft-scale c it can be much faster
+    than t_off. Do not quote koff ≈ 1/τ_cleft as the FoM.
+    """
+    if kon <= 0 or kd_m <= 0:
+        raise ValueError("kon and Kd must be positive")
+    koff = kon * kd_m
+    return 1.0 / (kon * conc_m + koff)
 
 
 def euler_occupancy(

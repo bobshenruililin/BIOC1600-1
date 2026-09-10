@@ -75,6 +75,26 @@ Xie/Liu 2026: docking scores fail to separate theophylline from caffeine despite
 
 A prior contradiction pass stated Clay 2018 t90 0.73–0.8 s was absent. Re-inspection of PMC5881573 found: “The simulated response time, 0.73 s, also matches very closely with experimental response times (0.8 ± 0.2 s).” That sentence is now C023. The hunter is not an authority over the paper.
 
+### 8. Strongest Glu-apt neural-tissue experiment still argues against synaptic milliseconds (S066)
+
+Hu’s 2025 RWTH dissertation (DOI 10.18154/RWTH-2025-07238; same Glu-apt family as S002) is the strongest glutamate-aptamer experiment in nervous tissue in this ledger. Independently re-read from the OA PDF text extract (PDF not stored in git):
+
+| construct | quantity | value | locator |
+| --- | --- | --- | --- |
+| Glu-apt on PaC probe | 10 nM Glu wait-to-plateau | 10 min | Fig. 6.6 |
+| same | PBS calibration LOD | 0.3 pM | Fig. 6.7 |
+| same | Ames linear window | 10 nM–10 µM | Fig. 6.9A |
+| same, in vitro mouse retina | ACV scan | 14 s / point | §6.3 |
+| same, in vitro mouse retina | sampling after insertion | 1 min / point | §6.3 |
+
+The authors write that electrophysiology captures millisecond spikes while the electrochemical Glu signal is averaged over ~one minute, and that the aptasensor reports **sustained basal Glu**, “rather than the fast, transient release events associated with individual synaptic activity.” Probe 3 is near saturation at basal Glu; Probe 4 is unstable; gold nanostructure can detach after insertion.
+
+This **weakens** the strawman “glutamate aptamers never left the beaker.” It does **not** weaken T1’s joint-competence claim: there is still no glutamate kon/koff, no in vivo glutamate aptamer sensor, and the authors themselves refuse a synaptic-transient reading.
+
+Ames vs PBS is a primary demonstration that **buffer composition rewrites sensor behavior** after selection (poor SNR in Ames).
+
+Selectivity in Fig. 6.8A is 100 nM Glu vs 10 µM ST/DA/Tyr/Lac — not aspartate/glutamine.
+
 ## Papers that weaken the *generalization* “aptamers cannot keep up”
 
 These do **not** supply glutamate kon/koff. They weaken treating “too slow” as a property of aptamers rather than of the glutamate papers we have.
@@ -90,7 +110,12 @@ These do **not** supply glutamate kon/koff. They weaken treating “too slow” 
 
 **Hard contradiction to T1?** No. T1 already says joint competence is undemonstrated, not that koff was measured slow.
 
-**Hard contradiction to T5?** If measured glutamate koff at 1.8 nM apparent Kd is ≫ 0.18 s⁻¹, the diffusion bound using that EC50 as molecular Kd fails. That experiment does not exist in the ledger.
+**Hard contradiction to T5?** Two already in the ledger, without new glutamate rates:
+
+1. If measured glutamate koff at 1.8 nM apparent Kd is ≫ 0.18 s⁻¹, the diffusion bound using that EC50 as molecular Kd fails. That experiment does not exist.
+2. C008/C010 empirical small-molecule kon values (3.5×10⁴; 96–2×10⁵ M⁻¹ s⁻¹; **not glutamate**) put 12 µM t_off in **seconds**, not 0.8 ms. The overnight sensitivity figure makes that contradiction quantitative. Chang 2014 PMC3983011 theophylline ka (1.5±0.1)×10⁵ M⁻¹ s⁻¹ sits in the same envelope; it is **not** entered as a load-bearing glutamate claim (rule: smallest determining set; C008/C010 already bound the envelope).
+
+**Hard contradiction to T1?** No. S066 updates “buffer-only” wording; T1 already says joint competence is undemonstrated.
 
 ## Occupancy identity is no longer review-only
 

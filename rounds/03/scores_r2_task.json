@@ -1,0 +1,80 @@
+{
+  "scorer": "isolated-Task-R2-primary-hawk",
+  "agent": "bc-e40445e8-92ee-5d18-a3c6-cac8807c09f7",
+  "note": "Verbatim isolated Task red-team. T5 tied T4 at 85; agent called T5 winning-looking. T1 is not a finalist on this stack.",
+  "results": [
+    {
+      "id": "T1",
+      "total": 83,
+      "scores": {
+        "primary-evidence strength": 21,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 12,
+        "reproducibility": 14,
+        "central-question relevance": 9,
+        "visual explanatory power": 7,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 3
+      }
+    },
+    {
+      "id": "T2",
+      "total": 81,
+      "scores": {
+        "primary-evidence strength": 20,
+        "BIOC1600 biochemical depth": 12,
+        "critical insight": 11,
+        "reproducibility": 14,
+        "central-question relevance": 9,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 3
+      }
+    },
+    {
+      "id": "T3",
+      "total": 78,
+      "scores": {
+        "primary-evidence strength": 17,
+        "BIOC1600 biochemical depth": 13,
+        "critical insight": 12,
+        "reproducibility": 13,
+        "central-question relevance": 8,
+        "visual explanatory power": 9,
+        "Tanner intellectual alignment": 3,
+        "novelty without overclaiming": 3
+      }
+    },
+    {
+      "id": "T4",
+      "total": 85,
+      "scores": {
+        "primary-evidence strength": 20,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 13,
+        "reproducibility": 12,
+        "central-question relevance": 9,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 5,
+        "novelty without overclaiming": 4
+      }
+    },
+    {
+      "id": "T5",
+      "total": 85,
+      "scores": {
+        "primary-evidence strength": 17,
+        "BIOC1600 biochemical depth": 14,
+        "critical insight": 15,
+        "reproducibility": 13,
+        "central-question relevance": 10,
+        "visual explanatory power": 8,
+        "Tanner intellectual alignment": 4,
+        "novelty without overclaiming": 4
+      }
+    }
+  ],
+  "ranking": ["T5", "T4", "T1", "T2", "T3"],
+  "discard": [],
+  "finalists": ["T5", "T4"]
+}

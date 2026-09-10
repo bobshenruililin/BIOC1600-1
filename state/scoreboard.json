@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
   "current_best_thesis": "T1",
-  "current_best_status": "provisional",
+  "current_best_status": "provisional_contested",
   "runner_up_thesis": "T5",
+  "scoring_note": "Stack A orchestrator dual-pass selected T1. Isolated Task red-teamers invert the ranking. See rounds/03/tournament_reconciliation.md. Not group-final.",
   "rounds": {
     "0": {
       "name": "bootstrap",
@@ -21,22 +22,22 @@
       "name": "extraction_audit_contradiction",
       "status": "complete",
       "candidate_sources": 65,
-      "core_sources_promoted": 16,
+      "core_sources_promoted": 17,
       "relevant_sources": 25,
       "rejected_sources": 1,
-      "evidence_rows": 41,
-      "claims": 27,
+      "evidence_rows": 46,
+      "claims": 32,
       "notes": "Double extraction plus orchestrator re-verification of OA/PMC text. Hu VoR re-read. No Glu kon/koff found. Park GDH mislabel recorded. Clay 0.73/0.8 s corrected vs an earlier hunter miss."
     },
     "3": {
       "name": "thesis_tournament",
       "status": "complete",
-      "notes": "Four isolated writers collapsed to one frame; T5 forced as framing challenger. T1 and T5 tied at mean 87; T1 wins tie-break (fewer extra assumptions). Not group-final."
+      "notes": "Four isolated writers collapsed to one frame; T5 forced as framing challenger. Stack A: T1 and T5 tied at mean 87. Isolated Task R1 winner T3; Task R2 finalists T5/T4. Not group-final."
     },
     "4": {
       "name": "analysis_tournament",
       "status": "complete",
-      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ)."
+      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented, then extended with empirical-kon sensitivity that can contradict T5. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ)."
     },
     "5": {
       "name": "replication",
@@ -50,7 +51,7 @@
     }
   },
   "theses": [
-    {"id": "T1", "mean": 87.0, "r1": 89, "r2": 85, "decision": "winner_provisional"},
+    {"id": "T1", "mean": 87.0, "r1": 89, "r2": 85, "decision": "winner_provisional_stack_A"},
     {"id": "T5", "mean": 87.0, "r1": 89, "r2": 85, "decision": "runner_up"},
     {"id": "T4", "mean": 86.0, "r1": 88, "r2": 84, "decision": "hold"},
     {"id": "T2", "mean": 85.0, "r1": 87, "r2": 83, "decision": "hold"},
