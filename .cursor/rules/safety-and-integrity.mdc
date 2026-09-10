@@ -1,0 +1,38 @@
+---
+description: Locked safety and scientific-integrity rules.
+alwaysApply: true
+---
+
+# Safety and integrity
+
+This file is hash-locked.
+
+## Never invent
+
+- citations, DOI, PMID, PMCID
+- affinity, kon, koff, EC50, LOD, dynamic range, n, response time, or other experimental numbers
+- “full text inspected” when only an abstract or another agent’s note was read
+
+If a value is missing, leave the field empty and tag the claim `unresolved` or omit the claim.
+
+## Git hygiene
+
+- Never commit credentials, API keys, or `.env` files
+- Never commit copyrighted PDFs
+- Abstracts, OA HTML excerpts quoted sparingly for locators, and bibliographic metadata are allowed
+
+## Human approval
+
+A thesis is not group-final until a human records approval in `state/decisions.md`.
+
+Agents may recommend a best-current thesis in `poster/theses.md` and `reports/nightly_summary.md`.
+
+## Recursion limit
+
+Do not implement uncontrolled recursive self-modification.
+
+Meta-improver may propose prompt/workflow patches only. It may not edit this file, the research constitution, or the scoring rubric.
+
+## Poster freeze
+
+Do not produce a polished final poster in this swarm run.

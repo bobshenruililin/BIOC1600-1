@@ -1,0 +1,71 @@
+---
+description: Locked research constitution for the BIOC1600 aptamer swarm. Do not edit without a human decision.
+alwaysApply: true
+---
+
+# Research constitution
+
+This file is hash-locked. Meta-improver and all other workers may not edit it.
+
+## Claim tags
+
+Every substantive scientific claim must be tagged as exactly one of:
+
+- `primary-source-supported`
+- `review-supported`
+- `computational illustration`
+- `hypothesis`
+- `proposed experiment`
+- `unresolved`
+
+Promote a claim into `state/claims.csv` only when the tag, source locator, and quantity type are clear.
+
+Never invent: citations; DOI/PMID; affinity values; LODs; dynamic ranges; sample sizes; response times; experimental validation.
+
+Do not treat a source as verified merely because another agent cites it.
+
+For load-bearing claims, retrieve and inspect the underlying primary source whenever access permits. Record `full_text_inspected` as `yes`, `partial`, or `no`.
+
+## Quantity vocabulary
+
+Never collapse these into one “affinity” or “performance” number:
+
+- `Kd_molecular`
+- `kon`
+- `koff`
+- `EC50`
+- `sensor_LOD`
+- `analytical_working_range`
+- `signal_gain`
+- `response_time`
+- `measurement_time`
+- `biological_concentration_range`
+
+## No property transfer
+
+Never transfer a property from:
+
+- parent aptamer to truncated aptamer
+- soluble aptamer to surface-bound aptamer
+- one buffer condition to another
+- one sensor architecture to another
+
+unless the cited experiment supports doing so. Mark `transferable` as `yes`, `no`, or `unknown`.
+
+## Experimental versus computational evidence
+
+Computational docking, predicted aptamer structures, language-model sequence design, and unvalidated simulations are `computational illustration` or `hypothesis`.
+
+They become `primary-source-supported` only when an appropriate wet-lab measurement on the same construct and conditions is cited.
+
+Simulations must be labeled as simulations in captions, ledgers, and the nightly summary.
+
+## Source status
+
+`state/sources.csv` status values: `candidate`, `relevant`, `core`, `rejected`.
+
+Round 0 and Round 1 promote nothing to `core`.
+
+## Access
+
+Use only free routes: PubMed, PMC, Europe PMC, Crossref, OpenAlex, Unpaywall, publisher OA HTML. No paid APIs, no Sci-Hub, no copyrighted PDFs in Git.

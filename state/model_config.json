@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-09-10T16:17:00Z",
+  "run_url": "https://cursor.com/agents/bc-fd77051a-d8aa-4370-b133-8ad0103b634f",
+  "bcId": "bc-fd77051a-d8aa-4370-b133-8ad0103b634f",
+  "parent_model": "cursor-grok-4.6-xhigh",
+  "originalModelName": "cursor-grok-4.6-xhigh",
+  "default_worker_model": "cursor-grok-4.6-xhigh",
+  "available_grok_ids": [
+    "cursor-grok-4.6-xhigh",
+    "cursor-grok-4.6-xhigh-fast",
+    "cursor-grok-4.6-high",
+    "cursor-grok-4.6-high-fast",
+    "cursor-grok-4.6-medium",
+    "cursor-grok-4.6-medium-fast",
+    "cursor-grok-4.6-low",
+    "cursor-grok-4.6-low-fast"
+  ],
+  "note": "User text mentioned Grok 4.7. This run's originalModelName is cursor-grok-4.6-xhigh. Do not invent grok-4.7 identifiers."
+}

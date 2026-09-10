@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "current_best_thesis": null,
+  "current_best_status": "none",
+  "runner_up_thesis": null,
+  "rounds": {
+    "0": {
+      "name": "bootstrap",
+      "status": "complete",
+      "core_sources_promoted": 0,
+      "notes": "Repository structure and agents created. No scientific claims."
+    }
+  },
+  "theses": [],
+  "analyses": [],
+  "meta_improvement": {
+    "rounds_completed": 0,
+    "consecutive_sub_two_pp_gains": 0,
+    "stop_rule": "six meta rounds or two consecutive gains under 2 percentage points",
+    "history": []
+  }
+}

@@ -1,0 +1,53 @@
+---
+description: Locked scoring rubric. Meta-improver may not edit weights or thresholds.
+alwaysApply: true
+---
+
+# Scoring rubric
+
+This file is hash-locked. Do not change weights, thresholds, or criterion names without a human decision in `state/decisions.md`.
+
+## Thesis tournament (sum = 100)
+
+| Criterion | Weight |
+| --- | ---: |
+| primary-evidence strength | 25 |
+| BIOC1600 biochemical depth | 15 |
+| critical insight | 15 |
+| reproducibility | 15 |
+| central-question relevance | 10 |
+| visual explanatory power | 10 |
+| Tanner intellectual alignment | 5 |
+| novelty without overclaiming | 5 |
+
+Decision rules:
+
+- Discard candidates with total score below 75
+- Candidates at or above 85 enter the finalist set
+- If none reach 75, keep the highest as `provisional` and say so in the nightly report
+- Do not force the slogan thesis
+
+Two independent `poster-red-team` reviewers score every proposal. Record both scores and the mean in `state/scoreboard.json`.
+
+Tanner intellectual alignment means: nucleic-acid recognition honesty, interface/immobilization seriousness, first-year biochemical explainability, and refusal to treat docking as proof. It is not a request to cite Tanner papers for their own sake.
+
+## Analysis tournament
+
+Score each proposed analysis 0–10 on each of the following (no hidden extra criteria):
+
+- scientific relevance
+- required assumptions
+- availability of public data
+- ability to run without paid resources
+- reproducibility
+- visual value
+- ability of first-year students to explain it
+- risk of misleading interpretation (higher score = lower risk)
+
+Do not choose molecular docking merely because it produces attractive structures.
+
+InstructNA-scale GPU training is out of scope.
+
+## Meta-improvement A/B
+
+Use this same unchanged rubric. Adopt a prompt patch only if it improves the frozen benchmark and causes no citation, reproducibility, or scientific-integrity regression.
