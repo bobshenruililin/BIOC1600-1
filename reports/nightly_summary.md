@@ -103,7 +103,7 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 - Glutamate kon/koff unmeasured.
 - No in vivo glutamate aptamer sensor (S066 is in vitro retina).
 - Wu VoR inaccessible; JSTAGE Ohsawa PDF 500; MacDonald ACS 403 — those numbers were **not** entered.
-- Abrantes millimolar ELONA Kd still not entered from the abstract; hunter reported 10.3–25.1 mM in preprint HTML — **not promoted** without a second extraction this cycle.
+- Abrantes millimolar ELONA Kd still not entered. Second-extraction attempt this cycle: bioRxiv HTML/JATS HTTP 429; Europe PMC/API abstract has no ELONA Kd. Do not treat API tokens 10.3 / 25.1 (funder IDs) as affinity.
 - Scoring-stack inversion (see `rounds/03/tournament_reconciliation.md`).
 - Analysis implemented on the swarm branch (sequential single writer) so nothing accepted exists only in an unmerged worktree.
 - PR #1 is plan-only and superseded by this branch; merging to `main` is a PI action.

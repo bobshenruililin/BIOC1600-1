@@ -50,7 +50,7 @@ Identifier rule: a source is `identifier_ok=yes` only if DOI and/or PMID resolve
 | C019 Park GDH | yes as **refutation** | Table 1 “Au Glutamate FET … [59]” and body: *Plasmodium falciparum* glutamate dehydrogenase, Singh 2019. |
 | C021 Hu cites Wu 12 µM | yes | Experimental section: “Glutamate aptamer (Glu-apt, Kd = 12 μM) (Wu et al., 2022)” then the truncated Fc-thiol sequence. |
 | C022–C024 comparators | yes | Enzyme / indicator papers, not aptamers. |
-| C025 Abrantes 1 aM | yes as preprint abstract | ELONA millimolar Kd **not** in abstract; `supports_claim=no` for millimolar Kd. |
+| C025 Abrantes 1 aM | yes as preprint abstract | ELONA millimolar Kd **not** in abstract; `supports_claim=no` for millimolar Kd. Overnight second-extraction attempt: bioRxiv HTML/JATS returned HTTP 429. Europe PMC/bioRxiv API expose the abstract only. Strings `10.3` / `25.1` in the API JSON are **funder award IDs**, not a Kd. Millimolar ELONA values remain **unentered**. |
 | C028–C032 Hu thesis retina | yes | OA dissertation text extract 2026-09-10. DOI 10.18154/RWTH-2025-07238. In vitro retina, not in vivo. 10 min plateau, 0.3 pM PBS LOD, Ames 10 nM–10 µM, 14 s ACV / 1 min sampling, basal-not-synaptic author sentence. |
 
 ## Secondary-source failures
