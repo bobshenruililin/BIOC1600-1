@@ -110,7 +110,7 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 
 ## 12. Exact Git commit SHA
 
-Content/handoff scientific commit: `78eafcec94558614927d33dd9f39e5fcce7bd28f`
+Content/handoff scientific commit: `412d7b03383fb7aae11b19ef249a2bb35645fe0e`
 
 A follow-up stamp commit may sit on top of this file; after pull, `git rev-parse HEAD` on `cursor/research-swarm-634f` is the canonical tree SHA.
 
