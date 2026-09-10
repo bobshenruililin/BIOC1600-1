@@ -96,7 +96,9 @@ Observed failure: 4/4 isolated thesis writers refined the same frame. Adopted pa
 
 ## 12. Exact Git commit SHA
 
-`SHA_PENDING_COMMIT`
+Content commit (this handoff’s scientific files): `e22df25977a9f631a48b3f35f68ea77e064c88b8`
+
+A follow-up stamp commit updates this section; use `git rev-parse HEAD` on `cursor/research-swarm-634f` as the canonical tree SHA after pull.
 
 ## 13. Exact paths
 
