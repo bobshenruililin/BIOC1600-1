@@ -40,7 +40,7 @@ Four primary basal extracellular-glutamate measurements now sit in the parked PR
 | ~25 nM | acute hippocampal slice; tonic NMDAR current on CA1 pyramidal cells | Herman & Jahr 2007, PMID 17804634, PMC2670936, abstract | `primary-source-supported` (S050, C012) | partial (abstract re-read this pass) |
 | 3.3 ± 1.0 µM (PFC, n = 8); 5.0 ± 1.2 µM (striatum, n = 10) | awake, freely moving C57BL/6 mouse, GluOx ceramic MEA, self-referenced, days 3–7 post-implant | Hascup KN 2008, PMID 18024788, PMC3404456, **Table 1** | `primary-source-supported` (PR #18 O9; audited PR #26) | **yes** (PMC HTML Table 1, this pass) |
 | 9.4 ± 0.6 µM (n = 11) | rat cortex microdialysis, stable-isotope extraction-fraction correction, `Ed` 0.29 ± 0.01 | Hershey 2025, PMID 40838767, PMC12418293, **§3.1 body text, no figure/table** | `primary-source-supported` (PR #18 O1; audited PR #26) | **yes** (efetch JATS, this pass) |
-| 34.7 ± 11.8 µM (n = 41) | awake Long Evans rat PFC, GluOx MEA, self-referenced | Hascup ER 2010, PMID 20969570, PMC2996468, **§3.1 parenthetical, not Table I** | `primary-source-supported` (PR #26) | **yes** (efetch JATS, this pass) |
+| 34.7 ± 11.8 µM (n = 41) | awake Long Evans rat PFC, GluOx MEA, self-referenced | Hascup ER 2010, PMID 20969570, PMC2996468, **§3.1 parenthetical, not Table I** | `primary-source-supported` (PR #26); **contested as a method artefact** — see §1.3 and §10 reviewer 2 | **yes** (efetch JATS, this pass) |
 
 Quoted verbatim from the text I retrieved, so no one has to take my transcription on trust:
 
@@ -64,9 +64,24 @@ Span from each candidate basal to Clements 1.1 mM, against the 81-fold single-si
 | Hershey 9.4 µM | 117-fold | no (1.4× too narrow) |
 | Hascup 2010 PFC 34.7 µM | **31.7-fold** | **yes — the window is 2.6× wider than the whole span** |
 
-On the highest primary basal measurement, a single 1:1 Langmuir site does not merely approach the biological span; its 10–90% window **over-covers** it. The poster sentence "no single site can span biology" is then false, using only numbers the same literature publishes.
+The threshold in closed form, contributed by blind reviewer 1 (§10) and the cleanest way to state it: the 81-fold window is wider than the basal→cleft span **iff basal > 1.1 mM / 81 = 13.6 µM**. `computational illustration`.
 
-The threshold in closed form, contributed by blind reviewer 1 (§10) and the cleanest way to state the whole objection: the 81-fold window is wider than the basal→cleft span **iff basal > 1.1 mM / 81 = 13.6 µM**. Hascup 2010's mean and its entire ±SEM band (22.9–46.5 µM, giving 48- to 24-fold) sit above that threshold, so the sign flip is not an artefact of the point estimate. `computational illustration`.
+**The argument does not rest on the bottom row.** Blind reviewer 2 (§10) attacked exactly that row and supplied a mechanism for distrusting it, so I state the case in the form that survives without it. Express the flagship's claim as the *mismatch ratio* — how many times too narrow the 81-fold window is relative to the biological span:
+
+| Basal used | Span to 1.1 mM | Mismatch: span / 81 | LF exponent *n* at which one site exactly covers the span |
+| --- | ---: | ---: | ---: |
+| Herman 25 nM | 44,000-fold | **543×** too narrow | 0.411 |
+| Vasylieva PEGDE / Baker class ~1.2 µM | 917-fold | 11.3× too narrow | 0.644 |
+| Hascup 2008 PFC 3.3 µM | 333-fold | 4.1× too narrow | 0.756 |
+| Hershey 9.4 µM | 117-fold | **1.4×** too narrow | **0.923** |
+| Hascup 2010 PFC 34.7 µM | 31.7-fold | 0.39× — over-covers | 1.271 (excluded by Hu's model) |
+
+Two readings, both fatal to the recommendation as written:
+
+1. **Discard Hascup 2010 entirely** and use Hershey's dialysis value, which reviewer 2 endorses as within the right class and which PR #26 audited without corrections. The mismatch is then **1.4×**. A poster cannot argue "one site cannot cover biology" from a factor of 1.4. Worse, the final column shows that a Langmuir–Freundlich exponent of **n = 0.923** — barely heterogeneous, well inside Hu's stated (0,1] — makes a single site's 10–90% window cover the *entire* span exactly. Hu fitted LF and never reported n (PR #19, `unresolved`), so the flagship cannot exclude the one value of n that would refute it.
+2. **Keep Hascup 2010** and the conclusion inverts outright, robustly across its whole ±SEM band (22.9–46.5 µM → 48- to 24-fold, all below 81).
+
+Either way the load-bearing quantity is not 44,000-fold but "somewhere between ~32-fold and ~44,000-fold, depending on which method you believe" — a three-order-of-magnitude range inside which the argument's mismatch ratio moves from 543× to 0.39×. `computational illustration` on `primary-source-supported` inputs. That is not a computation a poster can stand on, and the reason is not that any number is wrong.
 
 Two further checks confirm this is not an artefact of picking the extreme row:
 
@@ -107,6 +122,8 @@ Losing the span comparison costs revised D its headline computation, not its cla
 3. PR #25's transcription audit found the high-K⁺ "false positive" confounded by the stimulus suppressing the Gln–Glu shuttle itself, the percent convention ambiguous in the source, and the load-bearing "¹²C unchanged" cells to be nulls at n = 3–4.
 
 What survives from PR #18 is not a story replacement but a **measured selectivity specification**: Gln 179 ± 20 µM against Glu 9.4 ± 0.6 µM in the same animals with the same probe, a ~19-fold excess of glutamate's γ-amide. Per C032 the only glutamate-aptamer selectivity panel in the ledger (100 nM Glu vs 10 µM serotonin, dopamine, tyrosine, lactate) omits glutamine and aspartate entirely. That belongs on the poster as a named open box. `primary-source-supported`; `transferable` as a specification **yes**, as a cross-reactivity result **no**.
+
+Blind reviewer 2 (§10) found that this bar is not an aptamer-specific weakness: an enzyme glutamate electrode has a recorded glutamine response in the absence of glutamate (Kulagina 1999, PMID 10575963, abstract), and glutaraldehyde-crosslinked GluOx loses substrate specificity (Vasylieva 2013, PMID 23358125, abstract). The honest poster statement is that glutamine at ~19× excess is an open box for the aptamer **and** a documented artefact route for the comparator method.
 
 **PR #19's REPLACE verdict does not extend to the title.** PR #19 says so itself (§16) and I agree on inspection: its charges are all against the occupancy/kinetics figures, and the clocks half of D needs none of them.
 
@@ -204,7 +221,8 @@ The Europe PMC `fullTextXML` endpoint returns an empty body for all three (NIH a
 | Whether PR #18's folate-protocol experiment replaces the paired isotherm | **Rejected as a replacement, adopted as two specifications** (§3.3). Bottari is abstract-only and ampicillin; OC-3's glutamate inference is `hypothesis`. |
 | Whether PR #25's co-located dialysis + fast sensor experiment replaces it | **Rejected** (§3.4) — right experiment for a question §2.2 rejected. |
 | Whether A3 should be flagship | **Rejected in favour of A4** (§4). A3's own left tick is the contested pole. |
-| Whether the four basal values are a flat contradiction | **Rejected as a framing** (§2.4), `hypothesis` only: Herman's own transport-shielding result suggests receptor-domain vs bulk-ECF compartments. Not a finding. |
+| Whether the four basal values are a flat contradiction | **Rejected as a framing** (§2.4), `hypothesis` only: Herman's own transport-shielding result, plus Garthwaite's 280-fold slice-vs-dissociated-cell potency shift and Cavelier's independent ~30 nM, point to receptor-domain vs bulk-ECF compartments. Not a finding — blind reviewer 2 recorded zero hits for any primary spatial map of basal glutamate from cleft to bulk. |
+| Whether the flagship REPLACE depends on Hascup 2010's 34.7 µM | **Rejected** (§1.3, rewritten after blind reviewer 2 attacked that row). On Hershey's 9.4 µM the mismatch is 1.4× and an LF exponent of 0.923 covers the whole span, which Hu's unreported *n* cannot exclude. |
 | Whether any parked PR supplies a glutamate aptamer `kon`/`koff` | **No.** PR #18's Q4 covered 96 records with zero hits, independently re-confirming C007. Atlas cells stay empty. |
 | Whether PR #28's PASS claim was used | **Not read, not copied**, per instruction. |
 
@@ -221,7 +239,11 @@ The Europe PMC `fullTextXML` endpoint returns an empty body for all three (NIH a
 
 **Falsifier of the next-experiment KEEP (§3).** A published solution `Kd_molecular` for the exact Fc-thiol 39-mer, with a binding-null control, appearing from any group — the experiment is then done and the highest-information action moves to pharmacological identity (Opus unknown 2). Weaker but real: a locked decision that the poster's question is retinal glutamate biology rather than sensor fitness, which is Opus's own fork and substitutes pharmacology.
 
-**Falsifier of my own flagship REPLACE.** If the µM-class basal values are shown to be method artefacts — e.g. primary evidence that GluOx MEA self-referencing systematically over-reports resting glutamate, or that extraction-fraction correction inflates `Capp` — and 25 nM is re-established as the bulk-ECF basal, then the span returns to ~44,000-fold and "81 vs 44,000" is safe again. PR #18's OC-17 and PR #25 §6 both record this reconciliation as `unresolved`, and PR #26 declines to adjudicate it. I have not resolved it either, and my REPLACE does **not** depend on which method is right: it depends only on the fact that four primary measurements disagree by 1,388-fold and the poster's conclusion is not invariant across them.
+**Falsifier of my own flagship REPLACE.** The REPLACE would fall if **all** µM-class basal values were shown to be method artefacts and ~25 nM were re-established as the bulk-extracellular basal that a surface electrode samples. Partial artefact findings are not enough: blind reviewer 2 mounted exactly that attack on the highest value (glutaraldehyde-GluOx selectivity loss, Vasylieva 2013 reading 16 µM vs 1.2 µM), and §1.3 shows the verdict survives on the dialysis value it endorses, where the mismatch is 1.4× and an LF exponent of 0.923 covers the span. So the falsifier is specifically: primary evidence that recovery-corrected microdialysis `Capp` is inflated by an order of magnitude *and* that every enzyme-electrode value is artefactual, leaving the slice NMDAR estimate as the bulk number too.
+
+The cleanest single falsifier, which I take from reviewer 2 over my own formulation: a **co-calibration** — simultaneous tonic-NMDAR-current and probe-based glutamate measurement in one tissue volume. If they agree, the compartment reading in §2.4 dies and the four values reduce to one contested number, of which at most one method is right. Reviewer 2 searched for such a co-calibration and found none. `proposed experiment`.
+
+I have resolved neither the method dispute nor the compartment question, and the REPLACE does not require either: it requires only that four primary measurements disagree by 1,388-fold and that the poster's conclusion is not invariant across them.
 
 ---
 
@@ -231,9 +253,18 @@ The Europe PMC `fullTextXML` endpoint returns an empty body for all three (NIH a
 
 **Inferred by me**: the span table and the n-threshold arithmetic in §1.3 (`computational illustration`, two lines, no fitted parameters); that the flagship's conclusion is not invariant across the primary basal set (§1.4); the receptor-domain vs bulk-ECF compartment reading (§2.4, `hypothesis`); that A4's clock ratio is immune to the basal dispute (§4).
 
-**Unknown**: which basal method is right, or whether the question is well posed; Hu's LF exponent n; solution `Kd_molecular` of the 39-mer; glutamate `kon`/`koff`; chemical identity of the S066 ACV change; any bulk-ECF transient amplitude; glutamate-aptamer cross-reactivity to glutamine at 179 µM.
+**Unknown**: which basal method is right, or whether the question is well posed; whether Hascup's glutaraldehyde-GluOx coating carries Vasylieva's selectivity artefact; Hu's LF exponent n; solution `Kd_molecular` of the 39-mer; glutamate `kon`/`koff`; chemical identity of the S066 ACV change; any bulk-ECF transient amplitude; glutamate-aptamer cross-reactivity to glutamine at 179 µM; any primary spatial map of basal glutamate between cleft and bulk (blind reviewer 2: zero hits across five recorded queries).
 
 ---
+
+## 8b. What the independent review changed
+
+Both blind reviewers have reported (§10). Neither overturned a verdict; one changed how the load-bearing verdict must be argued.
+
+- **Flagship REPLACE: unchanged, re-grounded.** Reviewer 1 reproduced every number independently. Reviewer 2 attacked my strongest row and supplied a mechanism, so §1.3 was rewritten to rest on the mismatch-ratio collapse and the *n* = 0.923 coincidence rather than on the sign flip. The verdict is now robust to discarding Hascup 2010 entirely.
+- **Story KEEP: unchanged, strengthened.** The §2.4 compartment reading moved from one abstract sentence to five primary sources and an independent replication of the nanomolar receptor-facing value. It remains `hypothesis` because no primary cleft-to-bulk spatial map exists.
+- **Next experiment KEEP: unchanged.**
+- **New material for the orchestrator**: the glutamine bar applies to the enzyme comparator as well as the aptamer (§2.2); a co-calibration of tonic NMDAR current against a probe in one volume is the experiment that would close the compartment question, and does not exist (§7).
 
 ## 9. Independent review of this review
 
@@ -242,7 +273,7 @@ Per the Research Effort Standard, my load-bearing conclusion (§1, flagship REPL
 - `bc-44c0c46b-2b0a-51de-86d1-d529108cb394` — given the proposed poster computation and the primary numbers only; asked to judge whether "81-fold vs ~44,000-fold" is safe, to compute the LF n thresholds independently, and to run its own negative search for a glutamate-aptamer `kon`/`koff`.
 - `bc-b7ac5ad5-bae0-597d-8a85-332fe27880d2` — asked independently whether a surface aptamer electrode and a tonic NMDAR current report the same quantity, and required to argue the opposite case (that the methods genuinely contradict and one is wrong).
 
-Their findings are recorded in §10. Where a reviewer disagrees with me, the disagreement is recorded rather than resolved.
+Both have now reported. Their findings are recorded in §10 and their effect on the verdicts in §8b. Where a reviewer disagrees with me, the disagreement is recorded rather than resolved.
 
 ---
 
@@ -274,9 +305,35 @@ Its proposed replacement is close to mine but framed as a conditional rather tha
 
 **One correction it supplies to sourcing.** The parylene-C 1 nM–1 mM linear window is in the **dissertation** (S066), not in the journal paper (S002, DOI 10.1016/j.bios.2025.117992). Consistent with PR #23's treatment of it as E044 comparator text. Anyone citing that window must cite the thesis.
 
-### Reviewer 2 — `bc-b7ac5ad5-bae0-597d-8a85-332fe27880d2`
+### Reviewer 2 — `bc-b7ac5ad5-bae0-597d-8a85-332fe27880d2` — CONCURS on compartments, CHALLENGES my strongest row
 
-Still running at the time of this commit; asked independently whether a surface aptamer electrode and a tonic NMDAR current report the same quantity, and required to argue the opposite case (that the methods genuinely contradict and one is wrong). Findings to be appended.
+Full report: `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/internal/neurochem-compartment-independent.md`. It saw only the four basal identifiers and the device description; it did not read this file or any Wave A output, and it was required to argue the opposite case against itself.
+
+Verdict returned: "Receptor-inferred ambient glutamate and probe-sampled interstitial glutamate are **not the same quantity**. A gold-aptamer electrode tens-to-hundreds of µm across will see **trauma-modified bulk interstitial fluid**, not the transporter-shielded NMDAR occupancy domain. Herman ~25 nM and Hascup/Hershey micromolar values should not share one design axis." Tagged `hypothesis`, which is the same tag I gave it in §2.4.
+
+**It upgraded §2.4 from my reading of one abstract to a supported argument.** Five primary sources I did not have, all `full_text_inspected = yes` except where noted:
+
+- **Cavelier & Attwell 2005**, PMID 15695241: an **independent** slice estimate of ~30 nM (AP5-sensitive 5.4 ± 1.4 pA against a 2.7 nA NMDA plateau, n = 7). Herman's nanomolar receptor-facing value is not a single-laboratory number, which materially strengthens the compartment reading rather than the "Herman is wrong" reading.
+- **Garthwaite 1985**, PMID 2862941 (partial): glutamate cGMP EC50 **480 µM in slices vs 1.7 µM in dissociated cells** — a 280-fold apparent-potency shift — while NMDA's EC50 was unchanged. This is the cleanest primary demonstration that uptake, not receptor pharmacology, sets how much bath glutamate reaches receptors.
+- **Lehre & Danbolt 1998**, PMID 9786982: CA1 radiatum GLT-1 ~12,000 and GLAST ~3,200 molecules µm⁻³ (~8,500 and ~2,300 µm⁻²) — the density that makes shielding physically plausible.
+- **Jabaudon 1999**, PMID 10411944: TBOA unmasks a continuously cleared non-vesicular leak (331 ± 60 pA at 2 min, Ca²⁺-independent).
+- **Holmseth 2012**, PMID 22539860: neuronal EAAC1 ~130 µm⁻³, ~100× below GLT-1, i.e. the shielding is glial.
+
+Herman detail it added from full text: standing D-AP5 current / 5 µM NMDA current = 0.090 ± 0.01 (n = 7); nucleated-patch EC50 NMDA 37.7 µM vs glutamate 1.8 µM.
+
+**Its challenge to me, which I accept.** It declines 34.7 µM as a design target and gives a mechanism: **Vasylieva 2013**, PMID 23358125 (abstract only) reports that glutaraldehyde cross-linking degrades GluOx substrate specificity, with the same preparation reading **16 µM in vivo against 1.2 µM** for a PEGDE-immobilised electrode, and only the PEGDE version agreeing with capillary electrophoresis on dialysate. Hascup's coatings are glutaraldehyde + BSA + GluOx. **Kulagina 1999**, PMID 10575963 (abstract) records a **glutamine response in the absence of glutamate** on an enzyme electrode. And self-referencing subtracts a *no-enzyme* sentinel, so it cannot cancel cross-reactivity occurring at the enzyme site (**Burmeister 2001**, PMID 11289414, abstract). Its own preferred bulk analogue is therefore ~1–10 µM (Hershey 9.4; Baker 2002 PMID 12388621, striatal dialysis 1.26–3.47 µM, full text inspected; PEGDE ~1.2 µM).
+
+I have rewritten §1.3 so that the flagship REPLACE does not depend on 34.7 µM being right. On reviewer 2's own preferred value the mismatch ratio is 1.4× and an LF exponent of 0.923 covers the span, so the verdict is unchanged and now rests on the row it endorses.
+
+**A cross-cutting consequence neither of us was asked about.** Kulagina's glutamine-without-glutamate response plus Hershey's Gln = 179 ± 20 µM means the glutamine problem is a documented failure mode of the **enzyme comparator**, not a hypothetical aptamer weakness. That reframes §2.2's surviving specification: glutamine at ~19× excess is the selectivity bar on which the field's gold-standard method has a recorded artefact and on which the aptamer has simply never been tested (C032). `primary-source-supported` for each component; `hypothesis` for the joint reading. It belongs on the poster as an open box for **both** methods.
+
+**Negative searches it recorded** (zero hits, queries stated): glutamate transporter shielding extrasynaptic concentration gradient; carbon fibre vs microdialysis glutamate by electrode size; electrode diameter × implantation trauma × extracellular glutamate; aptamer glutamate extracellular brain electrode; perisynaptic vs extrasynaptic basal glutamate concentration measured. So there is **no primary spatial map of basal glutamate** from cleft to bulk — the compartment reading cannot currently be closed, which is why it stays `hypothesis`. Its probe-trauma sources (Clapp-Lilly 1999 disruption to 1.4 mm; Borland 2005 dopamine gradients ≥220–250 µm; Jaquins-Gerstl 2009) are real but **none measured glutamate**, so a glutamate-specific size effect remains `unresolved`.
+
+**Falsifier it proposes for the compartment reading**, which I adopt over my own: simultaneous tonic-NMDAR-current and probe measurement in one volume. It searched for such a co-calibration and found none (3 dual-method hits, none a co-calibration).
+
+### Where the two reviewers and I disagree
+
+Recorded, not resolved. Reviewer 1 treats the four basal values as method- and compartment-structured and declines to nominate a design target. Reviewer 2 nominates ~1–10 µM and actively rejects 34.7 µM as artefact-contaminated. I take no position on which method is right, because §1.3's conclusion holds across all of them; I note only that reviewer 2's artefact argument rests on two abstract-only sources (Vasylieva, Kulagina) and that whether it applies to Hascup's specific coating is `unresolved`.
 
 ---
 
