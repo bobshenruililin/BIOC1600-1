@@ -123,9 +123,9 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 
 ## 12. Exact Git commit SHA
 
-Canonical tree SHA for this poster-file alignment (stamp after commit on `cursor/story-on-poster-245a`). Check out that branch; do **not** treat overnight SHA `984af62f25127b43e7d2be248ca1c8123921b8a8` as current §1 content.
+Canonical science-content SHA for this poster-file alignment: `015382f07ded7c4181852f0e8de6f1292747c7bc` on `cursor/story-on-poster-245a`.
 
-After this PR’s commit: `git rev-parse HEAD` on `cursor/story-on-poster-245a`.
+Do **not** treat overnight SHA `984af62f25127b43e7d2be248ca1c8123921b8a8` as current §1 content. Gate JSON SHA is unchanged (status **REVISE**).
 
 ## 13. Exact paths
 
