@@ -1,8 +1,8 @@
 # Wildcard report — the real comparator is the glutamate-oxidase sensor
 
-**Lane:** wildcard, independently investigated  
-**Direction chosen:** enzyme-based glutamate sensors as the practical comparator  
-**Evidence cutoff:** 2026-09-11  
+**Lane:** wildcard, independently investigated
+**Direction chosen:** enzyme-based glutamate sensors as the practical comparator
+**Evidence cutoff:** 2026-09-11
 **Poster status:** research handoff only; no poster produced
 
 ## Executive answer
