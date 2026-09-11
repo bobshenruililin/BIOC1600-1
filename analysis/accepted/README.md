@@ -1,6 +1,6 @@
 # Analysis (accepted)
 
-Flagship: occupancy/kinetics bound **plus** empirical-kon sensitivity that can contradict T5, with the evidence atlas so empty kon cells cannot be painted over.
+No Mission-1 flagship is accepted. `span_identity.svg` is valid supporting biochemistry; the Herman-to-Clements endpoint comparison is not an accepted representative device requirement. Mission 2 must select and reproduce a replacement analysis from `state/mission2_input_queue.md`.
 
 Canonical copies for the nightly handoff: `analysis/accepted/figures/`.
 

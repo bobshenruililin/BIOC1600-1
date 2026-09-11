@@ -27,7 +27,7 @@ Live claims/evidence **notes** usually split objects. The ten-type schema and se
 
 ## Glyphs that still perform collapses (O2)
 
-Flagship after Mission 1.5: `span_identity.svg` (81-fold identity; Herman/Clements labeled as different hippocampal literature examples; PaC occupancy UNKNOWN). `two_regime_clocks.svg` splits basal/slow MEASURED from rapid-transient UNKNOWN.
+No flagship is accepted after Mission 1 closure. `span_identity.svg` remains supporting biochemistry (81-fold identity; Herman/Clements labeled as different hippocampal literature examples; PaC occupancy UNKNOWN). `two_regime_clocks.svg` splits basal/slow MEASURED from rapid-transient UNKNOWN. Replacement candidates are routed through `state/mission2_input_queue.md`.
 
 Still collapsed if used unlabeled:
 

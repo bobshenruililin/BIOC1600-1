@@ -29,6 +29,8 @@ REQUIRED_FILES = [
     "state/current_thesis.md",
     "state/high_value_unknowns.md",
     "state/model_disagreements.md",
+    "state/mission2_input_queue.md",
+    "state/pr_disposition_register.md",
     "state/open_questions.md",
     "state/decisions.md",
     "state/model_config.json",

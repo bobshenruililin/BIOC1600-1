@@ -3,7 +3,12 @@
   "current_best_thesis": "D_revised",
   "current_best_status": "canonical_not_group_final",
   "current_best_path": "state/current_thesis.md",
-  "flagship_storyboard": "poster/storyboards/revised_D.md",
+  "science_story_gate": "REVISE",
+  "mission1_status": "COMPLETE",
+  "ready_for_mission2": true,
+  "provisional_storyboard": "poster/storyboards/revised_D.md",
+  "flagship_analysis_status": "unresolved_mission2_input",
+  "mission2_queue": "state/mission2_input_queue.md",
   "runner_up_thesis": "C",
   "scoring_note": "Current title is Mission 1 revised D (two regimes; occupancy-at-basal withdrawn as a finding). Overnight Stack A T1/T5 ranking is historical and is not current consensus. Isolated Task red-teamers inverted that overnight ranking. Do not average stacks. Not group-final.",
   "historical_overnight_tournament": {
@@ -53,7 +58,7 @@
     "4": {
       "name": "analysis_tournament",
       "status": "complete",
-      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented, then extended with empirical-kon sensitivity that can contradict T5. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ). Mission 1.5 adds span_identity.svg as flagship; occupancy.svg demoted as overlay simulation."
+      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented, then extended with empirical-kon sensitivity that can contradict T5. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ). span_identity.svg remains supporting biochemistry; occupancy.svg remains a demoted overlay simulation. Mission 2 must select and reproduce the flagship."
     },
     "5": {
       "name": "replication",
@@ -72,8 +77,8 @@
     },
     "mission1_5": {
       "name": "story_gate_closure",
-      "status": "complete",
-      "notes": "Canonical revised D. Occupancy-as-finding withdrawn. Flagship 81-fold identity. Opus closure PASS on existing criteria, no fatal defect. Not group-final."
+      "status": "complete_revise",
+      "notes": "Canonical revised D. Occupancy-as-finding withdrawn. PR #31 invalidated the 81-fold-versus-44000-fold comparison as the accepted flagship; replacement is a Mission 2 decision. Gate REVISE. Not group-final."
     }
   },
   "theses": [
@@ -92,7 +97,7 @@
   ],
   "analyses": [
     {"id": "P2_atlas", "total": 76, "status": "accepted", "path": "analysis/accepted/atlas/"},
-    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted", "path": "analysis/accepted/occupancy_kinetics/", "flagship_figure": "span_identity.svg", "demoted_figure": "occupancy.svg"},
+    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted_supporting", "path": "analysis/accepted/occupancy_kinetics/", "supporting_figure": "span_identity.svg", "demoted_figure": "occupancy.svg", "note": "No accepted flagship; Mission 2 must test replacement candidates."},
     {"id": "P5_fastaptamer", "total": 52, "status": "rejected", "reason": "would not answer the glutamate question without a licensed public FASTQ bundle"},
     {"id": "docking_foil", "status": "rejected", "reason": "C017; constitution forbids docking-as-proof"}
   ],

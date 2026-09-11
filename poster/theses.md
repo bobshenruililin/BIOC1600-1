@@ -3,14 +3,16 @@
 Not a finished poster. Not group-final (`state/decisions.md`).
 
 Canonical text: `state/current_thesis.md`.  
-Flagship storyboard: `poster/storyboards/revised_D.md`.  
+Provisional storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved and belongs to Mission 2.
 Overnight T1/T5 ranking is **historical** (below). Do not treat it as current consensus.
 
 ## Current (Mission 1 / 1.5)
 
-**There is no generic glutamate-aptamer sensor: neurochemistry is two measurement regimes (slow/basal versus rapid transients); a 1:1 Langmuir site spans exactly 81-fold while two commonly cited hippocampal literature concentrations span ~44,000-fold; the only glutamate-aptamer experiment in nervous tissue in this ledger is positive evidence inside a basal/slow clock; occupancy on that retinal probe is unmeasured; missing `koff` does not prove slow kinetics.**
+**There is no generic glutamate-aptamer sensor: Hu’s retinal platform provides positive evidence within a slow/basal measurement regime, while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.**
 
 Herman ~25 nM and Clements ~1.1 mM / 1.2 ms are literature examples from **different hippocampal preparations**, not a retinal concentration range. Hu’s 1.8 nM Langmuir–Freundlich apparent electrochemical Kd is an AuED-MEA number in PBS, not the PaC probe’s molecular Kd. Occupancy glyphs that print θ(25 nM) from 1.8 nM are demoted simulations, not tissue measurements.
+
+The 1:1 81-fold identity remains valid supporting biochemistry, but the 81-fold-versus-44,000-fold comparison is no longer the flagship. PR #31’s basal-pole and Langmuir–Freundlich objections are preserved as candidate Mission-2 inputs; no challenger claim is promoted merely because its report is persuasive. PR #24’s interrogation/sampling-timescale mismatch is also a candidate, not an accepted analysis.
 
 **Runner-up (panel, not title):** Candidate C — ultrasensitive working-range ceilings miss Herman ~25 nM from above; Hu 32 pM is a real LOD.
 

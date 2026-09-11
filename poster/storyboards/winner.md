@@ -1,8 +1,8 @@
 # Historical storyboard — overnight T1 (superseded)
 
-**HISTORICAL / SUPERSEDED as the flagship storyboard.** Kept so the overnight tournament remains auditable.
+**HISTORICAL / SUPERSEDED as the overnight flagship storyboard.** Kept so the overnight tournament remains auditable.
 
-Current flagship: `poster/storyboards/revised_D.md` (revised D).  
+Current provisional storyboard: `poster/storyboards/revised_D.md` (revised D). Replacement flagship: unresolved Mission-2 input.
 Current thesis: `state/current_thesis.md`.
 
 Do not use Panel 3’s occupancy inversion, or `occupancy.svg` θ(25 nM) from Hu 1.8 nM, as measured tissue occupancy. That glyph is a 1:1 overlay of an AuED-MEA Langmuir–Freundlich apparent Kd onto Herman’s hippocampal-slice number.

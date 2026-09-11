@@ -1,6 +1,6 @@
 # Occupancy, diffusion-limited bound, and empirical-kon sensitivity
 
-**Flagship figure (Mission 1.5):** `figures/span_identity.svg` — 81-fold 1:1 Langmuir identity as a biochemical design principle, set against Herman ~25 nM and Clements ~1.1 mM as **different hippocampal literature examples**. PaC-probe occupancy is UNKNOWN. This figure does not use Hu 1.8 nM as a tissue occupancy Kd.
+**Supporting figure:** `figures/span_identity.svg` — the 81-fold 1:1 Langmuir identity remains a valid biochemical design principle. Herman ~25 nM and Clements ~1.1 mM are labeled as **different hippocampal literature examples**, not an accepted representative span for a surface device. PaC-probe occupancy is UNKNOWN. Mission 2 must select and reproduce a replacement flagship.
 
 **Demoted:** `figures/occupancy.svg` remains a SIMULATION of advertised Kd/EC50 values treated as 1:1 occupancy parameters. Overlay θ(25 nM) on Hu 1.8 nM is math, not measured tissue occupancy, and not the PaC probe’s Kd.
 

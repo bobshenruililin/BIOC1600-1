@@ -1,8 +1,10 @@
 {
   "gate": "science_story",
-  "status": "PASS",
+  "status": "REVISE",
   "date": "2026-09-11",
+  "mission1_status": "COMPLETE",
   "group_final": false,
+  "ready_for_mission2": true,
   "report": "reports/mission1_closure.md",
   "prior_report": "reports/mission1_story_tournament.md",
   "opus_review": "research/reviews/premium/opus_story_closure.md",
@@ -14,16 +16,17 @@
     "load_bearing_primary_evidence": true,
     "survives_counterevidence": true,
     "fits_one_poster": true,
-    "computation_answers_thesis": true
+    "computation_answers_thesis": false
   },
-  "opus_closure_grades": {
+  "historical_opus_closure_grades": {
     "one_thesis_materially_stronger": "PASS",
     "load_bearing_primary_evidence": "PASS",
     "survives_counterevidence": "PASS",
     "fits_one_poster": "PASS",
     "computation_answers_thesis": "PASS",
     "fatal_defect": "none",
-    "overall": "PASS"
+    "overall": "PASS",
+    "superseded_for_gate_decision_by": "PR #31 post-closure flagship challenge"
   },
   "named_revisions": [
     "occupancy-at-basal withdrawn as a finding",
@@ -32,15 +35,37 @@
     "Hu retina treated as positive basal/slow evidence",
     "1.8 nM not used as retinal-probe molecular Kd",
     "missing koff does not prove slow kinetics",
-    "flagship is 81-fold identity, not theta overlay"
+    "81-fold identity retained as supporting biochemistry, not the accepted flagship",
+    "81-fold-versus-44000-fold comparison withdrawn as the flagship after PR #31"
   ],
   "recommended_thesis_id": "D_revised",
   "runner_up_id": "C",
-  "supporting_panels": ["B_construct_quantity_key", "C_working_range_ceilings", "A_same_oligo_grade_table"],
-  "rejected_as_title": ["A_fit_for_purpose", "B_construct_transformation", "C_lod_distracts_strong_form", "D_three_regimes", "D_occupancy_saturation_as_measured", "W1_amino_acid_selectivity", "T1_overnight"],
-  "flagship_analysis": "81-fold 1:1 Langmuir identity (C027) vs ~44000-fold Herman-to-Clements literature span; PaC occupancy UNKNOWN; occupancy.svg demoted",
-  "next_experiment": "Paired solution and surface isotherm of Hu Fc-thiol 39-mer in one buffer; report Langmuir-Freundlich n",
+  "supporting_panels": [
+    "B_construct_quantity_key",
+    "C_working_range_ceilings",
+    "A_same_oligo_grade_table"
+  ],
+  "rejected_as_title": [
+    "A_fit_for_purpose",
+    "B_construct_transformation",
+    "C_lod_distracts_strong_form",
+    "D_three_regimes",
+    "D_occupancy_saturation_as_measured",
+    "W1_amino_acid_selectivity",
+    "T1_overnight"
+  ],
+  "flagship_analysis": "UNRESOLVED — Mission 2 must select and reproduce it",
+  "flagship_candidates": [
+    "PR #24 interrogation/sampling-timescale mismatch (analysis candidate; not accepted; avoid Nyquist terminology unless assumptions are defended)",
+    "PR #23 working-range bars (analysis candidate; requires basal-pole and Langmuir-Freundlich sensitivity audit)"
+  ],
+  "withdrawn_flagship": "81-fold 1:1 Langmuir identity versus approximately 44000-fold Herman-to-Clements span",
+  "withdrawal_reason": "PR #31 identified method- and compartment-dependent basal poles and an unreported Langmuir-Freundlich exponent that can change the conclusion; those challenger claims remain candidate evidence until Mission 2 audits them",
+  "next_experiment": "Paired solution and surface isotherms of the exact Hu Fc-thiol 39-mer in one buffer, with a binding-null point mutant, biologically justified glutamine/aspartate controls, Langmuir and Langmuir-Freundlich fits, n uncertainty, and achieved coverage",
+  "mission2_queue": "state/mission2_input_queue.md",
+  "pr_disposition_register": "state/pr_disposition_register.md",
   "do_not_promote": [
+    "challenger-PR claims without the normal audit pipeline",
     "Abrantes millimolar ELONA Kd",
     "glutamate kon/koff from C008 or C010",
     "T1 overnight ranking as this mission's result",

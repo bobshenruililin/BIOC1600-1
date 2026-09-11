@@ -208,7 +208,7 @@ def sensitivity_svg() -> str:
 
 
 def span_identity_svg() -> str:
-    """Flagship: 81-fold 1:1 identity vs hippocampal literature examples. No PaC occupancy number."""
+    """Supporting 81-fold 1:1 identity with labeled literature examples. No PaC occupancy number."""
     width, height = 900, 500
     svg = ET.Element("svg", attrib={"xmlns": "http://www.w3.org/2000/svg", "width": str(width), "height": str(height)})
     ET.SubElement(svg, "rect", attrib={"x": "0", "y": "0", "width": str(width), "height": str(height), "fill": "#fff"})
@@ -415,11 +415,11 @@ def main() -> None:
     (out / "sensitivity.svg").write_text(sensitivity_svg(), encoding="utf-8")
     write_table(ROOT / "tables" / "occupancy_table.csv")
     (out / "CAPTION.md").write_text(
-        "Figure span_identity (FLAGSHIP): 1:1 Langmuir 10–90% occupancy is exactly 81-fold, "
+        "Figure span_identity (SUPPORTING): 1:1 Langmuir 10–90% occupancy is exactly 81-fold, "
         "independent of Kd. MODELED design principle. Herman ~25 nM is MEASURED ambient glutamate "
         "in acute hippocampal slice. Clements ~1.1 mM is an INFERENCE at cultured hippocampal "
         "synapses — a different preparation. Those two literature examples span ~44,000-fold "
-        "(MODELED arithmetic). They are not a retinal concentration range. PaC-probe occupancy "
+        "(MODELED arithmetic). They are not a retinal concentration range or an accepted representative surface-device span. PaC-probe occupancy "
         "in Ames/tissue is UNKNOWN. Hu 1.8 nM is not drawn as tissue occupancy.\n\n"
         "Figure two_regime_clocks: left column S066 basal/slow clocks MEASURED in vitro mouse "
         "retina; right column rapid transients UNKNOWN. Missing koff does not prove slow kinetics. "

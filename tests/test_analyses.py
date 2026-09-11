@@ -40,7 +40,7 @@ class AnalysisRebuildTests(unittest.TestCase):
         atlas = (ROOT / "analysis/accepted/atlas/figures/CAPTION.md").read_text(encoding="utf-8").lower()
         self.assertIn("empty", atlas)
 
-    def test_flagship_stamps_are_visible(self):
+    def test_supporting_span_identity_stamps_are_visible(self):
         span = (ROOT / "analysis/accepted/occupancy_kinetics/figures/span_identity.svg").read_text(encoding="utf-8")
         for stamp in ("MEASURED", "MODELED", "UNKNOWN", "PROPOSED"):
             self.assertIn(stamp, span)
@@ -52,6 +52,20 @@ class AnalysisRebuildTests(unittest.TestCase):
         self.assertIn("DEMOTED", occupancy)
         self.assertIn("not tissue occupancy", occupancy)
         self.assertNotIn("θ(25 nM)=", occupancy)
+
+    def test_span_identity_is_not_declared_flagship(self):
+        paths = (
+            ROOT / "analysis/accepted/README.md",
+            ROOT / "analysis/accepted/figures/README.md",
+            ROOT / "analysis/accepted/figures/occupancy.CAPTION.md",
+            ROOT / "analysis/accepted/occupancy_kinetics/README.md",
+            ROOT / "analysis/accepted/occupancy_kinetics/figures/CAPTION.md",
+        )
+        for path in paths:
+            text = path.read_text(encoding="utf-8").lower()
+            self.assertNotIn("span_identity (flagship)", text, str(path))
+            self.assertNotIn("span_identity.svg` | yes (flagship)", text, str(path))
+            self.assertNotIn("flagship figure (mission 1.5)", text, str(path))
 
 
 if __name__ == "__main__":

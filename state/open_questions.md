@@ -18,3 +18,4 @@
 - GCL/IPL-border electrode vs photoreceptor-terminal narrative (S066)
 - Whether a diffusion-limited kon is an acceptable poster assumption given C008/C010
 - Which scoring stack is the group’s — **historical process hole**. Not the current title question.
+- Which analysis should become the replacement flagship after the 81-fold-versus-44,000-fold comparison was withdrawn. Mission 2 must reproduce candidates and run sensitivity analysis; see `state/mission2_input_queue.md`.

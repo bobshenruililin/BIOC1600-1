@@ -38,6 +38,6 @@ Wave 2 (H1, W1) was forbidden to read `rounds/mission1/sealed/`, `/tmp/mission1*
 
 ## Gate
 
-Mission 1 closed at **REVISE**. Mission 1.5 canonicalizes revised D and closed the gate at **PASS** on the existing criteria (Opus 5: no fatal defect). Record: `reports/mission1_closure.md`. Blind review: `research/reviews/premium/opus_story_closure.md`.
+Mission 1 is complete and the science-story gate remains **REVISE**. Revised D is canonical, occupancy-at-basal is withdrawn, and the replacement flagship is a Mission-2 decision after PR #31 challenged the former 81-fold-versus-44,000-fold comparison. Record: `reports/mission1_closure.md`. The earlier blind closure review remains preserved at `research/reviews/premium/opus_story_closure.md`.
 
 Abrantes millimolar ELONA Kd is not a ledger number. Do not promote API tokens `10.3` / `25.1`.

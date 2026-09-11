@@ -6,9 +6,9 @@ Each item is tagged. None of these is filled by Hu’s 1.8 nM AuED-MEA Langmuir�
 
 ## 1. Is 1.8 nM affinity or interface/transduction?
 
-**Unknown.** Paired solution-phase and surface Kd of Hu’s exact Fc-thiol 39-mer, same buffer, Langmuir and Langmuir–Freundlich, exponent *n*, achieved coverage.
+**Unknown.** Paired solution-phase and surface Kd of Hu’s exact Fc-thiol 39-mer, same justified buffer, Langmuir and Langmuir–Freundlich, exponent *n* with uncertainty, achieved coverage, and complete interface chemistry. Include a binding-null point mutant in both arms and L-glutamine/L-aspartate at concentrations justified for the intended biological medium.
 
-**Why it matters.** Decides whether confinement is a measured result, whether the 1:1 81-fold window may be drawn on this sensor, and what θ at any chosen concentration would even be. The retinal PaC probe still would not inherit that number without its own isotherm.
+**Why it matters.** Decides whether confinement is a measured result, whether the 1:1 81-fold window may be drawn on this sensor, and what θ at any chosen concentration would even be. The null and interferent arms distinguish specific binding from assay artefact and test selectivity in the intended medium. The retinal PaC probe still would not inherit that number without its own isotherm.
 
 Tag: `proposed experiment`
 
@@ -52,7 +52,8 @@ Tag: `unresolved`
 - Wu 2022 VoR (1d04/glu1 beyond the abstract).
 - Clements VoR (1.1 mM / 1.2 ms remain abstract inference).
 - Abrantes millimolar ELONA Kd (not entered; API tokens `10.3` / `25.1` are funder IDs).
+- Replacement flagship analysis. PR #24 interrogation/sampling-timescale mismatch and PR #23 working-range bars are candidates only; see `state/mission2_input_queue.md`.
 
 ## What would most change the current thesis
 
-Recorded in `reports/mission1_story_tournament.md` §7 and `state/current_thesis.md` (falsifier). Highest-information single experiment remains unknown 1, or unknown 2 if the poster’s question is retina biology. Do not do both and report neither.
+Recorded in `reports/mission1_story_tournament.md` §7 and `state/current_thesis.md` (falsifier). PR #21 independently preserves unknown 1 and PR #31 adds the binding-null and biologically meaningful interferent specifications; both remain traceable in `state/pr_disposition_register.md`. Highest-information single experiment remains unknown 1, or unknown 2 if the poster’s question is retina biology. Do not do both and report neither.
