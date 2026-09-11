@@ -47,7 +47,7 @@ Already recorded; not re-derived here:
 | --- | --- | --- |
 | [#19](https://github.com/bobshenruililin/BIOC1600-1/pull/19) | Occupancy-challenge review | No. Body: withdrawal keeps revised D as REVISE; not PASS. |
 | [#20](https://github.com/bobshenruililin/BIOC1600-1/pull/20) | Coordinator hold rationale for #19 | No. Documentation. |
-| [#21](https://github.com/bobshenruililin/BIOC1600-1/pull/21) | 39-mer genealogy; paired isotherm still the recorded next experiment | No. Not a ledger promotion. |
+| [#21](https://github.com/bobshenruililin/BIOC1600-1/pull/21) | 39-mer genealogy; paired isotherm still the recorded next experiment | No. Not a ledger promotion. Hold note: `reports/pr_policy/pr-21-construct-genealogy.md`. |
 
 Wave A / analysis-implementation PRs (#6–#18 and later A3/A4 drafts) are **Mission 2 exploration**. They are not Mission 1 close. Default: hold.
 
