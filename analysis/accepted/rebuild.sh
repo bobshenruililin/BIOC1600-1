@@ -6,6 +6,9 @@ python3 atlas.py
 cd ../occupancy_kinetics
 python3 -m unittest discover -s tests -v
 python3 figures.py
+cd ../interrogation_nyquist
+python3 -m unittest discover -s tests -v
+python3 figures.py
 cd ..
 mkdir -p figures
 cp atlas/figures/atlas.svg figures/atlas.svg
@@ -14,4 +17,6 @@ cp occupancy_kinetics/figures/occupancy.svg figures/occupancy.svg
 cp occupancy_kinetics/figures/clocks.svg figures/clocks.svg
 cp occupancy_kinetics/figures/sensitivity.svg figures/sensitivity.svg
 cp occupancy_kinetics/figures/CAPTION.md figures/occupancy.CAPTION.md
+cp interrogation_nyquist/figures/nyquist.svg figures/nyquist.svg
+cp interrogation_nyquist/figures/CAPTION.md figures/nyquist.CAPTION.md
 echo "rebuild ok"

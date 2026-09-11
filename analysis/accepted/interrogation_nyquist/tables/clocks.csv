@@ -1,0 +1,7 @@
+quantity_class,ledger_id,value_s,vs_tau,on_figure,notes
+biological_tau,E033,0.0012,1,yes,literature stimulus timescale; Clements inference E033
+interrogation,E045,14,11666.7,yes,ACV scan clock; ratio is T/tau not koff
+sampling,E046,60,50000,yes,retina sampling interval after insertion
+incubation,E008,900,750000,no,journal 15 min Glu wait C006/E008; off-figure protocol time
+plateau,E042,600,500000,no,thesis 10 min 10 nM plateau C028/E042; off-figure protocol time
+nyquist_sketch,derived_from_E033,0.0006,0.5,yes,COMPUTATIONAL ILLUSTRATION tau/2; not a sensor spec

@@ -23,6 +23,8 @@ class AnalysisRebuildTests(unittest.TestCase):
         self.assertTrue((ROOT / "analysis/accepted/figures/occupancy.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/clocks.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/sensitivity.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/interrogation_nyquist/figures/nyquist.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/figures/nyquist.svg").is_file())
 
     def test_captions_forbid_overclaim(self):
         cap = (ROOT / "analysis/accepted/occupancy_kinetics/figures/CAPTION.md").read_text(encoding="utf-8").lower()
@@ -33,6 +35,18 @@ class AnalysisRebuildTests(unittest.TestCase):
         self.assertNotIn("measured koff", cap)
         atlas = (ROOT / "analysis/accepted/atlas/figures/CAPTION.md").read_text(encoding="utf-8").lower()
         self.assertIn("empty", atlas)
+        nyq = (ROOT / "analysis/accepted/interrogation_nyquist/figures/CAPTION.md").read_text(
+            encoding="utf-8"
+        )
+        nyq_l = nyq.lower()
+        self.assertIn("computational illustration", nyq_l)
+        self.assertIn("literature stimulus", nyq_l)
+        self.assertIn("interrogation", nyq_l)
+        self.assertIn("sampling", nyq_l)
+        self.assertNotIn("too slow", nyq_l)
+        self.assertNotIn("proves", nyq_l)
+        self.assertNotIn("94 nM", nyq)
+        self.assertNotIn("mean-equivalent", nyq_l)
 
 
 if __name__ == "__main__":
