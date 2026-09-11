@@ -66,6 +66,8 @@ Span from each candidate basal to Clements 1.1 mM, against the 81-fold single-si
 
 On the highest primary basal measurement, a single 1:1 Langmuir site does not merely approach the biological span; its 10–90% window **over-covers** it. The poster sentence "no single site can span biology" is then false, using only numbers the same literature publishes.
 
+The threshold in closed form, contributed by blind reviewer 1 (§10) and the cleanest way to state the whole objection: the 81-fold window is wider than the basal→cleft span **iff basal > 1.1 mM / 81 = 13.6 µM**. Hascup 2010's mean and its entire ±SEM band (22.9–46.5 µM, giving 48- to 24-fold) sit above that threshold, so the sign flip is not an artefact of the point estimate. `computational illustration`.
+
 Two further checks confirm this is not an artefact of picking the extreme row:
 
 1. **The inversion is robust to the direction Hu's own isotherm model allows.** Hu fitted Langmuir–Freundlich with n as a surface heterogeneity index in (0,1] and **did not report a numerical n** — PR #19's negative search across the journal OA text and the thesis isotherm chapters, `unresolved`. For LF/Hill occupancy the 10–90% span is 81^(1/n), so n < 1 makes the window **wider** than 81-fold, never narrower. Narrowing the window below 81-fold would require n = 1.27 > 1, which Hu's stated parameter range excludes. `computational illustration`. So every isotherm shape Hu's model permits covers a 31.7-fold span.
@@ -246,7 +248,35 @@ Their findings are recorded in §10. Where a reviewer disagrees with me, the dis
 
 ## 10. Blind reviewer findings
 
-*(Appended after the reviewers returned; see §9 for what each was asked.)*
+### Reviewer 1 — `bc-44c0c46b-2b0a-51de-86d1-d529108cb394` — CONCURS with the flagship REPLACE
+
+Full report: `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/internal/langmuir-81fold-span-review.md`. This reviewer saw only the proposed poster computation and the primary identifiers; it did not read this file, any Wave A output, or any gate file.
+
+Verdict returned: "**Unsafe as a load-bearing poster computation** if presented as 'brain glutamate spans ~44,000-fold, therefore no single site can cover the biological range.'"
+
+Independently reproduced, with no shared code:
+
+- the 81-fold derivation (c₁₀ = Kd/9, c₉₀ = 9Kd), and that it is 1.91 decades independent of Kd;
+- the LF/Hill span 81^(1/n), and the n thresholds **0.411 / 0.382 / 0.318** for 44,000 / 10⁵ / 10⁶-fold — identical to my §1.3 values to three decimals;
+- all five basal-to-cleft folds — **44,000 / 333 / 220 / 117 / 31.7** — identical to my §1.3 table, and the same single row (Hascup 2010) as the one where the 81-fold window over-covers the span.
+
+Three things it contributed that I did not have:
+
+1. **A cleaner invariant.** The 81-fold window is wider than the basal→cleft span **iff basal > 1100/81 = 13.6 µM**. That is the one number a first-year needs; it replaces my row-by-row table with a threshold. `computational illustration`.
+2. **The sign flip is not knife-edge.** Across Hascup 2010's full ±SEM band (22.9–46.5 µM) the span is 48- to 24-fold, i.e. narrower than 81-fold throughout. So the inversion does not depend on the point estimate.
+3. **The primary measurement behind Herman's transport-shielding sentence**, which I had only from the abstract. Reviewer 1 read the J Neurosci full text: bath **2 µM glutamate did not raise the d-AP5-sensitive standing current** (103.8 ± 7.21% of control, n = 6) while equipotent NMDA "caused profound depolarization and spiking"; and the ~25 nM figure is itself efficacy-corrected from a measured 37.9 ± 10.8 nM using a saturating Glu/NMDA efficacy ratio of 1.77 ± 0.08. `primary-source-supported`, `full_text_inspected = yes`. This is the direct experimental support for §2.4 and it is stronger than what I had.
+
+It reached the compartment reading in §2.4 independently and tagged it `hypothesis`, in the same form: "25 nM (receptor-facing slice ambient) and 1.1 mM (inferred cleft transient) are not two ends of one well-mixed bath a surface aptamer occupies. A probe in dialysis/MEA ECS may never see 1.1 mM; a cleft-restricted site may never sit at bulk ECS micromolar."
+
+Its proposed replacement is close to mine but framed as a conditional rather than a retraction, and I adopt its wording as the more precise form: a single 1:1 site cannot jointly cover **Herman ambient + Clements peak**; whether that pair is the sensor's job is an `unresolved` matching problem. Regime-matching survives as a conservative design rule **conditional on the nM-ambient + mM-cleft pairing**, not as a fact about "the" biological range.
+
+**Negative search, independently run and recorded** (PubMed, PMC, Europe PMC): no `kon` or `koff` for any nucleic-acid glutamate aptamer. Queries and hit counts: PubMed `glutamate aptamer (kon OR koff OR "association rate" OR "dissociation rate")` = 0; PMC `"glutamate aptamer" AND (kon OR koff OR "association rate" OR "dissociation rate" OR "binding kinetics")` = 0; Europe PMC `"glutamate aptamer" AND (kon OR koff OR k_on OR k_off)` = 0; PubMed `glutamate AND aptamer AND (kinetics OR SPR OR kon OR koff)` = 8, all other targets (PSA/PSMA/malaria GDH/AMPA). Near-miss recorded: Oohashi 2008 PMID 18187867 reports SPR *affinity* for glutamic acid with no rate constants in the abstract. This is a third independent re-confirmation of C007 (after PR #18's Q4 and the ledger's own pass), by different queries. `unresolved`.
+
+**One correction it supplies to sourcing.** The parylene-C 1 nM–1 mM linear window is in the **dissertation** (S066), not in the journal paper (S002, DOI 10.1016/j.bios.2025.117992). Consistent with PR #23's treatment of it as E044 comparator text. Anyone citing that window must cite the thesis.
+
+### Reviewer 2 — `bc-b7ac5ad5-bae0-597d-8a85-332fe27880d2`
+
+Still running at the time of this commit; asked independently whether a surface aptamer electrode and a tonic NMDAR current report the same quantity, and required to argue the opposite case (that the methods genuinely contradict and one is wrong). Findings to be appended.
 
 ---
 
