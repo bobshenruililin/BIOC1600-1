@@ -1,6 +1,8 @@
-# Winner storyboard (text only)
+# Historical overnight T1 storyboard (text only)
 
-Six panels for the T1 thesis, with T5’s occupancy inversion as the computational panel. No print layout.
+**HISTORICAL.** Current recommendation is Mission 1 revised D (`poster/theses.md`; `reports/mission1_story_tournament.md`). Gate still **REVISE**. Not group-final.
+
+Six panels for the overnight T1 thesis, with T5’s occupancy inversion as the computational panel. No print layout.
 
 ## 1. Two clocks
 
