@@ -72,8 +72,8 @@
     },
     "mission1_5": {
       "name": "story_gate_closure",
-      "status": "in_progress",
-      "notes": "Canonicalize revised D; withdraw occupancy-as-finding; flagship 81-fold identity; Herman/Clements as hippocampal literature examples; Opus closure review. See reports/mission1_closure.md."
+      "status": "complete",
+      "notes": "Canonical revised D. Occupancy-as-finding withdrawn. Flagship 81-fold identity. Opus closure PASS on existing criteria, no fatal defect. Not group-final."
     }
   },
   "theses": [

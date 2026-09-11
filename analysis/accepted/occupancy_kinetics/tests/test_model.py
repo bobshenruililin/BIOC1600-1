@@ -34,7 +34,7 @@ class OccupancyTests(unittest.TestCase):
         th = occupancy(C_TONIC_M, KD_1D04_M)
         self.assertLess(th, 0.01)
 
-    def test_hu_saturated_at_tonic(self):
+    def test_overlay_theta_at_herman_ambient_if_1p8nm_treated_as_1to1_kd(self):
         """Overlay math if 1.8 nM is treated as a 1:1 occupancy Kd. Not tissue occupancy."""
         th = occupancy(C_TONIC_M, KD_HU_APPARENT_M)
         self.assertGreater(th, 0.9)

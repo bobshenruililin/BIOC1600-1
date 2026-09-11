@@ -1,38 +1,50 @@
 {
   "gate": "science_story",
-  "status": "REVISE",
+  "status": "PASS",
   "date": "2026-09-11",
   "group_final": false,
-  "report": "reports/mission1_story_tournament.md",
-  "opus_review": "research/reviews/premium/opus_story_gate.md",
+  "report": "reports/mission1_closure.md",
+  "prior_report": "reports/mission1_story_tournament.md",
+  "opus_review": "research/reviews/premium/opus_story_closure.md",
+  "prior_opus_review": "research/reviews/premium/opus_story_gate.md",
+  "opus_closure_agent": "bc-7da27ff4-88b3-5acc-b4cc-ad86a0beaa66",
+  "criteria_not_weakened": true,
   "pass_criteria": {
-    "one_thesis_materially_stronger": {
-      "as_submitted": "disputed",
-      "after_revision": true,
-      "notes": "Opus: D 85 vs C 77 is structural. Adversarial Grok: as submitted, D occupancy half is not primary so the margin is scorekeeping; after named revisions D is the title."
-    },
-    "load_bearing_primary_evidence": false,
-    "survives_counterevidence": "partial",
+    "one_thesis_materially_stronger": true,
+    "load_bearing_primary_evidence": true,
+    "survives_counterevidence": true,
     "fits_one_poster": true,
-    "computation_answers_thesis": "qualified"
+    "computation_answers_thesis": true
   },
-  "opus_scores": {
-    "A": 68,
-    "B": 73,
-    "C": 77,
-    "D": 85,
-    "agent": "bc-35465731-9331-54fd-b508-ca3af59e84ec"
+  "opus_closure_grades": {
+    "one_thesis_materially_stronger": "PASS",
+    "load_bearing_primary_evidence": "PASS",
+    "survives_counterevidence": "PASS",
+    "fits_one_poster": "PASS",
+    "computation_answers_thesis": "PASS",
+    "fatal_defect": "none",
+    "overall": "PASS"
   },
+  "named_revisions": [
+    "occupancy-at-basal withdrawn as a finding",
+    "PaC occupancy stamped UNKNOWN",
+    "Herman 25 nM and Clements 1.1 mM labeled as different hippocampal literature examples",
+    "Hu retina treated as positive basal/slow evidence",
+    "1.8 nM not used as retinal-probe molecular Kd",
+    "missing koff does not prove slow kinetics",
+    "flagship is 81-fold identity, not theta overlay"
+  ],
   "recommended_thesis_id": "D_revised",
   "runner_up_id": "C",
   "supporting_panels": ["B_construct_quantity_key", "C_working_range_ceilings", "A_same_oligo_grade_table"],
-  "rejected_as_title": ["A_fit_for_purpose", "B_construct_transformation", "C_lod_distracts_strong_form", "D_three_regimes", "D_occupancy_saturation_as_measured", "W1_amino_acid_selectivity"],
-  "flagship_analysis": "81-fold 1:1 Langmuir identity (C027) vs ~44000-fold Herman-to-Clements span; demote 1.8 nM 1:1 overlay as tissue occupancy",
+  "rejected_as_title": ["A_fit_for_purpose", "B_construct_transformation", "C_lod_distracts_strong_form", "D_three_regimes", "D_occupancy_saturation_as_measured", "W1_amino_acid_selectivity", "T1_overnight"],
+  "flagship_analysis": "81-fold 1:1 Langmuir identity (C027) vs ~44000-fold Herman-to-Clements literature span; PaC occupancy UNKNOWN; occupancy.svg demoted",
   "next_experiment": "Paired solution and surface isotherm of Hu Fc-thiol 39-mer in one buffer; report Langmuir-Freundlich n",
   "do_not_promote": [
     "Abrantes millimolar ELONA Kd",
     "glutamate kon/koff from C008 or C010",
     "T1 overnight ranking as this mission's result",
-    "0.3 pM as Ames or tissue LOD"
+    "0.3 pM as Ames or tissue LOD",
+    "PR #6 enzyme-wildcard sources into core without audit"
   ]
 }

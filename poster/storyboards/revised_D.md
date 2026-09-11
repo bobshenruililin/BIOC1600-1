@@ -19,7 +19,7 @@ Do not use `occupancy.svg` as the flagship glyph. That plot is a 1:1 overlay of 
 
 ## 1. Two regimes, two hippocampal examples
 
-- **Claim.** Neurochemistry is baseline plus superimposed transients, not a generic sensor spec. Herman ~25 nM is ambient glutamate in **acute hippocampal slice** (MEASURED in that preparation). Clements ~1.1 mM / 1.2 ms is a kinetic **inference** at **cultured hippocampal synapses**, abstract-only. Different preparations. Not a retinal concentration range. Photoreceptor glutamate is graded, not Clements-quantal.
+- **Claim.** Neurochemistry is baseline plus superimposed transients, not a generic sensor spec. Herman ~25 nM is ambient glutamate in **acute hippocampal slice** (MEASURED in that preparation). Clements ~1.1 mM / 1.2 ms is a kinetic **inference** at **cultured hippocampal synapses**, abstract-only. Different preparations. Not a retinal concentration range. Clements’ quantal-cleft preparation is not evidence about photoreceptor release.
 - **Stamps.** MEASURED (Herman framing and 25 nM in slice). MODELED/INFERENCE (Clements peak/τ). UNKNOWN (retinal [Glu]).
 - **IDs.** C012, C011
 - **Figure.** Two labeled wells. No third extrasynaptic Kd well.
@@ -33,9 +33,9 @@ Do not use `occupancy.svg` as the flagship glyph. That plot is a 1:1 overlay of 
 
 ## 3. Hu retina is positive inside a basal/slow clock
 
-- **Claim.** S066 in vitro mouse retina: Probes 1–2 give light-correlated ACV on ~14 s scans and ~1 min points; authors locate the result at basal / sustained glutamate, not synaptic transients. This is MEASURED neural-tissue evidence in the slow/basal regime. It is not a failed hippocampal-cleft experiment. Electrode reported at the GCL/IPL border; mechanism sentence invokes photoreceptor terminals — print that tension on-panel (UNKNOWN which pool).
-- **Stamps.** MEASURED (clocks, light correlation, author disclaimer, in vitro). UNKNOWN (absolute [Glu], pool, chemical identity, in vivo).
-- **IDs.** C031, C028, C020, C006
+- **Claim.** S066 in vitro mouse retina: light-on/off glutamate ACV (C033 / E046, Fig. 6.13) on 14 s scans and 1 min points; authors locate the result at basal / sustained glutamate, not synaptic transients. Ames window 10 nM–10 µM with **41.6% blank noise** and poor quantitative SNR (C030 / E044) — no absolute [Glu]. This is MEASURED neural-tissue evidence in the slow/basal regime. It is not a failed hippocampal-cleft experiment. Glutamate ACV electrode is the large bottom electrode at the **GCL** (C034 / E045); whether that matches a photoreceptor-terminal narrative is UNKNOWN.
+- **Stamps.** MEASURED (clocks, light-on/off ACV, author disclaimer, Ames SNR, in vitro). UNKNOWN (absolute [Glu], pool, chemical identity, in vivo).
+- **IDs.** C031, C033, C034, C028, C030, C020, C006
 - **Figure.** `analysis/accepted/figures/two_regime_clocks.svg`. Two columns only: basal/slow MEASURED versus rapid-transient UNKNOWN. Do not use omnibus `clocks.svg` as the flagship (it mixes biological τ, bound t_off, incubation, and interrogation).
 
 ## 4. Occupancy on the retinal PaC probe is UNKNOWN
@@ -47,7 +47,7 @@ Do not use `occupancy.svg` as the flagship glyph. That plot is a 1:1 overlay of 
 
 ## 5. Construct × quantity key (retired title B)
 
-- **Claim.** 12 µM, 1.8 nM, 32 pM, 0.3 pM, 10 fM, 293 nM, 10 fM are different objects on different constructs and matrices. Glutamate kon/koff cells stay empty (UNKNOWN). 0.3 pM is PBS blank+3 RSD, lowest calibrant 1 nM, not Ames. 1.8 nM (electrochemical apparent Kd) versus 1.8 µM (Herman NMDAR EC50) share digits and must carry unit and quantity type in the axis label.
+- **Claim.** 12 µM (1d04 Kd), 0.0013 pM (glu1 LOD), 1.8 nM (AuED-MEA LF apparent Kd), 32 pM (MEA PBS LOD), 51.5 pM (MEA 50% serum LOD), 0.3 pM (PaC PBS blank+3 RSD), 293 nM (Xiao SPR Kd), 10 fM (Xiao FET LOD in 0.1× PBS) are different objects on different constructs and matrices. Glutamate kon/koff cells stay empty (UNKNOWN). 0.3 pM is PBS, lowest calibrant 1 nM, not Ames. 32 pM is PBS blank+3SD, lowest calibrant 0.1 nM — not the serum number. 1.8 nM (electrochemical apparent Kd) versus 1.8 µM (Herman NMDAR EC50) share digits and must carry unit and quantity type in the axis label.
 - **Stamps.** MEASURED (each ledger number on its row). UNKNOWN (empty kon/koff; PaC Kd).
 - **IDs.** C001, C002, C004, C005, C007, C014, C021, C029, C030
 - **Figure.** `analysis/accepted/figures/atlas.svg`.

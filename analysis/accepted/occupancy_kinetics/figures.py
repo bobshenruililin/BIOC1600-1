@@ -87,9 +87,9 @@ def occupancy_svg() -> str:
     svg.append(_line(xmap(C_TONIC_M), plot_y, xmap(C_TONIC_M), plot_y + plot_h, "#666", "1"))
     svg.append(_line(xmap(C_CLEFT_M), plot_y, xmap(C_CLEFT_M), plot_y + plot_h, "#666", "1"))
     t1 = ET.SubElement(svg, "text", attrib={"x": str(xmap(C_TONIC_M) + 4), "y": str(plot_y + 14), "font-size": "9", "font-family": "sans-serif"})
-    t1.text = "25 nM Herman (hippocampal slice literature)"
-    t2 = ET.SubElement(svg, "text", attrib={"x": str(xmap(C_CLEFT_M) - 150), "y": str(plot_y + 14), "font-size": "9", "font-family": "sans-serif"})
-    t2.text = "1.1 mM Clements (cultured hippocampal inference)"
+    t1.text = "25 nM Herman (slice)"
+    t2 = ET.SubElement(svg, "text", attrib={"x": str(xmap(C_CLEFT_M) - 4), "y": str(plot_y + plot_h - 8), "font-size": "9", "font-family": "sans-serif", "text-anchor": "end"})
+    t2.text = "1.1 mM Clements (culture inference)"
     _stamp(svg, 560, 48, 150, 28, "MODELED", "#90e0ef")
     y = 88
     legend_names = {
@@ -229,6 +229,15 @@ def span_identity_svg() -> str:
         "rect",
         attrib={"x": str(plot_x), "y": str(plot_y), "width": str(plot_w), "height": str(plot_h), "fill": "#f7f7f7", "stroke": "#111"},
     )
+    axis = ET.SubElement(
+        svg,
+        "text",
+        attrib={"x": str(plot_x + plot_w / 2), "y": str(plot_y + plot_h + 52), "font-size": "13", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"},
+    )
+    axis.text = "axis: log10 [Glu] (M) — literature ticks are not this device's working range"
+    for exp in range(-11, -1):
+        xc = xmap(10 ** exp)
+        svg.append(_line(xc, plot_y + plot_h, xc, plot_y + plot_h + 6, "#111", "1"))
     # Sliding 81-fold ruler placed at a generic 1 µM Kd so it cannot be read as Hu 1.8 nM occupancy.
     kd_generic = 1.0e-6
     c10, c90, _ = langmuir_span_10_90(kd_generic)
@@ -335,11 +344,11 @@ def two_regime_clocks_svg() -> str:
     rhead.text = "RAPID TRANSIENT  —  UNKNOWN"
     left_lines = [
         "S066 in vitro mouse retina (not in vivo)",
-        "ACV scan ~14 s; sampling ~1 min/point",
-        "10 nM step plateaus ~10 min",
+        "ACV scan 14 s; sampling 1 min/point",
+        "10 nM step plateaus 10 min",
         "Authors: basal, not synaptic transients",
-        "Probes 1–2 light-correlated ACV",
-        "GCL/IPL electrode vs photoreceptor narrative: UNKNOWN pool",
+        "Light-on/off ACV (C033/E046); Ames 41.6% blank noise",
+        "GCL bottom electrode (C034); pool vs photoreceptors UNKNOWN",
     ]
     right_lines = [
         "Clements 1.2 ms: cultured hippocampal INFERENCE",

@@ -4,7 +4,7 @@ Canonical file for PI review. Not a finished poster. Not group-final.
 
 **Current thesis:** revised D — `state/current_thesis.md`. Flagship storyboard: `poster/storyboards/revised_D.md`.  
 **Mission 1 (2026-09-11):** science-story gate opened at **REVISE**. Occupancy-at-basal withdrawn as a finding; S066 clocks remain primary. Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md).  
-**Mission 1.5:** canonicalize and close the story gate without weakening criteria. Closure: [`reports/mission1_closure.md`](mission1_closure.md). Gate JSON: `state/gates/science_story.json`.  
+**Mission 1.5:** canonicalize and close. Gate = **PASS** on existing criteria. Closure: [`reports/mission1_closure.md`](mission1_closure.md). Blind review: `research/reviews/premium/opus_story_closure.md`. Gate JSON: `state/gates/science_story.json`.  
 Overnight T1/T5 (sections below marked historical) are **not** current consensus and were never group-final.
 
 Generated 2026-09-11. Canonical working branch for this closure: `cursor/story-gate-closure-634f`. Not a finished poster. Not group-final.
@@ -17,7 +17,7 @@ Status: **canonical working thesis, not group-final** (`D_revised`). Herman ~25 
 
 ## 2. Runner-up thesis and why it lost
 
-**Candidate C (Mission 1 runner-up, supporting panel):** ultrasensitive working-range ceilings miss Herman ~25 nM from above (Wu glu1 top 1 nM; Abrantes preprint 10 pM). After C’s strong LOD form is deleted, what remains is occupancy/working-range/clocks — D’s content. Hu 32 pM is a real matrix-matched LOD.
+**Candidate C (Mission 1 runner-up, supporting panel):** ultrasensitive working-range ceilings miss Herman ~25 nM from above (Wu glu1 top 1 nM; Abrantes preprint 10 pM). After C’s strong LOD form is deleted, what remains is occupancy/working-range/clocks — D’s content. Hu 32 pM is a real **PBS** LOD; 51.5 pM is the 50% serum LOD.
 
 **Historical overnight T5** (not current): if advertised occupancy parameters are treated as Kd, the µM SELEX isolate is empty at 25 nM and *could* unbind near 1.2 ms under a diffusion-limited kon **bound**, while Hu’s 1.8 nM apparent Kd is ~93% occupied at 25 nM. That overlay is MODELED, not tissue occupancy, and is demoted.
 
