@@ -57,19 +57,97 @@ If a custom agent type is not registered in the Task tool, run `generalPurpose` 
 - Thesis-tournament agents must not see one another’s proposals during generation
 - At least one thesis candidate must **challenge the current framing** rather than refine it (observed Round 3 failure: 4/4 isolated writers collapsed to the same “cannot claim neurodynamics” sentence). Adopted after one meta A/B on that observed collapse.
 
-## Subagent concurrency and wave scheduling
+## Swarm Scheduling and Concurrency
 
-Observed failure (Mission 1): the runtime async ceiling is 10 delegated agents. Launching more than that returns `Async subagent limit of 10 reached`. Those launch errors are **not** scientific results. They do not mean a lane was searched and found empty.
+The project has effectively unlimited Grok inference budget but limited simultaneous subagent capacity.
 
-Policy for this project:
+Treat these as separate resources.
 
-- Maximum **8** concurrently active delegated agents, including premium-model subagents. Leave headroom for recovery or system delegation.
-- Schedule work in sequential waves of at most 8. Do not start the next wave until the current wave has returned or been marked failed-to-launch.
-- After each wave, commit or otherwise preserve important artifacts before launching the next.
-- Re-run only missing work. Do not duplicate successfully completed work merely to restore symmetry. Do not reduce the intellectual scope of a failed launch.
-- When tournament isolation requires independence, a later wave must not be given earlier-wave conclusions (or paths that contain them).
-- Premium review begins only after the evidence it is meant to review is complete.
-- Do not close a science gate until every required research lane has completed or is explicitly documented as genuinely blocked (not launch-capped).
+Spawn agents until the next agent is more likely to repeat an existing line of reasoning than uncover a new one. That stopping rule is independent of how many agents can run at once.
+
+Observed ceiling (Mission 1): launching more than about **10** delegated agents returns `Async subagent limit of 10 reached`. Those errors are orchestration failures, not empty searches.
+
+### Concurrency
+
+- Never intentionally exceed **8 concurrently active delegated subagents**.
+- The observed system ceiling is approximately 10; the project ceiling of 8 preserves recovery and orchestration headroom.
+- Premium-model agents count toward the same concurrency budget.
+- Do not launch another wave until sufficient slots from the prior wave have completed.
+- Do not respond to abundant inference budget by maximizing simultaneous concurrency.
+
+### Waves
+
+Large research programs should run as sequential waves.
+
+Typical pattern:
+
+**Wave A — independent generation**
+6–8 agents investigate the hard question independently.
+
+**Wave B — orthogonal exploration**
+6–8 agents investigate alternative mechanisms, counterexamples, missing evidence, or wildcard directions.
+
+**Wave C — adversarial discrimination**
+4–8 agents receive candidate conclusions and attempt to distinguish among them.
+
+**Wave D — senior review**
+1–2 premium reviewers inspect original evidence and candidate reports.
+
+A mission may contain many total agent runs. Only simultaneous execution is limited.
+
+### Independence
+
+When blind independence is required:
+
+- later independent agents must not receive earlier conclusions;
+- the orchestrator may provide the same source corpus and task specification;
+- do not contaminate independent generation with consensus summaries.
+
+### Failure recovery
+
+A launch or capacity error is an orchestration failure, not a scientific result.
+
+When a subagent fails to start:
+
+1. record the failed task;
+2. allow running agents to finish;
+3. preserve their work;
+4. requeue only the missing task in a later wave;
+5. do not restart successfully completed work.
+
+Do not shrink the intellectual scope of a failed launch. Do not close a science gate until every required research lane has completed or is explicitly documented as genuinely blocked (not launch-capped). Premium review begins only after the evidence it is meant to review is complete.
+
+When an agent fails after producing partial work, inspect and preserve useful artifacts before deciding whether to resume or rerun it.
+
+### Nested agents
+
+Do not allow ordinary worker subagents to spawn additional research swarms unless the mission explicitly calls for hierarchical delegation.
+
+Prefer top-level orchestration so concurrency, independence and provenance remain observable.
+
+### Checkpointing
+
+After every substantial wave:
+
+- preserve completed outputs;
+- update mission state;
+- record failures;
+- record unresolved disagreements;
+- commit important artifacts when appropriate.
+
+Do not depend on temporary subagent state as the sole copy of research work.
+
+### Optimization target
+
+Optimize:
+
+**scientific information gained per wave**
+
+not:
+
+**number of agents simultaneously running**.
+
+Stop adding agents to a wave when the next one is more likely to repeat an existing line of reasoning than uncover a new one.
 
 ## Evidence rules (summary)
 
