@@ -4,6 +4,8 @@ Lane: falsify or demote `analysis/accepted/occupancy_kinetics/` (with `analysis/
 
 **Verdict: REPLACE** the occupancy/kinetics package as flagship.
 
+**Mission 1 title (this critique, 2026-09-11):** occupancy withdrawal is **enough to keep revised D as a REVISE recommendation**. It does **not** fatally undermine D as title. It **does** fatally undermine unrevised D (occupancy-saturation-as-measured). It is **not** enough for PASS or group-final. Gate JSON, `poster/theses.md`, and `reports/nightly_summary.md` were not edited.
+
 **Replace with:** a construct-locked **analytical working-range vs biological-concentration poles** plot (ledger `analytical_working_range` against Herman ~25 nM and Clements 1.1 mM). No 1:1 Langmuir θ, no Langmuir–Freundlich EC50 used as Kd, no C008/C010 kon. Until that panel exists, the only accepted analysis that should be called flagship is the atlas (`analysis/accepted/atlas/`), and even it needs a quantity-type caption on the green 1.2 ms cell.
 
 **Highest-information next experiment from this critique:** paired solution-phase and surface isotherm of Hu’s exact Fc-thiol 39-mer in one buffer; fit Langmuir and Langmuir–Freundlich; **report n** with a confidence interval.
@@ -278,10 +280,68 @@ Not this critique’s first experiment: a lower LOD; docking; transferring C008.
 
 ---
 
-## 16. Decision line
+## 16. Mission 1: does occupancy withdrawal save revised D?
+
+Parent priority: close Mission 1 honestly. This section is the occupancy-lane answer. It does not write the gate file.
+
+### What Mission 1 already withdrew
+
+Unrevised D treated basal occupancy as a **result**: 1:1 overlay θ(25 nM)≈0.93 on Hu 1.8 nM plus Probe 3 “near saturation.” Opus and the Grok synthesizer both required that half to be withdrawn. Revised D (`rounds/mission1/synthesis/d_revised.md`) states occupancy at basal on the PaC probe in Ames/tissue is **unmeasured**, not shown saturated. `D_occupancy_saturation_as_measured` is already in `rejected_as_title`. That withdrawal is correct. This review’s charges (LF→1:1 hop, chip→probe hop, n unreported, tests encoding θ>0.9) are further reasons it was correct. `computational illustration` must not return as a finding.
+
+### Does that withdrawal fatally undermine D as title?
+
+**No.** Revised D’s remaining title spine does not need occupancy-as-measured:
+
+| Revised-D load-bearing piece | Survives this occupancy critique? | Tag |
+| --- | --- | --- |
+| Herman: transients on a low baseline (two regimes, not a generic sensor) | Yes. Independent of θ(c). | `primary-source-supported` (C012) |
+| S066 / journal clocks: 15 min, 10 min, 14 s, ~1 min; authors: basal, not synaptic transients | Yes. Protocol times, not painted koff. | `primary-source-supported` (C006, C028, C031) |
+| Occupancy at PaC/Ames/tissue basal is unmeasured | Yes — this is the withdrawal, and this review strengthens it. | `unresolved` |
+| Millisecond cleft reporting untested; missing koff ≠ impossible millimolar rising edge | Yes, if C008/C010 stay off the Glu rows. | C007 `unresolved`; τ_eq identity `computational illustration` |
+| 1:1 81-fold vs ~44 000-fold as a **Hu-sensor** result | **No.** n unreported; Hu fitted LF; 81^(1/n) is the LF window. Identity remains true for 1:1 sites only. | C027 `computational illustration`; Hu n `unresolved` |
+
+A title can be two-regime matching + measured clocks + occupancy unmeasured + cleft untested. That is still D. Occupancy withdrawal **removes a false finding**; it does not remove the biological question D is asking.
+
+What occupancy withdrawal **does** kill as a title is unrevised D (“devices fail the slow problem on occupancy”). Probe 3 plus a 1:1 overlay is not primary. Probes 1–2 still modulate with light (`primary-source-supported`, S066). That is remaining dynamic range at an unknown retinal basal, not a demonstrated occupancy ceiling.
+
+### Is withdrawal enough to keep revised D as the REVISE recommendation?
+
+**Yes — as REVISE, not as PASS.**
+
+Keep D as the recommended title under gate **REVISE** because:
+
+1. The occupancy half was the part that was not primary. Withdrawing it makes D **internally consistent**. Unrevised D scored occupancy as demonstrated and then listed it as a gate failure; that inconsistency is what made “85 KEEP as submitted” dishonest.
+2. The clocks half is still the strongest Glu-apt primary exhibit in the ledger (S066 + C006). No occupancy figure is required to say a 1 min ACV point is not a 1.2 ms cleft transient.
+3. Herman’s two-component sentence is still a world-claim, not a number-hygiene slogan. That is why D can be a title and B/C are panels.
+4. Gate bullet “load-bearing claims have primary evidence” stays **no** after withdrawal: occupancy is now an explicit gap; Clements 1.1 mM / 1.2 ms remain hippocampal inference, abstract-only. Completion is not acceptance. `group_final` must stay false.
+
+Withdrawal is **not** enough to flip REVISE → PASS. An honest close of Mission 1 is: **recommended title = revised D; gate = REVISE; not group-final.**
+
+### Where this critique still bites D (not fatal to the title, fatal to a specific spine)
+
+If the reason D is “materially stronger than C” is that **81-fold vs 44 000-fold is the computation that is the argument**, this occupancy review says **that spine is not licensed for the Hu device** until n is reported. Algebra: LF 10–90 span = 81^(1/n); n ≲ 0.41 would make 10–90 as wide as Herman→Clements (`computational illustration`, not Hu’s n). Hu’s own Glu log-linear window 0.1 nM–10 µM is 10^5-fold (`primary-source-supported`) and is already not an 81-fold 1:1 site.
+
+Honest ranking implication, occupancy-lane only:
+
+- **Do not** use occupancy inversion or θ=0.93 to break a D vs C tie.
+- **Do not** treat 81 vs 44 000 as a measured property of Glu-apt.
+- **Do** prefer D over C as title because C’s leftover after deleting the strong LOD form is working-range/clocks — D’s question — while D names two biological regimes and refuses koff ≈ 1/τ_cleft.
+- If a later closer needs a **primary** occupancy/range finding to declare D materially stronger, they should use C’s working-range ceilings (Wu glu1 top 1 nM sits below 25 nM) as a **panel**, not revive the 1:1 overlay.
+
+This lane does **not** reopen A, B, or W1 as titles. It does not average overnight T1/T5 into Mission 1.
+
+### Falsifier of this Mission 1 call
+
+Paired 39-mer isotherm with n ≈ 1 and Kd near 1.8 nM in both phases → occupancy-at-basal arithmetic can return as a result; unrevised occupancy language would be less wrong, and D would still be the title with a stronger occupancy half. Paired isotherm near 12 µM → D’s two-regime/clocks title still stands; C’s “not saturated at 25 nM” reading strengthens as a panel. Neither experiment is done. Until then, withdrawal + REVISE is the honest close.
+
+---
+
+## 17. Decision line
 
 **REPLACE** occupancy/kinetics (`occupancy.svg` + `clocks.svg` + `sensitivity.svg`) as flagship.
 
 **With:** construct-locked working-range vs biological poles (above). Interim flagship among *implemented* analyses: **atlas only**, with the 1.2 ms cell captioned as cleft inference not `response_time`.
+
+**Mission 1 title:** keep **revised D** as the REVISE recommendation. Occupancy withdrawal does not fatally undermine D as title. It fatally undermines occupancy-saturation-as-measured. It does not license PASS or group-final.
 
 **Highest-information next experiment:** paired solution/surface isotherm of the Fc-thiol 39-mer; report Langmuir–Freundlich **n**.
