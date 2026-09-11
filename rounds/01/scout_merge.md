@@ -1,5 +1,7 @@
 # Round 1 scout merge
 
+**HISTORICAL CENSUS.** This log records the 2026-09-10 scout merge (65 candidate sources; no core). It is not the live ledger. Later tree: 66 sources in `state/sources.csv`, 17 `core` (S066 added after Round 2). Do not treat the counts below as current inventory.
+
 Six isolated `generalPurpose` scouts ran with the `literature-scout` contract (custom Task type `literature-scout` is not registered in this environment). Orchestrator merged and deduplicated by DOI then PMID.
 
 ## Identifier verification (Europe PMC 2026-09-10)

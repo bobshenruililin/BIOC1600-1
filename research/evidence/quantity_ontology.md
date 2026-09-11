@@ -27,8 +27,12 @@ Live claims/evidence **notes** usually split objects. The ten-type schema and se
 
 ## Glyphs that still perform collapses (O2)
 
-- `occupancy.svg`: 1:1 Langmuir θ and 81-fold overlay on Hu LF 1.8 nM; tests assert θ(25 nM)>0.9.
-- `clocks.svg`: biological τ, bound koff, protocol wait, enzyme t90, FET stabilize on one axis.
+Flagship after Mission 1.5: `span_identity.svg` (81-fold identity; Herman/Clements labeled as different hippocampal literature examples; PaC occupancy UNKNOWN). `two_regime_clocks.svg` splits basal/slow MEASURED from rapid-transient UNKNOWN.
+
+Still collapsed if used unlabeled:
+
+- `occupancy.svg`: 1:1 Langmuir θ overlay of advertised numbers, including Hu LF 1.8 nM; tests assert overlay θ(25 nM)>0.9 as **math**, not tissue occupancy. **Demoted.** Not the flagship.
+- `clocks.svg`: biological τ, bound koff, protocol wait, enzyme t90, FET stabilize on one axis. Supporting only.
 - Atlas thesis LOD cell `0.3 pM` unlabeled PBS (not Ames).
 - Stale: `rounds/01/merge_sources.py` S050 notes still say tonic extrasynaptic.
 

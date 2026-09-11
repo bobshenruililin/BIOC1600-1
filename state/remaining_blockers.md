@@ -2,7 +2,7 @@
 
 1. **Wu 2022 VoR closed.** Abstract-only 1d04/glu1. Hu journal paper cites Kd=12 µM (Wu) as a **citation**, not a remeasurement.
 2. **No glutamate aptamer kon/koff.** Occupancy clocks are BOUNDS or NOT-GLUTAMATE envelopes (C008/C010).
-3. **Thesis not group-final.** Overnight Stack A vs Stack B invert T1/T5. Mission 1 science-story gate is **REVISE** (revised D recommended; occupancy-at-basal unmeasured). Human must choose.
+3. **Thesis not group-final.** Overnight Stack A vs Stack B invert T1/T5 and are **historical**. Canonical working thesis is revised D (`state/current_thesis.md`). Occupancy-at-basal is unmeasured. Science-story gate is decided in `reports/mission1_closure.md` without weakening criteria. Human must choose.
 4. **Ohsawa / MacDonald / Lam ±6 µM** not re-verified this session.
 5. **Abrantes millimolar ELONA Kd** remains unverified. bioRxiv VoR/JATS HTTP 429 this cycle; Europe PMC/API abstract has no ELONA Kd. API tokens `10.3` / `25.1` are funder IDs, not affinity.
 6. **InstructNA:** CUDA + GitHub no license; not trained. Docking remains hypothesis generation (C017).

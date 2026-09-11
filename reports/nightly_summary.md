@@ -2,25 +2,26 @@
 
 Canonical file for PI review. Not a finished poster. Not group-final.
 
-**Mission 1 (2026-09-11):** science-story gate = **REVISE**. Recommended title is revised two-regime matching (occupancy-at-basal withdrawn as a finding; S066 clocks remain primary). Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md). Gate JSON: `state/gates/science_story.json`. Overnight T1 below is **not** this mission’s result and is still not group-final.
+**Current thesis:** revised D — `state/current_thesis.md`. Flagship storyboard: `poster/storyboards/revised_D.md`.  
+**Mission 1 (2026-09-11):** science-story gate opened at **REVISE**. Occupancy-at-basal withdrawn as a finding; S066 clocks remain primary. Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md).  
+**Mission 1.5:** canonicalize and close the story gate without weakening criteria. Closure: [`reports/mission1_closure.md`](mission1_closure.md). Gate JSON: `state/gates/science_story.json`.  
+Overnight T1/T5 (sections below marked historical) are **not** current consensus and were never group-final.
 
-Generated 2026-09-10. Canonical science-content branches after the overnight gate: `main` and `cursor/research-swarm-634f` (same SHA). Mission 1 work lives on `cursor/story-tournament-634f`. Not a finished poster. Not group-final.
+Generated 2026-09-11. Canonical working branch for this closure: `cursor/story-gate-closure-634f`. Not a finished poster. Not group-final.
 
 ## 1. Best current poster thesis
 
-Present glutamate DNA-aptamer sensors have not jointly demonstrated the molecular recognition, selectivity, kinetics, architecture, and validation needed to measure neurochemical dynamics: published Kd, apparent Kd, and LOD values attach to non-transferable constructs, glutamate kon/koff are unreported, and electrochemical clocks (15 min journal MEA; 10 min / 1 min thesis probe) cannot be identified with an inferred 1.2 ms cleft transient.
+There is no generic glutamate-aptamer sensor: neurochemistry is two measurement regimes (slow/basal versus rapid transients); a 1:1 Langmuir site spans exactly 81-fold while two commonly cited hippocampal literature concentrations span ~44,000-fold; the only glutamate-aptamer experiment in nervous tissue in this ledger is positive evidence inside a basal/slow clock; occupancy on that retinal probe is unmeasured; missing `koff` does not prove slow kinetics.
 
-Status: **provisional, contested** (T1, Stack A). Mean 87/100 on the orchestrator dual-pass. Isolated Task red-teamers invert the ranking. Human approval required.
+Status: **canonical working thesis, not group-final** (`D_revised`). Herman ~25 nM and Clements ~1.1 mM come from **different hippocampal preparations** and are not a retinal range. Hu 1.8 nM is an AuED-MEA Langmuir–Freundlich apparent Kd, not the PaC probe’s molecular Kd.
 
 ## 2. Runner-up thesis and why it lost
 
-**T5 (framing challenger, required diversity):** the interesting story is not “aptamers are too slow” (missing kon ≠ negative result). If advertised occupancy parameters are treated as Kd, the µM SELEX isolate is empty at 25 nM and *could* unbind near 1.2 ms under a diffusion-limited kon **bound**, while Hu’s 1.8 nM apparent Kd is ~93% occupied at 25 nM and seconds-slow under the same bound.
+**Candidate C (Mission 1 runner-up, supporting panel):** ultrasensitive working-range ceilings miss Herman ~25 nM from above (Wu glu1 top 1 nM; Abrantes preprint 10 pM). After C’s strong LOD form is deleted, what remains is occupancy/working-range/clocks — D’s content. Hu 32 pM is a real matrix-matched LOD.
 
-T5 tied T1 at Stack A mean 87. It lost the Stack A tie-break because the inversion depends on kon = 1×10^8 M⁻¹ s⁻¹ and on treating electrochemical EC50 as occupancy Kd.
+**Historical overnight T5** (not current): if advertised occupancy parameters are treated as Kd, the µM SELEX isolate is empty at 25 nM and *could* unbind near 1.2 ms under a diffusion-limited kon **bound**, while Hu’s 1.8 nM apparent Kd is ~93% occupied at 25 nM. That overlay is MODELED, not tissue occupancy, and is demoted.
 
-**Overnight result that weakens T5 further:** using ledger small-molecule kon values that are **not glutamate** (C010 96–2×10^5 M⁻¹ s⁻¹; C008 3.5×10^4), even 12 µM t_off is **seconds**, not 0.8 ms. The rising-edge FoM at 1.1 mM, τ_eq = 1/(kon c + koff), can still be milliseconds. That is now a tested figure (`sensitivity.svg`), not a slogan.
-
-Isolated Task R2 still liked T5/T4 as finalists. Isolated Task R1 preferred T3. Do not average stacks.
+Isolated Task R2 still liked T5/T4 as overnight finalists. Isolated Task R1 preferred T3. Do not average stacks. Those ranks are historical (`rounds/03/`).
 
 ## 3. Top verified primary sources (smallest set)
 
@@ -59,9 +60,9 @@ Full table: `research/evidence/poster_numbers.md`.
 
 ## 6. Recommended flagship computational analysis
 
-**Occupancy + diffusion-limited koff bound + empirical-kon sensitivity** (`analysis/accepted/occupancy_kinetics/`), with the **evidence atlas** (`analysis/accepted/atlas/`) so empty kon cells cannot be painted over.
+**81-fold 1:1 Langmuir identity** (`analysis/accepted/figures/span_identity.svg`) versus the ~44,000-fold span between two **hippocampal literature examples**, with PaC occupancy stamped UNKNOWN. Supporting: two-regime clocks (`two_regime_clocks.svg`) and the evidence atlas (`atlas.svg`).
 
-It answers a biochemical question (which advertised number is empty vs saturated at 25 nM, and which FoM is t_off vs τ_eq), uses only the ledger, is reproducible, is first-year explainable (θ = c/(c+Kd) and 1/(kon c + koff)), and remains useful if it **contradicts** T5 (it now does, inside C008/C010).
+**Demoted:** `occupancy.svg` 1:1 overlay of Hu 1.8 nM as if it were tissue occupancy. The overlay math remains tested; it is not a retinal finding. `sensitivity.svg` remains the figure that can contradict T5 inside C008/C010 (NOT glutamate).
 
 Not recommended: docking, InstructNA training, FASTAptamer without a licensed FASTQ.
 
@@ -82,15 +83,17 @@ Canonical copies: `analysis/accepted/figures/`.
 
 | # | path | why it was kept | labels |
 | --- | --- | --- | --- |
-| 1 | `analysis/accepted/figures/atlas.svg` | Only plot that refuses to invent glutamate kon/koff | empty cells are empty; ledger units |
-| 2 | `analysis/accepted/figures/occupancy.svg` | θ at 25 nM vs 1.1 mM from advertised Kd/EC50 | SIMULATION; nM/mM ticks |
-| 3 | `analysis/accepted/figures/sensitivity.svg` | Can contradict T5 if empirical SM kon applies | BOUND/SIMULATION; NOT glutamate |
+| 1 | `analysis/accepted/figures/span_identity.svg` | 81-fold identity vs labeled hippocampal examples; PaC occupancy UNKNOWN | MEASURED / MODELED / UNKNOWN / PROPOSED |
+| 2 | `analysis/accepted/figures/two_regime_clocks.svg` | S066 basal/slow clocks vs untested transients | MEASURED vs UNKNOWN |
+| 3 | `analysis/accepted/figures/atlas.svg` | Only plot that refuses to invent glutamate kon/koff | empty cells are empty; ledger units |
 
-Rebuild inputs: `research/evidence/core_evidence.csv` (atlas) and ledger constants in `analysis/accepted/occupancy_kinetics/model.py`. Captions forbid “measured koff” / “proves”. `clocks.svg` remains as supporting.
+Demoted: `occupancy.svg` (overlay simulation, not tissue occupancy). Supporting: `sensitivity.svg`, `clocks.svg`.
 
 ## 8. Six-panel storyboard (text only)
 
-See `poster/storyboards/winner.md`. Panels: two clocks; construct atlas; occupancy inversion + kon sensitivity; LOD ≠ occupancy; interface rewrite; joint-test scorecard **including the retina chapter**.
+See `poster/storyboards/revised_D.md`. Panels: two hippocampal regimes; 81-fold vs ~44,000-fold; Hu retina positive on a basal/slow clock; PaC occupancy UNKNOWN; construct atlas; proposed next measurement.
+
+Historical overnight T1 storyboard: `poster/storyboards/winner.md` (superseded; occupancy inversion demoted).
 
 No polished poster was generated.
 
@@ -122,15 +125,15 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 
 ## 12. Exact Git commit SHA
 
-Canonical tree SHA (stamp; this is the commit to check out): `984af62f25127b43e7d2be248ca1c8123921b8a8`
-
-Science content commit immediately under the stamp: `ce761714b8420df3288f71a78de8734be1a41148`
-
-After pull: `git rev-parse HEAD` on `main` or `cursor/research-swarm-634f` must match the canonical SHA above.
+Stamp after the Mission 1.5 commit on `cursor/story-gate-closure-634f`. Until stamped, `git rev-parse HEAD` on this branch is the working tree. Do **not** use overnight SHA `984af62f25127b43e7d2be248ca1c8123921b8a8` as current science content.
 
 ## 13. Exact paths
 
 - Nightly: `reports/nightly_summary.md`
+- Current thesis: `state/current_thesis.md`
+- High-value unknowns: `state/high_value_unknowns.md`
+- Model disagreements: `state/model_disagreements.md`
+- Mission 1.5 closure: `reports/mission1_closure.md`
 - Evidence table: `research/evidence/core_evidence.csv`
 - Poster numbers: `research/evidence/poster_numbers.md`
 - Claims: `state/claims.csv`
@@ -138,25 +141,27 @@ After pull: `git rev-parse HEAD` on `main` or `cursor/research-swarm-634f` must 
 - Citation audit: `research/reviews/citation_audit.md`
 - Tanner objections: `research/reviews/tanner_objections.md`
 - Scoreboard: `state/scoreboard.json`
-- Scoring reconciliation: `rounds/03/tournament_reconciliation.md`
-- Winner thesis: `poster/theses.md`
-- Storyboard: `poster/storyboards/winner.md`
-- Figure 1 atlas: `analysis/accepted/figures/atlas.svg`
-- Figure 2 occupancy: `analysis/accepted/figures/occupancy.svg`
-- Figure 3 sensitivity: `analysis/accepted/figures/sensitivity.svg`
-- Supporting clocks: `analysis/accepted/figures/clocks.svg`
+- Historical scoring reconciliation: `rounds/03/tournament_reconciliation.md`
+- Current storyboard: `poster/storyboards/revised_D.md`
+- Historical T1 storyboard: `poster/storyboards/winner.md`
+- Figure 1 span identity: `analysis/accepted/figures/span_identity.svg`
+- Figure 2 two-regime clocks: `analysis/accepted/figures/two_regime_clocks.svg`
+- Figure 3 atlas: `analysis/accepted/figures/atlas.svg`
+- Demoted occupancy overlay: `analysis/accepted/figures/occupancy.svg`
+- Supporting sensitivity / clocks: `analysis/accepted/figures/sensitivity.svg`, `analysis/accepted/figures/clocks.svg`
 - Source code: `analysis/accepted/atlas/atlas.py`, `analysis/accepted/occupancy_kinetics/model.py`, `analysis/accepted/occupancy_kinetics/figures.py`
 - Captions: `analysis/accepted/figures/occupancy.CAPTION.md`, `analysis/accepted/figures/atlas.CAPTION.md`
 - Table: `analysis/accepted/occupancy_kinetics/tables/occupancy_table.csv`
 - Rebuild: `analysis/accepted/rebuild.sh`
-- Consolidation log: `rounds/consolidation.md`
+- Consolidation log: `rounds/consolidation.md` (historical overnight merge)
 
-## Decisions for PI review tomorrow
+## Decisions for PI review
 
-1. **Which scoring stack is authoritative?** Stack A orchestrator dual-pass (T1/T5) vs isolated Task red-team (R1: T3; R2: T5/T4). Do not average.
-2. **May the poster show a 1×10^8 kon bound** now that `sensitivity.svg` shows C008/C010 put even 12 µM t_off in seconds? BOUND must be larger than the number if shown at all.
+1. **Do not treat overnight T1 as current.** Canonical thesis is revised D. Scoring-stack inversion is a historical process hole, not a title fight.
+2. **May the poster show a 1×10^8 kon bound** now that `sensitivity.svg` shows C008/C010 put even 12 µM t_off in seconds? BOUND must be larger than the number if shown at all. Flagship no longer depends on that bound.
 3. **Proceed with Wu abstract-only** 1d04/glu1 split, or block any 12 µM claim until the VoR is in hand?
-4. **Center the Hu thesis retina chapter** as the strongest Glu-apt biological evidence (authors: basal / minutes, not synapses), or stay with the journal MEA paper only?
-5. **Is cleft-millisecond neurodynamics still the Topic 1 center**, or should the group pivot to construct/interface honesty plus basal retinal Glu?
+4. Hu thesis retina chapter is the strongest Glu-apt biological evidence in this ledger (authors: basal / minutes, not synapses) **and** is positive within that regime.
+5. Two-regime matching is the current title; cleft-millisecond reporting remains UNKNOWN, not disproven.
 6. **Do not treat this file as group-final** until a human initials `state/decisions.md`.
 7. **Show Abrantes 1 aM preprint** as a cautionary LOD, or omit unofficial numbers entirely? (Millimolar ELONA Kd still not entered.)
+8. PR #6 enzyme-comparator wildcard: keep unpromoted until the normal audit pipeline.

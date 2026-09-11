@@ -38,6 +38,6 @@ Wave 2 (H1, W1) was forbidden to read `rounds/mission1/sealed/`, `/tmp/mission1*
 
 ## Gate
 
-`state/gates/science_story.json` = **REVISE** (2026-09-11). Not group-final. Occupancy-at-basal is unmeasured on the PaC probe. Do not treat prior overnight T1–T5 scores as this mission’s result.
+Mission 1 closed at **REVISE**. Mission 1.5 canonicalizes revised D and asks whether named revisions resolve the original failures without weakening criteria. Closure record: `reports/mission1_closure.md`. Blind review: `research/reviews/premium/opus_story_closure.md`.
 
 Abrantes millimolar ELONA Kd is not a ledger number. Do not promote API tokens `10.3` / `25.1`.

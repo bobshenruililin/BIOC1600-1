@@ -1,5 +1,7 @@
 # Thesis scoring reconciliation
 
+**HISTORICAL OVERNIGHT RANKING.** This file records a process split. It is not the current scientific title. Canonical thesis: `state/current_thesis.md` (revised D). Do not average Stack A and Stack B. Do not headline T1 as current consensus.
+
 Two scoring stacks exist. They do **not** agree. The provisional winner remains T1 only as an orchestrator dual-pass result. Isolated Task red-teamers invert the ranking. This is a PI decision, not a bug to paper over.
 
 ## Stack A — orchestrator dual-pass (recorded in `scores_r1.json`, `scores_r2.json`)

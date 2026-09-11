@@ -1,9 +1,25 @@
 {
   "schema_version": 1,
-  "current_best_thesis": "T1",
-  "current_best_status": "provisional_contested",
-  "runner_up_thesis": "T5",
-  "scoring_note": "Stack A orchestrator dual-pass selected T1. Isolated Task red-teamers invert the ranking. See rounds/03/tournament_reconciliation.md. Not group-final.",
+  "current_best_thesis": "D_revised",
+  "current_best_status": "canonical_not_group_final",
+  "current_best_path": "state/current_thesis.md",
+  "flagship_storyboard": "poster/storyboards/revised_D.md",
+  "runner_up_thesis": "C",
+  "scoring_note": "Current title is Mission 1 revised D (two regimes; occupancy-at-basal withdrawn as a finding). Overnight Stack A T1/T5 ranking is historical and is not current consensus. Isolated Task red-teamers inverted that overnight ranking. Do not average stacks. Not group-final.",
+  "historical_overnight_tournament": {
+    "status": "historical_superseded_as_current_consensus",
+    "current_best_thesis": "T1",
+    "current_best_status": "provisional_contested",
+    "runner_up_thesis": "T5",
+    "scoring_note": "Stack A orchestrator dual-pass selected T1. Isolated Task red-teamers invert the ranking. See rounds/03/tournament_reconciliation.md. Not group-final. Not Mission 1's result.",
+    "theses": [
+      {"id": "T1", "mean": 87.0, "r1": 89, "r2": 85, "decision": "winner_provisional_stack_A"},
+      {"id": "T5", "mean": 87.0, "r1": 89, "r2": 85, "decision": "runner_up"},
+      {"id": "T4", "mean": 86.0, "r1": 88, "r2": 84, "decision": "hold"},
+      {"id": "T2", "mean": 85.0, "r1": 87, "r2": 83, "decision": "hold"},
+      {"id": "T3", "mean": 80.5, "r1": 83, "r2": 78, "decision": "hold"}
+    ]
+  },
   "rounds": {
     "0": {
       "name": "bootstrap",
@@ -16,7 +32,7 @@
       "status": "complete",
       "candidate_sources": 65,
       "core_sources_promoted": 0,
-      "notes": "Six isolated scouts merged. Starting PMIDs verified on Europe PMC. No core promotion."
+      "notes": "Six isolated scouts merged. Starting PMIDs verified on Europe PMC. No core promotion. Census in rounds/01/scout_merge.md is historical (later tree has 66 sources / 17 core)."
     },
     "2": {
       "name": "extraction_audit_contradiction",
@@ -27,17 +43,17 @@
       "rejected_sources": 1,
       "evidence_rows": 46,
       "claims": 32,
-      "notes": "Double extraction plus orchestrator re-verification of OA/PMC text. Hu VoR re-read. No Glu kon/koff found. Park GDH mislabel recorded. Clay 0.73/0.8 s corrected vs an earlier hunter miss."
+      "notes": "Double extraction plus orchestrator re-verification of OA/PMC text. Hu VoR re-read. No Glu kon/koff found. Park GDH mislabel recorded. Clay 0.73/0.8 s corrected vs an earlier hunter miss. rounds/02/round2.md census (16 core / 41 evidence / 26 claims) is historical; S066 added later."
     },
     "3": {
       "name": "thesis_tournament",
-      "status": "complete",
-      "notes": "Four isolated writers collapsed to one frame; T5 forced as framing challenger. Stack A: T1 and T5 tied at mean 87. Isolated Task R1 winner T3; Task R2 finalists T5/T4. Not group-final."
+      "status": "complete_historical",
+      "notes": "HISTORICAL overnight tournament. Four isolated writers collapsed to one frame; T5 forced as framing challenger. Stack A: T1 and T5 tied at mean 87. Isolated Task R1 winner T3; Task R2 finalists T5/T4. Not group-final. Not current consensus."
     },
     "4": {
       "name": "analysis_tournament",
       "status": "complete",
-      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented, then extended with empirical-kon sensitivity that can contradict T5. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ)."
+      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented, then extended with empirical-kon sensitivity that can contradict T5. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ). Mission 1.5 adds span_identity.svg as flagship; occupancy.svg demoted as overlay simulation."
     },
     "5": {
       "name": "replication",
@@ -48,18 +64,35 @@
       "name": "meta_improvement",
       "status": "complete",
       "notes": "One adopted patch: thesis tournament must include a framing challenger. Stop after that observed-failure class. Constitution untouched."
+    },
+    "mission1": {
+      "name": "science_story_tournament",
+      "status": "complete",
+      "notes": "Four isolated programs A–D plus Hu reconstruction, ontology, W1. Blind Opus 5 scores D 85 / C 77 / B 73 / A 68. Gate REVISE: occupancy-at-basal not primary. Recommended title D_revised."
+    },
+    "mission1_5": {
+      "name": "story_gate_closure",
+      "status": "in_progress",
+      "notes": "Canonicalize revised D; withdraw occupancy-as-finding; flagship 81-fold identity; Herman/Clements as hippocampal literature examples; Opus closure review. See reports/mission1_closure.md."
     }
   },
   "theses": [
-    {"id": "T1", "mean": 87.0, "r1": 89, "r2": 85, "decision": "winner_provisional_stack_A"},
-    {"id": "T5", "mean": 87.0, "r1": 89, "r2": 85, "decision": "runner_up"},
-    {"id": "T4", "mean": 86.0, "r1": 88, "r2": 84, "decision": "hold"},
-    {"id": "T2", "mean": 85.0, "r1": 87, "r2": 83, "decision": "hold"},
-    {"id": "T3", "mean": 80.5, "r1": 83, "r2": 78, "decision": "hold"}
+    {"id": "T1", "mean": 87.0, "r1": 89, "r2": 85, "decision": "historical_overnight_stack_A_winner"},
+    {"id": "T5", "mean": 87.0, "r1": 89, "r2": 85, "decision": "historical_overnight_runner_up"},
+    {"id": "T4", "mean": 86.0, "r1": 88, "r2": 84, "decision": "historical_hold"},
+    {"id": "T2", "mean": 85.0, "r1": 87, "r2": 83, "decision": "historical_hold"},
+    {"id": "T3", "mean": 80.5, "r1": 83, "r2": 78, "decision": "historical_hold"}
+  ],
+  "mission1_theses": [
+    {"id": "D_revised", "decision": "current_title_not_group_final", "path": "state/current_thesis.md"},
+    {"id": "C", "decision": "runner_up_panel"},
+    {"id": "B", "decision": "supporting_construct_quantity_key"},
+    {"id": "A", "decision": "retired_as_title_grade_table_survives"},
+    {"id": "W1", "decision": "rejected_as_title_named_unknown"}
   ],
   "analyses": [
     {"id": "P2_atlas", "total": 76, "status": "accepted", "path": "analysis/accepted/atlas/"},
-    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted", "path": "analysis/accepted/occupancy_kinetics/"},
+    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted", "path": "analysis/accepted/occupancy_kinetics/", "flagship_figure": "span_identity.svg", "demoted_figure": "occupancy.svg"},
     {"id": "P5_fastaptamer", "total": 52, "status": "rejected", "reason": "would not answer the glutamate question without a licensed public FASTQ bundle"},
     {"id": "docking_foil", "status": "rejected", "reason": "C017; constitution forbids docking-as-proof"}
   ],
