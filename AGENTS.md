@@ -57,6 +57,20 @@ If a custom agent type is not registered in the Task tool, run `generalPurpose` 
 - Thesis-tournament agents must not see one another’s proposals during generation
 - At least one thesis candidate must **challenge the current framing** rather than refine it (observed Round 3 failure: 4/4 isolated writers collapsed to the same “cannot claim neurodynamics” sentence). Adopted after one meta A/B on that observed collapse.
 
+## Subagent concurrency and wave scheduling
+
+Observed failure (Mission 1): the runtime async ceiling is 10 delegated agents. Launching more than that returns `Async subagent limit of 10 reached`. Those launch errors are **not** scientific results. They do not mean a lane was searched and found empty.
+
+Policy for this project:
+
+- Maximum **8** concurrently active delegated agents, including premium-model subagents. Leave headroom for recovery or system delegation.
+- Schedule work in sequential waves of at most 8. Do not start the next wave until the current wave has returned or been marked failed-to-launch.
+- After each wave, commit or otherwise preserve important artifacts before launching the next.
+- Re-run only missing work. Do not duplicate successfully completed work merely to restore symmetry. Do not reduce the intellectual scope of a failed launch.
+- When tournament isolation requires independence, a later wave must not be given earlier-wave conclusions (or paths that contain them).
+- Premium review begins only after the evidence it is meant to review is complete.
+- Do not close a science gate until every required research lane has completed or is explicitly documented as genuinely blocked (not launch-capped).
+
 ## Evidence rules (summary)
 
 Full text: `.cursor/rules/research-constitution.mdc`
