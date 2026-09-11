@@ -14,6 +14,8 @@ There is no generic glutamate-aptamer sensor. Neurochemistry is two regimes (Her
 
 Status: **recommended working thesis, not group-final** (`D_revised`). Gate remains **REVISE**. Herman ~25 nM and Clements ~1.1 mM come from **different hippocampal preparations** and are not a retinal range. Hu 1.8 nM is an AuED-MEA Langmuir–Freundlich apparent Kd, not the PaC probe’s molecular Kd.
 
+**Highest-information next experiment (`proposed experiment`):** paired solution `Kd_molecular` and surface ACV apparent Kd of Hu’s Fc-thiol 39-mer in one buffer; fit Langmuir and Langmuir–Freundlich; report *n*. If the question is retinal biology rather than sensor fitness, substitute pharmacological identity of the S066 ACV. Do not do both and report neither.
+
 ## 2. Runner-up thesis and why it lost
 
 **Candidate C (Mission 1 runner-up, supporting panel):** ultrasensitive working-range ceilings miss Herman ~25 nM from above (Wu glu1 top 1 nM; Abrantes preprint 10 pM). After C’s strong LOD form is deleted, what remains is occupancy/working-range/clocks — D’s content. Hu 32 pM is a real **PBS** LOD; 51.5 pM is the 50% serum LOD.
@@ -62,6 +64,10 @@ Full table: `research/evidence/poster_numbers.md`.
 **81-fold 1:1 Langmuir identity** (C027) versus the ~44,000-fold span between two **hippocampal literature examples** (C012, C011), implemented in `analysis/accepted/occupancy_kinetics/` from public ledger numbers only. Demote `occupancy.svg` as a tissue-occupancy finding: it remains a labeled SIMULATION of advertised Kd/EC50, including a device hop.
 
 Supporting: evidence atlas (`atlas.svg`) so empty glutamate kon/koff cells stay empty; `sensitivity.svg` can contradict overnight T5 inside non-glutamate C008/C010 envelopes (do not transfer those rates).
+
+Public-data feasible: yes. Uses only ledger constants already in `analysis/accepted/occupancy_kinetics/model.py` (C027 algebra; C012/C011 literature poles). No paid API. Do not treat the 1.8 nM overlay as a tissue measurement.
+
+**Highest-information next experiment** is not this computation: paired solution and surface isotherm of the Fc-thiol 39-mer, report Langmuir–Freundlich *n* (gate JSON `next_experiment`).
 
 Not recommended: docking, InstructNA training, FASTAptamer without a licensed FASTQ.
 
