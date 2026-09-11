@@ -11,7 +11,7 @@ Recommended by Mission 1 (`reports/mission1_story_tournament.md`). Overnight T1/
 
 Herman ~25 nM (C012) is one hippocampal-slice, receptor-reported basal, not a retinal spec and not the only primary basal in the parked literature. Clements ~1.1 mM / 1.2 ms (C011, abstract-only) is a cultured-synapse kinetic inference. Do not average those poles with other methods. Hu’s 1.8 nM Langmuir–Freundlich apparent electrochemical Kd (C005) is an AuED-MEA number in PBS, not the PaC probe’s molecular Kd. A 1:1 overlay θ(25 nM)≈0.93 is a `computational illustration`, not tissue occupancy.
 
-A 1:1 Langmuir site spans exactly 81-fold between 10% and 90% occupancy (C027, `computational illustration`). That identity is true and is **not** the flagship. Comparing it to a single ~44,000-fold Herman-to-Clements span treats one contested basal pole as settled; Wave D (`reports/reviews/flagship_discrimination.md`, PR #31) **REPLACE**s that comparison.
+A 1:1 Langmuir site spans exactly 81-fold between 10% and 90% occupancy (C027, `computational illustration`). That identity is true and is **not** the flagship. For a 1.1 mM upper pole (C011), the window covers that span iff basal ≥ 1.1 mM / 81 ≈ 13.6 µM (`computational illustration` on C011 and C027). That threshold does not enter a new basal measurement into `claims.csv`. Comparing 81-fold to a single ~44,000-fold Herman-to-Clements span treats one contested basal pole as settled; Wave D (PR #31) **REPLACE**s that comparison.
 
 **Runner-up (panel, not title):** Candidate C — ultrasensitive working-range ceilings miss Herman ~25 nM from above (Wu glu1 top 1 nM; Abrantes preprint 10 pM). Hu 32 pM is a real **PBS** LOD (C004); 51.5 pM is the 50% serum LOD.
 
