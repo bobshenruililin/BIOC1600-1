@@ -119,13 +119,15 @@ Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-tea
 - No in vivo glutamate aptamer sensor (S066 is in vitro retina).
 - Wu VoR inaccessible; JSTAGE Ohsawa PDF 500; MacDonald ACS 403 — those numbers were **not** entered.
 - Abrantes millimolar ELONA Kd still not entered. Second-extraction attempt this cycle: bioRxiv HTML/JATS HTTP 429; Europe PMC/API abstract has no ELONA Kd. Do not treat API tokens 10.3 / 25.1 (funder IDs) as affinity.
-- Scoring-stack inversion (see `rounds/03/tournament_reconciliation.md`).
+- Scoring-stack inversion is **historical** (`rounds/03/tournament_reconciliation.md`). Not current consensus.
 - Analysis implemented on the swarm branch (sequential single writer) so nothing accepted exists only in an unmerged worktree.
-- Overnight PRs: PR #1 closed as superseded. This gate fast-forwards `main` so PR #2 is not left open/unresolved. The thesis is still not group-final.
+- Overnight PRs: PR #1 closed as superseded; PR #2 merged. Open: PR #7 evidence map (audit); PR #6 enzyme wildcard (**unpromoted**). Thesis still not group-final.
 
 ## 12. Exact Git commit SHA
 
-Stamp after the Mission 1.5 commit on `cursor/story-gate-closure-634f`. Until stamped, `git rev-parse HEAD` on this branch is the working tree. Do **not** use overnight SHA `984af62f25127b43e7d2be248ca1c8123921b8a8` as current science content.
+Canonical tree SHA for this Mission 1.5 closure (science content; this is the commit to check out for the gate decision): `c87ebe410581744928e0680f9c4c6e2984cb902e`
+
+Do **not** use overnight SHA `984af62f25127b43e7d2be248ca1c8123921b8a8` as current science content.
 
 ## 13. Exact paths
 
