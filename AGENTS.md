@@ -86,6 +86,80 @@ Allowed: `poster/theses.md` and markdown storyboards (panel title, claim, eviden
 
 Nightly deliverable: `reports/nightly_summary.md` with the 13 required sections. Do not report planned work as completed.
 
+## Research Effort Standard
+
+This project rewards changes in understanding, not completion speed or output volume.
+
+Do not stop because a plausible answer has been found.
+
+For any load-bearing scientific question, the research process is incomplete until the applicable items below have been addressed:
+
+1. **Best supporting case**
+   Identify the strongest primary evidence supporting the current interpretation.
+
+2. **Best opposing case**
+   Search deliberately for evidence that weakens, contradicts, or limits it.
+
+3. **Context**
+   Determine whether apparently conflicting studies differ in construct, experimental system, matrix, timescale, endpoint, or biological regime.
+
+4. **Inference boundary**
+   State separately:
+   - what was measured;
+   - what was inferred;
+   - what remains unknown.
+
+5. **Falsifier**
+   State what observation or experiment would materially weaken the current conclusion.
+
+6. **High-information next step**
+   Identify the experiment, analysis, or source most likely to change our understanding.
+
+7. **Independent thought**
+   Load-bearing conclusions require independent review by an agent that did not see the originating agent's reasoning before generating its own assessment.
+
+8. **Wildcard exploration**
+   For major missions, investigate at least one scientifically plausible direction not specified by the parent prompt.
+   Do not manufacture novelty.
+   If no useful result emerges, record which direction was examined and why it was rejected.
+
+9. **Negative-search integrity**
+   “No evidence found” is not sufficient by itself.
+   Record enough of the search strategy, terminology, source chains, and near-misses to establish what was actually investigated.
+
+10. **Do not optimize for agreement**
+    A valid counterexample or fatal flaw outweighs majority consensus.
+
+11. **Do not optimize for volume**
+    Ten redundant papers are less valuable than one decisive experiment.
+
+12. **Do not optimize for speed**
+    Finishing early is not a success metric.
+
+13. **Do not pad work**
+    Extra words, agents, searches, or computations that cannot plausibly alter an inference are not additional rigor.
+
+14. **Completion is not acceptance**
+    An agent may finish a mission whose gate status is REVISE or FAIL.
+    Never weaken acceptance criteria merely to obtain PASS.
+
+## Before Closing a Major Mission
+
+The orchestrator must answer:
+
+- What did we believe before this mission?
+- What changed?
+- What surprised us?
+- What was tested and rejected?
+- What important uncertainty remains?
+- Which result most threatens our preferred thesis?
+- Which result most strengthens it?
+- What is the highest-information next action?
+- What work was not done, and why was it judged low value?
+- Is another research round likely to change a decision?
+
+If these questions cannot be answered substantively, the mission is not ready for closure.
+
 ## Validation
 
 ```bash
