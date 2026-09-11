@@ -27,12 +27,14 @@
   "runner_up_id": "C",
   "supporting_panels": ["B_construct_quantity_key", "C_working_range_ceilings", "A_same_oligo_grade_table"],
   "rejected_as_title": ["A_fit_for_purpose", "B_construct_transformation", "C_lod_distracts_strong_form", "D_three_regimes", "D_occupancy_saturation_as_measured", "W1_amino_acid_selectivity"],
-  "flagship_analysis": "81-fold 1:1 Langmuir identity (C027) vs ~44000-fold Herman-to-Clements span; demote 1.8 nM 1:1 overlay as tissue occupancy",
+  "flagship_analysis": "A4 interrogation Nyquist (PR 24): PaC 14 s/ACV and ~1 min sampling vs labelled 1.2 ms literature stimulus; demote 81-vs-44000 as flagship; demote 1.8 nM overlay as tissue occupancy",
   "next_experiment": "Paired solution and surface isotherm of Hu Fc-thiol 39-mer in one buffer; report Langmuir-Freundlich n",
   "do_not_promote": [
     "Abrantes millimolar ELONA Kd",
     "glutamate kon/koff from C008 or C010",
     "T1 overnight ranking as this mission's result",
-    "0.3 pM as Ames or tissue LOD"
+    "0.3 pM as Ames or tissue LOD",
+    "Herman 25 nM averaged with MEA or dialysis basal measurements",
+    "81-fold vs 44000-fold as the flagship comparison"
   ]
 }
