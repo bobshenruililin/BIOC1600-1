@@ -1,0 +1,38 @@
+{
+  "gate": "science_story",
+  "status": "REVISE",
+  "date": "2026-09-11",
+  "group_final": false,
+  "report": "reports/mission1_story_tournament.md",
+  "opus_review": "research/reviews/premium/opus_story_gate.md",
+  "pass_criteria": {
+    "one_thesis_materially_stronger": {
+      "as_submitted": "disputed",
+      "after_revision": true,
+      "notes": "Opus: D 85 vs C 77 is structural. Adversarial Grok: as submitted, D occupancy half is not primary so the margin is scorekeeping; after named revisions D is the title."
+    },
+    "load_bearing_primary_evidence": false,
+    "survives_counterevidence": "partial",
+    "fits_one_poster": true,
+    "computation_answers_thesis": "qualified"
+  },
+  "opus_scores": {
+    "A": 68,
+    "B": 73,
+    "C": 77,
+    "D": 85,
+    "agent": "bc-35465731-9331-54fd-b508-ca3af59e84ec"
+  },
+  "recommended_thesis_id": "D_revised",
+  "runner_up_id": "C",
+  "supporting_panels": ["B_construct_quantity_key", "C_working_range_ceilings", "A_same_oligo_grade_table"],
+  "rejected_as_title": ["A_fit_for_purpose", "B_construct_transformation", "C_lod_distracts_strong_form", "D_three_regimes", "D_occupancy_saturation_as_measured", "W1_amino_acid_selectivity"],
+  "flagship_analysis": "81-fold 1:1 Langmuir identity (C027) vs ~44000-fold Herman-to-Clements span; demote 1.8 nM 1:1 overlay as tissue occupancy",
+  "next_experiment": "Paired solution and surface isotherm of Hu Fc-thiol 39-mer in one buffer; report Langmuir-Freundlich n",
+  "do_not_promote": [
+    "Abrantes millimolar ELONA Kd",
+    "glutamate kon/koff from C008 or C010",
+    "T1 overnight ranking as this mission's result",
+    "0.3 pM as Ames or tissue LOD"
+  ]
+}

@@ -27,14 +27,17 @@ Launch errors were scheduling failures, not empty searches. Policy: max **8** co
 | O2 | Quantity-confusion hunt | `bc-7ed99a48` | complete |
 | W1 | Wildcard Glu vs Asp/Gln | `bc-b8c6ad88` | complete |
 
-Candidate dossiers (orchestrator synthesis of each trio, **not** a ranking): `rounds/mission1/candidates/{A,B,C,D}.md`.
+Candidate dossiers: `rounds/mission1/candidates/{A,B,C,D}.md`.  
+Blind Opus 5: `research/reviews/premium/opus_story_gate.md`.  
+Adversarial synthesis: `rounds/mission1/synthesis/`.  
+Tournament report: `reports/mission1_story_tournament.md`.
 
 ## Isolation (historical)
 
-Wave 2 (H1, W1) was forbidden to read `rounds/mission1/sealed/`, `/tmp/mission1*`, prior thesis tournament files, and program theses.
+Wave 2 (H1, W1) was forbidden to read `rounds/mission1/sealed/`, `/tmp/mission1*`, prior thesis tournament files, and program theses. Opus did not see T1–T5 rankings.
 
 ## Gate
 
-`state/gates/science_story.json` stays unwritten until blind Opus 5 review of the four candidates and adversarial synthesis. Do not treat prior overnight T1–T5 scores as this mission’s result.
+`state/gates/science_story.json` = **REVISE** (2026-09-11). Not group-final. Occupancy-at-basal is unmeasured on the PaC probe. Do not treat prior overnight T1–T5 scores as this mission’s result.
 
 Abrantes millimolar ELONA Kd is not a ledger number. Do not promote API tokens `10.3` / `25.1`.

@@ -2,7 +2,9 @@
 
 Canonical file for PI review. Not a finished poster. Not group-final.
 
-Generated 2026-09-10. Canonical branches after this gate: `main` and `cursor/research-swarm-634f` (same SHA). Not a finished poster. Not group-final.
+**Mission 1 (2026-09-11):** science-story gate = **REVISE**. Recommended title is revised two-regime matching (occupancy-at-basal withdrawn as a finding; S066 clocks remain primary). Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md). Gate JSON: `state/gates/science_story.json`. Overnight T1 below is **not** this mission’s result and is still not group-final.
+
+Generated 2026-09-10. Canonical science-content branches after the overnight gate: `main` and `cursor/research-swarm-634f` (same SHA). Mission 1 work lives on `cursor/story-tournament-634f`. Not a finished poster. Not group-final.
 
 ## 1. Best current poster thesis
 
