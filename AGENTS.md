@@ -52,6 +52,7 @@ If a custom agent type is not registered in the Task tool, run `generalPurpose` 
 ## Isolation
 
 - Swarm branch: `cursor/research-swarm-634f`
+- Live Mission-2/3 vehicle: `cursor/m2-int-honesty-245a` ([PR 32](https://github.com/bobshenruililin/BIOC1600-1/pull/32), draft, not merged). Mission 3 starts at `reports/mission3_entry.md`, not on the historical swarm branch.
 - Analysis implementations: separate branches and git worktrees (`cursor/analysis-<name>-634f`)
 - Two writers never share a working tree
 - Thesis-tournament agents must not see one another’s proposals during generation
@@ -177,6 +178,8 @@ Allowed: `poster/theses.md` and markdown storyboards (panel title, claim, eviden
 6. Bounded meta-improvement: A/B patches, frozen benchmark, stop at six meta rounds or two consecutive gains under two percentage points.
 
 Nightly deliverable: `reports/nightly_summary.md` with the 13 required sections. Do not report planned work as completed.
+
+Mission 2/3 note: Rounds 0–6 above are the overnight bootstrap protocol (historical). Mission 2 froze at REVISE with QUANTITATIVE FLAGSHIP NONE; Mission 3 entry is `reports/mission3_entry.md` with storyboard `poster/storyboards/mission3.md`. READY FOR MISSION 3: NO until independent readiness judgments and a human row in `state/decisions.md`.
 
 ## Research Effort Standard
 

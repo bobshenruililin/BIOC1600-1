@@ -15,3 +15,5 @@ These files are produced by `sh analysis/accepted/rebuild.sh`. Do not edit them 
 
 Captions: `atlas.CAPTION.md`, `occupancy.CAPTION.md`.
 Table: `analysis/accepted/occupancy_kinetics/tables/occupancy_table.csv`.
+
+Note: `occupancy.CAPTION.md` is the whole occupancy_kinetics caption dump — it also carries the `two_regime_clocks` caption (second paragraph). There is no separate `two_regime.CAPTION.md`.

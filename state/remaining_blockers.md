@@ -1,5 +1,7 @@
 # Remaining blockers
 
+Not the freeze handoff — the live unknowns are nightly §11 and `state/high_value_unknowns.md` (U2 first if the claim is identity).
+
 1. **Wu 2022 VoR closed.** Abstract-only 1d04/glu1. Hu journal paper cites Kd=12 µM (Wu) as a **citation**, not a remeasurement.
 2. **No glutamate aptamer kon/koff.** Occupancy clocks are BOUNDS or NOT-GLUTAMATE envelopes (C008/C010).
 3. **Science-story gate remains REVISE; thesis not group-final.** Canonical working thesis is revised D (`state/current_thesis.md`). PR #31 invalidated the 81-fold-versus-44,000-fold comparison as the accepted flagship. Mission 2 froze QUANTITATIVE FLAGSHIP: **NONE** (unresolved as title). Occupancy-at-basal remains unmeasured.

@@ -4,7 +4,7 @@
 
 - Custom `.cursor/agents/` types are not registered in the Task tool; fallback remains `generalPurpose`.
 - Two scoring stacks exist **historically**. Stack A: `rounds/03/scores_r1.json` + `scores_r2.json`. Stack B: `scores_r1_task.json` + `scores_r2_task.json`. They invert the overnight ranking. Do not average them. They are not current consensus. Canonical thesis: `state/current_thesis.md`.
-- Isolated analysis worktrees were not left unmerged: implementations live on the swarm branch so the handoff is reproducible from one tree.
+- Mission 2 isolated analysis packages remain on unmerged branches (`cursor/analysis-m2-sampling-634f`, `cursor/analysis-m2-lfn-634f`, `cursor/analysis-m2-working-range-634f`; heads in `reports/mission3_entry.md`). They were reproduced there and rejected as flagship; fetch them explicitly.
 
 ## Science (unresolved)
 

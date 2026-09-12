@@ -1,3 +1,5 @@
+# HISTORICAL overnight 2026-09-10; not the current branch. Current entry: `reports/mission3_entry.md`.
+
 # Branch / PR / worktree consolidation
 
 Generated: 2026-09-10. Mandatory final handoff gate.

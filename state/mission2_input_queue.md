@@ -1,5 +1,7 @@
 # Mission 2 input queue
 
+**Mission 3 reads this file; do not fork a parallel queue.** Candidate rows stay candidate until the normal audit pipeline promotes them. The freeze already closed replacement-flagship selection (QUANTITATIVE FLAGSHIP: NONE).
+
 This is the bounded handoff from Mission 1, updated at the Mission 2 science freeze. It is not a second claim ledger and it does not promote challenger PR text into canonical science. Mission 2 re-read the source artifact, reproduced candidate analyses, and used the normal evidence pipeline before changing `state/claims.csv` or `research/evidence/core_evidence.csv`.
 
 Mission 2 used one integration PR. QUANTITATIVE FLAGSHIP: **NONE** (unresolved as title). Do not leave “Mission 2 must decide a replacement flagship” as an open action.

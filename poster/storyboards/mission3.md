@@ -19,7 +19,7 @@ Stamps: **MEASURED** / **INFERRED** / **MODELED** / **UNKNOWN** / **PROPOSED**.
 - **Claim.** Same construct, same shank, two IVs. Leg A: post-insertion signal-gain rise (time; light held on). Leg B: later room-light on–off–on (illumination). Both are MEASURED as ACV `%gain` referenced to a post-insertion baseline. Both are INFERRED as glutamate. Neither is a pharmacological identification.
 - **Stamps.** MEASURED (signal-gain, clocks 14 s / ~1 min, unequal IVs, in vitro). INFERRED (Glu). UNKNOWN (identity).
 - **IDs.** C033, E046, C031
-- **Figure idea.** Two columns, no heatmap. Left: Leg A. Right: Leg B. Big UNKNOWN stamp on “analyte.” Do not draw unpublished pixels. Existing file `two_regime_clocks.svg` is a supporting clocks cartoon, not this glyph.
+- **Figure idea.** Two columns, no heatmap. Left: Leg A. Right: Leg B. Big UNKNOWN stamp on “analyte.” Do not draw unpublished pixels. Existing file `two_regime_clocks.svg` is a supporting clocks cartoon, not this glyph. Draft conceptual glyph: `poster/figures/mission3_boundary_glyph.svg` (+ `.CAPTION.md`; text stamps only, no data pixels).
 
 ## Panel 2 — Why the maps cannot finish the job
 

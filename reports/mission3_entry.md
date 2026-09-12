@@ -14,6 +14,7 @@ Not a finished poster. Not group-final. Do not start Mission 3 proper from chat 
 - Claims / evidence: `state/claims.csv`, `research/evidence/core_evidence.csv`, `research/evidence/poster_numbers.md`
 - Nightly (PI; score-heavy): `reports/nightly_summary.md`
 - Historical T1: `poster/storyboards/winner.md`
+- Central glyph (conceptual, no data pixels): `poster/figures/mission3_boundary_glyph.svg` (+ `.CAPTION.md`)
 - PR provenance: `state/pr_disposition_register.md`
 
 ## Analyses

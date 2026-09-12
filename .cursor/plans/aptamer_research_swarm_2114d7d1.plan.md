@@ -30,6 +30,8 @@ isProject: false
 ---
 # Aptamer biosensor research swarm
 
+**HISTORICAL bootstrap plan (Round 0–6 overnight).** The live Mission-2/3 vehicle is `cursor/m2-int-honesty-245a` (PR 32, draft); start at `reports/mission3_entry.md`. Todos below are the as-written bootstrap record, not current work.
+
 ## Plan-review gates (this revision)
 
 The plan was reviewed against six execution gates. All six are required. Gaps found in the first draft are closed in this revision.

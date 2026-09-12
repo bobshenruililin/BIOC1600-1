@@ -37,3 +37,7 @@ Canonical integration vehicles: Mission 1 PR #28 (`cursor/story-gate-closure-634
 ## Branch-retention rule
 
 Keep every listed source branch until the relevant artifact is reproduced or explicitly rejected. A closed PR is consolidated provenance, not deleted work.
+
+## Mission 2 note (row #32)
+
+Row #32 pins the Mission-2 science-freeze head. Later INT commits on the same branch add entry/clarity files only and do not change frozen science. Mission-2 isolated reproduction heads (sampling-clock, LF-*n*, working-range) are listed in `reports/mission3_entry.md` — fetch those branches explicitly; they are not in this clone's object store.
