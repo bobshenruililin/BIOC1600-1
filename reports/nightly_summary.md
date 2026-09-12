@@ -7,15 +7,15 @@ Canonical file for PI review. Not a finished poster. Not group-final.
 **Mission 1 (2026-09-11):** science-story gate opened at **REVISE**. Occupancy-at-basal withdrawn as a finding; S066 clocks remain primary. Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md).
 **Mission 1 closure:** completed with gate **REVISE** and `group_final=false`. Closure: [`reports/mission1_closure.md`](mission1_closure.md). Gate JSON: `state/gates/science_story.json`.
 
-**Mission 2 (2026-09-12):** science freeze **FREEZE** at gate **REVISE**. Science-freeze test **PASS** (no flagship plot). Tournament **85+ HONEST: NO** (Wave D 83 NEITHER / 73 DISCARD unchanged; Wave C 67/67 unchanged). Do not manufacture 85. QUANTITATIVE FLAGSHIP: **NONE**. Ames-loaded wording stays dropped. Class B identity bounded, not looped. READY FOR MISSION 3: **NO**. GROUP FINAL: **NO**.
+**Mission 2 (2026-09-12):** science freeze **FREEZE** at gate **REVISE**. Science-freeze test **PASS** (no flagship plot). Tournament **85+ HONEST: NO** (Wave D 83 NEITHER / 73 DISCARD unchanged; Wave C 67/67 unchanged). Score-blind freeze reviews: independent **80 REVISE**; Opus **74 REVISE**; fatals none. Do not mean 74 with 80, or 73 with 83. Do not manufacture 85. QUANTITATIVE FLAGSHIP: **NONE**. Ames-loaded wording stays dropped. Class B identity bounded, not looped. READY FOR MISSION 3: **NO**. GROUP FINAL: **NO**.
 
 Overnight T1/T5 are **not** current consensus and were never group-final.
 
 ## 1. Best current poster thesis
 
-Hu’s Ø 25 µm Fc-thiol 39-mer MEASURES current on two tissue legs with unequal IVs—post-insertion rise (time; light on) and later on–off–on (illumination)—both INFERRED as glutamate. Printed `%gain` maps cannot invert tissue ACV; identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured.
+Hu’s Ø 25 µm Fc-thiol 39-mer MEASURES ACV signal-gain referenced to a post-insertion baseline on two tissue legs with unequal IVs—post-insertion rise (time; light on) and later on–off–on (illumination)—both INFERRED as glutamate. Printed spiked-buffer `%gain` maps cannot invert tissue ACV; identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured.
 
-Status: **canonical working thesis, gate REVISE, Mission 2 science freeze FREEZE, not group-final** (`D_revised` id kept). Mission 2 discarded retitled D **as a 75+/85+ contribution** (Wave C 67/67). Original Thesis E (**83 NEITHER**) is recorded, not adopted as worded. Unnamed-measurement (**73 DISCARD**) remains recorded. The frozen object is the bounded evidence-boundary restatement. Do not mean 73 with 83, or Wave C 67 with 82. Tournament 85+ stays unreached.
+Status: **canonical working thesis, gate REVISE, Mission 2 science freeze FREEZE, not group-final** (`D_revised` id kept). Mission 2 discarded retitled D **as a 75+/85+ contribution** (Wave C 67/67). Original Thesis E (**83 NEITHER**) is recorded, not adopted as worded. Unnamed-measurement (**73 DISCARD**) remains recorded. Score-blind freeze reviews (**80 REVISE** independent; **74 REVISE** Opus) do not replace Wave C or Wave D. The frozen object is the bounded evidence-boundary restatement. Do not mean 73 with 83, Wave C 67 with 82, or 74 with 80. Tournament 85+ stays unreached.
 
 Herman ~25 nM and Clements ~1.1 mM come from **different hippocampal preparations** and are not a retinal range or an accepted representative surface-device span. Hu 1.8 nM is an AuED-MEA Langmuir–Freundlich apparent Kd, not the PaC probe’s molecular Kd.
 
@@ -52,7 +52,7 @@ Full table: `research/evidence/poster_numbers.md`.
 
 ## 5. Three important contradictions / limitations
 
-1. Canonical Claim 5 / Panel 3 previously named identified glutamate while the same files listed identity as UNKNOWN. **This INT retitles both legs** as MEASURED current / INFERRED glutamate, with unequal IVs (time; light on vs later illumination).
+1. Canonical Claim 5 / Panel 3 previously named identified glutamate while the same files listed identity as UNKNOWN. **This INT retitles both legs** as MEASURED ACV signal-gain referenced to a post-insertion baseline / INFERRED glutamate, with unequal IVs (time; light on vs later illumination). Identity stays UNKNOWN at panel scale. A later class-A stamp loop removed `SLOW / BASAL — MEASURED` from `two_regime_clocks.svg` and set Panel 3 PROPOSED to U2.
 2. C022 previously stored 500–800 ms as Rutherford `response_time`; the paper **cites** that clock and **recorded at 1 s**. **This INT splits them.**
 3. Isolated LF-*n* algebra `81^(1/n)` is correct, but that package still draws the withdrawn 44000-fold overlay. Measuring *n* does not restore the flagship. Accepted `occupancy_kinetics` on `main` is 1:1 Langmuir only. Ch. 7 “steady-state [Glu]” is not a licensed MEASURED reading of Fig. 6.13.
 
@@ -66,7 +66,7 @@ Replacement flagship: **NONE as title**. Mission 2 reproductions (isolated branc
 | LF *n* span | `cursor/analysis-m2-lfn-634f` @ `93ddf2300edbaa7386c8baaadf4837592b7e7e27` | 10/10 | Algebra only; overlay **not restored** |
 | Working-range | `cursor/analysis-m2-working-range-634f` @ `449ea4fd3aaa5916ae73f2fcdc0b44937f3b7e52` | 36/36 | **Not flagship** (dual-pole splice) |
 
-Supporting on `main`: `span_identity.svg`, `two_regime_clocks.svg` (slow column must not paint identified Glu), `atlas.svg`. Demoted: `occupancy.svg`.
+Supporting on `main`: `span_identity.svg`, `two_regime_clocks.svg` (slow column MEASURED as ACV signal-gain; identity UNKNOWN; PROPOSED is U2), `atlas.svg`. Demoted: `occupancy.svg`.
 
 A two-panel glyph of printed PBS vs Ames slopes is optional supporting analysis only. It is **not** a path to 85+ and cannot invert tissue ACV. Do not reopen “must decide a replacement flagship” as an open action.
 
@@ -86,14 +86,14 @@ Isolated Mission 2 packages are **not** merged. Open PR board should be this INT
 | # | path | why it was kept | labels |
 | --- | --- | --- | --- |
 | 1 | `analysis/accepted/figures/span_identity.svg` | valid 81-fold identity; endpoint comparison not accepted as representative; PaC occupancy UNKNOWN | MEASURED / MODELED / UNKNOWN / PROPOSED |
-| 2 | `analysis/accepted/figures/two_regime_clocks.svg` | S066 basal/slow clocks vs untested transients | MEASURED vs UNKNOWN |
-| 3 | `analysis/accepted/figures/atlas.svg` | Only plot that refuses to invent glutamate kon/koff | empty cells are empty; ledger units |
+| 2 | `analysis/accepted/figures/two_regime_clocks.svg` | S066 ACV signal-gain clocks vs untested transients; identity UNKNOWN; PROPOSED is U2 | MEASURED signal-gain vs UNKNOWN |
+| 3 | `analysis/accepted/figures/atlas.svg` | Only plot that refuses to invent glutamate kon/koff | glutamate kon/koff stay empty; grey dashes may be curated omissions |
 
 Demoted: `occupancy.svg` (overlay simulation, not tissue occupancy). Supporting: `sensitivity.svg`, `clocks.svg`.
 
 ## 8. Six-panel storyboard (text only)
 
-See `poster/storyboards/revised_D.md`. Provisional panels: two regimes; Flagship placeholder — NONE; Hu retina two ACV legs on a slow clock, identity UNKNOWN; PaC occupancy UNKNOWN; construct atlas; proposed next measurement (U2 on both legs, same shank and room-light protocol).
+See `poster/storyboards/revised_D.md`. Provisional panels: two regimes; Flagship placeholder — NONE; Hu retina two ACV legs on a slow clock, identity UNKNOWN (PROPOSED is U2; two-map central object is prose-only); PaC occupancy UNKNOWN; construct atlas; proposed next measurement (U2 on both legs, same shank and room-light protocol).
 
 Historical overnight T1 storyboard: `poster/storyboards/winner.md` (superseded; occupancy inversion demoted).
 

@@ -327,7 +327,7 @@ def span_identity_svg() -> str:
 
 
 def two_regime_clocks_svg() -> str:
-    width, height = 900, 420
+    width, height = 900, 480
     svg = ET.Element("svg", attrib={"xmlns": "http://www.w3.org/2000/svg", "width": str(width), "height": str(height)})
     ET.SubElement(svg, "rect", attrib={"x": "0", "y": "0", "width": str(width), "height": str(height), "fill": "#fff"})
     title = ET.SubElement(svg, "text", attrib={"x": "20", "y": "28", "font-size": "18", "font-family": "sans-serif", "font-weight": "bold"})
@@ -336,19 +336,23 @@ def two_regime_clocks_svg() -> str:
     _stamp(svg, 180, 44, 150, 32, "MODELED", "#90e0ef")
     _stamp(svg, 340, 44, 150, 32, "UNKNOWN", "#d3d3d3")
     _stamp(svg, 500, 44, 150, 32, "PROPOSED", "#ffd166")
-    ET.SubElement(svg, "rect", attrib={"x": "20", "y": "100", "width": "420", "height": "230", "fill": "#d8f3dc", "stroke": "#111", "stroke-width": "3"})
-    ET.SubElement(svg, "rect", attrib={"x": "460", "y": "100", "width": "420", "height": "230", "fill": "#e9ecef", "stroke": "#111", "stroke-width": "3"})
-    lhead = ET.SubElement(svg, "text", attrib={"x": "230", "y": "128", "font-size": "16", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"})
-    lhead.text = "SLOW / BASAL  —  MEASURED"
-    rhead = ET.SubElement(svg, "text", attrib={"x": "670", "y": "128", "font-size": "16", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"})
+    ET.SubElement(svg, "rect", attrib={"x": "20", "y": "100", "width": "420", "height": "250", "fill": "#d8f3dc", "stroke": "#111", "stroke-width": "3"})
+    ET.SubElement(svg, "rect", attrib={"x": "460", "y": "100", "width": "420", "height": "250", "fill": "#e9ecef", "stroke": "#111", "stroke-width": "3"})
+    lhead = ET.SubElement(svg, "text", attrib={"x": "230", "y": "124", "font-size": "15", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"})
+    lhead.text = "SLOW ACV  —  MEASURED signal-gain"
+    _stamp(svg, 145, 134, 150, 28, "UNKNOWN", "#d3d3d3")
+    idlab = ET.SubElement(svg, "text", attrib={"x": "305", "y": "154", "font-size": "12", "font-family": "sans-serif"})
+    idlab.text = "analyte identity"
+    rhead = ET.SubElement(svg, "text", attrib={"x": "670", "y": "124", "font-size": "16", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"})
     rhead.text = "RAPID TRANSIENT  —  UNKNOWN"
     left_lines = [
         "PROBE CALIBRATION (PBS-like): 10 nM step plateaus ~10 min",
         "AMES CALIBRATION: 41.6% blank noise",
         "RETINA RECORDING (in vitro; not in vivo)",
-        "ACV scan 14 s; sampling ~1 min/point",
-        "Authors: basal, not synaptic; light-on/off ACV (C033/E046)",
-        "GCL bottom electrode (C034); sampled pool UNKNOWN",
+        "Leg A: post-insertion rise (time; light on)",
+        "Leg B: later on–off–on (illumination)",
+        "14 s ACV; ~1 min/point; GCL electrode (C034)",
+        "No Fig. 6.13 pixels drawn; identity UNKNOWN",
     ]
     right_lines = [
         "Clements 1.2 ms: cultured hippocampal INFERENCE",
@@ -358,19 +362,21 @@ def two_regime_clocks_svg() -> str:
         "τ_eq at millimolar c: untested (MODELED if assumed)",
         "Not a failed hippocampal-cleft sensor",
     ]
-    y = 158
+    y = 178
     for line in left_lines:
         t = ET.SubElement(svg, "text", attrib={"x": "36", "y": str(y), "font-size": "13", "font-family": "sans-serif"})
         t.text = line
-        y += 26
+        y += 22
     y = 158
     for line in right_lines:
         t = ET.SubElement(svg, "text", attrib={"x": "476", "y": str(y), "font-size": "13", "font-family": "sans-serif"})
         t.text = line
         y += 26
-    ET.SubElement(svg, "rect", attrib={"x": "20", "y": "350", "width": "860", "height": "50", "fill": "#ffd166", "stroke": "#111", "stroke-width": "2"})
-    p = ET.SubElement(svg, "text", attrib={"x": "450", "y": "380", "font-size": "15", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"})
-    p.text = "PROPOSED: IPA/SPR kon/koff on the 39-mer — does not exist in this ledger"
+    ET.SubElement(svg, "rect", attrib={"x": "20", "y": "368", "width": "860", "height": "90", "fill": "#ffd166", "stroke": "#111", "stroke-width": "2"})
+    p = ET.SubElement(svg, "text", attrib={"x": "450", "y": "404", "font-size": "15", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"})
+    p.text = "PROPOSED: U2 — pharmacology + scrambled/binding-null on both ACV legs"
+    p2 = ET.SubElement(svg, "text", attrib={"x": "450", "y": "428", "font-size": "13", "font-family": "sans-serif", "text-anchor": "middle"})
+    p2.text = "(Leg A and Leg B; same shank and room-light protocol). Does not exist in this ledger."
     return ET.tostring(svg, encoding="unicode")
 
 
@@ -421,11 +427,13 @@ def main() -> None:
         "synapses — a different preparation. Those two literature examples span ~44,000-fold "
         "(MODELED arithmetic). They are not a retinal concentration range or an accepted representative surface-device span. PaC-probe occupancy "
         "in Ames/tissue is UNKNOWN. Hu 1.8 nM is not drawn as tissue occupancy.\n\n"
-        "Figure two_regime_clocks: left column separates S066 probe calibration "
+        "Figure two_regime_clocks: left column is MEASURED ACV signal-gain on S066 probe calibration "
         "(10 nM step, ~10 min plateau), Ames calibration (41.6% blank noise), and in vitro "
-        "retina recording (14 s scan, ~1 min sampling, light-on/off ACV). Right column marks "
-        "rapid transients UNKNOWN. Calibration clocks are not tissue-recording clocks. Missing "
-        "koff does not prove slow kinetics. PROPOSED: 39-mer kon/koff.\n\n"
+        "retina recording (14 s scan, ~1 min sampling). Leg A is post-insertion rise (time; light on); "
+        "Leg B is later on–off–on (illumination). Analyte identity is UNKNOWN; this panel does not "
+        "identify glutamate and does not draw Fig. 6.13 pixels. Right column marks rapid transients UNKNOWN. "
+        "Calibration clocks are not tissue-recording clocks. Missing koff does not prove slow kinetics. "
+        "PROPOSED on this panel: U2 pharmacology plus scrambled/binding-null on both ACV legs.\n\n"
         "Figure occupancy (DEMOTED): Langmuir θ([Glu]) using three published numbers as if they "
         "were 1:1 occupancy Kd/EC50. MODELED overlay. Not tissue occupancy. Not the PaC probe’s Kd. "
         "Vertical lines mark Herman 25 nM and Clements 1.1 mM as hippocampal literature examples. "

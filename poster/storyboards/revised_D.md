@@ -33,10 +33,10 @@ Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of ad
 
 ## 3. Hu retina: two ACV legs on a slow clock, identity UNKNOWN
 
-- **Claim.** S066 in vitro mouse retina: two ACV `%gain` legs on 14 s scans and 1 min points (C033 / E046, Fig. 6.13) with **unequal IVs**. (A) post-insertion rise (time; light held on) from a dashed baseline; (B) later room-light on–off–on (illumination) (Probes 1–2 authors p < 0.05; Probes 3–4 ns). Authors interpret both as basal / sustained glutamate, not synaptic transients. Printed PBS/Ames `%gain` maps cannot invert tissue ACV. Ames window 10 nM–10 µM with **41.6% blank noise** (C030 / E044) — no absolute [Glu]. Neither leg is MEASURED glutamate. Ch. 7 “steady-state [Glu]” is not a licensed MEASURED reading of Fig. 6.13. Spike maps ≠ Leg A ≠ Leg B. It is not a failed hippocampal-cleft experiment. The aptamer ACV electrode is the large bottom electrode at the **GCL/IPL border** (C034 / E045); pool assignment UNKNOWN.
-- **Stamps.** MEASURED (clocks, both ACV legs as current, unequal IVs, author disclaimer, Ames SNR, in vitro). UNKNOWN (analyte, absolute [Glu], occupancy, pool, in vivo). INFERRED (that either tissue current is glutamate).
+- **Claim.** S066 in vitro mouse retina: two ACV signal-gain legs on 14 s scans and 1 min points (C033 / E046, Fig. 6.13) with **unequal IVs**. (A) post-insertion rise (time; light held on) from a dashed baseline; (B) later room-light on–off–on (illumination) (Probes 1–2 authors p < 0.05; Probes 3–4 ns). Authors interpret both as basal / sustained glutamate, not synaptic transients. Printed spiked-buffer PBS/Ames `%gain` maps cannot invert tissue ACV. Ames window 10 nM–10 µM with **41.6% blank noise** (C030 / E044) — no absolute [Glu]. Neither leg is MEASURED glutamate: **identity UNKNOWN at panel scale**. Ch. 7 “steady-state [Glu]” is not a licensed MEASURED reading of Fig. 6.13. Printed spiked-buffer `%gain` maps ≠ ephys spike-rate panels ≠ Leg A ≠ Leg B. It is not a failed hippocampal-cleft experiment. The aptamer ACV electrode is the large bottom electrode at the **GCL/IPL border** (C034 / E045); pool assignment UNKNOWN. The declared two-map central object (two named-IV tissue legs beside two spiked-buffer `%gain` maps) is **prose-only**: no new flagship plot; do not invent pixels.
+- **Stamps.** MEASURED (clocks, both ACV legs as signal-gain referenced to a post-insertion baseline, unequal IVs, author disclaimer, Ames SNR, in vitro). UNKNOWN (analyte identity at panel scale, absolute [Glu], occupancy, pool, in vivo). INFERRED (that either tissue ACV signal-gain is glutamate). PROPOSED (U2: pharmacology plus scrambled/binding-null on both ACV legs).
 - **IDs.** C031, C033, C034, C028, C030, C020, C006
-- **Figure.** `analysis/accepted/figures/two_regime_clocks.svg`. Two columns only: slow ACV MEASURED as current versus rapid-transient UNKNOWN. Do not paint the slow column as identified glutamate. Do not use omnibus `clocks.svg` unlabeled (it mixes biological τ, bound t_off, incubation, and interrogation).
+- **Figure.** `analysis/accepted/figures/two_regime_clocks.svg`. Two columns only: slow ACV MEASURED as signal-gain versus rapid-transient UNKNOWN. Stamp identity UNKNOWN in the slow/retina column. PROPOSED on this panel is U2, not kon/koff. Do not paint the slow column as identified glutamate. Do not draw Fig. 6.13 pixels. Do not use omnibus `clocks.svg` unlabeled (it mixes biological τ, bound t_off, incubation, and interrogation). Supporting clocks figure only; QUANTITATIVE FLAGSHIP remains NONE.
 
 ## 4. Occupancy on the retinal PaC probe is UNKNOWN
 
@@ -67,7 +67,7 @@ Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of ad
 |---|---|
 | replacement flagship | **UNRESOLVED — NONE as title.** |
 | `span_identity.svg` | Supporting only. 81-fold identity is valid; the endpoint comparison is not accepted as representative. |
-| `two_regime_clocks.svg` | Panel 3. Two clocks, four stamps. |
+| `two_regime_clocks.svg` | Panel 3. Two clocks, four stamps. Identity UNKNOWN; PROPOSED is U2. Not a flagship plot. |
 | `atlas.svg` | Panel 5. Empty cells stay empty. |
 | `occupancy.svg` | DEMOTED MODELED overlay of advertised numbers. Not tissue occupancy. |
 | `sensitivity.svg` | Supporting: empirical kon band is NOT glutamate; τ_eq ≠ t_off. |

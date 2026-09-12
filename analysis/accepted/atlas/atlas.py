@@ -102,7 +102,7 @@ def svg(grid: dict[tuple[str, str], str]) -> str:
     )
     ET.SubElement(svg_el, "rect", attrib={"x": "0", "y": "0", "width": str(width), "height": str(height), "fill": "#fff"})
     title = ET.SubElement(svg_el, "text", attrib={"x": "12", "y": "22", "font-size": "14", "font-family": "sans-serif"})
-    title.text = "Glutamate story atlas — empty cells are empty (not unknown-filled)"
+    title.text = "Glutamate story atlas — selected subset; glutamate kon/koff stay empty"
     for j, col in enumerate(COLS):
         t = ET.SubElement(
             svg_el,
@@ -166,7 +166,7 @@ def svg(grid: dict[tuple[str, str], str]) -> str:
         "text",
         attrib={"x": "12", "y": str(height - 18), "font-size": "10", "font-family": "sans-serif", "fill": "#444"},
     )
-    foot.text = "kon/koff on glutamate aptamer rows are empty because none were found. Not-glutamate IPA/ITC rates are omitted on purpose."
+    foot.text = "Glutamate kon/koff stay empty (none found). Other grey dashes may be curated omissions, not genuine empties. Not-glutamate IPA/ITC rates omitted on purpose."
     return ET.tostring(svg_el, encoding="unicode")
 
 
@@ -180,9 +180,11 @@ def main() -> None:
     out.mkdir(exist_ok=True)
     (out / "atlas.svg").write_text(svg(grid), encoding="utf-8")
     (out / "CAPTION.md").write_text(
-        "Figure: Construct-by-quantity atlas from `core_evidence.csv`. "
-        "Green cells copy ledger numbers; grey em-dashes are empty. "
-        "This is not a heatmap of affinity. kon/koff are empty for glutamate constructs. "
+        "Figure: Construct-by-quantity atlas from a selected subset of `core_evidence.csv`. "
+        "Green cells copy those selected ledger numbers. Grey em-dashes are not all genuine empties: "
+        "some are curated omissions (quantities present in the ledger but not selected for this grid). "
+        "Glutamate kon/koff cells stay empty (none found). "
+        "This is not a heatmap of affinity. "
         "Cleft 1.2 ms is a kinetic inference stored under response_time, not a sensor specification.\n",
         encoding="utf-8",
     )
