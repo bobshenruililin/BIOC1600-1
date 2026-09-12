@@ -21,7 +21,7 @@ Science gate stays **REVISE**. Pixel vision does not manufacture PASS or group-f
 
 ## CI checksum (preview PNG)
 
-Exact-head `41e9acd` GitHub `validate` (run 34707326612): **PASS: decoded pixels match** `fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94` at 4967×3508. File SHA `09f4ecc2…` also matched on that runner. Shipped `poster/rc/fonts/` copies did not change those hashes. SVG and off-repo PDF are unchanged. Do not transfer Astra’s verdict onto this PNG.
+Exact-head `11ff288` GitHub `validate` (run 34707776747): **PASS: decoded pixels match** `fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94` at 4967×3508. File SHA `09f4ecc2…` also matched. Prior green: `41e9acd` run 34707326612. SVG and off-repo PDF are unchanged. Do not transfer Astra’s verdict onto this PNG.
 
 ## Pixel coverage map (SVG mm → PNG px at 4967×3508)
 

@@ -144,12 +144,12 @@
       "bytes": 1202
     },
     "poster/rc/qa_report.md": {
-      "sha256": "98305dce5ae039c81932fca0eff6e10b390119a857f9c04998541fa1af3ed8e5",
-      "bytes": 3875
+      "sha256": "61a6af9d970c27579f4a0e9b5413f3bb058b49fd3ee904ec40a1934572a7b325",
+      "bytes": 3837
     },
     "poster/rc/checkpoint.md": {
-      "sha256": "428b8f2312984a83742f7e446f7f7196268c1cae732e80a03408075cf4a5f6ab",
-      "bytes": 3077
+      "sha256": "738b9e690006f15c5dc2b135c6bff9d48bb3081fcc6cafde0cf497d6d82b6602",
+      "bytes": 3002
     },
     "scripts/compare_poster_png.py": {
       "sha256": "87373b0d7c8f2b8003a97e84563cb3f5cd1ae505d1d22d7e4015b53bd9c5cc15",
@@ -258,8 +258,10 @@
     "checksum_gate": "decoded_pixels"
   },
   "github_validate": {
-    "ci_tested_sha": "41e9acdef529524acc13f59cf5eecaafd7e95e38",
-    "push_run": "https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707326612",
+    "ci_tested_sha": "11ff28871f58d2e3102ad6a4b3c4480f0fb4406b",
+    "push_run": "https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707776747",
+    "prior_green_sha": "41e9acdef529524acc13f59cf5eecaafd7e95e38",
+    "prior_push_run": "https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707326612",
     "poster_rebuild_step": "Poster RC rebuild pixel checksum",
     "decoded_pixels": "PASS",
     "pixel_sha256": "fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94"

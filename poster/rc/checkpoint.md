@@ -39,7 +39,7 @@ Phase **F** — PI handoff. INTERNAL RELEASE CANDIDATE — NOT FINAL. Not group-
 
 ## CI poster gate
 
-GitHub `validate` on exact head `41e9acdef529524acc13f59cf5eecaafd7e95e38` (push run [34707326612](https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707326612)): step **Poster RC rebuild pixel checksum** ran, installed Noto/DejaVu, rebuilt 4967×3508, **PASS: decoded pixels match** (`fa920782…` = committed). File SHA also matched (`09f4ecc2…`). Fresh clone `/tmp/m3-rc-clone` at that SHA: package checksums matched; `ci_rebuild_poster_rc.sh` PASS. Shipped faces are under `poster/rc/fonts/` (OFL/Bitstream); rebuild pixels were unchanged after vendoring. Renderer `rsvg-convert` 2.58.0.
+GitHub `validate` on fonts-shipping head `11ff28871f58d2e3102ad6a4b3c4480f0fb4406b` (push run [34707776747](https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707776747)): step **Poster RC rebuild pixel checksum** ran, 30 tests, rebuilt 4967×3508, **PASS: decoded pixels match** (`fa920782…`). File SHA also matched (`09f4ecc2…`). Prior green without vendored files: `41e9acd` run 34707326612. Fresh clone rebuild PASS at `41e9acd`. Renderer `rsvg-convert` 2.58.0. This docs record does not change SVG/PNG pixels.
 
 ## Next executable action
 
