@@ -1,0 +1,43 @@
+bar_id,bar_label,pole_id,pole_status,pole_stamp,pole_display,pole_label,contains,ceiling_fold_below,note
+E041:numerical_result,"Abrantes NG-Apt-Glu FET, aCSF (preprint)",herman_tonic,canonical_ledger,INFERRED,25 nM,Herman ~25 nM ambient (acute hippocampal slice NMDAR),no,2500,ceiling 2500-fold below pole
+E041:numerical_result,"Abrantes NG-Apt-Glu FET, aCSF (preprint)",clements_cleft,canonical_ledger,INFERRED,1.1 mM,Clements 1.1 mM peak (cultured hippocampal synapses),no,110000000,ceiling 110000000-fold below pole
+E041:numerical_result,"Abrantes NG-Apt-Glu FET, aCSF (preprint)",hershey_capp_9p4uM,candidate,INFERRED,9.4 µM,Hershey Capp 9.4 µM (Ed-corrected total Glu),no,940000,ceiling 940000-fold below pole
+E041:numerical_result,"Abrantes NG-Apt-Glu FET, aCSF (preprint)",hershey_dialysate_144nM,candidate,MEASURED,144 nM,Hershey uncorrected dialysate 13C5-Glu 144 nM,no,14400,ceiling 14400-fold below pole
+E041:numerical_result,"Abrantes NG-Apt-Glu FET, aCSF (preprint)",hascup2010_pfc_34p7uM,candidate,MEASURED,34.7 µM,Hascup 2010 PFC resting 34.7 µM (GluOx MEA),no,3470000,ceiling 3470000-fold below pole
+E041:numerical_result,"Abrantes NG-Apt-Glu FET, aCSF (preprint)",hascup2008_pfc_3p3uM,candidate,MEASURED,3.3 µM,Hascup 2008 mouse PFC resting 3.3 µM,no,330000,ceiling 330000-fold below pole
+E041:numerical_result,"Abrantes NG-Apt-Glu FET, aCSF (preprint)",hascup2008_str_5p0uM,candidate,MEASURED,5.0 µM,Hascup 2008 mouse Str resting 5.0 µM,no,500000,ceiling 500000-fold below pole
+E003:numerical_result,glu1 E-AB (abstract; matrix unspecified),herman_tonic,canonical_ledger,INFERRED,25 nM,Herman ~25 nM ambient (acute hippocampal slice NMDAR),no,25,ceiling 25-fold below pole
+E003:numerical_result,glu1 E-AB (abstract; matrix unspecified),clements_cleft,canonical_ledger,INFERRED,1.1 mM,Clements 1.1 mM peak (cultured hippocampal synapses),no,1100000,ceiling 1100000-fold below pole
+E003:numerical_result,glu1 E-AB (abstract; matrix unspecified),hershey_capp_9p4uM,candidate,INFERRED,9.4 µM,Hershey Capp 9.4 µM (Ed-corrected total Glu),no,9400,ceiling 9400-fold below pole
+E003:numerical_result,glu1 E-AB (abstract; matrix unspecified),hershey_dialysate_144nM,candidate,MEASURED,144 nM,Hershey uncorrected dialysate 13C5-Glu 144 nM,no,144,ceiling 144-fold below pole
+E003:numerical_result,glu1 E-AB (abstract; matrix unspecified),hascup2010_pfc_34p7uM,candidate,MEASURED,34.7 µM,Hascup 2010 PFC resting 34.7 µM (GluOx MEA),no,34700,ceiling 34700-fold below pole
+E003:numerical_result,glu1 E-AB (abstract; matrix unspecified),hascup2008_pfc_3p3uM,candidate,MEASURED,3.3 µM,Hascup 2008 mouse PFC resting 3.3 µM,no,3300,ceiling 3300-fold below pole
+E003:numerical_result,glu1 E-AB (abstract; matrix unspecified),hascup2008_str_5p0uM,candidate,MEASURED,5.0 µM,Hascup 2008 mouse Str resting 5.0 µM,no,5000,ceiling 5000-fold below pole
+E026:numerical_result,"Xiao CNT FET, 0.1× PBS",herman_tonic,canonical_ledger,INFERRED,25 nM,Herman ~25 nM ambient (acute hippocampal slice NMDAR),yes,,
+E026:numerical_result,"Xiao CNT FET, 0.1× PBS",clements_cleft,canonical_ledger,INFERRED,1.1 mM,Clements 1.1 mM peak (cultured hippocampal synapses),no,11000,ceiling 11000-fold below pole
+E026:numerical_result,"Xiao CNT FET, 0.1× PBS",hershey_capp_9p4uM,candidate,INFERRED,9.4 µM,Hershey Capp 9.4 µM (Ed-corrected total Glu),no,94,ceiling 94-fold below pole
+E026:numerical_result,"Xiao CNT FET, 0.1× PBS",hershey_dialysate_144nM,candidate,MEASURED,144 nM,Hershey uncorrected dialysate 13C5-Glu 144 nM,no,1.44,ceiling 1.44-fold below pole
+E026:numerical_result,"Xiao CNT FET, 0.1× PBS",hascup2010_pfc_34p7uM,candidate,MEASURED,34.7 µM,Hascup 2010 PFC resting 34.7 µM (GluOx MEA),no,347,ceiling 347-fold below pole
+E026:numerical_result,"Xiao CNT FET, 0.1× PBS",hascup2008_pfc_3p3uM,candidate,MEASURED,3.3 µM,Hascup 2008 mouse PFC resting 3.3 µM,no,33,ceiling 33-fold below pole
+E026:numerical_result,"Xiao CNT FET, 0.1× PBS",hascup2008_str_5p0uM,candidate,MEASURED,5.0 µM,Hascup 2008 mouse Str resting 5.0 µM,no,50,ceiling 50-fold below pole
+E007:numerical_result,"Hu AuED-MEA, PBS",herman_tonic,canonical_ledger,INFERRED,25 nM,Herman ~25 nM ambient (acute hippocampal slice NMDAR),yes,,
+E007:numerical_result,"Hu AuED-MEA, PBS",clements_cleft,canonical_ledger,INFERRED,1.1 mM,Clements 1.1 mM peak (cultured hippocampal synapses),no,110,ceiling 110-fold below pole
+E007:numerical_result,"Hu AuED-MEA, PBS",hershey_capp_9p4uM,candidate,INFERRED,9.4 µM,Hershey Capp 9.4 µM (Ed-corrected total Glu),yes,,
+E007:numerical_result,"Hu AuED-MEA, PBS",hershey_dialysate_144nM,candidate,MEASURED,144 nM,Hershey uncorrected dialysate 13C5-Glu 144 nM,yes,,
+E007:numerical_result,"Hu AuED-MEA, PBS",hascup2010_pfc_34p7uM,candidate,MEASURED,34.7 µM,Hascup 2010 PFC resting 34.7 µM (GluOx MEA),no,3.47,ceiling 3.47-fold below pole
+E007:numerical_result,"Hu AuED-MEA, PBS",hascup2008_pfc_3p3uM,candidate,MEASURED,3.3 µM,Hascup 2008 mouse PFC resting 3.3 µM,yes,,
+E007:numerical_result,"Hu AuED-MEA, PBS",hascup2008_str_5p0uM,candidate,MEASURED,5.0 µM,Hascup 2008 mouse Str resting 5.0 µM,yes,,
+E044:comparator,"Hu PaC probe, PBS (E044 comparator window)",herman_tonic,canonical_ledger,INFERRED,25 nM,Herman ~25 nM ambient (acute hippocampal slice NMDAR),yes,,
+E044:comparator,"Hu PaC probe, PBS (E044 comparator window)",clements_cleft,canonical_ledger,INFERRED,1.1 mM,Clements 1.1 mM peak (cultured hippocampal synapses),no,1.1,ceiling 1.1-fold below pole
+E044:comparator,"Hu PaC probe, PBS (E044 comparator window)",hershey_capp_9p4uM,candidate,INFERRED,9.4 µM,Hershey Capp 9.4 µM (Ed-corrected total Glu),yes,,
+E044:comparator,"Hu PaC probe, PBS (E044 comparator window)",hershey_dialysate_144nM,candidate,MEASURED,144 nM,Hershey uncorrected dialysate 13C5-Glu 144 nM,yes,,
+E044:comparator,"Hu PaC probe, PBS (E044 comparator window)",hascup2010_pfc_34p7uM,candidate,MEASURED,34.7 µM,Hascup 2010 PFC resting 34.7 µM (GluOx MEA),yes,,
+E044:comparator,"Hu PaC probe, PBS (E044 comparator window)",hascup2008_pfc_3p3uM,candidate,MEASURED,3.3 µM,Hascup 2008 mouse PFC resting 3.3 µM,yes,,
+E044:comparator,"Hu PaC probe, PBS (E044 comparator window)",hascup2008_str_5p0uM,candidate,MEASURED,5.0 µM,Hascup 2008 mouse Str resting 5.0 µM,yes,,
+E044:numerical_result,"Hu PaC probe, Ames (retina bath)",herman_tonic,canonical_ledger,INFERRED,25 nM,Herman ~25 nM ambient (acute hippocampal slice NMDAR),yes,,
+E044:numerical_result,"Hu PaC probe, Ames (retina bath)",clements_cleft,canonical_ledger,INFERRED,1.1 mM,Clements 1.1 mM peak (cultured hippocampal synapses),no,110,ceiling 110-fold below pole
+E044:numerical_result,"Hu PaC probe, Ames (retina bath)",hershey_capp_9p4uM,candidate,INFERRED,9.4 µM,Hershey Capp 9.4 µM (Ed-corrected total Glu),yes,,
+E044:numerical_result,"Hu PaC probe, Ames (retina bath)",hershey_dialysate_144nM,candidate,MEASURED,144 nM,Hershey uncorrected dialysate 13C5-Glu 144 nM,yes,,
+E044:numerical_result,"Hu PaC probe, Ames (retina bath)",hascup2010_pfc_34p7uM,candidate,MEASURED,34.7 µM,Hascup 2010 PFC resting 34.7 µM (GluOx MEA),no,3.47,ceiling 3.47-fold below pole
+E044:numerical_result,"Hu PaC probe, Ames (retina bath)",hascup2008_pfc_3p3uM,candidate,MEASURED,3.3 µM,Hascup 2008 mouse PFC resting 3.3 µM,yes,,
+E044:numerical_result,"Hu PaC probe, Ames (retina bath)",hascup2008_str_5p0uM,candidate,MEASURED,5.0 µM,Hascup 2008 mouse Str resting 5.0 µM,yes,,

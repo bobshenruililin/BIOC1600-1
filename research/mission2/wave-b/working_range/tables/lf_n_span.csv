@@ -1,0 +1,6 @@
+n,occupancy_10_90_span,if_1p8nM_were_c50_c10_M,if_1p8nM_were_c50_c90_M,illegal_overlay_contains_25nM,illegal_overlay_contains_1.1mM,label_kind
+0.5,6561,2.222222e-11,1.458000e-07,yes,no,MODELED 81^(1/n); 1.8 nM is C005 EC50 NOT occupancy Kd; overlay is computational illustration
+0.7,533,7.799539e-11,4.154092e-08,yes,no,MODELED 81^(1/n); 1.8 nM is C005 EC50 NOT occupancy Kd; overlay is computational illustration
+1,81,2.000000e-10,1.620000e-08,no,no,MODELED 81^(1/n); 1.8 nM is C005 EC50 NOT occupancy Kd; overlay is computational illustration
+1.5,18.7,4.160168e-10,7.788148e-09,no,no,MODELED 81^(1/n); 1.8 nM is C005 EC50 NOT occupancy Kd; overlay is computational illustration
+2,9,6.000000e-10,5.400000e-09,no,no,MODELED 81^(1/n); 1.8 nM is C005 EC50 NOT occupancy Kd; overlay is computational illustration

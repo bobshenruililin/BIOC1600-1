@@ -1,0 +1,5 @@
+pairing_name,concentration_ratio,n_star_ln81_over_ln_ratio,occupancy_span_at_n_star,note
+C011/C012 withdrawn pairing,44000,0.411006,44000,WITHDRAWN_PAIRING; two named hippocampal examples; not a device spec
+C011 / Hershey Capp 9.4 µM,117,0.922747,117,CANDIDATE left pole; unlike quantities; MODELED
+C011 / Hascup 2010 34.7 µM,31.7,1.271422,31.7,CANDIDATE left pole; unlike quantities; MODELED
+C011 / Hascup 2008 PFC 3.3 µM,333,0.756471,333,CANDIDATE left pole; unlike quantities; MODELED
