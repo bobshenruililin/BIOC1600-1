@@ -38,6 +38,7 @@ class AtlasTests(unittest.TestCase):
         self.assertIn("serum", grid[("Hu Glu-apt 50% serum", "sensor_LOD")].lower())
         self.assertIn("PBS", grid[("Hu Glu-apt surface", "sensor_LOD")])
         self.assertIn("0.3", grid[("Hu retina probe thesis", "sensor_LOD")])
+        self.assertIn("PBS", grid[("Hu retina probe thesis", "sensor_LOD")])
         self.assertIn("10", grid[("Hu retina probe thesis", "measurement_time")])
 
     def test_svg_mentions_empty_kon(self):
