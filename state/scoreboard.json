@@ -10,7 +10,7 @@
   "flagship_analysis_status": "unresolved_mission2_input",
   "mission2_queue": "state/mission2_input_queue.md",
   "runner_up_thesis": "C",
-  "scoring_note": "Current title is Mission 1 revised D (two regimes; occupancy-at-basal withdrawn as a finding). Overnight Stack A T1/T5 ranking is historical and is not current consensus. Isolated Task red-teamers inverted that overnight ranking. Do not average stacks. Not group-final.",
+  "scoring_note": "Mission 1 current title remains D_revised (honesty-retitled; not group-final). Mission 2 Wave C discarded retitled D as contribution (67/67). Wave D freeze REPORT-WHY: 85+ unreachable without U2; unnamed-measurement provisional text 73 DISCARD; Thesis E 83 recorded not adopted. Do not mean 67 with 82 or 73 with 83. Overnight Stack A T1/T5 ranking is historical. Not group-final.",
   "historical_overnight_tournament": {
     "status": "historical_superseded_as_current_consensus",
     "current_best_thesis": "T1",
@@ -79,6 +79,24 @@
       "name": "story_gate_closure",
       "status": "complete_revise",
       "notes": "Canonical revised D. Occupancy-as-finding withdrawn. PR #31 invalidated the 81-fold-versus-44000-fold comparison as the accepted flagship; replacement is a Mission 2 decision. Gate REVISE. Not group-final."
+    },
+    "mission2_wave_c": {
+      "name": "flagship_thesis_tournament",
+      "status": "complete_split",
+      "scorer_a": "bc-83c70620-4aa5-50a0-bab8-8a7face2ac84",
+      "scorer_b": "bc-0044059f-9111-50c0-99aa-33beb9cf18d4",
+      "integrator": "bc-d421867f-b131-53f3-a31b-f8229c7104ad",
+      "notes": "No 85+ finalist. Retitled D 67/67 DISCARD. Roster-8 69/69 DISCARD. B 8-star 82 NEITHER (not a distinct card on A). Do not mean 67 with 82."
+    },
+    "mission2_wave_d": {
+      "name": "senior_review_and_freeze",
+      "status": "complete_report_why",
+      "d1_opus": "bc-bf7d5072-1400-5e4c-8b4e-ded5b07c4814",
+      "d2_independent": "bc-d1bc471f-3aeb-5f54-a48d-d63eb055a0c9",
+      "d3_freeze": "bc-ab0963a2-97a4-5453-bc2b-a5ae672dd111",
+      "d1_total": 83,
+      "d2_total": 73,
+      "notes": "D1 Thesis E 83 NEITHER recorded not adopted (F2 disconfirms overclaim). D2 unnamed-measurement 73 DISCARD provisional text. Freeze REPORT-WHY. 85+ HONEST NO. REMEDIABLE WITH PUBLIC DATA NO. Gate REVISE. Do not mean 73 with 83."
     }
   },
   "theses": [
@@ -89,17 +107,27 @@
     {"id": "T3", "mean": 80.5, "r1": 83, "r2": 78, "decision": "historical_hold"}
   ],
   "mission1_theses": [
-    {"id": "D_revised", "decision": "current_title_not_group_final", "path": "state/current_thesis.md"},
+    {"id": "D_revised", "decision": "current_title_not_group_final_honesty_retitled", "path": "state/current_thesis.md"},
     {"id": "C", "decision": "runner_up_panel"},
     {"id": "B", "decision": "supporting_construct_quantity_key"},
     {"id": "A", "decision": "retired_as_title_grade_table_survives"},
     {"id": "W1", "decision": "rejected_as_title_named_unknown"}
   ],
+  "mission2_theses": [
+    {"id": "D_retitled", "scorer_a": 67, "scorer_b": 67, "decision": "DISCARD_as_contribution", "note": "Mean of the same card only. Not a finalist."},
+    {"id": "roster8_retinal_light_state_glutamate", "scorer_a": 69, "scorer_b": 69, "decision": "DISCARD_question_not_finding"},
+    {"id": "8star_unnamed_ACV_unknown2_first", "scorer_a": null, "scorer_b": 82, "decision": "NEITHER_not_distinct_card_on_A", "note": "Do not mean with 69 or 67."},
+    {"id": "unnamed_measurement_unknown2_first", "wave_d_d2": 73, "decision": "DISCARD_provisional_text_only"},
+    {"id": "thesis_E_uncalibrated_failed_crosscheck", "wave_d_d1": 83, "decision": "NEITHER_recorded_not_adopted"}
+  ],
   "analyses": [
     {"id": "P2_atlas", "total": 76, "status": "accepted", "path": "analysis/accepted/atlas/"},
-    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted_supporting", "path": "analysis/accepted/occupancy_kinetics/", "supporting_figure": "span_identity.svg", "demoted_figure": "occupancy.svg", "note": "No accepted flagship; Mission 2 must test replacement candidates."},
+    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted_supporting", "path": "analysis/accepted/occupancy_kinetics/", "supporting_figure": "span_identity.svg", "demoted_figure": "occupancy.svg", "note": "No accepted flagship; Mission 2 freeze none as title."},
     {"id": "P5_fastaptamer", "total": 52, "status": "rejected", "reason": "would not answer the glutamate question without a licensed public FASTQ bundle"},
-    {"id": "docking_foil", "status": "rejected", "reason": "C017; constitution forbids docking-as-proof"}
+    {"id": "docking_foil", "status": "rejected", "reason": "C017; constitution forbids docking-as-proof"},
+    {"id": "m2_sampling_clocks", "tests": "36/36", "branch": "cursor/analysis-m2-sampling-634f", "sha": "5543ce7c6bc3c0b100e16f4ebeba85ddce218052", "status": "reproduced_rejected_as_flagship"},
+    {"id": "m2_lfn", "tests": "10/10", "branch": "cursor/analysis-m2-lfn-634f", "sha": "93ddf2300edbaa7386c8baaadf4837592b7e7e27", "status": "algebra_ok_overlay_not_restored"},
+    {"id": "m2_working_range", "tests": "36/36", "branch": "cursor/analysis-m2-working-range-634f", "sha": "449ea4fd3aaa5916ae73f2fcdc0b44937f3b7e52", "status": "reproduced_not_flagship"}
   ],
   "meta_improvement": {
     "rounds_completed": 1,

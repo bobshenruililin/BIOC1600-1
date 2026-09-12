@@ -31,12 +31,12 @@ Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of ad
 - **IDs.** C027, C013, C031, E045, E046; `state/mission2_input_queue.md`
 - **Figure.** Placeholder only until Mission 2. `span_identity.svg` may appear as a supporting inset; do not label it flagship. Do not merge PR #24’s generated figure wholesale.
 
-## 3. Hu retina is positive inside a basal/slow clock
+## 3. Hu retina: two ACV legs on a slow clock, identity UNKNOWN
 
-- **Claim.** S066 in vitro mouse retina: light-on/off glutamate ACV (C033 / E046, Fig. 6.13) on 14 s scans and 1 min points; authors locate the result at basal / sustained glutamate, not synaptic transients. Ames window 10 nM–10 µM with **41.6% blank noise** and poor quantitative SNR (C030 / E044) — no absolute [Glu]. This is MEASURED neural-tissue evidence in the slow/basal regime. It is not a failed hippocampal-cleft experiment. Glutamate ACV electrode is the large bottom electrode at the **GCL** (C034 / E045); whether that matches a photoreceptor-terminal narrative is UNKNOWN.
-- **Stamps.** MEASURED (clocks, light-on/off ACV, author disclaimer, Ames SNR, in vitro). UNKNOWN (absolute [Glu], pool, chemical identity, in vivo).
+- **Claim.** S066 in vitro mouse retina: two ACV `signal_gain` legs on 14 s scans and 1 min points (C033 / E046, Fig. 6.13). (A) post-insertion rise from a dashed baseline during initial light-on; (B) later light-off vs light-on correlation (Probes 1–2 authors p < 0.05; Probes 3–4 ns). Authors interpret both as basal / sustained glutamate, not synaptic transients. Ames window 10 nM–10 µM with **41.6% blank noise** and poor quantitative SNR (C030 / E044) — no absolute [Glu]. Neither leg is MEASURED glutamate. It is not a failed hippocampal-cleft experiment. The aptamer ACV electrode is the large bottom electrode at the **GCL/IPL border** (C034 / E045); pool assignment UNKNOWN.
+- **Stamps.** MEASURED (clocks, both ACV legs as current, author disclaimer, Ames SNR, in vitro). UNKNOWN (analyte, absolute [Glu], occupancy, pool, in vivo).
 - **IDs.** C031, C033, C034, C028, C030, C020, C006
-- **Figure.** `analysis/accepted/figures/two_regime_clocks.svg`. Two columns only: basal/slow MEASURED versus rapid-transient UNKNOWN. Do not use omnibus `clocks.svg` unlabeled (it mixes biological τ, bound t_off, incubation, and interrogation).
+- **Figure.** `analysis/accepted/figures/two_regime_clocks.svg`. Two columns only: slow ACV MEASURED as current versus rapid-transient UNKNOWN. Do not paint the slow column as identified glutamate. Do not use omnibus `clocks.svg` unlabeled (it mixes biological τ, bound t_off, incubation, and interrogation).
 
 ## 4. Occupancy on the retinal PaC probe is UNKNOWN
 

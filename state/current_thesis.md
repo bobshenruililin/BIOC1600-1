@@ -9,7 +9,7 @@ Do not treat this file as a finished poster.
 
 ## One sentence
 
-There is no generic glutamate-aptamer sensor: Hu’s retinal platform provides positive evidence within a slow/basal measurement regime, while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.
+There is no generic glutamate-aptamer sensor: Hu’s retinal platform records ACV on a Glu-aptamer electrode in a slow/basal interrogation regime (post-insertion baseline rise and light on–off correlation; analyte identity untested on both legs), while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.
 
 ## Full statement
 
@@ -28,7 +28,7 @@ A 1:1 Langmuir site spans exactly **81-fold** between 10% and 90% occupancy (`c1
 
 PR #31 challenged the former 81-fold-versus-44,000-fold flagship on two grounds: basal glutamate poles vary with method and compartment, and the unreported Langmuir–Freundlich exponent can change the working-range conclusion. Those objections are preserved in `state/model_disagreements.md` and `state/mission2_input_queue.md`; their candidate source rows are not promoted merely because the review is persuasive. The old comparison is withdrawn as the flagship, and Mission 2 must choose and reproduce a replacement.
 
-**Hu’s retinal work is positive neural-tissue evidence within its demonstrated temporal regime.** Hu 2025 RWTH thesis (S066): **in vitro** isolated mouse retina, not the journal AuED-MEA paper (S002), not in vivo (C020). Authors: basal / sustained extracellular glutamate, **not** synaptic transients (C031, C033). Clocks that were actually run: 14 s/ACV scan, 1 min/point after insertion, 10 min plateau after a 10 nM glutamate step (C028, C031, E045). Light-on/off glutamate ACV is the experimental manipulation (C033 / E046, Fig. 6.13). Ames calibration is 10 nM–10 µM with 41.6% blank noise and poor quantitative SNR versus PBS (C030 / E044) — no absolute tissue concentration is claimed. The glutamate ACV electrode is the large bottom electrode at the GCL on the same probe as spikes (C034 / E045). Whether that site matches a photoreceptor-terminal narrative remains UNKNOWN.
+**Hu’s retinal work is two MEASURED ACV legs on a slow clock; analyte identity is UNKNOWN on both.** Hu 2025 RWTH thesis (S066): **in vitro** isolated mouse retina, not the journal AuED-MEA paper (S002), not in vivo (C020). Authors interpret the current as basal / sustained extracellular glutamate, **not** synaptic transients (C031, C033). Clocks that were actually run: 14 s/ACV scan, 1 min/point after insertion, 10 min plateau after a 10 nM glutamate step (C028, C031, E045). Two experimental legs (C033 / E046, Fig. 6.13): (A) post-insertion signal-gain rise from a dashed baseline during initial light-on (authors: “successful detection of Glu”); (B) later light-off vs light-on correlation (Probes 1–2 authors p < 0.05; Probes 3–4 ns). Room lights, not the 500 ms LED vitality protocol. Ames calibration is 10 nM–10 µM with 41.6% blank noise and poor quantitative SNR versus PBS (C030 / E044) — no absolute tissue concentration is claimed, and the two buffer log-slopes (PBS 11.86 %/decade; Ames 57.11 %/decade) do not invert tissue ACV to [Glu] or occupancy. The glutamate-aptamer ACV electrode is the large bottom electrode at the GCL/IPL border on the same probe as spikes (C034 / E045). Whether that site matches a photoreceptor-terminal narrative remains UNKNOWN. Same-shank ON-pathway firing rates higher in light do not identify the ACV analyte.
 
 **Occupancy on the retinal PaC probe is unmeasured.** The probe has no reported apparent Kd in Ames or tissue. Do not use Hu’s **1.8 nM** Langmuir–Freundlich apparent electrochemical fit (C005: AuED-MEA in PBS; stored as `EC50`) as the retinal probe’s molecular `Kd`. That number is a different device, a different isotherm class, and a different matrix. A 1:1 overlay θ(25 nM) ≈ 0.93 on 1.8 nM is a `computational illustration` of advertised numbers, not tissue occupancy. Probe 3/4 failed; Fig. 6.16 attributes failure to detached gold nanostructure, which can mimic early saturation (occupancy reading `unresolved`). Probes 1–2 still modulate with light, which is remaining dynamic range at whatever the retinal basal actually is, not a saturation measurement.
 
@@ -48,7 +48,7 @@ Glu versus Asp/Gln/GABA is a named open figure of merit (C032), not a fifth titl
 | 2 | 1:1 Langmuir 10–90% span is exactly 81-fold, independent of Kd; it is supporting biochemistry, not Hu’s fitted range. | `computational illustration` / `review-supported` | C027, C013 |
 | 3 | 25 nM and 1.1 mM / 1.2 ms are hippocampal literature examples from **different preparations**, not a retinal range or an accepted device specification. | `primary-source-supported` as those papers’ own results; transfer to retina `unknown` | C012, C011 |
 | 4 | S066 clocks and author basal/slow disclaimer. | `primary-source-supported` | C031, C028, C006 |
-| 5 | S066 light-on/off glutamate ACV in vitro retina — positive evidence in that temporal regime. Ames SNR poor; no absolute [Glu]. | `primary-source-supported` | C033, E046, C030, E044 |
+| 5 | S066 ACV on a Glu-aptamer electrode in vitro retina (14 s scan, ~1 min/point; room lights, not 500 ms LED). Two MEASURED legs: (A) post-insertion signal-gain rise; (B) Probes 1–2 light-off vs light-on correlation. Authors interpret both as glutamate. Analyte identity UNKNOWN on both. Ames SNR poor; no absolute [Glu]. | `primary-source-supported` as ACV; identity `unresolved` | C033, E046, C030, E044 |
 | 6 | Occupancy at basal on the PaC probe in Ames/tissue is **unmeasured**. 1.8 nM is AuED-MEA LF apparent Kd, not PaC molecular Kd. | `unresolved` (empty PaC Kd); C005 `primary-source-supported` as a **different** device | C005, C021, C026 |
 | 7 | Probe 3 is author-flagged gold-detachment failure; occupancy-ceiling reading unresolved. | `primary-source-supported` as failure analysis; occupancy `unresolved` | S066 Fig. 6.16; E046 notes |
 | 8 | No glutamate aptamer kon/koff. Missing koff does not prove a millimolar rising edge is impossible. | `unresolved` / `computational illustration` | C007, C008, C010 |
@@ -58,11 +58,11 @@ Glu versus Asp/Gln/GABA is a named open figure of merit (C032), not a fifth titl
 
 ## Inference boundary
 
-**Measured.** Herman two-component framing and ~25 nM in acute hippocampal slice. Clements abstract inference at cultured hippocampal synapses. Hu AuED-MEA 1.8 nM LF apparent Kd, 15 min wait, 32 pM PBS LOD and 51.5 pM 50% serum LOD. Hu PaC-probe PBS/Ames calibrations including 41.6% Ames blank noise, 10 min plateau, 14 s / 1 min retina clocks, light-on/off ACV (C033), GCL bottom electrode (C034), Probe 3/4 gold-detachment notes. Empty glutamate kon/koff search in the inspected set.
+**Measured.** Herman two-component framing and ~25 nM in acute hippocampal slice. Clements abstract inference at cultured hippocampal synapses. Hu AuED-MEA 1.8 nM LF apparent Kd, 15 min wait, 32 pM PBS LOD and 51.5 pM 50% serum LOD. Hu PaC-probe PBS/Ames calibrations including 41.6% Ames blank noise, 10 min plateau, 14 s / 1 min retina clocks, both ACV legs as current (C033), GCL/IPL-border bottom electrode (C034), Probe 3/4 gold-detachment notes. Empty glutamate kon/koff search in the inspected set.
 
-**Inferred (not claimed here).** That 25 nM is retinal or in vivo [Glu]. That 1.1 mM / 1.2 ms specifies an aptamer electrode volume. That 1.8 nM overlay is tissue occupancy. That missing koff means the oligo cannot follow a millimolar rising edge.
+**Inferred (not claimed here).** That 25 nM is retinal or in vivo [Glu]. That 1.1 mM / 1.2 ms specifies an aptamer electrode volume. That 1.8 nM overlay is tissue occupancy. That missing koff means the oligo cannot follow a millimolar rising edge. That either S066 ACV leg is chemically glutamate.
 
-**Unknown.** PaC-probe apparent Kd and θ in Ames/tissue. Langmuir–Freundlich *n* on the MEA fit. Glutamate aptamer kon/koff on the 39-mer. Chemical identity of the S066 ACV change. Electrode-layer versus photoreceptor pool. Ames glutamine interference. In vivo glutamate aptamer sensor. Replacement flagship analysis.
+**Unknown.** PaC-probe apparent Kd and θ in Ames/tissue. Langmuir–Freundlich *n* on the MEA fit. Glutamate aptamer kon/koff on the 39-mer. Chemical identity of both S066 ACV legs, including the post-insertion baseline-rise “successful detection” sentence. Electrode-layer versus photoreceptor pool. Ames glutamine interference. In vivo glutamate aptamer sensor. Replacement flagship analysis. Mission 2 did not freeze a 85+ contribution on public evidence.
 
 ## Falsifier
 
@@ -84,6 +84,10 @@ Glu versus Asp/Gln/GABA is a named open figure of merit (C032), not a fifth titl
 - In vivo glutamate aptamer sensing.
 - Abrantes millimolar ELONA Kd (not in the ledger).
 - Overnight T1 as this mission’s result.
+- Either S066 ACV leg as identified glutamate (including Hu’s baseline-rise “successful detection” sentence).
+- Thesis E as a finding that the designated ephys cross-check “disconfirms” glutamate.
+- Tissue ACV “uncalibratable in principle” rather than: cannot invert from the two reported buffer calibrations.
+- Occupancy-at-basal, 81-versus-44000 as flagship, Nyquist/sampling-clock as Hu GCL spec, dual-pole working-range bars, scale-map as title, THE basal spec, C_eq as tissue [Glu], GluOx LOD bake-off, filled C007, or C032 as measured PaC Asp/Gln/GABA.
 
 ## Supporting panels (titles retired)
 
@@ -95,7 +99,7 @@ Glu versus Asp/Gln/GABA is a named open figure of merit (C032), not a fifth titl
 
 `proposed experiment`: paired solution `Kd_molecular` and surface ACV apparent Kd of Hu’s exact Fc-thiol 39-mer in one justified buffer; include a binding-null point mutant in both arms and L-glutamine/L-aspartate controls at concentrations justified for the intended medium; fit Langmuir and Langmuir–Freundlich; report *n* with uncertainty, coverage, and complete interface chemistry.
 
-If the biological question is retinal glutamate rather than sensor fitness, substitute pharmacological identity (TTX, CNQX/AP5, TBOA, scrambled aptamer). Do not do both and report neither.
+If the locked question is retinal tissue identity, the highest-information next experiment is unknown 2 (pharmacology plus scrambled/binding-null on both ACV legs). If a human locks construct fitness, unknown 1. Do not blend them. The course cannot pipette either. Mission 2 freeze: 85+ is not honest on public evidence while U2 is empty.
 
 ## Historical note
 

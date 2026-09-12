@@ -14,9 +14,9 @@ Tag: `proposed experiment`
 
 ## 2. Is the retina ACV chemically glutamate?
 
-**Unknown.** TTX, CNQX/AP5, TBOA, plus a scrambled-aptamer probe on the same shank.
+**Unknown.** TTX, CNQX/AP5, TBOA, plus a scrambled-aptamer / binding-null probe on the same shank, on **both** ACV legs: post-insertion baseline rise and later light on–off correlation.
 
-**Why it matters.** S066 Probes 1–2 are light-correlated ACV, not a pharmacological identification. Without this, “the device already works at basal” remains a correlation.
+**Why it matters.** S066 Probes 1–2 are light-correlated ACV, not a pharmacological identification. Hu’s first Glu sentence is the baseline-rise “successful detection,” not only the on–off contrast. Without this, neither leg is identified glutamate.
 
 Tag: `proposed experiment`
 
@@ -56,4 +56,4 @@ Tag: `unresolved`
 
 ## What would most change the current thesis
 
-Recorded in `reports/mission1_story_tournament.md` §7 and `state/current_thesis.md` (falsifier). PR #21 independently preserves unknown 1 and PR #31 adds the binding-null and biologically meaningful interferent specifications; both remain traceable in `state/pr_disposition_register.md`. Highest-information single experiment remains unknown 1, or unknown 2 if the poster’s question is retina biology. Do not do both and report neither.
+Recorded in `reports/mission1_story_tournament.md` §7 and `state/current_thesis.md` (falsifier). Highest-information experiment depends on the locked question: unknown 2 if the claim is tissue identity; unknown 1 if the claim is construct fitness. Mission 2 freeze recommends U2. Do not do both and report neither. 85+ is not honest on public evidence while U2 is empty.

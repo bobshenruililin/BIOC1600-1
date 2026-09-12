@@ -5,6 +5,9 @@
   "mission1_status": "COMPLETE",
   "group_final": false,
   "ready_for_mission2": true,
+  "ready_for_mission3": false,
+  "mission2_status": "REVISE",
+  "mission2_85_honest": false,
   "report": "reports/mission1_closure.md",
   "prior_report": "reports/mission1_story_tournament.md",
   "opus_review": "research/reviews/premium/opus_story_closure.md",
@@ -32,7 +35,7 @@
     "occupancy-at-basal withdrawn as a finding",
     "PaC occupancy stamped UNKNOWN",
     "Herman 25 nM and Clements 1.1 mM labeled as different hippocampal literature examples",
-    "Hu retina treated as positive basal/slow evidence",
+    "Hu retina treated as ACV on a basal/slow clock (baseline-rise and on–off legs); analyte identity untested on both",
     "1.8 nM not used as retinal-probe molecular Kd",
     "missing koff does not prove slow kinetics",
     "81-fold identity retained as supporting biochemistry, not the accepted flagship",
@@ -54,14 +57,14 @@
     "W1_amino_acid_selectivity",
     "T1_overnight"
   ],
-  "flagship_analysis": "UNRESOLVED — Mission 2 must select and reproduce it",
+  "flagship_analysis": "UNRESOLVED — Mission 2 freeze: none as title; sampling-clock and dual-pole working-range rejected; 81-vs-44000 withdrawn",
   "flagship_candidates": [
     "PR #24 interrogation/sampling-timescale mismatch (analysis candidate; not accepted; avoid Nyquist terminology unless assumptions are defended)",
     "PR #23 working-range bars (analysis candidate; requires basal-pole and Langmuir-Freundlich sensitivity audit)"
   ],
   "withdrawn_flagship": "81-fold 1:1 Langmuir identity versus approximately 44000-fold Herman-to-Clements span",
   "withdrawal_reason": "PR #31 identified method- and compartment-dependent basal poles and an unreported Langmuir-Freundlich exponent that can change the conclusion; those challenger claims remain candidate evidence until Mission 2 audits them",
-  "next_experiment": "Paired solution and surface isotherms of the exact Hu Fc-thiol 39-mer in one buffer, with a binding-null point mutant, biologically justified glutamine/aspartate controls, Langmuir and Langmuir-Freundlich fits, n uncertainty, and achieved coverage",
+  "next_experiment": "If the locked question is tissue identity: unknown 2 on both S066 ACV legs (binding-null plus L-AP4/TBOA/TTX or ionotropic block; Ames-matched Gln/Asp). If a human locks construct fitness: unknown 1. Do not blend. Course cannot pipette either.",
   "mission2_queue": "state/mission2_input_queue.md",
   "pr_disposition_register": "state/pr_disposition_register.md",
   "do_not_promote": [

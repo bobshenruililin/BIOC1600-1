@@ -8,7 +8,7 @@ Overnight T1/T5 ranking is **historical** (below). Do not treat it as current co
 
 ## Current (Mission 1 / 1.5)
 
-**There is no generic glutamate-aptamer sensor: Hu’s retinal platform provides positive evidence within a slow/basal measurement regime, while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.**
+**There is no generic glutamate-aptamer sensor: Hu’s retinal platform records ACV on a Glu-aptamer electrode in a slow/basal interrogation regime (post-insertion baseline rise and light on–off correlation; analyte identity untested on both legs), while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.**
 
 Herman ~25 nM and Clements ~1.1 mM / 1.2 ms are literature examples from **different hippocampal preparations**, not a retinal concentration range. Hu’s 1.8 nM Langmuir–Freundlich apparent electrochemical Kd is an AuED-MEA number in PBS, not the PaC probe’s molecular Kd. Occupancy glyphs that print θ(25 nM) from 1.8 nM are demoted simulations, not tissue measurements.
 

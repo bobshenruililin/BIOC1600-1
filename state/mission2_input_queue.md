@@ -6,8 +6,8 @@ Mission 2 must use one integration PR and may open at most one independently jus
 
 ## Accepted facts and boundaries already canonical
 
-- Revised D is the canonical working thesis, not group-final.
-- Hu’s retinal result is positive evidence within its demonstrated slow/basal regime (C031, C033, C034, C028, C030).
+- Revised D is the canonical working thesis, not group-final. Mission 2 honesty-retitled Claim 5: two ACV legs, identity UNKNOWN on both. Wave C/D discarded retitled D as a 75+/85+ contribution.
+- Hu’s retinal result is two MEASURED ACV legs on a slow/basal clock (C031, C033, C034, C028, C030). Authors interpret the current as glutamate. Analyte identity is untested on both legs, including the post-insertion baseline-rise sentence.
 - Occupancy on the PaC retinal probe is unmeasured. Hu 1.8 nM is an AuED-MEA Langmuir–Freundlich apparent fit in PBS, not the PaC probe’s molecular Kd (C005, C021, C026).
 - The 1:1 Langmuir 10–90% span is exactly 81-fold (C027/C013). It is supporting biochemistry, not the accepted flagship and not Hu’s fitted working range.
 - No glutamate-aptamer `kon`/`koff` is in the inspected canonical set (C007). Missing rates do not prove slow kinetics.
