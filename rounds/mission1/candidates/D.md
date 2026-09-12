@@ -1,5 +1,7 @@
 # Candidate D — Two biological regimes, not a generic glutamate sensor
 
+**AS SUBMITTED (historical).** Occupancy-at-basal as a finding is **superseded**. Canonical revised D: `state/current_thesis.md`. This dossier remains the Mission 1 as-submitted record, including the occupancy half that the science-story gate rejected as not primary.
+
 **One-sentence thesis.** “Good glutamate sensor” is an illegitimate generic. Biology supplies **two** regimes (ambient/slow extracellular vs cleft/fast), not three occupancy windows. Current Glu-apt devices fail the slow problem on occupancy and clocks; millisecond cleft reporting is untested because `kon`/`koff` are missing — and missing `koff` does not by itself prove a rising edge at 1.1 mM is impossible.
 
 **Program label.** Neurochemical scale matching (Mission 1 Program D).

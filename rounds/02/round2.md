@@ -1,5 +1,7 @@
 # Round 2 — extraction, audit, contradictions
 
+**HISTORICAL CENSUS.** Counts below (16 core; 41 evidence rows; 26 claims) describe the 2026-09-10 Round-2 close. They are not the live ledger. Later tree: 17 core (S066 added), 46 evidence rows, 32 claims. Live files: `state/sources.csv`, `research/evidence/core_evidence.csv`, `state/claims.csv`.
+
 Double extraction of the load-bearing glutamate and comparator papers was merged only where extractors agreed on construct and number. The orchestrator then re-fetched identifiers and re-read OA/PMC text on 2026-09-10. Numbers that could not be re-located were **not** promoted (Ohsawa conjugate Kd; MacDonald surface crowding; Lam ±6 µM; Abrantes ELONA millimolar Kd).
 
 ## Promoted core sources (16)

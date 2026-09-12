@@ -9,5 +9,6 @@ Human approval log. Agents may recommend; they may not mark a thesis group-final
 | 2026-09-10 | T1 selected as provisional Stack A winner; T5 runner-up; not group-final | orchestrator | Tie at mean 87 on Stack A. Isolated Task red-teamers invert ranking (see tournament_reconciliation.md). Human approval still required. |
 | 2026-09-10 | Promote Hu 2025 RWTH thesis (S066) to core after OA text re-read | orchestrator | In vitro retina; authors refuse synaptic-transient reading. No PDF in git. |
 | 2026-09-11 | Mission 1 science-story gate = REVISE; revised D recommended as title, not group-final | orchestrator | Blind Opus 5 + adversarial Grok. Occupancy-at-basal not primary. T1 overnight ranking not adopted as this mission’s result. Human approval still required. |
+| 2026-09-11 | Mission 1 complete; science-story gate = REVISE; revised D canonical; flagship unresolved; not group-final | orchestrator | Blind Opus closure remains recorded, but later PR #31 materially challenged its load-bearing flagship comparison. The 81-fold identity remains valid supporting biochemistry; the Herman-to-Clements comparison is withdrawn as flagship. Mission 2 owns replacement selection and reproduction. |
 
 No group-final thesis has been approved.

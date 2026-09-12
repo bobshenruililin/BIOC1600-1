@@ -3,7 +3,7 @@
 ## Process
 
 - Custom `.cursor/agents/` types are not registered in the Task tool; fallback remains `generalPurpose`.
-- Two scoring stacks exist. Stack A: `rounds/03/scores_r1.json` + `scores_r2.json`. Stack B: `scores_r1_task.json` + `scores_r2_task.json`. They invert the ranking. Do not average them.
+- Two scoring stacks exist **historically**. Stack A: `rounds/03/scores_r1.json` + `scores_r2.json`. Stack B: `scores_r1_task.json` + `scores_r2_task.json`. They invert the overnight ranking. Do not average them. They are not current consensus. Canonical thesis: `state/current_thesis.md`.
 - Isolated analysis worktrees were not left unmerged: implementations live on the swarm branch so the handoff is reproducible from one tree.
 
 ## Science (unresolved)
@@ -17,4 +17,5 @@
 - PaC-probe apparent Kd in Ames/tissue (empty)
 - GCL/IPL-border electrode vs photoreceptor-terminal narrative (S066)
 - Whether a diffusion-limited kon is an acceptable poster assumption given C008/C010
-- Which scoring stack is the group’s
+- Which scoring stack is the group’s — **historical process hole**. Not the current title question.
+- Which analysis should become the replacement flagship after the 81-fold-versus-44,000-fold comparison was withdrawn. Mission 2 must reproduce candidates and run sensitivity analysis; see `state/mission2_input_queue.md`.

@@ -1,4 +1,15 @@
-# Winner storyboard (text only)
+# Historical storyboard — overnight T1 (superseded)
+
+**HISTORICAL / SUPERSEDED as the overnight flagship storyboard.** Kept so the overnight tournament remains auditable.
+
+Current provisional storyboard: `poster/storyboards/revised_D.md` (revised D). Replacement flagship: unresolved Mission-2 input.
+Current thesis: `state/current_thesis.md`.
+
+Do not use Panel 3’s occupancy inversion, or `occupancy.svg` θ(25 nM) from Hu 1.8 nM, as measured tissue occupancy. That glyph is a 1:1 overlay of an AuED-MEA Langmuir–Freundlich apparent Kd onto Herman’s hippocampal-slice number.
+
+---
+
+# Winner storyboard (text only) — overnight T1
 
 Six panels for the T1 thesis, with T5’s occupancy inversion as the computational panel. No print layout.
 
@@ -14,9 +25,9 @@ Six panels for the T1 thesis, with T5’s occupancy inversion as the computation
 - **IDs.** C001, C002, C004, C005, C014, C021
 - **Figure.** `analysis/accepted/atlas/figures/atlas.svg` (empty kon/koff cells stay empty).
 
-## 3. Occupancy inversion (computational)
+## 3. Occupancy inversion (computational) — DEMOTED
 
-- **Claim.** Under a diffusion-limited kon bound, 12 µM Kd is empty at 25 nM but could unbind near 1.2 ms; 1.8 nM apparent Kd is full at 25 nM and seconds-slow. SIMULATION/BOUND.
+- **Claim.** Under a diffusion-limited kon bound, 12 µM Kd is empty at 25 nM but could unbind near 1.2 ms; 1.8 nM apparent Kd is full at 25 nM and seconds-slow. SIMULATION/BOUND. **Not tissue occupancy. Not the PaC probe’s Kd.**
 - **IDs.** C001, C005, C012, C011, C027
 - **Figure.** `analysis/accepted/occupancy_kinetics/figures/occupancy.svg` and `sensitivity.svg` (empirical kon band is NOT glutamate; at C010 high-end kon, 12 µM t_off is seconds).
 

@@ -1,5 +1,7 @@
 # Revised Candidate D (Grok synthesizer after Opus)
 
+**HISTORICAL SYNTHESIS NOTE.** Canonical wording is `state/current_thesis.md`. This file is the Mission 1 synthesizer’s short form. Its self-score 89 is **not** a second Opus pass and did not close the gate.
+
 Agent: bc-55b3484f-6d4d-5453-8b51-5c8bada88b45
 
 **Revised thesis:** There is no generic glutamate-aptamer sensor: neurochemistry is two regimes (baseline plus transients); a 1:1 site spans 81-fold while those literature concentrations span ~44,000-fold; the only neural-tissue Glu-apt experiment is clock-limited to basal/slow sampling; occupancy at that basal on the PaC probe in Ames/tissue is unmeasured rather than shown saturated; millisecond cleft reporting is untested — missing koff does not prove a millimolar rising edge is impossible.
