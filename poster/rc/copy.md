@@ -25,7 +25,7 @@ The object that went in (in vitro isolated mouse retina).
 
 MEASURED current (as %gain) · INFERRED glutamate (authors) · UNKNOWN which molecule — unnamed.
 
-Two different experiments — same unnamed analyte.
+Analyte unnamed on each leg (shared identity untested).
 
 PARKED TRAP: 1.8 nM = other device (AuED-MEA, PBS EC50), NOT this probe’s Kd.
 

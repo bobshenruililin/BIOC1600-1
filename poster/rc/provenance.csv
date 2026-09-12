@@ -1,6 +1,6 @@
 panel_id,reading_order,role,source_path,source_sha256,notes
 0_question,0,question_not_finding,poster/rc/sources/b0-question.svg,88fdc7aac31df2783eefa9383e099c2092f56d4e06d7ce7370d7693296c52714,nested; viewBox crop 0 48 1280 140 for A1 type size; copy verbatim
-1_hero_eyefix,1,finding_dominant,poster/rc/sources/hybrid-hero-v3-eyefix.svg,9c7dd0c72980b0e05587fc2caf4bb0260b6f00aa06f9bc2d5f57d6500b448565,isolated mouse retina; 1.8 nM parked visible
+1_hero_eyefix,1,finding_dominant,poster/rc/sources/hybrid-hero-v3-eyefix.svg,4840d1c4f514a8afe21f11c0e42d74393c1cdc15cfb666f2f3a202a2e979dc89,isolated mouse retina; 1.8 nM parked visible; shared identity untested
 2_maps,2,subordinate,poster/rc/sources/b2-maps.svg,39f433c66929821bcb6af1989e7b7ec73bbf3da2c2bfaa969c3b345936ccd8ed,buffer ≠ tissue; no C028
 3_spikes,3,subordinate,poster/rc/sources/b2-spikes.svg,1c4de53f58d192f9cad05099bc54728b9d92e7c6a828e0288936713a7603f769,physiology not ID; not Thesis E
 4_clocks_calfix,4,subordinate,poster/rc/sources/b2-clocks-calfix.svg,ee33d02de3608c798c8653682bb248a307f11d20545582631edfed0843df6bbe,C028 10 min plateau / 10 nM Glu step; NOT protocol_clocks.svg

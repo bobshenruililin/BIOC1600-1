@@ -7,7 +7,7 @@ cursor:
 
 **PASS**
 
-A first-year can say: they measured a current twice, under different conditions, and didn’t name the molecule.
+A first-year can say: they measured two currents, under unlike conditions; neither named.
 
 - Prep: in vitro isolated mouse retina. No eye-cup.
 - Quote: INFERRED, not MEASURED Glu.

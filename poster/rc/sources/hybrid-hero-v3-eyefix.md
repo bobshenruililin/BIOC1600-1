@@ -24,7 +24,7 @@ No other strings, boxes, colors, stamps, footer, 1.8 nM chip, or geometry change
 - White wells; UNKNOWN-on-well 13 bold; settling line.
 - Giant `current` / `unnamed` 24 bold; demoted orange `glutamate` 11 bold; `leaves` 12 bold-italic.
 - Parked 1.8 nM dashed chip 9.5 (visible, not hidden); equal `read current` cells; earlier/later windows.
-- F1 gold-loss line; guard strip; footer `Two different experiments — same unnamed analyte.`
+- F1 gold-loss line; guard strip; footer `Analyte unnamed on each leg (shared identity untested).`
 - Stamps MEASURED / INFERRED / UNKNOWN unchanged.
 
 ## Forbidden (none violated)

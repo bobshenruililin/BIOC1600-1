@@ -7,7 +7,7 @@ Masthead chain (visible, top green-grey bar): MEASURED ACV signal-gain → INFER
 | t | Point at (visible) | Speak |
 | --- | --- | --- |
 | 0–15 s | **0 QUESTION** | Locked question, not a finding: What does Hu's retinal ACV result establish, and what does it not? Do not treat this strip as an answer. |
-| 15–50 s | **1 FINDING** eyefix | Two currents. The molecule is unnamed. Tissue is isolated mouse retina. Parked on this face only: 1.8 nM EC50 from another device in PBS — not transferred onto these currents. |
+| 15–50 s | **1 FINDING** eyefix | Two currents. Neither molecule is named. Tissue is isolated mouse retina. Parked on this face only: 1.8 nM EC50 from another device in PBS — not transferred onto these currents. |
 | 50–75 s | **2 MAPS** | Buffer maps cannot invert tissue ACV. A buffer map does not let us read the tissue current backwards and name it. |
 | 75–95 s | **3 SPIKES** | Spikes do not name the current. A spike is physiology on the shank. It does not identify the species. |
 | 95–115 s | **4 CLOCKS-CALFIX** | 14 s scan · ~1 min/point · 10 min plateau (buffer calibration, 10 nM Glu step). That plateau is how the buffer assay settles after that step. Not tissue identification. Not a claim about signaling speed. Not `protocol_clocks.svg`. |

@@ -7,7 +7,7 @@ cursor:
 
 **[b0-question]** Locked question, **not a finding:** What does Hu's retinal ACV result establish, and what does it not? Do not treat this panel as an answer.
 
-**[hybrid-hero-v3-eyefix]** Two currents. The molecule is unnamed. The tissue is isolated mouse retina, not a whole-eye preparation. Parked on this face, and parked only, is a 1.8 nM EC50 from another device in PBS. That parked number is an other-device PBS EC50. It is not transferred onto these currents.
+**[hybrid-hero-v3-eyefix]** Two currents. Neither molecule is named. The tissue is isolated mouse retina, not a whole-eye preparation. Parked on this face, and parked only, is a 1.8 nM EC50 from another device in PBS. That parked number is an other-device PBS EC50. It is not transferred onto these currents.
 
 **[b2-maps]** Buffer maps cannot invert tissue ACV. A buffer map does not let us read the tissue current backwards and name it.
 

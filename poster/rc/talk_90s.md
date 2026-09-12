@@ -2,7 +2,7 @@
 
 INTERNAL RELEASE CANDIDATE — NOT FINAL. Every spoken pointer is a visible region on `poster/rc/poster_rc.svg`. Source dry-run: `sources/oral-90s-eyefix.md` (PASS).
 
-**Gist.** They measured a current twice, under different conditions, and did not name the molecule.
+**Gist.** They measured two currents, under unlike conditions; neither named.
 
 | t | Point at (visible) | Speak |
 | --- | --- | --- |

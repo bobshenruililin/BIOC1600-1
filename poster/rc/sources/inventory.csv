@@ -1,8 +1,8 @@
 path,context_name,selected/superseded,sha256,bytes
 poster/rc/sources/b0-question.svg,internal/mission3/prototypes/b0-question.svg,selected,88fdc7aac31df2783eefa9383e099c2092f56d4e06d7ce7370d7693296c52714,1026
 poster/rc/sources/b0-question.md,internal/mission3/prototypes/b0-question.md,selected,89711133939436e99b271feaabd1edef3066bd4b5468e9c2312e40078298cf3f,927
-poster/rc/sources/hybrid-hero-v3-eyefix.svg,internal/mission3/prototypes/hybrid-hero-v3-eyefix.svg,selected,9c7dd0c72980b0e05587fc2caf4bb0260b6f00aa06f9bc2d5f57d6500b448565,14367
-poster/rc/sources/hybrid-hero-v3-eyefix.md,internal/mission3/prototypes/hybrid-hero-v3-eyefix.md,selected,8e9f654cf09490dda002d27e05e11d437a0c369bce5c722cda08a19d051dd917,1691
+poster/rc/sources/hybrid-hero-v3-eyefix.svg,internal/mission3/prototypes/hybrid-hero-v3-eyefix.svg,selected,4840d1c4f514a8afe21f11c0e42d74393c1cdc15cfb666f2f3a202a2e979dc89,14408
+poster/rc/sources/hybrid-hero-v3-eyefix.md,internal/mission3/prototypes/hybrid-hero-v3-eyefix.md,selected,af339927322dabda38a066f6e073fba39ebf84026cf24a20920701a72f593ddb,1695
 poster/rc/sources/b2-maps.svg,internal/mission3/prototypes/b2-maps.svg,selected,39f433c66929821bcb6af1989e7b7ec73bbf3da2c2bfaa969c3b345936ccd8ed,8106
 poster/rc/sources/b2-maps.md,internal/mission3/prototypes/b2-maps.md,selected,89d77e6c223a3d8e7db43164e737f525ca568efeb2b7169415bcbeaf9962a08f,2956
 poster/rc/sources/b2-spikes.svg,internal/mission3/prototypes/b2-spikes.svg,selected,1c4de53f58d192f9cad05099bc54728b9d92e7c6a828e0288936713a7603f769,8094
@@ -20,9 +20,9 @@ poster/rc/sources/b3-c032-selectivity.svg,internal/mission3/prototypes/b3-c032-s
 poster/rc/sources/b3-c032-selectivity.md,internal/mission3/prototypes/b3-c032-selectivity.md,selected,c9c983f905df7bc69e1d47647c9e0bdb8ad6a7cad8b68ac6184c8fb8dc6c4ced,2307
 poster/rc/sources/u2-close.svg,internal/mission3/prototypes/u2-close.svg,selected,53c1bff9eac1b1886f79943f9da05af0d96d2df2f73cc8399b92618d1d3bec3b,7504
 poster/rc/sources/u2-close.md,internal/mission3/prototypes/u2-close.md,selected,ac5bc61344b6bf3349992798abf62add3b04211419c12f1c8d905d7b8009a0cf,1193
-poster/rc/sources/oral-90s-eyefix.md,internal/mission3/tests/oral-90s-eyefix.md,selected,3c83ca48d0187b459b6de9455437ce511b0b07d5de6ff8e21f0001a319718c96,544
+poster/rc/sources/oral-90s-eyefix.md,internal/mission3/tests/oral-90s-eyefix.md,selected,dca5bd7159545d463769d638b5db91c050faab0244a31ef5605bf5f4850d8eff,521
 poster/rc/sources/hybrid-talk-tracks-fidfix.md,internal/mission3/prototypes/hybrid-talk-tracks-fidfix.md,selected,689cdd4cb0cdc2a7ca3ab7d8fd33e211f549e1be70a17d82fbce7049fe3af4eb,1486
-poster/rc/sources/oral-3min-eyefix-package.md,internal/mission3/tests/oral-3min-eyefix-package.md,selected,33b1bbb1d9a24b9c8fbd7e1d55f84b29c414d66ff4b915469f07a5de1887429f,1384
+poster/rc/sources/oral-3min-eyefix-package.md,internal/mission3/tests/oral-3min-eyefix-package.md,selected,77784c93d9b50bdc89df32eecfbaf771ec1bcaaa7d79617c76955db52887e8fd,1386
 poster/rc/sources/oral-defense-kit.md,internal/mission3/oral-defense-kit.md,selected,af83c936c2526854988b2ec1c69ceba7fe4b3090b436845ad713de847f90b25e,23227
 poster/rc/sources/mission3-fable-integration.md,docs/mission3-fable-integration.md,selected,258f2ee5f9259987e47a2bff8215f20cf41e1183322a9ce7d56aeb3f3d3b2136,18966
 poster/rc/sources/mission3-opus-challenge.md,docs/mission3-opus-challenge.md,selected,8e2e01d67bcbe6dd4dfadffbe45abbfb7f37bdab6a91ecf116c4771dde6cdaac,23977

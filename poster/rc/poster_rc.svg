@@ -106,8 +106,8 @@
   <g font-family="sans-serif">
     <text x="450" y="300" text-anchor="middle" font-size="30" font-weight="bold">&#8741;</text>
     <text x="450" y="318" text-anchor="middle" font-size="9">different IVs</text>
-    <text x="450" y="330" text-anchor="middle" font-size="9">same unnamed</text>
-    <text x="450" y="342" text-anchor="middle" font-size="9">analyte</text>
+    <text x="450" y="330" text-anchor="middle" font-size="9">unnamed each</text>
+    <text x="450" y="342" text-anchor="middle" font-size="9">leg (untested)</text>
   </g>
 
   <!-- Leg B card: WHITE well. Equal-height state blocks AND equal readout cells. -->
@@ -185,7 +185,7 @@
 
   <!-- Hero footer -->
   <g font-family="sans-serif">
-    <text x="450" y="590" text-anchor="middle" font-size="12" font-weight="bold">Two different experiments &#8212; same unnamed analyte.</text>
+    <text x="450" y="590" text-anchor="middle" font-size="12" font-weight="bold">Analyte unnamed on each leg (shared identity untested).</text>
     <text x="450" y="605" text-anchor="middle" font-size="9" fill="#555">Lower-row stamps (not the 10-second claim): MODELED = supporting caption only &#183; PROPOSED = U2 naming test in B4 close, not a result</text>
     <text x="450" y="619" text-anchor="middle" font-size="9" fill="#555">Schematic wireframe &#183; no Fig. 6.13 pixels &#183; no invented %gain &#183; no concentration axis &#183; clocks in B2 only &#183; prototype, not final</text>
   </g>
