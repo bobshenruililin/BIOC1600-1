@@ -126,7 +126,7 @@ Constitution, rubric, and safety files were not edited.
 
 ## 12. Exact Git commit SHA
 
-Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, merge of PR 28). Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. This branch: `cursor/m2-int-honesty-245a`. Freeze-candidate SHA is recorded after the freeze commit in this section and in the freeze package. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
+Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, merge of PR 28). Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. Freeze-candidate SHA: `a3c24764a6e4bd7e04f90f813a4ea14198abc83e` on `cursor/m2-int-honesty-245a`. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
 
 ## 13. Exact paths
 
