@@ -39,6 +39,6 @@ Chain: **MEASURED ACV signal-gain → INFERRED glutamate → UNKNOWN identity �
 
 ## Package files
 
-`copy.md`, `captions.md`, `talk_90s.md`, `talk_3min.md`, `oral_defense.md`, `provenance.csv`, `decision_record.md`, `review_index.md`, `qa_report.md`, `manifest.json`, `checkpoint.md`, `astra_design_contract_report.md`, `astra_design_contract_disposition.md`, `sources/`.
+`copy.md`, `captions.md`, `talk_90s.md`, `talk_3min.md`, `oral_defense.md`, `provenance.csv`, `decision_record.md`, `review_index.md`, `qa_report.md`, `manifest.json`, `checkpoint.md`, `astra_design_contract_report.md`, `astra_design_contract_disposition.md`, `astra_report.md`, `astra_disposition.md`, `astra_bundle/index.md`, `sources/`.
 
 No filename contains `final`. No PDF in this repository.

@@ -4,15 +4,20 @@ INTERNAL RELEASE CANDIDATE — NOT FINAL. Gate **REVISE**. Flagship **NONE**. As
 
 ## Pixel / PDF vision
 
+Inspected rasters were from the A1 PDF, not from the SVG.
+
 | Item | Value |
 | --- | --- |
-| Review | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/docs/mission3-pdf-vision-review.md` |
-| PDF (off-repo, not regenerated) | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/media/BIOC1600_poster_review.pdf` |
-| PDF SHA-256 | `18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf` |
-| MUST FIX | **none** |
-| New PDF | **no** |
+| Prior vision (audited PDF) | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/docs/mission3-pdf-vision-review.md` |
+| Prior PDF SHA-256 | `18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf` |
+| Prior MUST FIX | **none** |
+| Changed-pixel vision | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/docs/mission3-pdf-vision-changed-pixels.md` |
+| Current PDF (off-repo) | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/media/BIOC1600_poster_review.pdf` |
+| Current PDF SHA-256 | `bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a` |
+| Current MUST FIX | **none** |
+| New PDF after changed-pixel review | **no** |
 
-Science gate stays **REVISE**. Pixel vision does not manufacture PASS or group-final.
+Science gate stays **REVISE**. Pixel vision does not manufacture PASS or group-final. Do not transfer Astra’s verdict from PDF `18d43961` onto PDF `bbdac147`.
 
 ## Stylistic leftovers (not MUST FIX)
 

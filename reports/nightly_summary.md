@@ -11,7 +11,7 @@ Canonical file for PI review. Not a finished poster. Not group-final.
 
 **PI 2026-09-12 (canonical now):** APPROVE AFTER SMALL FIXES. READY FOR MISSION 3: **YES**. Gate stays **REVISE**. Highest-information experiment: **U2**. QUANTITATIVE FLAGSHIP: **NONE**. `group_final` false. Do not reopen Mission 2. Do not manufacture PASS. The dated Mission 2 block above is the freeze-night record. Wave C/D and score-blind review-report files are not in this tree; those scores are coordinator-reported provenance (`research/reviews/premium/mission2_scores_provenance.md`).
 
-**Mission 3 (communication RC, Context only):** internal RC is **eyefix-package** in Project Context. Prototypes were not copied into git. Glance + 90s + package-novice + 3 min: **PASS**. Opus FATAL: **none**. READY FOR EXTERNAL ASTRA AUDIT: **YES** (not run; do not invoke Astra from this swarm). Science story gate stays **REVISE**. `group_final` false. QUANTITATIVE FLAGSHIP **NONE**. U2 locked. READY FOR MISSION 3 remains **YES**. Not FINAL. Not group-final. Do not reopen Mission 2.
+**Mission 3 (communication RC, draft PR #33):** eyefix-package is materialized under `poster/rc/` on `cursor/m3-int-eyefix-245a`. Pre-composition Astra: **SKIPPED — PACKET INCOMPLETE**. Cold Astra on `6c2d7f67` / PDF `18d43961`: **ADVANCE AFTER SPECIFIED FIXES** (science fatals none). Specified-fix visual git `854a17a`; off-repo PDF `bbdac147`; changed-pixel vision **MUST FIX none**. Astra findings addressed by Cursor/Sol; do not transfer that verdict onto later commits. Science story gate stays **REVISE**. `group_final` false. QUANTITATIVE FLAGSHIP **NONE**. U2 locked. Not FINAL. Do not merge PR #33. Do not reopen Mission 2.
 
 Overnight T1/T5 are **not** current consensus and were never group-final.
 
@@ -101,7 +101,7 @@ See `poster/storyboards/revised_D.md`. Provisional panels: two regimes; Flagship
 
 Historical overnight T1 storyboard: `poster/storyboards/winner.md` (superseded; occupancy inversion demoted).
 
-No polished poster was generated.
+No polished poster was generated. Mission 3 internal RC (not final) lives at `poster/rc/poster_rc.svg` on draft PR #33.
 
 ## 9. Hardest five assessor questions
 
@@ -130,7 +130,7 @@ Constitution, rubric, and safety files were not edited.
 
 ## 12. Exact Git commit SHA
 
-Parent of this INT: `3fa11240c85df9ebac58dcc6879494911968f75c` (`origin/main`, merge of PR 32; Mission 2 science freeze). Prior INT parent: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, merge of PR 28). Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. Freeze wording SHA: `a3c24764a6e4bd7e04f90f813a4ea14198abc83e`. Class-A stamp/ledger loop SHA: `fe188e2ff7055db0cd1e53e9d151b6aac4d6421c` on `cursor/m2-int-honesty-245a`. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
+Science freeze `origin/main`: `3fa11240c85df9ebac58dcc6879494911968f75c` (merge of PR 32). Astra-audited candidate: `6c2d7f67b0d36f46d686f7f76fd8720267d24f20`. Specified-fix visual: `854a17a117f78b5a65bdf8f7964f7997d493467f`. PDF-hash record: `44bd1997b54660940e26c31aa3a1527edc014b23`. This Phase F INT does not embed its own SHA. Prior INT parent: `65971ae19714a783013e22a150cc474d26e9295c`. Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
 
 ## 13. Exact paths
 
@@ -149,7 +149,7 @@ Parent of this INT: `3fa11240c85df9ebac58dcc6879494911968f75c` (`origin/main`, m
 - Historical scoring reconciliation: `rounds/03/tournament_reconciliation.md`
 - Current storyboard: `poster/storyboards/revised_D.md`
 - Mission 3 entry: `reports/mission3_entry.md`
-- Mission 3 communication RC: Project Context **eyefix-package** (not in git; prototypes not copied)
+- Mission 3 communication RC: `poster/rc/` on draft PR #33 (`poster/rc/poster_rc.svg`, `poster/rc/checkpoint.md`, `poster/rc/astra_report.md`)
 - Historical T1 storyboard: `poster/storyboards/winner.md`
 - Supporting span identity: `analysis/accepted/figures/span_identity.svg`
 - Figure 2 two-regime clocks: `analysis/accepted/figures/two_regime_clocks.svg`

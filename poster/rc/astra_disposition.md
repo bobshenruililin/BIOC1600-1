@@ -40,3 +40,17 @@ Clocks-calfix C028 collision / Panel 0 subtitle restyle: **not changed**.
 | `poster/rc/poster_rc.png` | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
 
 PNG regenerated with `bash scripts/build_poster_rc.sh` (4967 × 3508). No PDF in git. Astra not re-invoked.
+
+## Changed-pixel vision (post-repair PDF)
+
+Store report: `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/docs/mission3-pdf-vision-changed-pixels.md`
+
+| Item | Value |
+| --- | --- |
+| PDF (off-repo) | `bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a` |
+| source SVG | `c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782` |
+| MUST FIX | **none** |
+| New PDF required | **no** |
+| Acceptance | Two white wells cannot be quoted as the same species. Footer: `Analyte unnamed on each leg (shared identity untested).` |
+
+**Astra findings were addressed by Cursor/Sol.** Optional clocks/Panel 0 leftovers remain stylistic, not applied.

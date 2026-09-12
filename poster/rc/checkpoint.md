@@ -1,13 +1,13 @@
 # Mission 3 RC checkpoint
 
-Phase **E complete + specified-fix applied**. Not FINAL. Not group-final. Do not merge PR #33. Astra not re-invoked.
+Phase **F** — PI handoff. INTERNAL RELEASE CANDIDATE — NOT FINAL. Not group-final. Do not merge PR #33. Astra not re-invoked.
 
 ## Restart identity
 
 | Item | Value |
 | --- | --- |
-| Phase | E complete + specified-fix applied |
-| Worker | sole git writer on PR #33 |
+| Phase | F (PI handoff) |
+| Worker | coordinator landing after specified-fix + changed-pixel vision |
 | Repository | `bobshenruililin/BIOC1600-1` |
 | Branch | `cursor/m3-int-eyefix-245a` |
 | Integration PR | [#33](https://github.com/bobshenruililin/BIOC1600-1/pull/33) (draft; do not merge) |
@@ -19,30 +19,21 @@ Phase **E complete + specified-fix applied**. Not FINAL. Not group-final. Do not
 | `group_final` | false |
 | Astra this turn | **not invoked** · findings addressed by Cursor/Sol |
 
-## Astra verdict (audited object)
+## Record separately (do not collapse)
 
-| Item | Value |
+| Object | Value |
 | --- | --- |
-| Verbatim report | `poster/rc/astra_report.md` |
-| Decision | ADVANCE AFTER SPECIFIED FIXES |
-| Science fatals | none |
-| Audited SHA | `6c2d7f67b0d36f46d686f7f76fd8720267d24f20` |
-| Audited PDF SHA-256 | `18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf` |
-| Post-repair SHA | **not** `6c2d7f67…` (do not transfer the verdict) |
+| Astra-audited SHA | `6c2d7f67b0d36f46d686f7f76fd8720267d24f20` |
+| Astra-audited PDF | `18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf` |
+| Specified-fix visual git | `854a17a117f78b5a65bdf8f7964f7997d493467f` |
+| Specified-fix SVG | `c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782` |
+| Specified-fix PNG | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
+| PDF-hash git record | `44bd1997b54660940e26c31aa3a1527edc014b23` (docs only; visual target unchanged from `854a17a`) |
+| Off-repo PDF (not git) | `bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a` |
+| Changed-pixel vision | MUST FIX **none** (`docs/mission3-pdf-vision-changed-pixels.md` in Project store) |
 
-MUST FIX applied: shared-identity wording. Optional clocks/Panel 0 leftovers **not** applied.
-
-## Post-repair hashes
-
-| Artifact | SHA-256 |
-| --- | --- |
-| `poster/rc/poster_rc.svg` | `c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782` |
-| `poster/rc/poster_rc.png` | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
-| Post-repair git | `854a17a117f78b5a65bdf8f7964f7997d493467f` |
-| Off-repo PDF (not git; new render) | `bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a` |
-
-Do not transfer Astra’s verdict (`18d43961…` / `6c2d7f67…`) onto this PDF or this commit.
+**Astra findings were addressed by Cursor/Sol.** Do not transfer Astra’s verdict onto `854a17a`, `44bd199`, PDF `bbdac147`, or this Phase F commit.
 
 ## Next executable action
 
-PI handoff (Phase F). Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.
+Human/PI visual review of the off-repo A1 PDF. Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.
