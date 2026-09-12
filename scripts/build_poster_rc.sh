@@ -7,8 +7,8 @@ set -eu
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SVG="${ROOT}/poster/rc/poster_rc.svg"
 OUT="${ROOT}/poster/rc/poster_rc.png"
-FONTCONFIG_FILE="${ROOT}/scripts/poster_fontconfig.conf"
-export FONTCONFIG_FILE
+FONTDIR="${ROOT}/poster/rc/fonts"
+FONTCONFIG_TEMPLATE="${ROOT}/scripts/poster_fontconfig.conf"
 export PANGOCAIRO_BACKEND=fontconfig
 # A1 landscape at 150 dpi: 841 mm × 594 mm → 4967 × 3508 px
 WIDTH_PX=4967
@@ -18,14 +18,36 @@ if [[ ! -f "${SVG}" ]]; then
   echo "build_poster_rc: missing input ${SVG}" >&2
   exit 1
 fi
-if [[ ! -f "${FONTCONFIG_FILE}" ]]; then
-  echo "build_poster_rc: missing ${FONTCONFIG_FILE}" >&2
+if [[ ! -f "${FONTCONFIG_TEMPLATE}" ]]; then
+  echo "build_poster_rc: missing ${FONTCONFIG_TEMPLATE}" >&2
   exit 1
 fi
+if [[ ! -d "${FONTDIR}" ]]; then
+  echo "build_poster_rc: missing ${FONTDIR}" >&2
+  exit 1
+fi
+for font in \
+  NotoSans-Regular.ttf NotoSans-Bold.ttf \
+  NotoSerif-Regular.ttf NotoSerif-Bold.ttf \
+  DejaVuSans.ttf DejaVuSans-Bold.ttf \
+  DejaVuSerif.ttf DejaVuSerif-Bold.ttf
+do
+  if [[ ! -f "${FONTDIR}/${font}" ]]; then
+    echo "build_poster_rc: missing ${FONTDIR}/${font}" >&2
+    exit 1
+  fi
+done
 
+FC_RUNTIME="$(mktemp "${TMPDIR:-/tmp}/poster_fc.XXXXXX.conf")"
 TMP="$(mktemp "${OUT}.tmp.XXXXXX.png")"
-cleanup() { rm -f "${TMP}"; }
+cleanup() { rm -f "${TMP}" "${FC_RUNTIME}"; }
 trap cleanup EXIT
+sed "s|@POSTER_FONTDIR@|${FONTDIR}|g" "${FONTCONFIG_TEMPLATE}" > "${FC_RUNTIME}"
+if grep -q '@POSTER_FONTDIR@' "${FC_RUNTIME}"; then
+  echo "build_poster_rc: fontconfig placeholder not substituted" >&2
+  exit 1
+fi
+export FONTCONFIG_FILE="${FC_RUNTIME}"
 
 render_ok=0
 if command -v rsvg-convert >/dev/null 2>&1; then

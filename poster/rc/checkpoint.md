@@ -39,8 +39,8 @@ Phase **F** — PI handoff. INTERNAL RELEASE CANDIDATE — NOT FINAL. Not group-
 
 ## CI poster gate
 
-GitHub `9aabb85` rebuilt 4967×3508 RGB but **decoded pixels differed** (`4e10acac…` committed vs `9efb2e26…` Actions), not only a 5-byte file encoding. Cause: distro font aliases / rasterization, not zlib. Rebuild now exports `FONTCONFIG_FILE=scripts/poster_fontconfig.conf` (Noto Sans/Serif, DejaVu by name, grayscale AA). CI installs `fonts-noto-core` and `fonts-dejavu-core` only. Gate remains decoded pixels at 4967×3508. Exact-head green is recorded only after that step runs on GitHub.
+GitHub `validate` on exact head `41e9acdef529524acc13f59cf5eecaafd7e95e38` (push run [34707326612](https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707326612)): step **Poster RC rebuild pixel checksum** ran, installed Noto/DejaVu, rebuilt 4967×3508, **PASS: decoded pixels match** (`fa920782…` = committed). File SHA also matched (`09f4ecc2…`). Fresh clone `/tmp/m3-rc-clone` at that SHA: package checksums matched; `ci_rebuild_poster_rc.sh` PASS. Shipped faces are under `poster/rc/fonts/` (OFL/Bitstream); rebuild pixels were unchanged after vendoring. Renderer `rsvg-convert` 2.58.0.
 
 ## Next executable action
 
-Wait for exact-head `validate` with the fontconfig-pinned pixel rebuild, then PI visual review of the off-repo A1 PDF. Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.
+Human/PI visual review of the off-repo A1 PDF `bbdac147…`. Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.

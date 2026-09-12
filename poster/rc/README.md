@@ -20,9 +20,9 @@ Canonical poster: `poster/rc/poster_rc.svg` (A1 landscape 841 × 594 mm). Previe
 bash scripts/build_poster_rc.sh
 ```
 
-Fails nonzero if the SVG, `scripts/poster_fontconfig.conf`, or renderer (`rsvg-convert` or `inkscape`) is missing. Exports `FONTCONFIG_FILE` so GitHub Actions uses the same family fallbacks and grayscale AA as this rebuild. Does not silently reuse a committed PNG. Does not write PDF.
+Fails nonzero if the SVG, shipped fonts under `poster/rc/fonts/`, `scripts/poster_fontconfig.conf`, or renderer (`rsvg-convert` or `inkscape`) is missing. Substitutes the font directory into fontconfig at rebuild time. Does not silently reuse a committed PNG. Does not write PDF.
 
-CI (`scripts/ci_rebuild_poster_rc.sh`) deletes the committed PNG, rebuilds, and compares **decoded pixels**, not `.png` file bytes.
+CI (`scripts/ci_rebuild_poster_rc.sh`) deletes the committed PNG, rebuilds, and compares **decoded pixels**, not `.png` file bytes. Exact-head GitHub `validate` on `41e9acd` ran the rebuild step and printed `PASS: decoded pixels match`.
 
 ## Reading order (nested exported faces)
 

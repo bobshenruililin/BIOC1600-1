@@ -11,7 +11,7 @@ Canonical file for PI review. Not a finished poster. Not group-final.
 
 **PI 2026-09-12 (canonical now):** APPROVE AFTER SMALL FIXES. READY FOR MISSION 3: **YES**. Gate stays **REVISE**. Highest-information experiment: **U2**. QUANTITATIVE FLAGSHIP: **NONE**. `group_final` false. Do not reopen Mission 2. Do not manufacture PASS. The dated Mission 2 block above is the freeze-night record. Wave C/D and score-blind review-report files are not in this tree; those scores are coordinator-reported provenance (`research/reviews/premium/mission2_scores_provenance.md`).
 
-**Mission 3 (communication RC, draft PR #33):** eyefix-package is materialized under `poster/rc/` on `cursor/m3-int-eyefix-245a`. Pre-composition Astra: **SKIPPED — PACKET INCOMPLETE**. Cold Astra on `6c2d7f67` / PDF `18d43961`: **ADVANCE AFTER SPECIFIED FIXES** (science fatals none). Specified-fix visual git `854a17a`; off-repo PDF `bbdac147`; changed-pixel vision **MUST FIX none**. Astra findings addressed by Cursor/Sol; do not transfer that verdict onto later commits. Poster CI gate is **decoded PNG pixels**. `9aabb85` failed because Actions pixels `9efb2e26…` ≠ committed `4e10acac…` (font raster, not zlib). Preview PNG re-rasterized under `scripts/poster_fontconfig.conf`; SVG and PDF unchanged. Exact-head GitHub green is not claimed until the rebuild step runs. Science story gate stays **REVISE**. `group_final` false. QUANTITATIVE FLAGSHIP **NONE**. U2 locked. Not FINAL. Do not merge PR #33. Do not reopen Mission 2.
+**Mission 3 (communication RC, draft PR #33):** eyefix-package is materialized under `poster/rc/` on `cursor/m3-int-eyefix-245a`. Pre-composition Astra: **SKIPPED — PACKET INCOMPLETE**. Cold Astra on `6c2d7f67` / PDF `18d43961`: **ADVANCE AFTER SPECIFIED FIXES** (science fatals none). Specified-fix visual git `854a17a`; off-repo PDF `bbdac147`; changed-pixel vision **MUST FIX none**. Astra findings addressed by Cursor/Sol. Exact-head GitHub `validate` on `41e9acd` ran the poster rebuild step: **PASS: decoded pixels match**. Science story gate stays **REVISE**. `group_final` false. QUANTITATIVE FLAGSHIP **NONE**. U2 locked. Not FINAL. Do not merge PR #33. Do not reopen Mission 2.
 
 Overnight T1/T5 are **not** current consensus and were never group-final.
 
@@ -127,11 +127,11 @@ Constitution, rubric, and safety files were not edited.
 - **85+ remains unreached on present public evidence.** U2 cannot be filled by scoring, caption, or a glyph of already-printed slopes. That is why the tournament bar is unmet; it is not why Mission 2 cannot freeze.
 - Course cannot run wet IPA. Do not fill C007 computationally.
 - Fatal objections: **NONE**. Ames-loaded wording stays dropped.
-- Poster RC `validate` on `9aabb85` failed decoded-pixel match (Actions `9efb2e26…` vs committed `4e10acac…`). Preview PNG re-rasterized with pinned fontconfig; this file does not claim that GitHub run is green.
+- Poster RC `validate` failed decoded-pixel match on `9aabb85`, then **passed** the rebuild step on `41e9acd` (`PASS: decoded pixels match`). Fonts are now shipped under `poster/rc/fonts/`; that commit’s GitHub run is not claimed until it finishes.
 
 ## 12. Exact Git commit SHA
 
-Science freeze `origin/main`: `3fa11240c85df9ebac58dcc6879494911968f75c` (merge of PR 32). Astra-audited candidate: `6c2d7f67b0d36f46d686f7f76fd8720267d24f20`. Specified-fix visual: `854a17a117f78b5a65bdf8f7964f7997d493467f`. PDF-hash record: `44bd1997b54660940e26c31aa3a1527edc014b23`. Phase F INT `a60c0481b0d33b19ba5e51d034ffbfb47701e301`. Font-pin INT `c418d77f7e767a86bae4ee8f25971cba038dd41f`. Pixel-hash INT `9aabb85974fb86ded8110d49cc4d651aea062d20`. This fontconfig-pin INT does not embed its own SHA. Prior INT parent: `65971ae19714a783013e22a150cc474d26e9295c`. Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
+Science freeze `origin/main`: `3fa11240c85df9ebac58dcc6879494911968f75c` (merge of PR 32). Astra-audited candidate: `6c2d7f67b0d36f46d686f7f76fd8720267d24f20`. Specified-fix visual: `854a17a117f78b5a65bdf8f7964f7997d493467f`. PDF-hash record: `44bd1997b54660940e26c31aa3a1527edc014b23`. Phase F INT `a60c0481b0d33b19ba5e51d034ffbfb47701e301`. First exact-head poster-rebuild CI green: `41e9acdef529524acc13f59cf5eecaafd7e95e38`. This fonts-shipping INT does not embed its own SHA. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
 
 ## 13. Exact paths
 

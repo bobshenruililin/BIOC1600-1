@@ -21,7 +21,28 @@ Science gate stays **REVISE**. Pixel vision does not manufacture PASS or group-f
 
 ## CI checksum (preview PNG)
 
-`9aabb85` proved the 5-byte file delta was a **real raster difference** (committed pixels `4e10acac…` vs Actions `9efb2e26…`). Preview PNG was re-rasterized with `scripts/poster_fontconfig.conf`. Current file SHA-256 `09f4ecc2d447222515676f78676a67715e9c3a538b09221046adee2184f51935`; decoded RGB `fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94` at 4967×3508. SVG and off-repo PDF are unchanged. Do not transfer Astra’s verdict onto this PNG.
+Exact-head `41e9acd` GitHub `validate` (run 34707326612): **PASS: decoded pixels match** `fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94` at 4967×3508. File SHA `09f4ecc2…` also matched on that runner. Shipped `poster/rc/fonts/` copies did not change those hashes. SVG and off-repo PDF are unchanged. Do not transfer Astra’s verdict onto this PNG.
+
+## Pixel coverage map (SVG mm → PNG px at 4967×3508)
+
+Scale ≈ 5.906 px/mm. Inspected human product is the off-repo PDF (`bbdac147…`), not this PNG.
+
+| Region | SVG mm (x,y,w,h) | PNG px (approx) |
+| --- | --- | --- |
+| masthead | 0,0,841,26.7 | 0,0,4967,158 |
+| 0 question | 6,28.2,829,38 | 35,167,4896,224 |
+| 1 hero eyefix | 6,68.5,458,322 | 35,405,2705,1902 |
+| 2 maps | 467.5,68.5,367.5,159 | 2761,405,2170,939 |
+| 3 spikes | 467.5,230.5,367.5,160 | 2761,1361,2170,945 |
+| 4 clocks-calfix | 6,393.5,248,78 | 35,2324,1465,461 |
+| 5 3Q | 257.5,393.5,577.5,78 | 1521,2324,3411,461 |
+| 6 3H | 6,474.5,203,102 | 35,2802,1199,603 |
+| 7 why-layers | 213,474.5,203,102 | 1258,2802,1199,603 |
+| 8 C032 | 420,474.5,203,102 | 2481,2802,1199,603 |
+| 9 U2 | 627,474.5,208,102 | 3703,2802,1228,603 |
+| whole page | 0,0,841,594 | 0,0,4967,3508 |
+
+PDF vision opened `poster_review_page.png`, `crop_masthead.png`, `crop_01_hero.png` (MUST FIX none). Thumbnail/normal/detail of the PDF page cover question, two-leg object, MEASURED/INFERRED/UNKNOWN, and U2.
 
 ## Stylistic leftovers (not MUST FIX)
 

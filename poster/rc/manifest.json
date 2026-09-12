@@ -84,8 +84,8 @@
       "bytes": 2355325
     },
     "scripts/build_poster_rc.sh": {
-      "sha256": "db0691a3813e609c1df4882628468bba2cba915675b20d01cf8327c2843151b6",
-      "bytes": 2729
+      "sha256": "5ad07948cda907d5b00c27424fc36762cad7ceac6afbee73069fd678434b501e",
+      "bytes": 3484
     },
     "poster/rc/astra_design_contract_report.md": {
       "sha256": "0a7c130e1bc95be5da16cd6a0f73fab82da010b763b471ff9c6f6b3e632dd406",
@@ -108,8 +108,8 @@
       "bytes": 696
     },
     "poster/rc/README.md": {
-      "sha256": "b232b591f9dcf96b03d70e3d394865bd5066dc3740d0e9a83d8a87f8b8b35e2e",
-      "bytes": 2343
+      "sha256": "9aa6bb182bc71254f5f4d9c20ccd5c79e37ee39cdd9d83d745234be3235c5802",
+      "bytes": 2443
     },
     "poster/rc/copy.md": {
       "sha256": "acd794012285002ca101ef89f954658890e759e76b3261a62755d5bd7e61a2c3",
@@ -144,12 +144,12 @@
       "bytes": 1202
     },
     "poster/rc/qa_report.md": {
-      "sha256": "154eaeb7a92989f7c146ab897acc17723ec0ef18f824359195db5a7da525482f",
-      "bytes": 2920
+      "sha256": "98305dce5ae039c81932fca0eff6e10b390119a857f9c04998541fa1af3ed8e5",
+      "bytes": 3875
     },
     "poster/rc/checkpoint.md": {
-      "sha256": "ca361b96f1be155cc169bdc11dc0a9d6b1255ed582beb8d905973c8dfcfd3b31",
-      "bytes": 3029
+      "sha256": "428b8f2312984a83742f7e446f7f7196268c1cae732e80a03408075cf4a5f6ab",
+      "bytes": 3077
     },
     "scripts/compare_poster_png.py": {
       "sha256": "87373b0d7c8f2b8003a97e84563cb3f5cd1ae505d1d22d7e4015b53bd9c5cc15",
@@ -160,8 +160,108 @@
       "bytes": 1168
     },
     "scripts/poster_fontconfig.conf": {
-      "sha256": "aa5cba27855b55415addd99c47b0e4860298eab054978ace94da0c3a4d0d6cfc",
-      "bytes": 2671
+      "sha256": "0bcecfa239f36ee8e774bd19703d7f1c866c885dd38df341407ec644f0dca716",
+      "bytes": 2898
+    },
+    "poster/rc/fonts/README.md": {
+      "sha256": "6a5fd1683b54795f90afac04cf2933998b431c2fd1bd1a3989fbb873b1614c39",
+      "bytes": 714
+    },
+    "poster/rc/fonts/Noto-copyright": {
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "bytes": 5208
+    },
+    "poster/rc/fonts/DejaVu-copyright": {
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "bytes": 3859
+    },
+    "poster/rc/fonts/DejaVuSans-Bold.ttf": {
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "bytes": 708920
+    },
+    "poster/rc/fonts/DejaVuSans.ttf": {
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "bytes": 759720
+    },
+    "poster/rc/fonts/DejaVuSerif-Bold.ttf": {
+      "sha256": "847b33e13925f19ff87e4d934d6b3cf7cac35ce16424f6f670e40c2f377cf2df",
+      "bytes": 356668
+    },
+    "poster/rc/fonts/DejaVuSerif.ttf": {
+      "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
+      "bytes": 380660
+    },
+    "poster/rc/fonts/NotoSans-Bold.ttf": {
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "bytes": 515752
+    },
+    "poster/rc/fonts/NotoSans-Regular.ttf": {
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "bytes": 512672
+    },
+    "poster/rc/fonts/NotoSerif-Bold.ttf": {
+      "sha256": "0af0ff2be8f84910fb21ec5fe1b6b7395e3073250502a334baf6ca2f860c88fe",
+      "bytes": 611904
+    },
+    "poster/rc/fonts/NotoSerif-Regular.ttf": {
+      "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f",
+      "bytes": 588876
     }
+  },
+  "fonts": {
+    "DejaVuSans-Bold.ttf": {
+      "path": "poster/rc/fonts/DejaVuSans-Bold.ttf",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "bytes": 708920
+    },
+    "DejaVuSans.ttf": {
+      "path": "poster/rc/fonts/DejaVuSans.ttf",
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "bytes": 759720
+    },
+    "DejaVuSerif-Bold.ttf": {
+      "path": "poster/rc/fonts/DejaVuSerif-Bold.ttf",
+      "sha256": "847b33e13925f19ff87e4d934d6b3cf7cac35ce16424f6f670e40c2f377cf2df",
+      "bytes": 356668
+    },
+    "DejaVuSerif.ttf": {
+      "path": "poster/rc/fonts/DejaVuSerif.ttf",
+      "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
+      "bytes": 380660
+    },
+    "NotoSans-Bold.ttf": {
+      "path": "poster/rc/fonts/NotoSans-Bold.ttf",
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "bytes": 515752
+    },
+    "NotoSans-Regular.ttf": {
+      "path": "poster/rc/fonts/NotoSans-Regular.ttf",
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "bytes": 512672
+    },
+    "NotoSerif-Bold.ttf": {
+      "path": "poster/rc/fonts/NotoSerif-Bold.ttf",
+      "sha256": "0af0ff2be8f84910fb21ec5fe1b6b7395e3073250502a334baf6ca2f860c88fe",
+      "bytes": 611904
+    },
+    "NotoSerif-Regular.ttf": {
+      "path": "poster/rc/fonts/NotoSerif-Regular.ttf",
+      "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f",
+      "bytes": 588876
+    }
+  },
+  "renderer": {
+    "command": "rsvg-convert --keep-image-data -w 4967 -h 3508",
+    "version": "rsvg-convert version 2.58.0",
+    "fontconfig": "scripts/poster_fontconfig.conf",
+    "font_dir": "poster/rc/fonts",
+    "checksum_gate": "decoded_pixels"
+  },
+  "github_validate": {
+    "ci_tested_sha": "41e9acdef529524acc13f59cf5eecaafd7e95e38",
+    "push_run": "https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707326612",
+    "poster_rebuild_step": "Poster RC rebuild pixel checksum",
+    "decoded_pixels": "PASS",
+    "pixel_sha256": "fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94"
   }
 }
