@@ -4,7 +4,7 @@ Not a finished poster. Not group-final. Do not start Mission 3 proper from chat 
 
 **Branch:** `cursor/m2-int-honesty-245a` ([PR 32](https://github.com/bobshenruililin/BIOC1600-1/pull/32)). Canonical `main` is the PR 28 merge.
 
-**Thesis:** `state/current_thesis.md` (one sentence). Gate **REVISE**. QUANTITATIVE FLAGSHIP **NONE**. READY FOR MISSION 3: **NO** until independent readiness judgments and a human row in `state/decisions.md`.
+**Thesis:** `state/current_thesis.md` (one sentence). Gate **REVISE**. QUANTITATIVE FLAGSHIP **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected picture: `analysis/accepted/figures/protocol_clocks.svg`. READY FOR MISSION 3: **NO** until independent readiness judgments and a human row in `state/decisions.md`.
 
 **Locked question:** What does Hu’s retinal ACV result establish, and what does it not? Storyboard: `poster/storyboards/mission3.md`. Mission-2 test-locked storyboard (keep for CI): `poster/storyboards/revised_D.md`.
 
@@ -15,11 +15,12 @@ Not a finished poster. Not group-final. Do not start Mission 3 proper from chat 
 - Nightly (PI; score-heavy): `reports/nightly_summary.md`
 - Historical T1: `poster/storyboards/winner.md`
 - Central glyph (conceptual, no data pixels): `poster/figures/mission3_boundary_glyph.svg` (+ `.CAPTION.md`)
+- Selected clocks picture: `analysis/accepted/figures/protocol_clocks.svg`
 - PR provenance: `state/pr_disposition_register.md`
 
 ## Analyses
 
-Accepted supporting (rebuild with `sh analysis/accepted/rebuild.sh`): `span_identity.svg`, `two_regime_clocks.svg`, `atlas.svg`. Demoted: `occupancy.svg`.
+Accepted supporting (rebuild with `sh analysis/accepted/rebuild.sh`): `protocol_clocks.svg` (selected picture), `span_identity.svg`, `two_regime_clocks.svg`, `atlas.svg`. Demoted: `occupancy.svg`.
 
 Rejected as flagship (isolated branches, not merged): sampling-clock `cursor/analysis-m2-sampling-634f` @ `5543ce7c6bc3c0b100e16f4ebeba85ddce218052`; LF-*n* `cursor/analysis-m2-lfn-634f` @ `93ddf2300edbaa7386c8baaadf4837592b7e7e27`; working-range `cursor/analysis-m2-working-range-634f` @ `449ea4fd3aaa5916ae73f2fcdc0b44937f3b7e52`.
 

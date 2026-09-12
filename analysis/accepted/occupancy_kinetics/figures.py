@@ -303,7 +303,7 @@ def span_identity_svg() -> str:
         "text",
         attrib={"x": str((span_x1 + span_x2) / 2), "y": str(plot_y + 168), "font-size": "14", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"},
     )
-    span_lab.text = "~44,000-fold  MODELED arithmetic on two literature examples"
+    span_lab.text = "81-fold ruler is supporting biochemistry — not a device span"
     ET.SubElement(
         svg,
         "rect",
@@ -323,6 +323,67 @@ def span_identity_svg() -> str:
     foot2.text = "PROPOSED: paired solution/surface isotherm of the Fc-thiol 39-mer; report n. Different hippocampal contexts are not a retinal spec."
     foot3 = ET.SubElement(svg, "text", attrib={"x": "20", "y": "480", "font-size": "12", "font-family": "sans-serif", "fill": "#444"})
     foot3.text = "Axis: log10 [Glu] from 10 pM to 10 mM. 81-fold ruler shown at a generic 1 µM Kd so it cannot be mistaken for the 1.8 nM overlay."
+    return ET.tostring(svg, encoding="unicode")
+
+
+def protocol_clocks_svg() -> str:
+    """Measured protocol clocks vs 1.2 ms inferred cleft decay. Not Nyquist, t_off, or kon."""
+    width, height = 920, 520
+    svg = ET.Element("svg", attrib={"xmlns": "http://www.w3.org/2000/svg", "width": str(width), "height": str(height)})
+    ET.SubElement(svg, "rect", attrib={"x": "0", "y": "0", "width": str(width), "height": str(height), "fill": "#fff"})
+    title = ET.SubElement(svg, "text", attrib={"x": "20", "y": "28", "font-size": "16", "font-family": "sans-serif", "font-weight": "bold"})
+    title.text = "Selected picture: protocol clocks actually run vs 1.2 ms INFERENCE"
+    _stamp(svg, 20, 40, 150, 28, "MEASURED", "#b7e4c7")
+    _stamp(svg, 180, 40, 150, 28, "MODELED", "#90e0ef")
+    _stamp(svg, 340, 40, 150, 28, "UNKNOWN", "#d3d3d3")
+    _stamp(svg, 500, 40, 150, 28, "PROPOSED", "#ffd166")
+    note = ET.SubElement(svg, "text", attrib={"x": "20", "y": "86", "font-size": "12", "font-family": "sans-serif"})
+    note.text = "Protocol times are upper bounds on demonstrated resolution, not chemistry limits (E030). Identity of tissue ACV stays UNKNOWN."
+    rows = [
+        ("Hu AuED-MEA Glu incubation 15 min", 900.0, "MEASURED", "E008", "#b7e4c7"),
+        ("PaC 10 nM plateau 10 min", 600.0, "MEASURED partial", "E042", "#b7e4c7"),
+        ("Xiao FET after 10 nM 200 s", 200.0, "MEASURED", "E027", "#b7e4c7"),
+        ("Retina sampling 1 min/point", 60.0, "MEASURED partial", "E046", "#b7e4c7"),
+        ("Retina ACV scan 14 s", 14.0, "MEASURED partial", "E045", "#b7e4c7"),
+        ("Cocaine E-AB faster than 4 s scan (not Glu)", 4.0, "other-analyte bound", "E030", "#ffd166"),
+        ("Rutherford recording interval 1 s", 1.0, "MEASURED", "C022", "#b7e4c7"),
+        ("IPA interrogation 2 ms (not koff)", 0.002, "MEASURED clock", "E016", "#b7e4c7"),
+        ("Clements cleft decay 1.2 ms", 0.0012, "INFERENCE", "E033", "#f4a261"),
+    ]
+    plot_x, plot_y, plot_w, plot_h = 340, 110, 540, 360
+    tmin, tmax = math.log10(5e-4), math.log10(2e3)
+
+    def xmap(t: float) -> float:
+        return plot_x + (math.log10(t) - tmin) / (tmax - tmin) * plot_w
+
+    ET.SubElement(
+        svg,
+        "rect",
+        attrib={"x": str(plot_x), "y": str(plot_y), "width": str(plot_w), "height": str(plot_h), "fill": "#fafafa", "stroke": "#111"},
+    )
+    for decade in (1e-3, 1e-2, 1e-1, 1, 10, 100, 1000):
+        x = xmap(decade)
+        svg.append(_line(x, plot_y, x, plot_y + plot_h, "#ddd", "1"))
+        tick = ET.SubElement(svg, "text", attrib={"x": str(x), "y": str(plot_y + plot_h + 16), "font-size": "10", "font-family": "sans-serif", "text-anchor": "middle"})
+        tick.text = f"{decade:g} s"
+    axis = ET.SubElement(svg, "text", attrib={"x": str(plot_x + plot_w / 2), "y": str(plot_y + plot_h + 34), "font-size": "12", "font-family": "sans-serif", "text-anchor": "middle"})
+    axis.text = "log10 time (s)  —  protocol clock, not binding koff"
+    row_h = plot_h / len(rows)
+    for i, (label, t, stamp, eid, fill) in enumerate(rows):
+        y = plot_y + i * row_h + 8
+        lab = ET.SubElement(svg, "text", attrib={"x": "16", "y": str(y + 14), "font-size": "11", "font-family": "sans-serif"})
+        lab.text = f"{label}  {eid}"
+        st = ET.SubElement(svg, "text", attrib={"x": "16", "y": str(y + 28), "font-size": "10", "font-family": "sans-serif", "fill": "#444"})
+        st.text = stamp
+        x0 = plot_x
+        x1 = xmap(t)
+        ET.SubElement(
+            svg,
+            "rect",
+            attrib={"x": str(x0), "y": str(y), "width": str(max(x1 - x0, 4)), "height": str(row_h - 16), "fill": fill, "stroke": "#111", "stroke-width": "1"},
+        )
+    inf = ET.SubElement(svg, "text", attrib={"x": "20", "y": "500", "font-size": "12", "font-family": "sans-serif"})
+    inf.text = "INFERENCE is Clements abstract-only 1.2 ms. Rapid-transient readiness of the 39-mer remains UNKNOWN. PROPOSED identity test is U2."
     return ET.tostring(svg, encoding="unicode")
 
 
@@ -415,6 +476,7 @@ def main() -> None:
     out = ROOT / "figures"
     out.mkdir(exist_ok=True)
     (out / "span_identity.svg").write_text(span_identity_svg(), encoding="utf-8")
+    (out / "protocol_clocks.svg").write_text(protocol_clocks_svg(), encoding="utf-8")
     (out / "two_regime_clocks.svg").write_text(two_regime_clocks_svg(), encoding="utf-8")
     (out / "occupancy.svg").write_text(occupancy_svg(), encoding="utf-8")
     (out / "clocks.svg").write_text(clocks_svg(), encoding="utf-8")
@@ -424,9 +486,14 @@ def main() -> None:
         "Figure span_identity (SUPPORTING): 1:1 Langmuir 10–90% occupancy is exactly 81-fold, "
         "independent of Kd. MODELED design principle. Herman ~25 nM is MEASURED ambient glutamate "
         "in acute hippocampal slice. Clements ~1.1 mM is an INFERENCE at cultured hippocampal "
-        "synapses — a different preparation. Those two literature examples span ~44,000-fold "
-        "(MODELED arithmetic). They are not a retinal concentration range or an accepted representative surface-device span. PaC-probe occupancy "
+        "synapses — a different preparation. MODELED Herman/Clements arithmetic is not drawn as a device "
+        "span on this figure. They are not a retinal concentration range. PaC-probe occupancy "
         "in Ames/tissue is UNKNOWN. Hu 1.8 nM is not drawn as tissue occupancy.\n\n"
+        "Figure protocol_clocks (selected quantitative picture): MEASURED protocol times from ledgered "
+        "rows (15 min E008, 10 min E042, 200 s E027, 1 min E046, 14 s E045, 1 s C022, 2 ms IPA E016) "
+        "versus 1.2 ms INFERENCE (E033). E030 is an other-analyte upper bound on demonstrated resolution. "
+        "Not Nyquist, not t_off, not kon, not tissue [Glu]. Identity remains UNKNOWN. BOUND/SIMULATION "
+        "labels stay on occupancy/clocks supporting figures. Rates from tobramycin/ITC are NOT glutamate.\n\n"
         "Figure two_regime_clocks: left column is MEASURED ACV signal-gain on S066 probe calibration "
         "(10 nM step, ~10 min plateau), Ames calibration (41.6% blank noise), and in vitro "
         "retina recording (14 s scan, ~1 min sampling). Leg A is post-insertion rise (time; light on); "
@@ -448,6 +515,7 @@ def main() -> None:
         encoding="utf-8",
     )
     print(out / "span_identity.svg")
+    print(out / "protocol_clocks.svg")
     print(out / "two_regime_clocks.svg")
     print(out / "occupancy.svg")
     print(out / "clocks.svg")

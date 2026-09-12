@@ -1,8 +1,8 @@
 # Current thesis (revised D)
 
-Status: **canonical working thesis** after Mission 1 closure. Science-story gate **REVISE**. Mission 2 science freeze: **FREEZE** at **REVISE** (evidence-boundary restatement; tournament 85+ still unreached). QUANTITATIVE FLAGSHIP: **NONE** (`unresolved` as title). Not group-final (`state/decisions.md`). READY FOR MISSION 3: **NO**.
+Status: **canonical working thesis** after Mission 1 closure. Science-story gate **REVISE**. Mission 2 science freeze: **FREEZE** at **REVISE** (evidence-boundary restatement; tournament 85+ still unreached). QUANTITATIVE FLAGSHIP: **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected quantitative **picture**: measured protocol clocks (`analysis/accepted/figures/protocol_clocks.svg`). Not group-final (`state/decisions.md`). READY FOR MISSION 3: **NO**.
 
-Mission-3-facing storyboard: `poster/storyboards/mission3.md`. Mission-2 test-locked storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved: **NONE** as title; do not reopen selection as an open action.
+Mission-3-facing storyboard: `poster/storyboards/mission3.md`. Mission-2 test-locked storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved: **NONE** as occupancy/Kd/LOD/tissue-[Glu] title; do not reopen those rejected plots. The selected handoff **picture** is measured protocol clocks.
 Supersedes overnight T1/T5 as *current consensus*. Those texts remain historical in `poster/theses.md`, `analysis/candidates/theses/`, and `rounds/03/`.
 
 Do not treat this file as a finished poster.

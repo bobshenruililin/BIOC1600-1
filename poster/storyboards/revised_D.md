@@ -26,10 +26,10 @@ Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of ad
 
 ## 2. Flagship placeholder — NONE
 
-- **Claim.** QUANTITATIVE FLAGSHIP: **NONE**. A plot would re-center on conversions the freeze forbids (slope-as-occupancy; Appendix II molarity; C_eq as tissue [Glu]). The 1:1 81-fold identity remains valid supporting biochemistry (C027/C013), but the Herman-to-Clements comparison is not a settled device requirement. Sampling-clock, dual-pole working-range, and occupancy overlay stay rejected as titles. PR #24 is not accepted and should not be called “Nyquist” without defended signal assumptions.
-- **Stamps.** MODELED (81-fold identity). UNKNOWN (representative surface-electrode concentration span; LF *n*; flagship remains NONE). PROPOSED (U2 pharmacology plus scrambled/binding-null on both ACV legs).
-- **IDs.** C027, C013, C031, E045, E046; `state/mission2_input_queue.md`
-- **Figure.** Placeholder only. `span_identity.svg` may appear as a supporting inset; do not label it flagship. Do not merge PR #24’s generated figure wholesale.
+- **Claim.** QUANTITATIVE FLAGSHIP: **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. The selected quantitative **picture** is measured protocol clocks (`protocol_clocks.svg`): times that were actually run, versus 1.2 ms INFERENCE. That picture is not occupancy, not Nyquist, not a tissue concentration. A Kd/LOD/occupancy plot would re-center on conversions the freeze forbids. The 1:1 81-fold identity remains valid supporting biochemistry (C027/C013). Sampling-clock, dual-pole working-range, and occupancy overlay stay rejected as titles. PR #24 is not accepted and should not be called “Nyquist” without defended signal assumptions.
+- **Stamps.** MEASURED (protocol clocks). INFERENCE (1.2 ms). MODELED (81-fold identity). UNKNOWN (identity; PaC θ; flagship occupancy title remains NONE). PROPOSED (U2).
+- **IDs.** C006, C009, C011, C014, C022, C028, C031, E008, E016, E027, E033, E042, E045, E046; `state/mission2_input_queue.md`
+- **Figure.** `analysis/accepted/figures/protocol_clocks.svg`. `span_identity.svg` may appear as a supporting inset; do not label it flagship. Do not merge PR #24’s generated figure wholesale.
 
 ## 3. Hu retina: two ACV legs on a slow clock, identity UNKNOWN
 

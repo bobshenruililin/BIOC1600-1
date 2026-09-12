@@ -8,7 +8,7 @@ Locked question:
 
 One object: the Ø 25 µm Fc-thiol 39-mer in isolated mouse retina **MEASURES** ACV signal-gain on two unequal-IV legs. Authors **INFER** glutamate. Chemical identity stays **UNKNOWN** until named U2. Printed spiked-buffer `%gain` maps cannot invert tissue ACV. Rapid-transient readiness is **unmeasured**.
 
-QUANTITATIVE FLAGSHIP: **NONE**. Do not invent Fig. 6.13 pixels.
+QUANTITATIVE FLAGSHIP: **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected picture: `analysis/accepted/figures/protocol_clocks.svg` (MEASURED protocol clocks vs 1.2 ms INFERENCE). Do not invent Fig. 6.13 pixels.
 
 Stamps: **MEASURED** / **INFERRED** / **MODELED** / **UNKNOWN** / **PROPOSED**.
 
@@ -19,7 +19,7 @@ Stamps: **MEASURED** / **INFERRED** / **MODELED** / **UNKNOWN** / **PROPOSED**.
 - **Claim.** Same construct, same shank, two IVs. Leg A: post-insertion signal-gain rise (time; light held on). Leg B: later room-light on–off–on (illumination). Both are MEASURED as ACV `%gain` referenced to a post-insertion baseline. Both are INFERRED as glutamate. Neither is a pharmacological identification.
 - **Stamps.** MEASURED (signal-gain, clocks 14 s / ~1 min, unequal IVs, in vitro). INFERRED (Glu). UNKNOWN (identity).
 - **IDs.** C033, E046, C031
-- **Figure idea.** Two columns, no heatmap. Left: Leg A. Right: Leg B. Big UNKNOWN stamp on “analyte.” Do not draw unpublished pixels. Existing file `two_regime_clocks.svg` is a supporting clocks cartoon, not this glyph. Draft conceptual glyph: `poster/figures/mission3_boundary_glyph.svg` (+ `.CAPTION.md`; text stamps only, no data pixels).
+- **Figure idea.** Two columns, no heatmap. Left: Leg A. Right: Leg B. Big UNKNOWN stamp on “analyte.” Do not draw unpublished pixels. Identity glyph: `poster/figures/mission3_boundary_glyph.svg`. Selected clocks picture: `analysis/accepted/figures/protocol_clocks.svg` (not omnibus `clocks.svg`). `two_regime_clocks.svg` remains the calibration-vs-retina cartoon.
 
 ## Panel 2 — Why the maps cannot finish the job
 
@@ -47,7 +47,7 @@ Stamps: **MEASURED** / **INFERRED** / **MODELED** / **UNKNOWN** / **PROPOSED**.
 - **Claim.** 12 µM, 1.8 nM, 32 pM, 0.3 pM, 293 nM, 10 fM are different objects on different constructs and matrices. 1.8 nM is AuED-MEA Langmuir–Freundlich apparent Kd in PBS, **not** the PaC probe’s molecular Kd. Glutamate `kon`/`koff` cells stay empty. Missing `koff` does not prove slow kinetics.
 - **Stamps.** MEASURED (each ledger number on its row). UNKNOWN (PaC Kd; Glu rates). MODELED (81-fold 1:1 identity as biochemistry, not this film’s window).
 - **IDs.** C001, C005, C007, C014, C027, C029
-- **Figure.** `atlas.svg` (selected atlas; curated omissions ≠ genuine empties). `span_identity.svg` inset only.
+- **Figure.** `atlas.svg` (selected atlas; PBS vs 50% serum LODs labeled; curated omissions ≠ genuine empties). `span_identity.svg` inset only — 81-fold identity, not 81-vs-44000.
 
 ## Panel 6 — PROPOSED: name the current (U2)
 

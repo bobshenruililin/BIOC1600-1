@@ -21,6 +21,7 @@ class AtlasTests(unittest.TestCase):
             "1d04 isolate",
             "glu1 E-AB",
             "Hu Glu-apt surface",
+            "Hu Glu-apt 50% serum",
             "Xiao SPR oligo",
             "Xiao CNT FET",
             "Hu retina probe thesis",
@@ -33,12 +34,16 @@ class AtlasTests(unittest.TestCase):
         self.assertIn("12", grid[("1d04 isolate", "Kd_molecular")])
         self.assertIn("1.8", grid[("Hu Glu-apt surface", "EC50")])
         self.assertIn("15", grid[("Hu Glu-apt surface", "measurement_time")])
+        self.assertIn("51.5", grid[("Hu Glu-apt 50% serum", "sensor_LOD")])
+        self.assertIn("serum", grid[("Hu Glu-apt 50% serum", "sensor_LOD")].lower())
+        self.assertIn("PBS", grid[("Hu Glu-apt surface", "sensor_LOD")])
         self.assertIn("0.3", grid[("Hu retina probe thesis", "sensor_LOD")])
         self.assertIn("10", grid[("Hu retina probe thesis", "measurement_time")])
 
     def test_svg_mentions_empty_kon(self):
         text = svg(build_grid(load_ledger(CSV)))
         self.assertIn("empty", text.lower())
+        self.assertIn("MEASURED", text)
         self.assertIn("1.8 nM", text.replace("µ", "u"))
 
 

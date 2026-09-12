@@ -46,7 +46,8 @@
     "missing koff does not prove slow kinetics",
     "81-fold identity retained as supporting biochemistry, not the accepted flagship",
     "81-fold-versus-44000-fold comparison withdrawn as the flagship after PR #31",
-    "Class-A stamp loop: Panel 3 MEASURED is ACV signal-gain not basal glutamate; identity UNKNOWN at panel scale; PROPOSED is U2; C013 claim_text is the 81-fold identity only; E042-E046 full_text_inspected=partial (pixels unread); ephys spike-rate panels distinguished from spiked-buffer %gain maps"
+    "Class-A stamp loop: Panel 3 MEASURED is ACV signal-gain not basal glutamate; identity UNKNOWN at panel scale; PROPOSED is U2; C013 claim_text is the 81-fold identity only; E042-E046 full_text_inspected=partial (pixels unread); ephys spike-rate panels distinguished from spiked-buffer %gain maps",
+    "Selected quantitative picture is measured protocol clocks (protocol_clocks.svg); occupancy/Kd/LOD/tissue-[Glu] flagship title remains NONE; 81-vs-44000 is not the span_identity picture; S066 source inspection stamped partial; C024 split review-supported vs C035 computational illustration"
   ],
   "recommended_thesis_id": "D_revised",
   "runner_up_id": "C",
