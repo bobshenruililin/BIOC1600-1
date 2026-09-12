@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 428" width="900" height="428" role="img" aria-label="B2 card 2M: Printed percent-gain maps cannot invert tissue ACV. PBS 11.86 percent per decade and Ames 57.11 percent per decade are measured buffer calibrations. Tissue ACV is a third, unprinted transfer, empty well unknown. Glutamate measured only where glutamate was the spiked independent variable. Not Leg A, not Leg B. Not the hero. No C028. Do not recover occupancy theta. No slope-ratio as a result.">
+  <!-- B2 demotion card 2M. Communication only. Does not replace the hybrid hero. Not on B1.
+       Mission 2 not reopened. No PR. No Astra. No invented numbers. No occupancy overlay.
+       No slope-ratio as a result. No C028 (10 min plateau is a 2C clock, not a printed map).
+       Freeze numbers only: E047 PBS 11.86 %/decade (Fig. 6.7B); E048 Ames 57.11 %/decade (Fig. 6.9A);
+       E044/C030 Ames 41.6% blank noise and 10 nM-10 uM window. Tissue well empty. -->
+  <defs>
+    <pattern id="tissue-empty-hatch" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#ffffff"/>
+      <path d="M0,8 L8,0" stroke="#cfcfcf" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="428" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="420" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Card tab: NOT LEG A / NOT LEG B -->
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#c1121f" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c1121f">NOT LEG A &#183; NOT LEG B</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B2 &#183; 2M &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">demotion card &#183; schematic</text>
+
+  <!-- Title: exact 2M title -->
+  <text x="450" y="70" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Printed %gain maps cannot invert tissue ACV</text>
+
+  <!-- Claim (one breath; fidfix sec. 3) -->
+  <g font-family="sans-serif">
+    <text x="450" y="92" text-anchor="middle" font-size="12">PBS 11.86 %/decade and Ames 57.11 %/decade are MEASURED buffer calibrations.</text>
+    <text x="450" y="110" text-anchor="middle" font-size="12">Tissue ACV is a third, unprinted transfer. Empty well UNKNOWN. Do not recover &#952;.</text>
+    <text x="450" y="128" text-anchor="middle" font-size="12">Glu MEASURED only where Glu was the spiked IV.</text>
+  </g>
+
+  <!-- Column labels: printed vs unprinted (not a slope-ratio glyph) -->
+  <g font-family="sans-serif">
+    <text x="292" y="150" text-anchor="middle" font-size="11" font-weight="bold">printed maps &#183; Glu = spiked IV</text>
+    <text x="746" y="150" text-anchor="middle" font-size="11" font-weight="bold">unprinted transfer</text>
+  </g>
+
+  <!-- PBS equation card (E047). White well: green is a strip, not a Glu fill. No plot. -->
+  <rect x="16" y="158" width="268" height="188" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="150" y="178" text-anchor="middle" font-size="13" font-weight="bold">PBS</text>
+    <text x="150" y="194" text-anchor="middle" font-size="10">spiked-buffer calibration</text>
+    <text x="150" y="210" text-anchor="middle" font-size="9" fill="#333">Fig. 6.7B &#183; section 6.2</text>
+    <text x="150" y="232" text-anchor="middle" font-size="15" font-weight="bold">11.86 %/decade</text>
+    <text x="150" y="248" text-anchor="middle" font-size="10">signal_gain &#183; matrix = PBS</text>
+    <rect x="28" y="256" width="244" height="20" fill="#b7e4c7" stroke="#111"/>
+    <text x="150" y="270" text-anchor="middle" font-size="10" font-weight="bold">MEASURED: Glu was the spiked IV</text>
+    <rect x="28" y="282" width="244" height="28" fill="#fff3bf" stroke="#111" stroke-width="1.5"/>
+    <text x="150" y="301" text-anchor="middle" font-size="13" font-weight="bold">buffer &#8800; tissue</text>
+    <text x="150" y="334" text-anchor="middle" font-size="10">E047</text>
+  </g>
+
+  <!-- Ames equation card (E048 slope; E044/C030 caveat). White well. No plot. -->
+  <rect x="300" y="158" width="268" height="188" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="434" y="178" text-anchor="middle" font-size="13" font-weight="bold">Ames</text>
+    <text x="434" y="194" text-anchor="middle" font-size="10">spiked-buffer calibration</text>
+    <text x="434" y="210" text-anchor="middle" font-size="9" fill="#333">Fig. 6.9A &#183; section 6.2</text>
+    <text x="434" y="232" text-anchor="middle" font-size="15" font-weight="bold">57.11 %/decade</text>
+    <text x="434" y="248" text-anchor="middle" font-size="10">signal_gain &#183; matrix = Ames</text>
+    <rect x="312" y="256" width="244" height="20" fill="#b7e4c7" stroke="#111"/>
+    <text x="434" y="270" text-anchor="middle" font-size="10" font-weight="bold">MEASURED: Glu was the spiked IV</text>
+    <rect x="312" y="282" width="244" height="28" fill="#fff3bf" stroke="#111" stroke-width="1.5"/>
+    <text x="434" y="301" text-anchor="middle" font-size="13" font-weight="bold">buffer &#8800; tissue</text>
+    <text x="434" y="322" text-anchor="middle" font-size="9">authors: 41.6% blank noise &#183; 10 nM&#8211;10 &#181;M</text>
+    <text x="434" y="338" text-anchor="middle" font-size="10">E048 &#183; E044 &#183; C030</text>
+  </g>
+
+  <!-- Cannot-invert mark between printed maps and empty tissue well. Not a slope-ratio glyph. -->
+  <g font-family="sans-serif">
+    <text x="588" y="248" text-anchor="middle" font-size="22" font-weight="bold">&#8800;</text>
+    <text x="588" y="266" text-anchor="middle" font-size="8">cannot</text>
+    <text x="588" y="278" text-anchor="middle" font-size="8">invert</text>
+  </g>
+
+  <!-- Tissue well: empty, unprinted, UNKNOWN. No number. -->
+  <rect x="608" y="158" width="276" height="188" fill="url(#tissue-empty-hatch)" stroke="#111" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <g font-family="sans-serif">
+    <text x="746" y="180" text-anchor="middle" font-size="13" font-weight="bold">tissue ACV</text>
+    <text x="746" y="196" text-anchor="middle" font-size="10">third transfer &#183; unprinted</text>
+    <rect x="622" y="208" width="248" height="44" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="746" y="227" text-anchor="middle" font-size="15" font-weight="bold">UNKNOWN</text>
+    <text x="746" y="244" text-anchor="middle" font-size="12" font-weight="bold">tissue transfer</text>
+    <text x="746" y="268" text-anchor="middle" font-size="11">empty &#183; no map &#183; no number</text>
+    <text x="746" y="286" text-anchor="middle" font-size="11">Glu was not the spiked IV</text>
+    <text x="746" y="304" text-anchor="middle" font-size="10">cannot invert from the two</text>
+    <text x="746" y="318" text-anchor="middle" font-size="10">reported buffer calibrations</text>
+    <text x="746" y="334" text-anchor="middle" font-size="9" fill="#333">not uncalibratable in principle</text>
+  </g>
+
+  <!-- Refusal strip: do not recover theta; no slope-ratio as a result -->
+  <rect x="16" y="354" width="868" height="28" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <text x="450" y="373" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c1121f">Do not recover &#952; from either printed %gain law. No occupancy overlay. No slope-ratio as a result.</text>
+
+  <!-- ID rail: fidfix F3 list. C028 stays off this card. -->
+  <g font-family="sans-serif">
+    <text x="450" y="402" text-anchor="middle" font-size="12" font-weight="bold">IDs: C030 &#183; E044 &#183; E047 &#183; E048</text>
+    <text x="450" y="416" text-anchor="middle" font-size="10" fill="#333">no C028 &#183; no flagship plot &#183; no data pixels &#183; Gate REVISE &#183; Flagship NONE &#183; not group-final</text>
+  </g>
+</svg>

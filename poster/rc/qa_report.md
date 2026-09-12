@@ -1,0 +1,75 @@
+# QA report
+
+INTERNAL RELEASE CANDIDATE — NOT FINAL. Gate **REVISE**. Flagship **NONE**. Astra skipped. SVG remains authoritative.
+
+## Pixel / PDF vision
+
+Inspected rasters were from the A1 PDF, not from the SVG.
+
+| Item | Value |
+| --- | --- |
+| Prior vision (audited PDF) | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/docs/mission3-pdf-vision-review.md` |
+| Prior PDF SHA-256 | `18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf` |
+| Prior MUST FIX | **none** |
+| Changed-pixel vision | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/docs/mission3-pdf-vision-changed-pixels.md` |
+| Current PDF (off-repo) | `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/media/BIOC1600_poster_review.pdf` |
+| Current PDF SHA-256 | `bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a` |
+| Current MUST FIX | **none** |
+| New PDF after changed-pixel review | **no** |
+
+Science gate stays **REVISE**. Pixel vision does not manufacture PASS or group-final. Do not transfer Astra’s verdict from PDF `18d43961` onto PDF `bbdac147`.
+
+## CI checksum (preview PNG)
+
+Exact-head `11ff288` GitHub `validate` (run 34707776747): **PASS: decoded pixels match** `fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94` at 4967×3508. File SHA `09f4ecc2…` also matched. Prior green: `41e9acd` run 34707326612. SVG and off-repo PDF are unchanged. Do not transfer Astra’s verdict onto this PNG.
+
+## Pixel coverage map (SVG mm → PNG px at 4967×3508)
+
+Scale ≈ 5.906 px/mm. Inspected human product is the off-repo PDF (`bbdac147…`), not this PNG.
+
+| Region | SVG mm (x,y,w,h) | PNG px (approx) |
+| --- | --- | --- |
+| masthead | 0,0,841,26.7 | 0,0,4967,158 |
+| 0 question | 6,28.2,829,38 | 35,167,4896,224 |
+| 1 hero eyefix | 6,68.5,458,322 | 35,405,2705,1902 |
+| 2 maps | 467.5,68.5,367.5,159 | 2761,405,2170,939 |
+| 3 spikes | 467.5,230.5,367.5,160 | 2761,1361,2170,945 |
+| 4 clocks-calfix | 6,393.5,248,78 | 35,2324,1465,461 |
+| 5 3Q | 257.5,393.5,577.5,78 | 1521,2324,3411,461 |
+| 6 3H | 6,474.5,203,102 | 35,2802,1199,603 |
+| 7 why-layers | 213,474.5,203,102 | 1258,2802,1199,603 |
+| 8 C032 | 420,474.5,203,102 | 2481,2802,1199,603 |
+| 9 U2 | 627,474.5,208,102 | 3703,2802,1228,603 |
+| whole page | 0,0,841,594 | 0,0,4967,3508 |
+
+PDF vision opened `poster_review_page.png`, `crop_masthead.png`, `crop_01_hero.png` (MUST FIX none). Thumbnail/normal/detail of the PDF page cover question, two-leg object, MEASURED/INFERRED/UNKNOWN, and U2.
+
+## Stylistic leftovers (not MUST FIX)
+
+- Clocks-calfix C028 caption overflow inherited from the exported 420-px face; ~1 min not independently readable in `crop_04_clocks.png`
+- Faint Panel 0 subtitle
+- Cramped 3Q strip; **1.8 nM** and **12 µM** still visible
+
+## Composition checks
+
+| Check | Result |
+| --- | --- |
+| A1 841 × 594 mm SVG | `width="841mm" height="594mm"` `viewBox="0 0 841 594"` |
+| Visible label | INTERNAL RELEASE CANDIDATE — NOT FINAL |
+| Nested faces 0–9 | b0, eyefix, maps, spikes, clocks-calfix, 3Q, 3H, why-layers-fidfix, C032, U2 |
+| Isolated mouse retina | on hero face |
+| eye-cup | absent |
+| 1.8 nM | visible on hero parked chip and 3Q card 1 |
+| 12 µM | visible on 3Q card 4 |
+| clocks face | `b2-clocks-calfix.svg` with C028 10 min plateau / 10 nM Glu step; not `protocol_clocks.svg` |
+| C032 Asp/Gln/GABA | UNKNOWN empty cells, not MEASURED |
+| U1 | red-X different question / not next |
+| Fig. 6.13 data pixels | not drawn |
+| Filename `final` | none |
+| PDF in git | none |
+
+## Forbidden-as-finding scan
+
+Visible “not Thesis E” on the spikes face is a refusal copied from the exported card, not Thesis E as a finding. Source XML comments mention Nyquist / recognition-first / protocol_clocks as **not** those objects; they are not masthead findings.
+
+Do not git-add the off-repo PDF or its PNG crops.

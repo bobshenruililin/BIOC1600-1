@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 436" width="900" height="436" role="img" aria-label="B3 card 3H: Two hippocampal examples, not a retinal range. Herman about 25 nanomolar MEASURED ambient in acute hippocampal slice, transients on a low baseline, two components not three. Clements about 1.1 millimolar and 1.2 milliseconds INFERRED at cultured hippocampal synapses, kinetic inference not a chemical assay, abstract-only. Different preparations. Transfer to retina UNKNOWN. Not this parylene-C probe's spec. Not a license to call Hu a failed cleft sensor. Supporting, not the finding. Not Leg A, not Leg B. Not the hero.">
+  <!-- B3 supporting card 3H. Communication only. Does not replace the hybrid hero. Not on B1.
+       Not 3Q. Not fidfix / fidfix2 / clocks / maps / spikes / U2. Mission 2 not reopened.
+       No PR. No Astra. No invented numbers. No span bar. No occupancy theta. No 81-fold.
+       No U1/U2. No Nyquist. No 14 s. No koff. No recognition-first graft.
+       Freeze numbers only: Herman ~25 nM (C012); Clements ~1.1 mM / ~1.2 ms (C011). -->
+  <rect width="900" height="436" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="428" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Governing tab: SUPPORTING  not the finding. Not Leg A. Not Leg B. -->
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">SUPPORTING &#8212; not the finding</text>
+
+  <rect x="316" y="12" width="196" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="414" y="34" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">NOT LEG A &#183; NOT LEG B</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B3 &#183; 3H &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">supporting card &#183; schematic</text>
+
+  <!-- Title: exact 3H title -->
+  <text x="450" y="70" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Two hippocampal examples, not a retinal range</text>
+
+  <!-- Claim (one breath). No span arithmetic. -->
+  <g font-family="sans-serif">
+    <text x="450" y="92" text-anchor="middle" font-size="12">Different hippocampal preparations. Not a retinal range. Not this PaC probe&#8217;s spec.</text>
+    <text x="450" y="110" text-anchor="middle" font-size="12">Transfer to retina UNKNOWN. Not a license to call Hu a failed cleft sensor.</text>
+  </g>
+
+  <!-- Column labels: two preps, not a continuum -->
+  <g font-family="sans-serif">
+    <text x="216" y="134" text-anchor="middle" font-size="11" font-weight="bold">Herman &#183; acute hippocampal slice</text>
+    <text x="684" y="134" text-anchor="middle" font-size="11" font-weight="bold">Clements &#183; cultured hippocampal synapses</text>
+  </g>
+
+  <!-- Herman well. Cream. MEASURED ambient in that prep. Text only: two-component sentence. -->
+  <rect x="16" y="142" width="400" height="198" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="216" y="166" text-anchor="middle" font-size="13" font-weight="bold">Herman</text>
+    <text x="216" y="184" text-anchor="middle" font-size="10">acute hippocampal slice</text>
+    <text x="216" y="210" text-anchor="middle" font-size="15" font-weight="bold">~25 nM</text>
+    <text x="216" y="226" text-anchor="middle" font-size="10">ambient &#183; biological_concentration_range</text>
+    <rect x="32" y="236" width="368" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="216" y="251" text-anchor="middle" font-size="11" font-weight="bold">MEASURED: ambient in this prep</text>
+    <rect x="32" y="264" width="368" height="44" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="216" y="282" text-anchor="middle" font-size="11" font-weight="bold">transients on a low baseline</text>
+    <text x="216" y="298" text-anchor="middle" font-size="10">two components &#183; not three occupancy windows</text>
+    <text x="216" y="326" text-anchor="middle" font-size="10">C012</text>
+  </g>
+
+  <!-- Connector: different preps. Not a span bar. Not a range glyph. -->
+  <g font-family="sans-serif">
+    <text x="450" y="232" text-anchor="middle" font-size="22" font-weight="bold">&#8800;</text>
+    <text x="450" y="250" text-anchor="middle" font-size="8">different</text>
+    <text x="450" y="262" text-anchor="middle" font-size="8">preps</text>
+    <text x="450" y="278" text-anchor="middle" font-size="8">not a</text>
+    <text x="450" y="290" text-anchor="middle" font-size="8">range</text>
+  </g>
+
+  <!-- Clements well. Cream. INFERRED kinetic inference, abstract-only. 1.2 ms = inferred decay only. -->
+  <rect x="484" y="142" width="400" height="198" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="684" y="166" text-anchor="middle" font-size="13" font-weight="bold">Clements</text>
+    <text x="684" y="184" text-anchor="middle" font-size="10">cultured hippocampal synapses</text>
+    <text x="684" y="208" text-anchor="middle" font-size="15" font-weight="bold">~1.1 mM</text>
+    <text x="684" y="224" text-anchor="middle" font-size="10">peak &#183; biological_concentration_range</text>
+    <text x="684" y="246" text-anchor="middle" font-size="14" font-weight="bold">decay &#964; ~1.2 ms</text>
+    <text x="684" y="262" text-anchor="middle" font-size="9">INFERRED decay in this prep &#183; abstract-only</text>
+    <rect x="500" y="272" width="368" height="22" fill="#ffc8a2" stroke="#111"/>
+    <text x="684" y="287" text-anchor="middle" font-size="11" font-weight="bold">INFERRED: kinetic inference</text>
+    <text x="684" y="310" text-anchor="middle" font-size="10">not a chemical assay</text>
+    <text x="684" y="326" text-anchor="middle" font-size="10">C011</text>
+  </g>
+
+  <!-- UNKNOWN stamp: transfer. Not a third well. Not a span. -->
+  <rect x="16" y="348" width="868" height="28" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+  <text x="450" y="367" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">UNKNOWN: transfer to retina</text>
+
+  <!-- Refusal: not PaC spec; not Hu as failed cleft sensor -->
+  <rect x="16" y="382" width="868" height="28" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <text x="450" y="401" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c1121f">Not this PaC probe&#8217;s spec. Not a license to call Hu a failed cleft sensor.</text>
+
+  <!-- ID rail: Claim 1 + Claim 3 freeze IDs only -->
+  <g font-family="sans-serif">
+    <text x="450" y="422" text-anchor="middle" font-size="12" font-weight="bold">IDs: C012 &#183; C011</text>
+    <text x="450" y="434" text-anchor="middle" font-size="10" fill="#333">no span bar &#183; Gate REVISE &#183; Flagship NONE &#183; not group-final</text>
+  </g>
+</svg>

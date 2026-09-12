@@ -1,0 +1,269 @@
+{
+  "package": "eyefix-package internal RC",
+  "label": "INTERNAL RELEASE CANDIDATE \u2014 NOT FINAL",
+  "not_final": true,
+  "group_final": false,
+  "science_freeze": "3fa11240c85df9ebac58dcc6879494911968f75c",
+  "thesis": "D_revised",
+  "gate": "REVISE",
+  "quantitative_flagship": "NONE",
+  "highest_information_experiment": "U2",
+  "pre_composition_astra": "SKIPPED \u2014 PACKET INCOMPLETE",
+  "astra_invoked": false,
+  "astra_findings_addressed_by": "Cursor/Sol",
+  "astra_audited_sha": "6c2d7f67b0d36f46d686f7f76fd8720267d24f20",
+  "astra_audited_pdf_sha256": "18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf",
+  "canonical": "poster/rc/poster_rc.svg",
+  "svg": {
+    "path": "poster/rc/poster_rc.svg",
+    "sha256": "c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782",
+    "bytes": 72653,
+    "width_mm": 841,
+    "height_mm": 594,
+    "viewBox": "0 0 841 594",
+    "authoritative": true
+  },
+  "png": {
+    "path": "poster/rc/poster_rc.png",
+    "sha256": "09f4ecc2d447222515676f78676a67715e9c3a538b09221046adee2184f51935",
+    "pixel_sha256": "fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94",
+    "ci_gate": "decoded_pixels",
+    "bytes": 2355325,
+    "width_px": 4967,
+    "height_px": 3508,
+    "requested_px": [
+      4967,
+      3508
+    ],
+    "rebuild": "scripts/build_poster_rc.sh",
+    "compare": "scripts/compare_poster_png.py",
+    "fontconfig": "scripts/poster_fontconfig.conf",
+    "file_sha256_note": "renderer-local zlib/filter encoding; not the CI gate",
+    "status": "ok"
+  },
+  "reading_order": [
+    "b0-question.svg",
+    "hybrid-hero-v3-eyefix.svg",
+    "b2-maps.svg",
+    "b2-spikes.svg",
+    "b2-clocks-calfix.svg",
+    "b3-3q-traps.svg",
+    "b3-3h-regimes.svg",
+    "b3-why-layers-fidfix.svg",
+    "b3-c032-selectivity.svg",
+    "u2-close.svg"
+  ],
+  "off_repo_review_pdf": {
+    "path": "/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/media/BIOC1600_poster_review.pdf",
+    "sha256": "bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a",
+    "bytes": 111258,
+    "pages": 1,
+    "page_size_mm": [
+      841,
+      594
+    ],
+    "page_size_pts": [
+      2383.94,
+      1683.78
+    ],
+    "fonts_embedded": true,
+    "raster_xobjects": 0,
+    "git": false,
+    "status": "regenerated_after_specified_fix",
+    "source_svg_sha256": "c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782",
+    "post_repair_git": "854a17a117f78b5a65bdf8f7964f7997d493467f",
+    "prior_audited_sha256": "18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf"
+  },
+  "files": {
+    "poster/rc/poster_rc.svg": {
+      "sha256": "c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782",
+      "bytes": 72653
+    },
+    "poster/rc/poster_rc.png": {
+      "sha256": "09f4ecc2d447222515676f78676a67715e9c3a538b09221046adee2184f51935",
+      "bytes": 2355325
+    },
+    "scripts/build_poster_rc.sh": {
+      "sha256": "5ad07948cda907d5b00c27424fc36762cad7ceac6afbee73069fd678434b501e",
+      "bytes": 3484
+    },
+    "poster/rc/astra_design_contract_report.md": {
+      "sha256": "0a7c130e1bc95be5da16cd6a0f73fab82da010b763b471ff9c6f6b3e632dd406",
+      "bytes": 1582
+    },
+    "poster/rc/astra_design_contract_disposition.md": {
+      "sha256": "f7d54562b37d97556e2779119ff565a3d2a1b8864499e1c226b9db98fa47fc7f",
+      "bytes": 1478
+    },
+    "poster/rc/astra_report.md": {
+      "sha256": "7af2d7fa3701f72f72ad94022ac06059aacf0d6f09754ed24f2060ec4d427b04",
+      "bytes": 5432
+    },
+    "poster/rc/astra_disposition.md": {
+      "sha256": "cc4c7480a349fb0d3da869e5564d0493ee5aa30cc8641964a14226668819027f",
+      "bytes": 2710
+    },
+    "poster/rc/astra_bundle/index.md": {
+      "sha256": "f549a9a9d6cd00d50794de9dc13a149ec95b90a3456770839a370fdd9536227e",
+      "bytes": 696
+    },
+    "poster/rc/README.md": {
+      "sha256": "9aa6bb182bc71254f5f4d9c20ccd5c79e37ee39cdd9d83d745234be3235c5802",
+      "bytes": 2443
+    },
+    "poster/rc/copy.md": {
+      "sha256": "acd794012285002ca101ef89f954658890e759e76b3261a62755d5bd7e61a2c3",
+      "bytes": 3135
+    },
+    "poster/rc/captions.md": {
+      "sha256": "9561052515b2487ecde15e93dd17194802ba19094ff9ec28fb6c32e492a3db91",
+      "bytes": 2579
+    },
+    "poster/rc/talk_90s.md": {
+      "sha256": "a51fca1c2e9cf456b6131df58f3b2753c2f352a324211e6bc2a30581274b59a1",
+      "bytes": 1284
+    },
+    "poster/rc/talk_3min.md": {
+      "sha256": "f17802deb8b67a627a499264ea6f7cce4b4d9f110557c3309faffd0348b0caad",
+      "bytes": 2197
+    },
+    "poster/rc/oral_defense.md": {
+      "sha256": "d17b85be2a6d5d63c85e54303caffbcfce13f48613e481c81b6cee076a8a08f2",
+      "bytes": 3701
+    },
+    "poster/rc/provenance.csv": {
+      "sha256": "73a1622b81dfe58298d0e2cebc37965bda2389f96b225dcb21109d54626f26c9",
+      "bytes": 1886
+    },
+    "poster/rc/decision_record.md": {
+      "sha256": "29fcc4249d5fdf0e9472775e01a59a538a093cebec7287c72b6c4062ff3c3faa",
+      "bytes": 1449
+    },
+    "poster/rc/review_index.md": {
+      "sha256": "e018122cf3a2fda347c8ef04a5fa43a23580db12ecf9793c20d10f4c097e7ac6",
+      "bytes": 1202
+    },
+    "poster/rc/qa_report.md": {
+      "sha256": "61a6af9d970c27579f4a0e9b5413f3bb058b49fd3ee904ec40a1934572a7b325",
+      "bytes": 3837
+    },
+    "poster/rc/checkpoint.md": {
+      "sha256": "738b9e690006f15c5dc2b135c6bff9d48bb3081fcc6cafde0cf497d6d82b6602",
+      "bytes": 3002
+    },
+    "scripts/compare_poster_png.py": {
+      "sha256": "87373b0d7c8f2b8003a97e84563cb3f5cd1ae505d1d22d7e4015b53bd9c5cc15",
+      "bytes": 5687
+    },
+    "scripts/ci_rebuild_poster_rc.sh": {
+      "sha256": "7cf5c4f1ea1ceddd3aababbb9d5687f2cbf2f16e09fea291953c13daead1b688",
+      "bytes": 1168
+    },
+    "scripts/poster_fontconfig.conf": {
+      "sha256": "0bcecfa239f36ee8e774bd19703d7f1c866c885dd38df341407ec644f0dca716",
+      "bytes": 2898
+    },
+    "poster/rc/fonts/README.md": {
+      "sha256": "6a5fd1683b54795f90afac04cf2933998b431c2fd1bd1a3989fbb873b1614c39",
+      "bytes": 714
+    },
+    "poster/rc/fonts/Noto-copyright": {
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "bytes": 5208
+    },
+    "poster/rc/fonts/DejaVu-copyright": {
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "bytes": 3859
+    },
+    "poster/rc/fonts/DejaVuSans-Bold.ttf": {
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "bytes": 708920
+    },
+    "poster/rc/fonts/DejaVuSans.ttf": {
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "bytes": 759720
+    },
+    "poster/rc/fonts/DejaVuSerif-Bold.ttf": {
+      "sha256": "847b33e13925f19ff87e4d934d6b3cf7cac35ce16424f6f670e40c2f377cf2df",
+      "bytes": 356668
+    },
+    "poster/rc/fonts/DejaVuSerif.ttf": {
+      "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
+      "bytes": 380660
+    },
+    "poster/rc/fonts/NotoSans-Bold.ttf": {
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "bytes": 515752
+    },
+    "poster/rc/fonts/NotoSans-Regular.ttf": {
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "bytes": 512672
+    },
+    "poster/rc/fonts/NotoSerif-Bold.ttf": {
+      "sha256": "0af0ff2be8f84910fb21ec5fe1b6b7395e3073250502a334baf6ca2f860c88fe",
+      "bytes": 611904
+    },
+    "poster/rc/fonts/NotoSerif-Regular.ttf": {
+      "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f",
+      "bytes": 588876
+    }
+  },
+  "fonts": {
+    "DejaVuSans-Bold.ttf": {
+      "path": "poster/rc/fonts/DejaVuSans-Bold.ttf",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "bytes": 708920
+    },
+    "DejaVuSans.ttf": {
+      "path": "poster/rc/fonts/DejaVuSans.ttf",
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "bytes": 759720
+    },
+    "DejaVuSerif-Bold.ttf": {
+      "path": "poster/rc/fonts/DejaVuSerif-Bold.ttf",
+      "sha256": "847b33e13925f19ff87e4d934d6b3cf7cac35ce16424f6f670e40c2f377cf2df",
+      "bytes": 356668
+    },
+    "DejaVuSerif.ttf": {
+      "path": "poster/rc/fonts/DejaVuSerif.ttf",
+      "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
+      "bytes": 380660
+    },
+    "NotoSans-Bold.ttf": {
+      "path": "poster/rc/fonts/NotoSans-Bold.ttf",
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "bytes": 515752
+    },
+    "NotoSans-Regular.ttf": {
+      "path": "poster/rc/fonts/NotoSans-Regular.ttf",
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "bytes": 512672
+    },
+    "NotoSerif-Bold.ttf": {
+      "path": "poster/rc/fonts/NotoSerif-Bold.ttf",
+      "sha256": "0af0ff2be8f84910fb21ec5fe1b6b7395e3073250502a334baf6ca2f860c88fe",
+      "bytes": 611904
+    },
+    "NotoSerif-Regular.ttf": {
+      "path": "poster/rc/fonts/NotoSerif-Regular.ttf",
+      "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f",
+      "bytes": 588876
+    }
+  },
+  "renderer": {
+    "command": "rsvg-convert --keep-image-data -w 4967 -h 3508",
+    "version": "rsvg-convert version 2.58.0",
+    "fontconfig": "scripts/poster_fontconfig.conf",
+    "font_dir": "poster/rc/fonts",
+    "checksum_gate": "decoded_pixels"
+  },
+  "github_validate": {
+    "ci_tested_sha": "11ff28871f58d2e3102ad6a4b3c4480f0fb4406b",
+    "push_run": "https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707776747",
+    "prior_green_sha": "41e9acdef529524acc13f59cf5eecaafd7e95e38",
+    "prior_push_run": "https://github.com/bobshenruililin/BIOC1600-1/actions/runs/34707326612",
+    "poster_rebuild_step": "Poster RC rebuild pixel checksum",
+    "decoded_pixels": "PASS",
+    "pixel_sha256": "fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94"
+  }
+}
