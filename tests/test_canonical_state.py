@@ -40,11 +40,21 @@ class CanonicalStateTests(unittest.TestCase):
         self.assertEqual(gate["mission1_status"], "COMPLETE")
         self.assertFalse(gate["group_final"])
         self.assertTrue(gate["ready_for_mission2"])
+        self.assertTrue(gate["ready_for_mission3"])
+        self.assertFalse(gate["mission2_85_honest"])
+        self.assertEqual(gate["mission2_science_freeze"], "FREEZE")
+        self.assertEqual(gate["highest_information_experiment"], "U2")
         self.assertIn("UNRESOLVED", gate["flagship_analysis"])
         self.assertFalse(gate["pass_criteria"]["computation_answers_thesis"])
         self.assertEqual(scoreboard["science_story_gate"], "REVISE")
         self.assertEqual(scoreboard["mission1_status"], "COMPLETE")
+        thesis = (ROOT / "state/current_thesis.md").read_text(encoding="utf-8")
+        self.assertIn("READY FOR MISSION 3: **YES**", thesis)
+        unknowns = (ROOT / "state/high_value_unknowns.md").read_text(encoding="utf-8")
+        self.assertIn("**Locked: U2.**", unknowns)
         self.assertEqual(scoreboard["flagship_analysis_status"], "unresolved_mission2_input")
+        self.assertTrue(scoreboard["ready_for_mission3"])
+        self.assertEqual(scoreboard["highest_information_experiment"], "U2")
 
     def test_canonical_handoffs_agree(self):
         closure = (ROOT / "reports/mission1_closure.md").read_text(encoding="utf-8")
@@ -67,10 +77,10 @@ class CanonicalStateTests(unittest.TestCase):
 
     def test_pr_disposition_register_covers_every_open_pr_head(self):
         register = (ROOT / "state/pr_disposition_register.md").read_text(encoding="utf-8")
-        for number in range(6, 32):
+        for number in range(6, 33):
             self.assertRegex(register, rf"\| #{number} \|")
         full_shas = re.findall(r"`[0-9a-f]{40}`", register)
-        self.assertEqual(len(full_shas), 26)
+        self.assertEqual(len(full_shas), 27)
 
     def test_mission2_queue_separates_evidence_states(self):
         queue = (ROOT / "state/mission2_input_queue.md").read_text(encoding="utf-8")

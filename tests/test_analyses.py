@@ -20,12 +20,14 @@ class AnalysisRebuildTests(unittest.TestCase):
         self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/clocks.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/sensitivity.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/span_identity.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/protocol_clocks.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/occupancy_kinetics/figures/two_regime_clocks.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/atlas.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/occupancy.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/clocks.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/sensitivity.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/span_identity.svg").is_file())
+        self.assertTrue((ROOT / "analysis/accepted/figures/protocol_clocks.svg").is_file())
         self.assertTrue((ROOT / "analysis/accepted/figures/two_regime_clocks.svg").is_file())
 
     def test_captions_forbid_overclaim(self):
@@ -48,6 +50,7 @@ class AnalysisRebuildTests(unittest.TestCase):
         self.assertIn("hippocampal", span)
         self.assertIn("PaC probe", span)
         self.assertNotIn("θ(25 nM)=0.93", span)
+        self.assertNotIn("~44,000-fold", span)
         occupancy = (ROOT / "analysis/accepted/occupancy_kinetics/figures/occupancy.svg").read_text(encoding="utf-8")
         self.assertIn("DEMOTED", occupancy)
         self.assertIn("not tissue occupancy", occupancy)
@@ -73,6 +76,13 @@ class AnalysisRebuildTests(unittest.TestCase):
         for label in ("PROBE CALIBRATION", "AMES CALIBRATION", "RETINA RECORDING"):
             self.assertIn(label, svg)
         self.assertIn("Calibration clocks are not tissue-recording clocks", caption)
+
+    def test_protocol_clocks_picture_is_ledgered_not_nyquist(self):
+        svg = (ROOT / "analysis/accepted/occupancy_kinetics/figures/protocol_clocks.svg").read_text(encoding="utf-8")
+        for token in ("15 min", "1.2 ms", "INFERENCE", "MEASURED", "E008", "E033", "C022"):
+            self.assertIn(token, svg)
+        self.assertNotIn("Nyquist", svg)
+        self.assertNotIn("t_off", svg)
 
 
 if __name__ == "__main__":

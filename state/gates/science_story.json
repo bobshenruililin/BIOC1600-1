@@ -5,6 +5,10 @@
   "mission1_status": "COMPLETE",
   "group_final": false,
   "ready_for_mission2": true,
+  "ready_for_mission3": true,
+  "mission2_status": "REVISE",
+  "mission2_science_freeze": "FREEZE",
+  "mission2_85_honest": false,
   "report": "reports/mission1_closure.md",
   "prior_report": "reports/mission1_story_tournament.md",
   "opus_review": "research/reviews/premium/opus_story_closure.md",
@@ -32,11 +36,18 @@
     "occupancy-at-basal withdrawn as a finding",
     "PaC occupancy stamped UNKNOWN",
     "Herman 25 nM and Clements 1.1 mM labeled as different hippocampal literature examples",
-    "Hu retina treated as positive basal/slow evidence",
+    "Hu retina treated as ACV on a basal/slow clock (baseline-rise and on–off–on legs with unequal IVs); analyte identity untested on both",
+    "Mission 2 froze an evidence-boundary thesis: printed %gain maps cannot invert tissue ACV; identity UNKNOWN until U2; original Thesis E in-principle/disconfirms overclaim removed",
+    "QUANTITATIVE FLAGSHIP: NONE (unresolved as title); do not reopen replacement selection as an open action",
+    "Ch. 7 steady-state [Glu] is not a licensed MEASURED reading of Fig. 6.13",
+    "Spike maps (ambiguous): ephys spike-rate panels are not Leg A and not Leg B; printed spiked-buffer %gain maps are not Leg A and not Leg B; Ames is not a Glu-free ionic twin of PBS; Ames-loaded wording stays dropped",
+    "Do not recover theta from printed %gain; do not collapse Fig. 6.12 with Fig. 6.16B",
     "1.8 nM not used as retinal-probe molecular Kd",
     "missing koff does not prove slow kinetics",
     "81-fold identity retained as supporting biochemistry, not the accepted flagship",
-    "81-fold-versus-44000-fold comparison withdrawn as the flagship after PR #31"
+    "81-fold-versus-44000-fold comparison withdrawn as the flagship after PR #31",
+    "Class-A stamp loop: Panel 3 MEASURED is ACV signal-gain not basal glutamate; identity UNKNOWN at panel scale; PROPOSED is U2; C013 claim_text is the 81-fold identity only; E042-E046 full_text_inspected=partial (pixels unread); ephys spike-rate panels distinguished from spiked-buffer %gain maps",
+    "Selected quantitative picture is measured protocol clocks (protocol_clocks.svg); occupancy/Kd/LOD/tissue-[Glu] flagship title remains NONE; 81-vs-44000 is not the span_identity picture; S066 source inspection stamped partial; C024 split review-supported vs C035 computational illustration"
   ],
   "recommended_thesis_id": "D_revised",
   "runner_up_id": "C",
@@ -52,16 +63,21 @@
     "D_three_regimes",
     "D_occupancy_saturation_as_measured",
     "W1_amino_acid_selectivity",
-    "T1_overnight"
+    "T1_overnight",
+    "sampling_clock_nyquist",
+    "dual_pole_working_range_bars",
+    "scale_map_as_title",
+    "occupancy_overlay"
   ],
-  "flagship_analysis": "UNRESOLVED — Mission 2 must select and reproduce it",
+  "flagship_analysis": "UNRESOLVED — QUANTITATIVE FLAGSHIP: NONE as title; sampling-clock and dual-pole working-range rejected; 81-vs-44000 withdrawn; do not reopen replacement selection",
   "flagship_candidates": [
     "PR #24 interrogation/sampling-timescale mismatch (analysis candidate; not accepted; avoid Nyquist terminology unless assumptions are defended)",
     "PR #23 working-range bars (analysis candidate; requires basal-pole and Langmuir-Freundlich sensitivity audit)"
   ],
   "withdrawn_flagship": "81-fold 1:1 Langmuir identity versus approximately 44000-fold Herman-to-Clements span",
-  "withdrawal_reason": "PR #31 identified method- and compartment-dependent basal poles and an unreported Langmuir-Freundlich exponent that can change the conclusion; those challenger claims remain candidate evidence until Mission 2 audits them",
-  "next_experiment": "Paired solution and surface isotherms of the exact Hu Fc-thiol 39-mer in one buffer, with a binding-null point mutant, biologically justified glutamine/aspartate controls, Langmuir and Langmuir-Freundlich fits, n uncertainty, and achieved coverage",
+  "withdrawal_reason": "PR #31 identified method- and compartment-dependent basal poles and an unreported Langmuir-Freundlich exponent that can change the conclusion; those challenger claims remain candidate evidence; Mission 2 froze QUANTITATIVE FLAGSHIP: NONE rather than choosing a replacement plot",
+  "highest_information_experiment": "U2",
+  "next_experiment": "LOCKED U2: pharmacology plus scrambled/binding-null on both ACV legs, same shank and room-light protocol. Directly tests the identity inference that tissue ACV is glutamate. U1 (construct/interface fitness) is a different question and cannot establish what produced the retinal current. Do not substitute rates for identity. Optional late-only Fig. 6.13 split does not name the analyte. Course cannot pipette U2.",
   "mission2_queue": "state/mission2_input_queue.md",
   "pr_disposition_register": "state/pr_disposition_register.md",
   "do_not_promote": [
@@ -70,6 +86,14 @@
     "glutamate kon/koff from C008 or C010",
     "T1 overnight ranking as this mission's result",
     "0.3 pM as Ames or tissue LOD",
-    "PR #6 enzyme-wildcard sources into core without audit"
+    "PR #6 enzyme-wildcard sources into core without audit",
+    "Ch. 7 steady-state [Glu] as MEASURED reading of Fig. 6.13",
+    "ephys spike-rate panels = Leg A = Leg B",
+    "printed spiked-buffer %gain maps = Leg A = Leg B",
+    "Ames as Glu-free ionic twin of PBS",
+    "recovering theta from printed %gain maps",
+    "collapsing Fig. 6.12 with Fig. 6.16B",
+    "Ames-loaded confounder wording",
+    "validation-chain or loaded-bottle retitle"
   ]
 }

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560">
+<rect x="0" y="0" width="900" height="560" fill="#fff"/>
+<text x="20" y="28" font-size="18" font-family="sans-serif" font-weight="bold">Hu retina ACV: MEASURED signal-gain, INFERRED glutamate, UNKNOWN identity until U2</text>
+<text x="20" y="48" font-size="12" font-family="sans-serif" fill="#555">CONCEPTUAL glyph from canonical stamps only. No data pixels. No Fig. 6.13 trace drawn. Same construct, same shank, two unequal IVs.</text>
+<rect x="20" y="60" width="130" height="30" fill="#b7e4c7" stroke="#111" stroke-width="2"/>
+<text x="85" y="81" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle" fill="#111">MEASURED</text>
+<rect x="160" y="60" width="130" height="30" fill="#ffc8a2" stroke="#111" stroke-width="2"/>
+<text x="225" y="81" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle" fill="#111">INFERRED</text>
+<rect x="300" y="60" width="130" height="30" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+<text x="365" y="81" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle" fill="#111">UNKNOWN</text>
+<rect x="440" y="60" width="130" height="30" fill="#ffd166" stroke="#111" stroke-width="2"/>
+<text x="505" y="81" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle" fill="#111">PROPOSED</text>
+<rect x="20" y="106" width="420" height="150" fill="#d8f3dc" stroke="#111" stroke-width="3"/>
+<text x="230" y="130" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle">Leg A: post-insertion %gain rise</text>
+<text x="36" y="156" font-size="13" font-family="sans-serif">IV: time; light held on (room light)</text>
+<text x="36" y="178" font-size="13" font-family="sans-serif">MEASURED: ACV %gain vs post-insertion baseline</text>
+<text x="36" y="200" font-size="13" font-family="sans-serif">Clocks: 14 s scan, ~1 min/point</text>
+<text x="36" y="222" font-size="13" font-family="sans-serif">Authors: "successful detection of Glu" (INFERRED)</text>
+<text x="36" y="244" font-size="13" font-family="sans-serif" font-weight="bold">Identity: UNKNOWN</text>
+<rect x="460" y="106" width="420" height="150" fill="#d8f3dc" stroke="#111" stroke-width="3"/>
+<text x="670" y="130" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle">Leg B: later on-off-on</text>
+<text x="476" y="156" font-size="13" font-family="sans-serif">IV: illumination (room light, not 500 ms LED)</text>
+<text x="476" y="178" font-size="13" font-family="sans-serif">MEASURED: ACV %gain vs post-insertion baseline</text>
+<text x="476" y="200" font-size="13" font-family="sans-serif">Probes 1-2 p &lt; 0.05; Probes 3-4 ns</text>
+<text x="476" y="222" font-size="13" font-family="sans-serif">Authors interpret as glutamate (INFERRED)</text>
+<text x="476" y="244" font-size="13" font-family="sans-serif" font-weight="bold">Identity: UNKNOWN</text>
+<line x1="230" y1="256" x2="230" y2="286" stroke="#111" stroke-width="2"/>
+<line x1="670" y1="256" x2="670" y2="286" stroke="#111" stroke-width="2"/>
+<rect x="20" y="286" width="860" height="120" fill="#e9ecef" stroke="#111" stroke-width="3"/>
+<text x="450" y="310" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle">Why neither leg is identified glutamate</text>
+<text x="36" y="334" font-size="13" font-family="sans-serif">Printed spiked-buffer %gain maps (PBS / Ames) cannot invert tissue ACV; insertion changes the interface; Ames is not a Glu-free twin.</text>
+<text x="36" y="356" font-size="13" font-family="sans-serif">Same-shank ON-pathway spikes rise in light while ACV %gain is higher in dark: physiology, not a chemical ID of the current.</text>
+<text x="36" y="378" font-size="13" font-family="sans-serif">GCL/IPL-border disk vs photoreceptor-terminal pool stays UNKNOWN. Do not recover occupancy from either %gain slope.</text>
+<text x="36" y="398" font-size="13" font-family="sans-serif" font-weight="bold">IDs: C033, E046, C030, E044, C031, C034.</text>
+<rect x="20" y="420" width="860" height="110" fill="#fff3bf" stroke="#111" stroke-width="3"/>
+<text x="450" y="444" font-size="15" font-family="sans-serif" font-weight="bold" text-anchor="middle">PROPOSED discriminator: U2 (highest-information if the claim is identity)</text>
+<text x="36" y="468" font-size="13" font-family="sans-serif">Pharmacology + scrambled / binding-null on BOTH legs, same shank, same room-light protocol, incl. Leg A baseline.</text>
+<text x="36" y="490" font-size="13" font-family="sans-serif">Do not substitute paired isotherms (U1) or rates (C007). A late-only rebin of Fig. 6.13 names no analyte.</text>
+<text x="36" y="512" font-size="13" font-family="sans-serif">Rapid-transient readiness: UNMEASURED (no glutamate kon/koff in inspected set).</text>
+<text x="20" y="548" font-size="11" font-family="sans-serif" fill="#555">Source: state/current_thesis.md + poster/storyboards/mission3.md. QUANTITATIVE FLAGSHIP: NONE. Not group-final.</text>
+</svg>

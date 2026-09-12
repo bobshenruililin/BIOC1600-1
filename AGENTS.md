@@ -8,7 +8,7 @@ Provisional scientific question (must be tested, not assumed):
 
 Do not force the slogan “aptamer quality is not a single number.” If verified evidence supports a better thesis, return that thesis and the evidence that displaced the original.
 
-This repository’s desired handoff is `reports/nightly_summary.md`, not a finished poster.
+This repository’s desired handoff is `reports/mission3_entry.md` (Mission 3 front door) plus `reports/nightly_summary.md` (PI nightly). Not a finished poster.
 
 ## Model configuration
 
@@ -52,6 +52,7 @@ If a custom agent type is not registered in the Task tool, run `generalPurpose` 
 ## Isolation
 
 - Swarm branch: `cursor/research-swarm-634f`
+- Live Mission-2/3 vehicle: `cursor/m2-int-honesty-245a` ([PR 32](https://github.com/bobshenruililin/BIOC1600-1/pull/32), draft, not merged). Mission 3 starts at `reports/mission3_entry.md`, not on the historical swarm branch.
 - Analysis implementations: separate branches and git worktrees (`cursor/analysis-<name>-634f`)
 - Two writers never share a working tree
 - Thesis-tournament agents must not see one another’s proposals during generation
@@ -177,6 +178,8 @@ Allowed: `poster/theses.md` and markdown storyboards (panel title, claim, eviden
 6. Bounded meta-improvement: A/B patches, frozen benchmark, stop at six meta rounds or two consecutive gains under two percentage points.
 
 Nightly deliverable: `reports/nightly_summary.md` with the 13 required sections. Do not report planned work as completed.
+
+Mission 2/3 note: Rounds 0–6 above are the overnight bootstrap protocol (historical). Mission 2 froze at REVISE with QUANTITATIVE FLAGSHIP NONE; highest-information experiment is locked U2. Mission 3 entry is `reports/mission3_entry.md` with storyboard `poster/storyboards/mission3.md`. READY FOR MISSION 3: YES after the 2026-09-12 PI decision in `state/decisions.md`. Gate stays REVISE. Not group-final. Do not reopen Mission 2. Do not manufacture PASS.
 
 ## Research Effort Standard
 

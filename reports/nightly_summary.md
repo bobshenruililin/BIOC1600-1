@@ -2,100 +2,100 @@
 
 Canonical file for PI review. Not a finished poster. Not group-final.
 
-**Current thesis:** revised D — `state/current_thesis.md`. Provisional storyboard: `poster/storyboards/revised_D.md`. Replacement flagship: **UNRESOLVED — MISSION 2 INPUT**.
+**Current thesis:** honesty-retitled revised D, spoken as the Mission 2 evidence-boundary freeze — `state/current_thesis.md`. Provisional storyboard: `poster/storyboards/revised_D.md`. Replacement flagship: **UNRESOLVED — NONE as title**.
 
-**Mission 1 (2026-09-11):** science-story gate opened at **REVISE**. Occupancy-at-basal withdrawn as a finding; S066 clocks remain primary. Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md).  
-**Mission 1 closure:** completed with gate **REVISE** and `group_final=false`. The earlier blind PASS review remains historical; PR #31 later invalidated the accepted flagship comparison. Closure: [`reports/mission1_closure.md`](mission1_closure.md). Gate JSON: `state/gates/science_story.json`.
+**Mission 1 (2026-09-11):** science-story gate opened at **REVISE**. Occupancy-at-basal withdrawn as a finding; S066 clocks remain primary. Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md).
+**Mission 1 closure:** completed with gate **REVISE** and `group_final=false`. Closure: [`reports/mission1_closure.md`](mission1_closure.md). Gate JSON: `state/gates/science_story.json`.
 
-Overnight T1/T5 (sections below marked historical) are **not** current consensus and were never group-final.
+**Mission 2 (2026-09-12):** science freeze **FREEZE** at gate **REVISE**. Science-freeze test **PASS** (no flagship plot). Tournament **85+ HONEST: NO** (Wave D 83 NEITHER / 73 DISCARD unchanged; Wave C 67/67 unchanged). Score-blind freeze reviews: independent **80 REVISE**; Opus **74 REVISE**; fatals none. Do not mean 74 with 80, or 73 with 83. Do not manufacture 85. QUANTITATIVE FLAGSHIP: **NONE**. Ames-loaded wording stays dropped. Class B identity bounded, not looped. READY FOR MISSION 3: **NO**. GROUP FINAL: **NO**.
 
-Generated 2026-09-11. Canonical working branch for this closure: `cursor/story-gate-closure-634f`. Not a finished poster. Not group-final.
+**PI 2026-09-12 (canonical now):** APPROVE AFTER SMALL FIXES. READY FOR MISSION 3: **YES**. Gate stays **REVISE**. Highest-information experiment: **U2**. QUANTITATIVE FLAGSHIP: **NONE**. `group_final` false. Do not reopen Mission 2. Do not manufacture PASS. The dated Mission 2 block above is the freeze-night record. Wave C/D and score-blind review-report files are not in this tree; those scores are coordinator-reported provenance (`research/reviews/premium/mission2_scores_provenance.md`).
+
+Overnight T1/T5 are **not** current consensus and were never group-final.
 
 ## 1. Best current poster thesis
 
-There is no generic glutamate-aptamer sensor: Hu’s retinal platform provides positive evidence within a slow/basal measurement regime, while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.
+Hu’s Ø 25 µm Fc-thiol 39-mer MEASURES ACV signal-gain referenced to a post-insertion baseline on two tissue legs with unequal IVs—post-insertion rise (time; light on) and later on–off–on (illumination)—both INFERRED as glutamate. Printed spiked-buffer `%gain` maps cannot invert tissue ACV; identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured.
 
-Status: **canonical working thesis, gate REVISE, not group-final** (`D_revised`). Herman ~25 nM and Clements ~1.1 mM come from **different hippocampal preparations** and are not a retinal range or an accepted representative surface-device span. Hu 1.8 nM is an AuED-MEA Langmuir–Freundlich apparent Kd, not the PaC probe’s molecular Kd.
+Status: **canonical working thesis, gate REVISE, Mission 2 science freeze FREEZE, not group-final** (`D_revised` id kept). Mission 2 discarded retitled D **as a 75+/85+ contribution** (Wave C 67/67). Original Thesis E (**83 NEITHER**) is recorded, not adopted as worded. Unnamed-measurement (**73 DISCARD**) remains recorded. Score-blind freeze reviews (**80 REVISE** independent; **74 REVISE** Opus) do not replace Wave C or Wave D. The frozen object is the bounded evidence-boundary restatement. Do not mean 73 with 83, Wave C 67 with 82, or 74 with 80. Tournament 85+ stays unreached.
+
+Herman ~25 nM and Clements ~1.1 mM come from **different hippocampal preparations** and are not a retinal range or an accepted representative surface-device span. Hu 1.8 nM is an AuED-MEA Langmuir–Freundlich apparent Kd, not the PaC probe’s molecular Kd.
 
 ## 2. Runner-up thesis and why it lost
 
-**Candidate C (Mission 1 runner-up, supporting panel):** ultrasensitive working-range ceilings miss Herman ~25 nM from above (Wu glu1 top 1 nM; Abrantes preprint 10 pM). After C’s strong LOD form is deleted, what remains is occupancy/working-range/clocks — D’s content. Hu 32 pM is a real **PBS** LOD; 51.5 pM is the 50% serum LOD.
+**Candidate C (working-range bars):** arithmetic reproduced (36/36 on isolated Mission 2 rebuild). **Not flagship.** Dual-pole “no bar contains Herman 25 nM and Clements 1.1 mM” is a category error. Ceiling-from-above may remain a supporting panel without enzyme-LOD overlays.
 
-**Historical overnight T5** (not current): if advertised occupancy parameters are treated as Kd, the µM SELEX isolate is empty at 25 nM and *could* unbind near 1.2 ms under a diffusion-limited kon **bound**, while Hu’s 1.8 nM apparent Kd is ~93% occupied at 25 nM. That overlay is MODELED, not tissue occupancy, and is demoted.
+**Scale-map as title:** discarded. S066 leaves identity, occupancy, pool, and PaC Kd UNKNOWN as glutamate. An empty grid cannot carry the poster.
 
-Isolated Task R2 still liked T5/T4 as overnight finalists. Isolated Task R1 preferred T3. Do not average stacks. Those ranks are historical (`rounds/03/`).
+**Sampling clocks:** 36/36; **flagship rejected** (1.2 ms is the wrong spec for Hu’s GCL experiment; not Nyquist).
+
+**Historical overnight T5** remains historical. Occupancy overlay stays demoted.
 
 ## 3. Top verified primary sources (smallest set)
 
-1. Wu 2022 S001 PMID 34783880 — 1d04 Kd 12 µM vs glu1 LOD 0.0013 pM (abstract only).
-2. Hu 2025 journal S002 PMID 40992279 — Glu apparent Kd 1.8 nM (Langmuir–Freundlich); LOD 32 pM / 51.5 pM; 15 min wait; 12 µM is a Wu citation (VoR).
-3. Hu 2025 thesis S066 DOI 10.18154/RWTH-2025-07238 — **strongest Glu-apt neural-tissue experiment**: in vitro mouse retina; 10 nM wait-to-plateau 10 min; PBS LOD 0.3 pM; Ames 10 nM–10 µM (poor SNR); ACV 14 s then 1 min sampling; authors: basal Glu, not synaptic transients.
-4. Xiao 2025 S021 PMID 40433802 — SPR Kd 293 nM; FET LOD 10 fM in 0.1× PBS; 200 s (PMC).
-5. Herman 2007 S050 PMID 17804634 — ambient slice glutamate ~25 nM (PMC).
-6. Clements 1992 S049 PMID 1359647 — inferred cleft 1.1 mM, τ 1.2 ms (abstract).
-7. Rutherford 2007 S054 — GlutOx 500–800 ms in moving rats (PMC).
-8. White 2008 S033 — packing density moves E-AB gain/apparent Kd; cocaine <4 s (PMC; not glutamate).
-9. Abeykoon 2025 S004 — tobramycin IPA kon/koff and 2 ms clock (PMC; not glutamate).
-10. Ding 2024 S003 — ITC kon 96–2×10^5 M⁻¹ s⁻¹ across small-molecule DNA aptamers (abstract; not glutamate).
-11. Xie/Liu 2026 S046 — docking fails theophylline/caffeine selectivity (PMC).
-12. InstructNA 2026 S007 — generated protein aptamers; many non-binders (PMC).
-13. Armbruster 2020 S062 — iGluSnFR waveforms 10–100× free glutamate (PMC).
-14. Park 2023 S023 — “Glutamate FET” row is PfGDH (caution, not a sensor).
-15. Xu/Tanner 2026 S006 — tetrahedron interface, N-protein only (PMC).
-16. Helassa 2018 S060 — iGluu τ_off ~2 ms (protein benchmark, not aptamer).
+1. Hu 2025 RWTH thesis S066 DOI 10.18154/RWTH-2025-07238 — in vitro mouse retina; 14 s / 1 min ACV; two ACV legs with unequal IVs; authors interpret as basal/sustained, not transients; not a pharmacological ID.
+2. Hu 2025 journal S002 PMID 40992279 — AuED-MEA 1.8 nM LF apparent Kd in PBS; 12 µM is a Wu citation.
+3. Wu 2022 S001 PMID 34783880 — 1d04 Kd 12 µM vs glu1 LOD (abstract); VoR still UNKNOWN.
+4. Herman & Jahr 2007 S050 PMID 17804634 — ~25 nM ambient in **acute hippocampal slice**.
+5. Clements 1992 S049 PMID 1359647 — inferred 1.1 mM, τ 1.2 ms at **cultured hippocampal synapses** (abstract).
+6. Rutherford 2007 S054 — cites 500–800 ms (Burmeister); freely moving data recorded at **1 s**.
+7. Clay 2018 S055 — modeled t90 0.73 s vs cited experimental 0.8 ± 0.2 s.
+8. Xiao 2025 S021 PMID 40433802 — SPR Kd 293 nM; Table S1 sequence-locks oligo to Hu 39-mer; Fig. S6 is a Kd calibration, not kon/koff.
 
 Full table: `research/evidence/poster_numbers.md`.
 
 ## 4. Five most important scientific insights
 
-1. **Kd ≠ LOD ≠ EC50 ≠ incubation time ≠ biological [Glu].** Wu’s 12 µM and 0.0013 pM are different constructs in one abstract. Hu’s 12 µM is a citation; 1.8 nM is a surface Langmuir–Freundlich apparent Kd; 32 pM is a blank+3SD LOD after 15 min.
-2. **No glutamate aptamer kon/koff** in inspected sensor papers. “Too slow” is a gap, not a measured koff. Empirical SM-aptamer kon already in the ledger (C008/C010) is **not** transferable, but as a labeled envelope it kills T5’s 0.8 ms 1d04 claim.
-3. **One 1:1 Langmuir site has an 81-fold 10–90% window** (derived, C027). This remains supporting biochemistry, not Hu’s fitted working range and not an accepted representative biological span. PR #31’s basal-pole and LF-*n* objections are candidate Mission-2 inputs.
-4. **Occupancy vs clocks remains simulation/bound work.** The advertised-number overlays and assumed-`kon` curves are not PaC tissue occupancy or measured glutamate kinetics. Tighter/lower LOD is not automatically better, and `koff ≈ 1/1.2 ms` is a category error.
-5. **The strongest Glu-apt biological experiment already exists and argues against synaptic milliseconds.** Hu thesis retina: light-on/off basal Glu, 1 min ACV, authors refuse synaptic transients. Docking/InstructNA remain hypothesis generation. Ames vs PBS shows buffer composition rewrites the same oligo after selection.
+1. **Recognition ≠ architecture ≠ biological process** until a cited experiment connects them. Do not transfer 1.8 nM onto PaC/tissue occupancy. Do not recover θ from printed `%gain`.
+2. **Hu 39-mer** is the exact 5′ of the Lam-quoted 98-nt Wu string. **12 µM is a citation hop**, not a 39-mer Kd.
+3. **S066 is the only nervous-tissue Glu-apt experiment in the ledger, and its Glu identity is untested on both ACV legs**, including Hu’s baseline-rise “successful detection” sentence. Unequal IVs are what was varied, not two Hu-designed Glu assays.
+4. **No THE basal spec.** Hascup 2008 Str 5.0 ± 1.2 µM is a real GluOx resting, not the Hu-class pole. Ames contains both 25 nM and 5 µM. Do not pair 5 µM with Clements. Ames is not a Glu-free ionic twin of PBS; Ames-loaded wording stays dropped.
+5. **Missing `kon`/`koff` (C007) is not measured slowness.** Protocol time is not koff. Do not fill from tobramycin IPA or Ding.
 
 ## 5. Three important contradictions / limitations
 
-1. Hu journal 15 min ACV and Hu thesis 10 min / 1 min retina clocks vs Clements 1.2 ms vs missing Glu rates (C006, C028, C031, C011, C007).
-2. Park 2023 glutamate FET = malaria GDH, not neurotransmitter glutamate (C019).
-3. Wu VoR closed; 1d04/glu1 details beyond the abstract are unverified. Clements is inference. Xiao 10 fM is 0.1× PBS. Probe 3’s early plateau is confounded by reported gold-nanostructure detachment, so PaC occupancy remains unmeasured; Probe 4 is unstable. Overnight scoring disagreement is historical; revised D is the current working thesis.
+1. Canonical Claim 5 / Panel 3 previously named identified glutamate while the same files listed identity as UNKNOWN. **This INT retitles both legs** as MEASURED ACV signal-gain referenced to a post-insertion baseline / INFERRED glutamate, with unequal IVs (time; light on vs later illumination). Identity stays UNKNOWN at panel scale. A later class-A stamp loop removed `SLOW / BASAL — MEASURED` from `two_regime_clocks.svg` and set Panel 3 PROPOSED to U2.
+2. C022 previously stored 500–800 ms as Rutherford `response_time`; the paper **cites** that clock and **recorded at 1 s**. **This INT splits them.**
+3. Isolated LF-*n* algebra `81^(1/n)` is correct, but that package still draws the withdrawn 44000-fold overlay. Measuring *n* does not restore the flagship. Accepted `occupancy_kinetics` on `main` is 1:1 Langmuir only. Ch. 7 “steady-state [Glu]” is not a licensed MEASURED reading of Fig. 6.13.
 
 ## 6. Flagship computational analysis — unresolved
 
-No replacement flagship is accepted. Mission 2 must select and reproduce one after sensitivity analysis. PR #24 is a candidate **interrogation/sampling-timescale mismatch** analysis, not an accepted result; avoid “Nyquist” unless its formal signal assumptions are defended. PR #23’s working-range bars are also a candidate.
+Replacement flagship: **NONE as title**. Mission 2 reproductions (isolated branches, not merged):
 
-Supporting: the valid 81-fold identity (`span_identity.svg`), two-regime clocks (`two_regime_clocks.svg`), and evidence atlas (`atlas.svg`). The Herman-to-Clements endpoint comparison is not an accepted representative device span.
+| Package | Branch / SHA | Tests | Flagship? |
+| --- | --- | --- | --- |
+| Sampling clocks | `cursor/analysis-m2-sampling-634f` @ `5543ce7c6bc3c0b100e16f4ebeba85ddce218052` | 36/36 | **Rejected** (wrong spec; not Nyquist) |
+| LF *n* span | `cursor/analysis-m2-lfn-634f` @ `93ddf2300edbaa7386c8baaadf4837592b7e7e27` | 10/10 | Algebra only; overlay **not restored** |
+| Working-range | `cursor/analysis-m2-working-range-634f` @ `449ea4fd3aaa5916ae73f2fcdc0b44937f3b7e52` | 36/36 | **Not flagship** (dual-pole splice) |
 
-**Demoted:** `occupancy.svg` 1:1 overlay of Hu 1.8 nM as if it were tissue occupancy. The overlay math remains tested; it is not a retinal finding. `sensitivity.svg` remains the figure that can contradict T5 inside C008/C010 (NOT glutamate).
+Supporting on `main`: `span_identity.svg`, `two_regime_clocks.svg` (slow column MEASURED as ACV signal-gain; identity UNKNOWN; PROPOSED is U2), `atlas.svg`. Demoted: `occupancy.svg`.
 
-Not recommended: docking, InstructNA training, FASTAptamer without a licensed FASTQ.
+A two-panel glyph of printed PBS vs Ames slopes is optional supporting analysis only. It is **not** a path to 85+ and cannot invert tissue ACV. Do not reopen “must decide a replacement flagship” as an open action.
 
 ## 7. Status of implemented analyses and tests
 
-Accepted:
+Accepted on `main`:
 
-- Atlas tests + `atlas.svg` (now includes Hu retina-probe 10 min / 0.3 pM; glutamate kon/koff cells remain empty)
-- Occupancy/kinetics tests (81-fold identity; advertised-number overlay arithmetic; diffusion t_off bounds; empirical-kon 1d04 t_off in seconds; τ_eq(cleft) ≪ t_off) + `occupancy.svg` + `clocks.svg` + `sensitivity.svg`. These are supporting simulations/bounds, not tissue occupancy.
+- Atlas tests + `atlas.svg` (glutamate kon/koff cells remain empty)
+- Occupancy/kinetics tests (81-fold identity; advertised-number overlay arithmetic is supporting/demoted) + `span_identity.svg`
 
 Repo command: `sh analysis/accepted/rebuild.sh` and `python3 -m unittest discover -s tests -v`.
 
-Rejected: docking foil; FASTAptamer toy (does not answer the glutamate question).
-
-Canonical copies: `analysis/accepted/figures/`.
+Isolated Mission 2 packages are **not** merged. Open PR board should be this INT plus at most one challenger.
 
 **Supporting figures for the handoff (verified, not an accepted flagship):**
 
 | # | path | why it was kept | labels |
 | --- | --- | --- | --- |
 | 1 | `analysis/accepted/figures/span_identity.svg` | valid 81-fold identity; endpoint comparison not accepted as representative; PaC occupancy UNKNOWN | MEASURED / MODELED / UNKNOWN / PROPOSED |
-| 2 | `analysis/accepted/figures/two_regime_clocks.svg` | S066 basal/slow clocks vs untested transients | MEASURED vs UNKNOWN |
-| 3 | `analysis/accepted/figures/atlas.svg` | Only plot that refuses to invent glutamate kon/koff | empty cells are empty; ledger units |
+| 2 | `analysis/accepted/figures/two_regime_clocks.svg` | S066 ACV signal-gain clocks vs untested transients; identity UNKNOWN; PROPOSED is U2 | MEASURED signal-gain vs UNKNOWN |
+| 3 | `analysis/accepted/figures/atlas.svg` | Only plot that refuses to invent glutamate kon/koff | glutamate kon/koff stay empty; grey dashes may be curated omissions |
 
 Demoted: `occupancy.svg` (overlay simulation, not tissue occupancy). Supporting: `sensitivity.svg`, `clocks.svg`.
 
 ## 8. Six-panel storyboard (text only)
 
-See `poster/storyboards/revised_D.md`. Provisional panels: two regimes; Mission-2 flagship placeholder; Hu retina positive on a basal/slow clock; PaC occupancy UNKNOWN; construct atlas; proposed next measurement.
+See `poster/storyboards/revised_D.md`. Provisional panels: two regimes; Flagship placeholder — NONE; Hu retina two ACV legs on a slow clock, identity UNKNOWN (PROPOSED is U2; two-map central object is prose-only); PaC occupancy UNKNOWN; construct atlas; proposed next measurement (U2 on both legs, same shank and room-light protocol).
 
 Historical overnight T1 storyboard: `poster/storyboards/winner.md` (superseded; occupancy inversion demoted).
 
@@ -103,35 +103,32 @@ No polished poster was generated.
 
 ## 9. Hardest five assessor questions
 
-From `research/reviews/tanner_objections.md`:
-
-1. Is 15 min (or 10 min, or 1 min) the aptamer’s koff, or when you chose to scan?
-2. Why is Hu’s 1.8 nM not “the” Kd — and why is 81-fold illegal on a Freundlich EC50?
-3. Show the 81-fold 10–90% identity without a review, then show τ_eq ≠ t_off at 1.1 mM.
-4. Why not plot tobramycin IPA 2 ms, or T5’s 0.8 ms bound, as proof aptamers are fast enough?
-5. Did Hu’s own retina chapter already do the biological experiment — and what clock did it actually have?
+1. What did Hu measure in the retina, and what would make you stop calling it glutamate — including the post-insertion baseline-rise sentence and the later on–off–on leg?
+2. Why is 1.8 nM not the PaC Kd, and why is 12 µM not the 39-mer Kd? Why can printed `%gain` maps not invert tissue ACV?
+3. Show 81-fold as biochemistry without using Herman-to-Clements as a device spec.
+4. Why not treat empty koff, or 14 s vs 1.2 ms, as proof the aptamer is too slow?
+5. Why doesn’t averaging 25 nM with 5 µM give “the” basal? Why is Ch. 7 “steady-state [Glu]” not a MEASURED reading of Fig. 6.13?
 
 ## 10. Swarm/prompt improvements that survived benchmarking
 
-Observed failure: 4/4 isolated thesis writers refined the same frame. Adopted patch in `AGENTS.md`: at least one candidate must challenge the current framing. T5 exists because of that rule.
+Observed failure: 4/4 isolated thesis writers refined the same frame. Adopted patch in `AGENTS.md`: at least one candidate must challenge the current framing.
 
-Second observed failure: orchestrator dual-pass scores ≠ isolated Task red-team scores. **Not patched by averaging.** Recorded both stacks. Constitution, rubric, and safety files were not edited.
+Second observed failure: Wave C 4/4-style collapse to one slogan was already patched; Wave C still split on the 75-line (A none ≥75; B 8★ = 82 NEITHER). **Not patched by averaging.**
+
+Constitution, rubric, and safety files were not edited.
 
 ## 11. Failures, unresolved uncertainties, blockers
 
-- Glutamate kon/koff unmeasured.
-- No in vivo glutamate aptamer sensor (S066 is in vitro retina).
-- Wu VoR inaccessible; JSTAGE Ohsawa PDF 500; MacDonald ACS 403 — those numbers were **not** entered.
-- Abrantes millimolar ELONA Kd still not entered. Second-extraction attempt this cycle: bioRxiv HTML/JATS HTTP 429; Europe PMC/API abstract has no ELONA Kd. Do not treat API tokens 10.3 / 25.1 (funder IDs) as affinity.
-- Scoring-stack inversion is **historical** (`rounds/03/tournament_reconciliation.md`). Not current consensus.
-- Analysis implemented on the swarm branch (sequential single writer) so nothing accepted exists only in an unmerged worktree.
-- Mission-1 PRs are consolidated in `state/pr_disposition_register.md`. Closing them after PR #28 merges does not reject their science or delete their branches.
+- C007 empty. C032 empty on PaC for Asp/Gln/GABA. Wu VoR UNKNOWN. Clements VoR abstract-only. Burmeister VoR unopened (citation target of 500–800 ms).
+- S066 analyte identity UNKNOWN on both ACV legs. PaC θ UNKNOWN. GCL/IPL-border vs photoreceptor pool UNKNOWN. In vivo Glu aptamer UNKNOWN (C020). Late-only rebin of Fig. 6.13 *p* UNKNOWN.
+- Unknown 1 (paired 39-mer isotherm) and unknown 2 (tissue identity) are **not substitutes**.
+- **85+ remains unreached on present public evidence.** U2 cannot be filled by scoring, caption, or a glyph of already-printed slopes. That is why the tournament bar is unmet; it is not why Mission 2 cannot freeze.
+- Course cannot run wet IPA. Do not fill C007 computationally.
+- Fatal objections: **NONE**. Ames-loaded wording stays dropped.
 
 ## 12. Exact Git commit SHA
 
-Read the final canonical merge SHA from PR #28. The pre-reset science SHA `c87ebe410581744928e0680f9c4c6e2984cb902e` is historical and still contains the superseded PASS/flagship state.
-
-Do **not** use overnight SHA `984af62f25127b43e7d2be248ca1c8123921b8a8` as current science content.
+Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, merge of PR 28). Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. Freeze wording SHA: `a3c24764a6e4bd7e04f90f813a4ea14198abc83e`. Class-A stamp/ledger loop SHA: `fe188e2ff7055db0cd1e53e9d151b6aac4d6421c` on `cursor/m2-int-honesty-245a`. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
 
 ## 13. Exact paths
 
@@ -165,11 +162,22 @@ Do **not** use overnight SHA `984af62f25127b43e7d2be248ca1c8123921b8a8` as curre
 
 ## Decisions for PI review
 
-1. **Do not treat overnight T1 as current.** Canonical thesis is revised D. Scoring-stack inversion is a historical process hole, not a title fight.
-2. **Which analysis should Mission 2 reproduce and nominate as flagship?** PR #24’s interrogation/sampling-timescale mismatch and PR #23’s working-range bars are candidates only. The 81-fold identity is supporting.
-3. **Proceed with Wu abstract-only** 1d04/glu1 split, or block any 12 µM claim until the VoR is in hand?
-4. Hu thesis retina chapter is the strongest Glu-apt biological evidence in this ledger (authors: basal / minutes, not synapses) **and** is positive within that regime.
-5. Two-regime matching is the current title; cleft-millisecond reporting remains UNKNOWN, not disproven.
-6. **Do not treat this file as group-final** until a human initials `state/decisions.md`.
-7. **Show Abrantes 1 aM preprint** as a cautionary LOD, or omit unofficial numbers entirely? (Millimolar ELONA Kd still not entered.)
-8. PR #6 enzyme-comparator wildcard: keep unpromoted until the normal audit pipeline.
+1. **Do not treat overnight T1 as current.** Canonical working thesis id is honesty-retitled revised D, spoken as the evidence-boundary freeze. It is **not** a 85+ Mission 2 tournament finalist.
+2. **Replacement flagship stays NONE.** Sampling-clock and dual-pole working-range are rejected as titles. Do not reopen replacement selection.
+3. **Lock unknown 2 vs unknown 1.** Recommendation: U2 — pharmacology plus scrambled/binding-null on both ACV legs, same shank and room-light protocol. Only a human may lock.
+4. **Do not set PASS or group-final** without a measured identity or construct-locked quantity on this film.
+5. **Do not treat this file as group-final** until a human initials `state/decisions.md`.
+
+**Human / PI decision (2026-09-12):** APPROVE AFTER SMALL FIXES. Canonical `ready_for_mission3=true`. Gate stays REVISE. U2 locked. QUANTITATIVE FLAGSHIP NONE. group_final false. Do not reopen Mission 2. The boxed Mission-2 PI record below is historical.
+
+```
+MISSION 2 STATUS: REVISE
+MISSION 2 SCIENCE FREEZE: FREEZE
+RECOMMENDED THESIS: Evidence-boundary restatement (two unnamed ACV legs with unequal IVs; printed %gain maps cannot invert; identity UNKNOWN until U2). Git id remains D_revised. Not a 85+ tournament finalist.
+RECOMMENDED FLAGSHIP: UNRESOLVED — NONE as title
+MOST IMPORTANT REMAINING UNKNOWN: U2 tissue identity on both ACV legs (not a substitute for U1)
+HIGHEST-INFORMATION NEXT EXPERIMENT: Pharmacology plus scrambled/binding-null on both ACV legs, same shank and room-light protocol. Do not substitute rates for identity if the claim is U2. Optional late-only Fig. 6.13 split does not name the analyte. Unknown 1 if a human locks construct fitness.
+READY FOR MISSION 3: NO
+GROUP FINAL: NO
+HUMAN DECISION REQUIRED: Lock U2 vs U1; do not set PASS or group-final without a measured identity or construct-locked quantity on this film. 85+ HONEST: NO. Do not manufacture 85.
+```

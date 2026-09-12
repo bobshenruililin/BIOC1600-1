@@ -3,20 +3,22 @@
 Not a finished poster. Not group-final (`state/decisions.md`).
 
 Canonical text: `state/current_thesis.md`.  
-Provisional storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved and belongs to Mission 2.
-Overnight T1/T5 ranking is **historical** (below). Do not treat it as current consensus.
+Mission-3-facing storyboard: `poster/storyboards/mission3.md`.  
+Mission-2 test-locked storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved: QUANTITATIVE FLAGSHIP **NONE** as title. Overnight T1/T5 ranking is **historical** (below). Do not treat it as current consensus.
 
-## Current (Mission 1 / 1.5)
+## Current (Mission 1 / 1.5 / Mission 2 freeze)
 
-**There is no generic glutamate-aptamer sensor: Hu’s retinal platform provides positive evidence within a slow/basal measurement regime, while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.**
+**There is no generic glutamate-aptamer sensor.** Mission 2 freeze sentence: Hu’s Ø 25 µm Fc-thiol 39-mer MEASURES ACV signal-gain referenced to a post-insertion baseline on two tissue legs with unequal IVs—post-insertion rise (time; light on) and later on–off–on (illumination)—both INFERRED as glutamate. Printed spiked-buffer `%gain` maps cannot invert tissue ACV; identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured.
 
 Herman ~25 nM and Clements ~1.1 mM / 1.2 ms are literature examples from **different hippocampal preparations**, not a retinal concentration range. Hu’s 1.8 nM Langmuir–Freundlich apparent electrochemical Kd is an AuED-MEA number in PBS, not the PaC probe’s molecular Kd. Occupancy glyphs that print θ(25 nM) from 1.8 nM are demoted simulations, not tissue measurements.
 
-The 1:1 81-fold identity remains valid supporting biochemistry, but the 81-fold-versus-44,000-fold comparison is no longer the flagship. PR #31’s basal-pole and Langmuir–Freundlich objections are preserved as candidate Mission-2 inputs; no challenger claim is promoted merely because its report is persuasive. PR #24’s interrogation/sampling-timescale mismatch is also a candidate, not an accepted analysis.
+The 1:1 81-fold identity remains valid supporting biochemistry, but the 81-fold-versus-44,000-fold comparison is no longer the flagship. Mission 2 froze QUANTITATIVE FLAGSHIP: **NONE**. PR #31’s basal-pole and Langmuir–Freundlich objections are preserved as candidate inputs; no challenger claim is promoted merely because its report is persuasive. PR #24’s interrogation/sampling-timescale mismatch is a reproduced, **rejected-as-flagship** candidate, not an accepted analysis.
 
 **Runner-up (panel, not title):** Candidate C — ultrasensitive working-range ceilings miss Herman ~25 nM from above; Hu 32 pM is a real LOD.
 
 Supporting panels: B construct×quantity key; A same-oligo grade table. W1 (Asp/Gln) is a named unknown, not a fifth title.
+
+Closed inheritance: Ch. 7 “steady-state [Glu]” is not a licensed MEASURED reading of Fig. 6.13; printed spiked-buffer `%gain` maps ≠ ephys spike-rate panels ≠ Leg A ≠ Leg B; Ames is not a Glu-free ionic twin of PBS; do not recover θ from `%gain`; do not collapse Fig. 6.12 with Fig. 6.16B. Ames-loaded wording stays dropped.
 
 ## Historical — overnight thesis tournament (2026-09-10)
 

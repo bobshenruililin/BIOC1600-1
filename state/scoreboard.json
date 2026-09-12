@@ -8,9 +8,14 @@
   "ready_for_mission2": true,
   "provisional_storyboard": "poster/storyboards/revised_D.md",
   "flagship_analysis_status": "unresolved_mission2_input",
+  "ready_for_mission3": true,
+  "mission2_science_freeze": "FREEZE",
+  "mission2_85_honest": false,
+  "highest_information_experiment": "U2",
+  "quantitative_flagship": "NONE",
   "mission2_queue": "state/mission2_input_queue.md",
   "runner_up_thesis": "C",
-  "scoring_note": "Current title is Mission 1 revised D (two regimes; occupancy-at-basal withdrawn as a finding). Overnight Stack A T1/T5 ranking is historical and is not current consensus. Isolated Task red-teamers inverted that overnight ranking. Do not average stacks. Not group-final.",
+  "scoring_note": "Mission 1 current title remains D_revised (honesty-retitled; not group-final). Mission 2 Wave C discarded retitled D as contribution (67/67). Wave D scores frozen: Thesis E 83 NEITHER; unnamed-measurement 73 DISCARD. Do not mean 67 with 82 or 73 with 83. Do not manufacture 85. Score-blind freeze reviews (new; do not replace Wave D): independent 80 REVISE; Opus 74 REVISE; fatals none. Do not mean 74 with 80, or 73 with 83. Those Wave C/D and score-blind scores are coordinator-reported provenance from named agent IDs; the review-report files are not archived in this tree. Mission 2 science freeze: FREEZE at REVISE on the evidence-boundary restatement (unequal-IV ACV signal-gain; printed spiked-buffer %gain maps cannot invert; identity UNKNOWN until U2). QUANTITATIVE FLAGSHIP: NONE (unresolved_mission2_input as status; none as title). Tournament 85+ still unreached. PI 2026-09-12: APPROVE AFTER SMALL FIXES; U2 locked; ready_for_mission3 true; group_final false; do not reopen Mission 2; do not manufacture PASS. Overnight Stack A T1/T5 ranking is historical. Not group-final.",
   "historical_overnight_tournament": {
     "status": "historical_superseded_as_current_consensus",
     "current_best_thesis": "T1",
@@ -58,7 +63,7 @@
     "4": {
       "name": "analysis_tournament",
       "status": "complete",
-      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented, then extended with empirical-kon sensitivity that can contradict T5. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ). span_identity.svg remains supporting biochemistry; occupancy.svg remains a demoted overlay simulation. Mission 2 must select and reproduce the flagship."
+      "notes": "P2 atlas 76/80 and P1 occupancy/kinetics implemented, then extended with empirical-kon sensitivity that can contradict T5. Docking rejected. FASTAptamer not implemented (no bundled licensed FASTQ). span_identity.svg remains supporting biochemistry; occupancy.svg remains a demoted overlay simulation. Historical handoff asked Mission 2 to select a flagship; Mission 2 froze QUANTITATIVE FLAGSHIP: NONE."
     },
     "5": {
       "name": "replication",
@@ -78,7 +83,37 @@
     "mission1_5": {
       "name": "story_gate_closure",
       "status": "complete_revise",
-      "notes": "Canonical revised D. Occupancy-as-finding withdrawn. PR #31 invalidated the 81-fold-versus-44000-fold comparison as the accepted flagship; replacement is a Mission 2 decision. Gate REVISE. Not group-final."
+      "notes": "Canonical revised D. Occupancy-as-finding withdrawn. PR #31 invalidated the 81-fold-versus-44000-fold comparison as the accepted flagship; Mission 2 later froze QUANTITATIVE FLAGSHIP: NONE. Gate REVISE. Not group-final."
+    },
+    "mission2_wave_c": {
+      "name": "flagship_thesis_tournament",
+      "status": "complete_split",
+      "scorer_a": "bc-83c70620-4aa5-50a0-bab8-8a7face2ac84",
+      "scorer_b": "bc-0044059f-9111-50c0-99aa-33beb9cf18d4",
+      "integrator": "bc-d421867f-b131-53f3-a31b-f8229c7104ad",
+      "notes": "No 85+ finalist. Retitled D 67/67 DISCARD. Roster-8 69/69 DISCARD. B 8-star 82 NEITHER (not a distinct card on A). Do not mean 67 with 82. Wave C review-report files are not archived in git; 67/67 are coordinator-reported provenance from the named agent IDs."
+    },
+    "mission2_wave_d": {
+      "name": "senior_review_and_freeze",
+      "status": "complete_freeze_revise",
+      "d1_opus": "bc-bf7d5072-1400-5e4c-8b4e-ded5b07c4814",
+      "d2_independent": "bc-d1bc471f-3aeb-5f54-a48d-d63eb055a0c9",
+      "d3_freeze": "bc-ab0963a2-97a4-5453-bc2b-a5ae672dd111",
+      "d1_total": 83,
+      "d2_total": 73,
+      "notes": "D1 Thesis E 83 NEITHER recorded (F2 disconfirms overclaim on original wording). D2 unnamed-measurement 73 DISCARD. Scores unchanged. Science freeze FREEZE at REVISE on the bounded evidence-boundary restatement (unequal IVs; %gain maps cannot invert). QUANTITATIVE FLAGSHIP: NONE. 85+ HONEST NO. Class B U2/C007/C032/PaC theta not looped. Gate REVISE. READY FOR MISSION 3 NO (historical of this wave; later PI 2026-09-12 set ready_for_mission3 true without changing these scores). Do not mean 73 with 83. Do not manufacture 85. Wave D review-report files are not archived in git; 83/73 are coordinator-reported provenance from the named agent IDs."
+    },
+    "mission2_blind_freeze_review": {
+      "name": "score_blind_freeze_review",
+      "status": "complete_revise",
+      "independent_agent": "bc-9e6ff694-189d-58a9-b71b-8ff23c837002",
+      "opus_agent": "bc-e861b0fd-23ae-572c-9453-e36a72180883",
+      "independent_total": 80,
+      "opus_total": 74,
+      "independent_verdict": "REVISE",
+      "opus_verdict": "REVISE",
+      "fatals": "NONE",
+      "notes": "Class-A artifact-layer review of freeze wording. Independent 80 REVISE; Opus 74 REVISE; fatals none. Does not replace Wave C 67/67 or Wave D 83/73. Do not mean 74 with 80 or 73 with 83. Do not manufacture 85. Gate REVISE. flagship_analysis_status unresolved_mission2_input. group_final false. QUANTITATIVE FLAGSHIP NONE. Review-report files for this round are not archived in git; scores and verdicts are coordinator-reported provenance from the named agent IDs, independently unverified in this tree."
     }
   },
   "theses": [
@@ -89,17 +124,28 @@
     {"id": "T3", "mean": 80.5, "r1": 83, "r2": 78, "decision": "historical_hold"}
   ],
   "mission1_theses": [
-    {"id": "D_revised", "decision": "current_title_not_group_final", "path": "state/current_thesis.md"},
+    {"id": "D_revised", "decision": "current_title_not_group_final_honesty_retitled", "path": "state/current_thesis.md"},
     {"id": "C", "decision": "runner_up_panel"},
     {"id": "B", "decision": "supporting_construct_quantity_key"},
     {"id": "A", "decision": "retired_as_title_grade_table_survives"},
     {"id": "W1", "decision": "rejected_as_title_named_unknown"}
   ],
+  "mission2_theses": [
+    {"id": "D_retitled", "scorer_a": 67, "scorer_b": 67, "decision": "DISCARD_as_contribution", "note": "Mean of the same card only. Not a finalist."},
+    {"id": "roster8_retinal_light_state_glutamate", "scorer_a": 69, "scorer_b": 69, "decision": "DISCARD_question_not_finding"},
+    {"id": "8star_unnamed_ACV_unknown2_first", "scorer_a": null, "scorer_b": 82, "decision": "NEITHER_not_distinct_card_on_A", "note": "Do not mean with 69 or 67."},
+    {"id": "unnamed_measurement_unknown2_first", "wave_d_d2": 73, "decision": "DISCARD_provisional_text_only"},
+    {"id": "thesis_E_uncalibrated_failed_crosscheck", "wave_d_d1": 83, "decision": "NEITHER_recorded_not_adopted"},
+    {"id": "thesis_E_evidence_boundary", "decision": "FROZEN_at_REVISE_not_85", "note": "Class A overclaim removed. Identity class B bounded. Unequal-IV ACV signal-gain; printed spiked-buffer %gain maps cannot invert. QUANTITATIVE FLAGSHIP: NONE. Does not change Wave C 67/67 or Wave D 83 or 73. Blind reviews 80 REVISE / 74 REVISE recorded separately; do not replace Wave D."}
+  ],
   "analyses": [
     {"id": "P2_atlas", "total": 76, "status": "accepted", "path": "analysis/accepted/atlas/"},
-    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted_supporting", "path": "analysis/accepted/occupancy_kinetics/", "supporting_figure": "span_identity.svg", "demoted_figure": "occupancy.svg", "note": "No accepted flagship; Mission 2 must test replacement candidates."},
+    {"id": "P1_occupancy_kinetics", "total": 68, "status": "accepted_supporting", "path": "analysis/accepted/occupancy_kinetics/", "supporting_figure": "span_identity.svg", "demoted_figure": "occupancy.svg", "note": "No accepted flagship; Mission 2 freeze QUANTITATIVE FLAGSHIP: NONE as title."},
     {"id": "P5_fastaptamer", "total": 52, "status": "rejected", "reason": "would not answer the glutamate question without a licensed public FASTQ bundle"},
-    {"id": "docking_foil", "status": "rejected", "reason": "C017; constitution forbids docking-as-proof"}
+    {"id": "docking_foil", "status": "rejected", "reason": "C017; constitution forbids docking-as-proof"},
+    {"id": "m2_sampling_clocks", "tests": "36/36", "branch": "cursor/analysis-m2-sampling-634f", "sha": "5543ce7c6bc3c0b100e16f4ebeba85ddce218052", "status": "reproduced_rejected_as_flagship"},
+    {"id": "m2_lfn", "tests": "10/10", "branch": "cursor/analysis-m2-lfn-634f", "sha": "93ddf2300edbaa7386c8baaadf4837592b7e7e27", "status": "algebra_ok_overlay_not_restored"},
+    {"id": "m2_working_range", "tests": "36/36", "branch": "cursor/analysis-m2-working-range-634f", "sha": "449ea4fd3aaa5916ae73f2fcdc0b44937f3b7e52", "status": "reproduced_not_flagship"}
   ],
   "meta_improvement": {
     "rounds_completed": 1,
