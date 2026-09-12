@@ -38,7 +38,11 @@ MUST FIX applied: shared-identity wording. Optional clocks/Panel 0 leftovers **n
 | --- | --- |
 | `poster/rc/poster_rc.svg` | `c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782` |
 | `poster/rc/poster_rc.png` | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
+| Post-repair git | `854a17a117f78b5a65bdf8f7964f7997d493467f` |
+| Off-repo PDF (not git; new render) | `bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a` |
+
+Do not transfer Astra’s verdict (`18d43961…` / `6c2d7f67…`) onto this PDF or this commit.
 
 ## Next executable action
 
-Off-repo PDF regen from the new SVG, then PI handoff (Phase F). Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.
+PI handoff (Phase F). Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.
