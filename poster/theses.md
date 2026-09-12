@@ -8,7 +8,7 @@ Overnight T1/T5 ranking is **historical** (below). Do not treat it as current co
 
 ## Current (Mission 1 / 1.5)
 
-**There is no generic glutamate-aptamer sensor: Hu’s retinal platform records ACV on a Glu-aptamer electrode in a slow/basal interrogation regime (post-insertion baseline rise and light on–off correlation; analyte identity untested on both legs), while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.**
+**There is no generic glutamate-aptamer sensor.** Mission 2 freeze sentence: Hu’s Ø 25 µm Fc-thiol 39-mer records MEASURED current on two legs, post-insertion rise and later on–off, both INFERRED as glutamate; tissue ACV cannot be inverted from the two printed buffer maps, and identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured.
 
 Herman ~25 nM and Clements ~1.1 mM / 1.2 ms are literature examples from **different hippocampal preparations**, not a retinal concentration range. Hu’s 1.8 nM Langmuir–Freundlich apparent electrochemical Kd is an AuED-MEA number in PBS, not the PaC probe’s molecular Kd. Occupancy glyphs that print θ(25 nM) from 1.8 nM are demoted simulations, not tissue measurements.
 

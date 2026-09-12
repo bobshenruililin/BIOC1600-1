@@ -2,20 +2,20 @@
 
 Canonical file for PI review. Not a finished poster. Not group-final.
 
-**Current thesis:** honesty-retitled revised D — `state/current_thesis.md`. Provisional storyboard: `poster/storyboards/revised_D.md`. Replacement flagship: **UNRESOLVED — none as title**.
+**Current thesis:** honesty-retitled revised D, spoken as the Mission 2 evidence-boundary freeze — `state/current_thesis.md`. Provisional storyboard: `poster/storyboards/revised_D.md`. Replacement flagship: **UNRESOLVED — none as title**.
 
 **Mission 1 (2026-09-11):** science-story gate opened at **REVISE**. Occupancy-at-basal withdrawn as a finding; S066 clocks remain primary. Full record: [`reports/mission1_story_tournament.md`](mission1_story_tournament.md).
 **Mission 1 closure:** completed with gate **REVISE** and `group_final=false`. Closure: [`reports/mission1_closure.md`](mission1_closure.md). Gate JSON: `state/gates/science_story.json`.
 
-**Mission 2 (2026-09-12):** freeze **REPORT-WHY**. Gate stays **REVISE**. **85+ HONEST: NO.** Identity of the S066 ACV cannot be filled from public literature. READY FOR MISSION 3: **NO**. GROUP FINAL: **NO**.
+**Mission 2 (2026-09-12):** science freeze **FREEZE** at gate **REVISE**. Science-freeze test **PASS** (no flagship plot). Tournament **85+ HONEST: NO** (Wave D 83 NEITHER / 73 DISCARD unchanged). Class B identity bounded, not looped. READY FOR MISSION 3: **NO**. GROUP FINAL: **NO**.
 
 Overnight T1/T5 are **not** current consensus and were never group-final.
 
 ## 1. Best current poster thesis
 
-There is no generic glutamate-aptamer sensor: Hu’s retinal platform records ACV on a Glu-aptamer electrode in a slow/basal interrogation regime (post-insertion baseline rise and light on–off correlation; analyte identity untested on both legs), while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.
+Hu’s Ø 25 µm Fc-thiol 39-mer records MEASURED current on two legs, post-insertion rise and later on–off, both INFERRED as glutamate; tissue ACV cannot be inverted from the two printed buffer maps, and identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured because construct-specific transfer, binding kinetics, and interrogation cadence have not been resolved together.
 
-Status: **canonical working thesis, gate REVISE, not group-final** (`D_revised`, honesty-retitled). Mission 2 discarded retitled D **as a contribution** (Wave C 67/67; Wave D D2 66 on that card). The speakable Mission 2 sentence is unnamed-measurement / unknown-2-first (Glu noun withheld), scored **73 DISCARD** and kept only as provisional text. Thesis E (**83 NEITHER**) was **not adopted**: “designated cross-check disconfirms glutamate” overclaims Hu’s own text. Do not mean 73 with 83, or Wave C 67 with 82.
+Status: **canonical working thesis, gate REVISE, Mission 2 science freeze FREEZE, not group-final** (`D_revised` id kept). Mission 2 discarded retitled D **as a 75+/85+ contribution** (Wave C 67/67). Original Thesis E (**83 NEITHER**) is recorded, not adopted as worded. Unnamed-measurement (**73 DISCARD**) remains recorded. The frozen object is the bounded evidence-boundary restatement. Do not mean 73 with 83, or Wave C 67 with 82. Tournament 85+ stays unreached.
 
 Herman ~25 nM and Clements ~1.1 mM come from **different hippocampal preparations** and are not a retinal range or an accepted representative surface-device span. Hu 1.8 nM is an AuED-MEA Langmuir–Freundlich apparent Kd, not the PaC probe’s molecular Kd.
 
@@ -120,7 +120,7 @@ Constitution, rubric, and safety files were not edited.
 - C007 empty. C032 empty on PaC for Asp/Gln/GABA. Wu VoR UNKNOWN. Clements VoR abstract-only. Burmeister VoR unopened (citation target of 500–800 ms).
 - S066 analyte identity UNKNOWN on both ACV legs. PaC θ UNKNOWN. GCL/IPL-border vs photoreceptor pool UNKNOWN. In vivo Glu aptamer UNKNOWN (C020).
 - Unknown 1 (paired 39-mer isotherm) and unknown 2 (tissue identity) are **not substitutes**.
-- **85+ is unreachable on present public evidence.** U2 cannot be filled by scoring, caption, or a glyph of already-printed slopes.
+- **85+ remains unreached on present public evidence.** U2 cannot be filled by scoring, caption, or a glyph of already-printed slopes. That is why the tournament bar is unmet; it is not why Mission 2 cannot freeze.
 - Course cannot run wet IPA. Do not fill C007 computationally.
 
 ## 12. Exact Git commit SHA
@@ -159,7 +159,7 @@ Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, m
 
 ## Decisions for PI review
 
-1. **Do not treat overnight T1 as current.** Canonical working thesis is honesty-retitled revised D. It is **not** a 85+ Mission 2 contribution.
+1. **Do not treat overnight T1 as current.** Canonical working thesis id is honesty-retitled revised D, spoken as the evidence-boundary freeze. It is **not** a 85+ Mission 2 tournament finalist.
 2. **Flagship stays unresolved.** Sampling-clock and dual-pole working-range are rejected as titles.
 3. **Lock unknown 2 vs unknown 1.** Recommendation: U2 if the claim is tissue. Only a human may lock.
 4. **Do not set PASS or group-final** without a measured identity or construct-locked quantity on this film.
@@ -167,7 +167,8 @@ Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, m
 
 ```
 MISSION 2 STATUS: REVISE
-RECOMMENDED THESIS: Unnamed-measurement / unknown-2-first (Glu noun withheld); honesty-retitled D_revised remains the git working sentence, not a 75+/85+ contribution
+MISSION 2 SCIENCE FREEZE: FREEZE
+RECOMMENDED THESIS: Evidence-boundary restatement (two unnamed ACV legs; cannot invert from PBS/Ames maps; identity UNKNOWN until U2). Git id remains D_revised. Not a 85+ tournament finalist.
 RECOMMENDED FLAGSHIP: UNRESOLVED — none as title
 MOST IMPORTANT REMAINING UNKNOWN: U2 tissue identity on both ACV legs (not a substitute for U1)
 HIGHEST-INFORMATION NEXT EXPERIMENT: Unknown 2 on the same PaC Glu-aptamer shank (binding-null plus L-AP4/TBOA and a TTX or ionotropic-block arm; Ames-matched Gln/Asp). Unknown 1 if a human locks construct fitness.

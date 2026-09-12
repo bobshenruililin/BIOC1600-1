@@ -10,7 +10,7 @@
   "flagship_analysis_status": "unresolved_mission2_input",
   "mission2_queue": "state/mission2_input_queue.md",
   "runner_up_thesis": "C",
-  "scoring_note": "Mission 1 current title remains D_revised (honesty-retitled; not group-final). Mission 2 Wave C discarded retitled D as contribution (67/67). Wave D freeze REPORT-WHY: 85+ unreachable without U2; unnamed-measurement provisional text 73 DISCARD; Thesis E 83 recorded not adopted. Do not mean 67 with 82 or 73 with 83. Overnight Stack A T1/T5 ranking is historical. Not group-final.",
+  "scoring_note": "Mission 1 current title remains D_revised (honesty-retitled; not group-final). Mission 2 Wave C discarded retitled D as contribution (67/67). Wave D scores frozen: Thesis E 83 NEITHER; unnamed-measurement 73 DISCARD. Do not mean 67 with 82 or 73 with 83. Mission 2 science freeze: FREEZE at REVISE on the evidence-boundary restatement (class A overclaim removed; class B identity bounded). Tournament 85+ still unreached. Overnight Stack A T1/T5 ranking is historical. Not group-final.",
   "historical_overnight_tournament": {
     "status": "historical_superseded_as_current_consensus",
     "current_best_thesis": "T1",
@@ -90,13 +90,13 @@
     },
     "mission2_wave_d": {
       "name": "senior_review_and_freeze",
-      "status": "complete_report_why",
+      "status": "complete_freeze_revise",
       "d1_opus": "bc-bf7d5072-1400-5e4c-8b4e-ded5b07c4814",
       "d2_independent": "bc-d1bc471f-3aeb-5f54-a48d-d63eb055a0c9",
       "d3_freeze": "bc-ab0963a2-97a4-5453-bc2b-a5ae672dd111",
       "d1_total": 83,
       "d2_total": 73,
-      "notes": "D1 Thesis E 83 NEITHER recorded not adopted (F2 disconfirms overclaim). D2 unnamed-measurement 73 DISCARD provisional text. Freeze REPORT-WHY. 85+ HONEST NO. REMEDIABLE WITH PUBLIC DATA NO. Gate REVISE. Do not mean 73 with 83."
+      "notes": "D1 Thesis E 83 NEITHER recorded (F2 disconfirms overclaim on original wording). D2 unnamed-measurement 73 DISCARD. Scores unchanged. Science freeze FREEZE at REVISE on the bounded evidence-boundary restatement. 85+ HONEST NO. Class B U2/C007/C032/PaC theta not looped. Gate REVISE. READY FOR MISSION 3 NO. Do not mean 73 with 83."
     }
   },
   "theses": [
@@ -118,7 +118,8 @@
     {"id": "roster8_retinal_light_state_glutamate", "scorer_a": 69, "scorer_b": 69, "decision": "DISCARD_question_not_finding"},
     {"id": "8star_unnamed_ACV_unknown2_first", "scorer_a": null, "scorer_b": 82, "decision": "NEITHER_not_distinct_card_on_A", "note": "Do not mean with 69 or 67."},
     {"id": "unnamed_measurement_unknown2_first", "wave_d_d2": 73, "decision": "DISCARD_provisional_text_only"},
-    {"id": "thesis_E_uncalibrated_failed_crosscheck", "wave_d_d1": 83, "decision": "NEITHER_recorded_not_adopted"}
+    {"id": "thesis_E_uncalibrated_failed_crosscheck", "wave_d_d1": 83, "decision": "NEITHER_recorded_not_adopted"},
+    {"id": "thesis_E_evidence_boundary", "decision": "FROZEN_at_REVISE_not_85", "note": "Class A overclaim removed. Identity class B bounded. Does not change 83 or 73."}
   ],
   "analyses": [
     {"id": "P2_atlas", "total": 76, "status": "accepted", "path": "analysis/accepted/atlas/"},

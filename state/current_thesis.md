@@ -1,6 +1,6 @@
 # Current thesis (revised D)
 
-Status: **canonical working thesis** after Mission 1 closure. Science-story gate **REVISE**. Not group-final (`state/decisions.md`).
+Status: **canonical working thesis** after Mission 1 closure. Science-story gate **REVISE**. Mission 2 science freeze: **FREEZE** at **REVISE** (evidence-boundary restatement; tournament 85+ still unreached). Not group-final (`state/decisions.md`). READY FOR MISSION 3: **NO**.
 
 Provisional storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is a Mission-2 decision.
 Supersedes overnight T1/T5 as *current consensus*. Those texts remain historical in `poster/theses.md`, `analysis/candidates/theses/`, and `rounds/03/`.
@@ -9,7 +9,7 @@ Do not treat this file as a finished poster.
 
 ## One sentence
 
-There is no generic glutamate-aptamer sensor: Hu’s retinal platform records ACV on a Glu-aptamer electrode in a slow/basal interrogation regime (post-insertion baseline rise and light on–off correlation; analyte identity untested on both legs), while readiness for rapid transients remains unmeasured because construct-specific solution-to-surface transfer, binding kinetics, and interrogation cadence have not been resolved together.
+Hu’s Ø 25 µm Fc-thiol 39-mer records MEASURED current on two legs, post-insertion rise and later on–off, both INFERRED as glutamate; tissue ACV cannot be inverted from the two printed buffer maps, and identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured because construct-specific transfer, binding kinetics, and interrogation cadence have not been resolved together.
 
 ## Full statement
 
@@ -62,7 +62,7 @@ Glu versus Asp/Gln/GABA is a named open figure of merit (C032), not a fifth titl
 
 **Inferred (not claimed here).** That 25 nM is retinal or in vivo [Glu]. That 1.1 mM / 1.2 ms specifies an aptamer electrode volume. That 1.8 nM overlay is tissue occupancy. That missing koff means the oligo cannot follow a millimolar rising edge. That either S066 ACV leg is chemically glutamate.
 
-**Unknown.** PaC-probe apparent Kd and θ in Ames/tissue. Langmuir–Freundlich *n* on the MEA fit. Glutamate aptamer kon/koff on the 39-mer. Chemical identity of both S066 ACV legs, including the post-insertion baseline-rise “successful detection” sentence. Electrode-layer versus photoreceptor pool. Ames glutamine interference. In vivo glutamate aptamer sensor. Replacement flagship analysis. Mission 2 did not freeze a 85+ contribution on public evidence.
+**Unknown.** PaC-probe apparent Kd and θ in Ames/tissue. Langmuir–Freundlich *n* on the MEA fit. Glutamate aptamer kon/koff on the 39-mer. Chemical identity of both S066 ACV legs, including the post-insertion baseline-rise “successful detection” sentence. Electrode-layer versus photoreceptor pool. Ames glutamine interference. In vivo glutamate aptamer sensor. Replacement flagship analysis. Mission 2 froze an evidence-boundary thesis at REVISE; 85+ remains unreached on public evidence.
 
 ## Falsifier
 
@@ -99,7 +99,7 @@ Glu versus Asp/Gln/GABA is a named open figure of merit (C032), not a fifth titl
 
 `proposed experiment`: paired solution `Kd_molecular` and surface ACV apparent Kd of Hu’s exact Fc-thiol 39-mer in one justified buffer; include a binding-null point mutant in both arms and L-glutamine/L-aspartate controls at concentrations justified for the intended medium; fit Langmuir and Langmuir–Freundlich; report *n* with uncertainty, coverage, and complete interface chemistry.
 
-If the locked question is retinal tissue identity, the highest-information next experiment is unknown 2 (pharmacology plus scrambled/binding-null on both ACV legs). If a human locks construct fitness, unknown 1. Do not blend them. The course cannot pipette either. Mission 2 freeze: 85+ is not honest on public evidence while U2 is empty.
+If the locked question is retinal tissue identity, the highest-information next experiment is unknown 2 (pharmacology plus scrambled/binding-null on both ACV legs). If a human locks construct fitness, unknown 1. Do not blend them. The course cannot pipette either. Mission 2 science freeze is **FREEZE** at **REVISE**; 85+ is still not honest on public evidence while U2 is empty.
 
 ## Historical note
 
