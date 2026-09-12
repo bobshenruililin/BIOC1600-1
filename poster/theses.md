@@ -6,6 +6,8 @@ Canonical text: `state/current_thesis.md`.
 Mission-3-facing storyboard: `poster/storyboards/mission3.md`.  
 Mission-2 test-locked storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved: QUANTITATIVE FLAGSHIP **NONE** as title. Overnight T1/T5 ranking is **historical** (below). Do not treat it as current consensus.
 
+**Mission 3 communication RC:** the internal RC is the **eyefix** hybrid in Project Context (`eyefix-package`). Not copied into git. Not group-final. Not a polished poster. Science freeze remains `origin/main` @ `3fa11240c85df9ebac58dcc6879494911968f75c`. Gate stays **REVISE**.
+
 ## Current (Mission 1 / 1.5 / Mission 2 freeze)
 
 **There is no generic glutamate-aptamer sensor.** Mission 2 freeze sentence: Hu’s Ø 25 µm Fc-thiol 39-mer MEASURES ACV signal-gain referenced to a post-insertion baseline on two tissue legs with unequal IVs—post-insertion rise (time; light on) and later on–off–on (illumination)—both INFERRED as glutamate. Printed spiked-buffer `%gain` maps cannot invert tissue ACV; identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured.

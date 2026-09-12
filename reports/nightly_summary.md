@@ -11,6 +11,8 @@ Canonical file for PI review. Not a finished poster. Not group-final.
 
 **PI 2026-09-12 (canonical now):** APPROVE AFTER SMALL FIXES. READY FOR MISSION 3: **YES**. Gate stays **REVISE**. Highest-information experiment: **U2**. QUANTITATIVE FLAGSHIP: **NONE**. `group_final` false. Do not reopen Mission 2. Do not manufacture PASS. The dated Mission 2 block above is the freeze-night record. Wave C/D and score-blind review-report files are not in this tree; those scores are coordinator-reported provenance (`research/reviews/premium/mission2_scores_provenance.md`).
 
+**Mission 3 (communication RC, Context only):** internal RC is **eyefix-package** in Project Context. Prototypes were not copied into git. Glance + 90s + package-novice + 3 min: **PASS**. Opus FATAL: **none**. READY FOR EXTERNAL ASTRA AUDIT: **YES** (not run; do not invoke Astra from this swarm). Science story gate stays **REVISE**. `group_final` false. QUANTITATIVE FLAGSHIP **NONE**. U2 locked. READY FOR MISSION 3 remains **YES**. Not FINAL. Not group-final. Do not reopen Mission 2.
+
 Overnight T1/T5 are **not** current consensus and were never group-final.
 
 ## 1. Best current poster thesis
@@ -128,7 +130,7 @@ Constitution, rubric, and safety files were not edited.
 
 ## 12. Exact Git commit SHA
 
-Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, merge of PR 28). Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. Freeze wording SHA: `a3c24764a6e4bd7e04f90f813a4ea14198abc83e`. Class-A stamp/ledger loop SHA: `fe188e2ff7055db0cd1e53e9d151b6aac4d6421c` on `cursor/m2-int-honesty-245a`. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
+Parent of this INT: `3fa11240c85df9ebac58dcc6879494911968f75c` (`origin/main`, merge of PR 32; Mission 2 science freeze). Prior INT parent: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, merge of PR 28). Honesty-retitle parent: `7e46a303c514f703fd740e18eca8a6767c1dcd82`. Freeze wording SHA: `a3c24764a6e4bd7e04f90f813a4ea14198abc83e`. Class-A stamp/ledger loop SHA: `fe188e2ff7055db0cd1e53e9d151b6aac4d6421c` on `cursor/m2-int-honesty-245a`. Isolated analysis SHAs in §6. Do not use overnight `984af62` or pre-reset `c87ebe4` as current science.
 
 ## 13. Exact paths
 
@@ -146,6 +148,8 @@ Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, m
 - Scoreboard: `state/scoreboard.json`
 - Historical scoring reconciliation: `rounds/03/tournament_reconciliation.md`
 - Current storyboard: `poster/storyboards/revised_D.md`
+- Mission 3 entry: `reports/mission3_entry.md`
+- Mission 3 communication RC: Project Context **eyefix-package** (not in git; prototypes not copied)
 - Historical T1 storyboard: `poster/storyboards/winner.md`
 - Supporting span identity: `analysis/accepted/figures/span_identity.svg`
 - Figure 2 two-regime clocks: `analysis/accepted/figures/two_regime_clocks.svg`

@@ -2,7 +2,9 @@
 
 Not a finished poster. Not group-final. Do not start Mission 3 proper from chat history — start from this file.
 
-**Branch:** `cursor/m2-int-honesty-245a` ([PR 32](https://github.com/bobshenruililin/BIOC1600-1/pull/32)). Canonical `main` is the PR 28 merge.
+**Science freeze:** `origin/main` @ `3fa11240c85df9ebac58dcc6879494911968f75c` (merge of [PR 32](https://github.com/bobshenruililin/BIOC1600-1/pull/32)). Historical INT vehicle: `cursor/m2-int-honesty-245a`.
+
+**Mission 3 communication RC:** **eyefix-package** in Project Context. Prototypes are not in this git tree. Not group-final. Not a polished poster. Not FINAL.
 
 **Thesis:** `state/current_thesis.md` (one sentence). Gate **REVISE**. QUANTITATIVE FLAGSHIP **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected picture: `analysis/accepted/figures/protocol_clocks.svg`. Highest-information experiment: **U2**. READY FOR MISSION 3: **YES** after the 2026-09-12 PI decision in `state/decisions.md`. `group_final` false. Do not manufacture PASS. Do not reopen Mission 2.
 
