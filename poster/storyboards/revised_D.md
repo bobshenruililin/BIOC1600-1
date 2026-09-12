@@ -1,6 +1,6 @@
 # Provisional six-panel storyboard — revised D
 
-Not a finished poster. Not group-final. Canonical thesis: `state/current_thesis.md`. The replacement flagship is unresolved and belongs to Mission 2.
+Not a finished poster. Not group-final. Canonical thesis: `state/current_thesis.md`. QUANTITATIVE FLAGSHIP: **NONE** (unresolved as title). Do not reopen “Mission 2 must decide a replacement flagship” as an open action.
 
 This file **supersedes** `poster/storyboards/winner.md` (overnight T1; kept as history).
 
@@ -13,7 +13,7 @@ Stamps must be readable at panel scale. A viewer who cannot read captions must s
 | **UNKNOWN** | Empty cell; do not paint a number |
 | **PROPOSED** | Experiment that does not yet exist in the ledger |
 
-Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of advertised Kd/EC50 values, including Hu’s 1.8 nM AuED-MEA Langmuir–Freundlich apparent Kd, onto Herman ~25 nM. Overlay math is MODELED. It is not PaC-probe tissue occupancy. Do not use the 81-fold-versus-44,000-fold comparison as the flagship either; PR #31’s basal-pole and Langmuir–Freundlich objections remain Mission-2 inputs.
+Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of advertised Kd/EC50 values, including Hu’s 1.8 nM AuED-MEA Langmuir–Freundlich apparent Kd, onto Herman ~25 nM. Overlay math is MODELED. It is not PaC-probe tissue occupancy. Do not use the 81-fold-versus-44,000-fold comparison as the flagship either; PR #31’s basal-pole and Langmuir–Freundlich objections remain candidate inputs.
 
 ---
 
@@ -24,24 +24,24 @@ Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of ad
 - **IDs.** C012, C011
 - **Figure.** Two labeled wells. No third extrasynaptic Kd well.
 
-## 2. Flagship placeholder — Mission 2 must decide
+## 2. Flagship placeholder — NONE
 
-- **Claim.** No replacement flagship is accepted. The 1:1 81-fold identity remains valid supporting biochemistry (C027/C013), but the Herman-to-Clements comparison is not a settled device requirement. PR #31 identifies basal-pole and Langmuir–Freundlich sensitivity objections; those candidate claims require normal evidence promotion. PR #24 supplies a candidate interrogation/sampling-timescale mismatch analysis; it is not accepted and should not be called “Nyquist” without defended signal assumptions.
-- **Stamps.** MODELED (81-fold identity). UNKNOWN (representative surface-electrode concentration span; LF *n*; replacement flagship). PROPOSED (Mission-2 reproduction and sensitivity audit).
+- **Claim.** QUANTITATIVE FLAGSHIP: **NONE**. A plot would re-center on conversions the freeze forbids (slope-as-occupancy; Appendix II molarity; C_eq as tissue [Glu]). The 1:1 81-fold identity remains valid supporting biochemistry (C027/C013), but the Herman-to-Clements comparison is not a settled device requirement. Sampling-clock, dual-pole working-range, and occupancy overlay stay rejected as titles. PR #24 is not accepted and should not be called “Nyquist” without defended signal assumptions.
+- **Stamps.** MODELED (81-fold identity). UNKNOWN (representative surface-electrode concentration span; LF *n*; flagship remains NONE). PROPOSED (U2 pharmacology plus scrambled/binding-null on both ACV legs).
 - **IDs.** C027, C013, C031, E045, E046; `state/mission2_input_queue.md`
-- **Figure.** Placeholder only until Mission 2. `span_identity.svg` may appear as a supporting inset; do not label it flagship. Do not merge PR #24’s generated figure wholesale.
+- **Figure.** Placeholder only. `span_identity.svg` may appear as a supporting inset; do not label it flagship. Do not merge PR #24’s generated figure wholesale.
 
 ## 3. Hu retina: two ACV legs on a slow clock, identity UNKNOWN
 
-- **Claim.** S066 in vitro mouse retina: two ACV `signal_gain` legs on 14 s scans and 1 min points (C033 / E046, Fig. 6.13). (A) post-insertion rise from a dashed baseline during initial light-on; (B) later light-off vs light-on correlation (Probes 1–2 authors p < 0.05; Probes 3–4 ns). Authors interpret both as basal / sustained glutamate, not synaptic transients. Ames window 10 nM–10 µM with **41.6% blank noise** and poor quantitative SNR (C030 / E044) — no absolute [Glu]. Neither leg is MEASURED glutamate. It is not a failed hippocampal-cleft experiment. The aptamer ACV electrode is the large bottom electrode at the **GCL/IPL border** (C034 / E045); pool assignment UNKNOWN.
-- **Stamps.** MEASURED (clocks, both ACV legs as current, author disclaimer, Ames SNR, in vitro). UNKNOWN (analyte, absolute [Glu], occupancy, pool, in vivo).
+- **Claim.** S066 in vitro mouse retina: two ACV `%gain` legs on 14 s scans and 1 min points (C033 / E046, Fig. 6.13) with **unequal IVs**. (A) post-insertion rise (time; light held on) from a dashed baseline; (B) later room-light on–off–on (illumination) (Probes 1–2 authors p < 0.05; Probes 3–4 ns). Authors interpret both as basal / sustained glutamate, not synaptic transients. Printed PBS/Ames `%gain` maps cannot invert tissue ACV. Ames window 10 nM–10 µM with **41.6% blank noise** (C030 / E044) — no absolute [Glu]. Neither leg is MEASURED glutamate. Ch. 7 “steady-state [Glu]” is not a licensed MEASURED reading of Fig. 6.13. Spike maps ≠ Leg A ≠ Leg B. It is not a failed hippocampal-cleft experiment. The aptamer ACV electrode is the large bottom electrode at the **GCL/IPL border** (C034 / E045); pool assignment UNKNOWN.
+- **Stamps.** MEASURED (clocks, both ACV legs as current, unequal IVs, author disclaimer, Ames SNR, in vitro). UNKNOWN (analyte, absolute [Glu], occupancy, pool, in vivo). INFERRED (that either tissue current is glutamate).
 - **IDs.** C031, C033, C034, C028, C030, C020, C006
 - **Figure.** `analysis/accepted/figures/two_regime_clocks.svg`. Two columns only: slow ACV MEASURED as current versus rapid-transient UNKNOWN. Do not paint the slow column as identified glutamate. Do not use omnibus `clocks.svg` unlabeled (it mixes biological τ, bound t_off, incubation, and interrogation).
 
 ## 4. Occupancy on the retinal PaC probe is UNKNOWN
 
-- **Claim.** The PaC probe has no reported apparent Kd in Ames or tissue. Hu 1.8 nM is MEASURED as an AuED-MEA Langmuir–Freundlich apparent electrochemical Kd in PBS — a different device. Do not draw θ(25 nM)≈0.93 as tissue occupancy. Probe 3/4: gold-nanostructure detachment is MEASURED as failure analysis; occupancy-ceiling reading UNKNOWN. Probes 1–2 still change with light (MEASURED remaining dynamic range, not saturation).
-- **Stamps.** UNKNOWN (PaC θ). MEASURED (1.8 nM on AuED-MEA; gold loss; Probes 1–2 modulation). MODELED (any 1:1 overlay of 1.8 nM).
+- **Claim.** The PaC probe has no reported apparent Kd in Ames or tissue. Hu 1.8 nM is MEASURED as an AuED-MEA Langmuir–Freundlich apparent electrochemical Kd in PBS — a different device. Do not draw θ(25 nM)≈0.93 as tissue occupancy. Do not recover θ from printed `%gain`. Probe 3/4: gold-nanostructure detachment (Fig. 6.16A) is MEASURED as failure analysis; occupancy-ceiling reading UNKNOWN. Do not collapse Fig. 6.12 (insertion peak drop) with Fig. 6.16B (1 kHz Z after cleaning). Probes 1–2 still change with light (MEASURED remaining dynamic range, not saturation). Ames is not a Glu-free ionic twin of PBS; Ames-loaded wording stays dropped.
+- **Stamps.** UNKNOWN (PaC θ). MEASURED (1.8 nM on AuED-MEA; gold loss; Probes 1–2 modulation). MODELED (any 1:1 overlay of 1.8 nM; slope-ratio illustration).
 - **IDs.** C005, C021, C026
 - **Figure.** Empty occupancy well stamped UNKNOWN. Park 1.8 nM in a “different device / different isotherm” well. If `occupancy.svg` is shown at all, it is a supporting MODELED inset, not Panel 4’s claim.
 
@@ -54,7 +54,7 @@ Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of ad
 
 ## 6. What to measure next (PROPOSED)
 
-- **Claim.** Highest-information construct experiment: paired solution `Kd_molecular` and surface ACV apparent Kd of the exact Fc-thiol 39-mer in one justified buffer; include a binding-null point mutant in both arms and L-glutamine/L-aspartate controls at biologically justified concentrations; fit Langmuir and Langmuir–Freundlich; report *n* with uncertainty, coverage, and interface chemistry. If the question is retina biology rather than sensor fitness: TTX / CNQX/AP5 / TBOA plus scrambled/binding-null aptamer. Do not do both and report neither.
+- **Claim.** Highest-information experiment if the claim is tissue identity (U2): pharmacology plus scrambled/binding-null on **both** ACV legs, same shank and room-light protocol. Do not substitute rates for identity. Optional late-only Fig. 6.13 split does not name the analyte. If a human locks construct fitness (U1): paired solution `Kd_molecular` and surface ACV apparent Kd of the exact Fc-thiol 39-mer in one justified buffer; include a binding-null point mutant in both arms and L-glutamine/L-aspartate controls at biologically justified concentrations; fit Langmuir and Langmuir–Freundlich; report *n* with uncertainty, coverage, and interface chemistry. Do not do both and report neither.
 - **Stamps.** PROPOSED (both experiments). UNKNOWN (until done).
 - **IDs.** `state/high_value_unknowns.md`; C007, C032
 - **Figure.** Protocol cartoon only. No invented Kd.
@@ -65,7 +65,7 @@ Do not use `occupancy.svg` as a flagship glyph. That plot is a 1:1 overlay of ad
 
 | File | Role |
 |---|---|
-| replacement flagship | **UNRESOLVED — Mission 2 input.** |
+| replacement flagship | **UNRESOLVED — NONE as title.** |
 | `span_identity.svg` | Supporting only. 81-fold identity is valid; the endpoint comparison is not accepted as representative. |
 | `two_regime_clocks.svg` | Panel 3. Two clocks, four stamps. |
 | `atlas.svg` | Panel 5. Empty cells stay empty. |

@@ -26,7 +26,7 @@ Unresolved disagreements that a later reader could mistake for consensus. **Do n
 | Overnight Stack B: Task R1 winner T3; Task R2 finalists T5/T4; T1 not a finalist | Isolated Task red-team JSON | **Historical.** Do not average with Stack A. Do not treat T3’s Rousseau occupancy use as current. |
 | Unrevised Candidate D occupancy-at-basal as a finding | Dossier `rounds/mission1/candidates/D.md` | **Superseded as a claim.** Occupancy on the PaC probe is unmeasured. File kept as the as-submitted record. |
 | Synthesizer self-score 89 on revised D | `rounds/mission1/synthesis/d_revised.md` | **Not a second Opus pass.** It did not convert REVISE into PASS by itself. Canonical text is `state/current_thesis.md`. |
-| `occupancy.svg` θ(25 nM)=0.93 on Hu 1.8 nM | Accepted analysis test `test_overlay_theta_at_herman_ambient_if_1p8nm_treated_as_1to1_kd` locks the **overlay math** | Math remains true as 1:1 overlay. It is not tissue occupancy. `span_identity.svg` is supporting only; replacement flagship unresolved. |
+| `occupancy.svg` θ(25 nM)=0.93 on Hu 1.8 nM | Accepted analysis test `test_overlay_theta_at_herman_ambient_if_1p8nm_treated_as_1to1_kd` locks the **overlay math** | Math remains true as 1:1 overlay. It is not tissue occupancy. `span_identity.svg` is supporting only; QUANTITATIVE FLAGSHIP: NONE. |
 
 ## Disagreements that were resolved enough to stop arguing as titles
 
