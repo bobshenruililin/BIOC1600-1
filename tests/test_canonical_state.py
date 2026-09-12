@@ -67,10 +67,10 @@ class CanonicalStateTests(unittest.TestCase):
 
     def test_pr_disposition_register_covers_every_open_pr_head(self):
         register = (ROOT / "state/pr_disposition_register.md").read_text(encoding="utf-8")
-        for number in range(6, 32):
+        for number in range(6, 33):
             self.assertRegex(register, rf"\| #{number} \|")
         full_shas = re.findall(r"`[0-9a-f]{40}`", register)
-        self.assertEqual(len(full_shas), 26)
+        self.assertEqual(len(full_shas), 27)
 
     def test_mission2_queue_separates_evidence_states(self):
         queue = (ROOT / "state/mission2_input_queue.md").read_text(encoding="utf-8")

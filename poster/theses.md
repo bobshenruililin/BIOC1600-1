@@ -3,7 +3,8 @@
 Not a finished poster. Not group-final (`state/decisions.md`).
 
 Canonical text: `state/current_thesis.md`.  
-Provisional storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved: QUANTITATIVE FLAGSHIP **NONE** as title. Overnight T1/T5 ranking is **historical** (below). Do not treat it as current consensus.
+Mission-3-facing storyboard: `poster/storyboards/mission3.md`.  
+Mission-2 test-locked storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved: QUANTITATIVE FLAGSHIP **NONE** as title. Overnight T1/T5 ranking is **historical** (below). Do not treat it as current consensus.
 
 ## Current (Mission 1 / 1.5 / Mission 2 freeze)
 

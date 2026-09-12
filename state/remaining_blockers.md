@@ -9,4 +9,4 @@
 7. **Park 2023 glutamate FET** is GDH — do not recycle.
 8. **No in vivo glutamate aptamer sensor.** S066 is in vitro mouse retina.
 9. **Course cannot run wet IPA** on Hu Glu-apt. PR #24’s cadence comparison is an analysis candidate, not an accepted replacement flagship.
-10. **Mission-1 PR portfolio is consolidated, not erased.** Exact heads and contributions are recorded in `state/pr_disposition_register.md`; keep source branches until Mission 2 reproduces or explicitly rejects the relevant artifacts.
+10. **Mission-1 PR portfolio is consolidated, not erased.** Exact heads are in `state/pr_disposition_register.md` (now includes Mission 2 INT #32). Mission 2 reproduced sampling-clock, LF-*n*, and working-range packages on isolated branches and rejected them as flagship. Keep source branches as provenance.

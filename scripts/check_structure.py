@@ -38,6 +38,8 @@ REQUIRED_FILES = [
     "research/evidence/core_evidence.csv",
     "poster/theses.md",
     "poster/storyboards/revised_D.md",
+    "poster/storyboards/mission3.md",
+    "reports/mission3_entry.md",
     "scripts/validate_ledgers.py",
     "scripts/forbid_pdfs.py",
     "scripts/score_theses.py",

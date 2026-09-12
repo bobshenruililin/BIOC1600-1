@@ -8,7 +8,7 @@ Provisional scientific question (must be tested, not assumed):
 
 Do not force the slogan “aptamer quality is not a single number.” If verified evidence supports a better thesis, return that thesis and the evidence that displaced the original.
 
-This repository’s desired handoff is `reports/nightly_summary.md`, not a finished poster.
+This repository’s desired handoff is `reports/mission3_entry.md` (Mission 3 front door) plus `reports/nightly_summary.md` (PI nightly). Not a finished poster.
 
 ## Model configuration
 
