@@ -58,7 +58,7 @@ Full table: `research/evidence/poster_numbers.md`.
 
 1. Hu journal 15 min ACV and Hu thesis 10 min / 1 min retina clocks vs Clements 1.2 ms vs missing Glu rates (C006, C028, C031, C011, C007).
 2. Park 2023 glutamate FET = malaria GDH, not neurotransmitter glutamate (C019).
-3. Wu VoR closed; 1d04/glu1 details beyond the abstract are unverified. Clements is inference. Xiao 10 fM is 0.1× PBS. Thesis Probe 3 saturates at basal Glu; Probe 4 is unstable. Scoring stacks disagree on which thesis to speak.
+3. Wu VoR closed; 1d04/glu1 details beyond the abstract are unverified. Clements is inference. Xiao 10 fM is 0.1× PBS. Probe 3’s early plateau is confounded by reported gold-nanostructure detachment, so PaC occupancy remains unmeasured; Probe 4 is unstable. Overnight scoring disagreement is historical; revised D is the current working thesis.
 
 ## 6. Flagship computational analysis — unresolved
 

@@ -83,3 +83,11 @@ class CanonicalStateTests(unittest.TestCase):
             self.assertIn(heading, queue)
         self.assertIn("not accepted", queue)
         self.assertIn("binding-null", queue)
+
+    def test_withdrawn_pac_saturation_is_not_reasserted(self):
+        nightly = (ROOT / "reports/nightly_summary.md").read_text(encoding="utf-8")
+        claims = (ROOT / "state/claims.csv").read_text(encoding="utf-8")
+        self.assertNotIn("Probe 3 saturates at basal", nightly)
+        self.assertNotIn("Probe 3 near saturation", claims)
+        self.assertIn("gold-nanostructure detachment confounds", claims)
+        self.assertIn("PaC occupancy is unmeasured", claims)

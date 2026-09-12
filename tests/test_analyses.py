@@ -67,6 +67,13 @@ class AnalysisRebuildTests(unittest.TestCase):
             self.assertNotIn("span_identity.svg` | yes (flagship)", text, str(path))
             self.assertNotIn("flagship figure (mission 1.5)", text, str(path))
 
+    def test_two_regime_figure_separates_calibration_from_retina(self):
+        svg = (ROOT / "analysis/accepted/occupancy_kinetics/figures/two_regime_clocks.svg").read_text(encoding="utf-8")
+        caption = (ROOT / "analysis/accepted/occupancy_kinetics/figures/CAPTION.md").read_text(encoding="utf-8")
+        for label in ("PROBE CALIBRATION", "AMES CALIBRATION", "RETINA RECORDING"):
+            self.assertIn(label, svg)
+        self.assertIn("Calibration clocks are not tissue-recording clocks", caption)
+
 
 if __name__ == "__main__":
     unittest.main()

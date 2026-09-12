@@ -331,7 +331,7 @@ def two_regime_clocks_svg() -> str:
     svg = ET.Element("svg", attrib={"xmlns": "http://www.w3.org/2000/svg", "width": str(width), "height": str(height)})
     ET.SubElement(svg, "rect", attrib={"x": "0", "y": "0", "width": str(width), "height": str(height), "fill": "#fff"})
     title = ET.SubElement(svg, "text", attrib={"x": "20", "y": "28", "font-size": "18", "font-family": "sans-serif", "font-weight": "bold"})
-    title.text = "Two clocks: basal/slow MEASURED on the retina probe; rapid transients UNKNOWN"
+    title.text = "Slow-regime evidence: calibrations and retina recording; rapid transients UNKNOWN"
     _stamp(svg, 20, 44, 150, 32, "MEASURED", "#b7e4c7")
     _stamp(svg, 180, 44, 150, 32, "MODELED", "#90e0ef")
     _stamp(svg, 340, 44, 150, 32, "UNKNOWN", "#d3d3d3")
@@ -343,12 +343,12 @@ def two_regime_clocks_svg() -> str:
     rhead = ET.SubElement(svg, "text", attrib={"x": "670", "y": "128", "font-size": "16", "font-family": "sans-serif", "font-weight": "bold", "text-anchor": "middle"})
     rhead.text = "RAPID TRANSIENT  —  UNKNOWN"
     left_lines = [
-        "S066 in vitro mouse retina (not in vivo)",
-        "ACV scan 14 s; sampling 1 min/point",
-        "10 nM step plateaus 10 min",
-        "Authors: basal, not synaptic transients",
-        "Light-on/off ACV (C033/E046); Ames 41.6% blank noise",
-        "GCL bottom electrode (C034); pool vs photoreceptors UNKNOWN",
+        "PROBE CALIBRATION (PBS-like): 10 nM step plateaus ~10 min",
+        "AMES CALIBRATION: 41.6% blank noise",
+        "RETINA RECORDING (in vitro; not in vivo)",
+        "ACV scan 14 s; sampling ~1 min/point",
+        "Authors: basal, not synaptic; light-on/off ACV (C033/E046)",
+        "GCL bottom electrode (C034); sampled pool UNKNOWN",
     ]
     right_lines = [
         "Clements 1.2 ms: cultured hippocampal INFERENCE",
@@ -421,9 +421,11 @@ def main() -> None:
         "synapses — a different preparation. Those two literature examples span ~44,000-fold "
         "(MODELED arithmetic). They are not a retinal concentration range or an accepted representative surface-device span. PaC-probe occupancy "
         "in Ames/tissue is UNKNOWN. Hu 1.8 nM is not drawn as tissue occupancy.\n\n"
-        "Figure two_regime_clocks: left column S066 basal/slow clocks MEASURED in vitro mouse "
-        "retina; right column rapid transients UNKNOWN. Missing koff does not prove slow kinetics. "
-        "PROPOSED: 39-mer kon/koff.\n\n"
+        "Figure two_regime_clocks: left column separates S066 probe calibration "
+        "(10 nM step, ~10 min plateau), Ames calibration (41.6% blank noise), and in vitro "
+        "retina recording (14 s scan, ~1 min sampling, light-on/off ACV). Right column marks "
+        "rapid transients UNKNOWN. Calibration clocks are not tissue-recording clocks. Missing "
+        "koff does not prove slow kinetics. PROPOSED: 39-mer kon/koff.\n\n"
         "Figure occupancy (DEMOTED): Langmuir θ([Glu]) using three published numbers as if they "
         "were 1:1 occupancy Kd/EC50. MODELED overlay. Not tissue occupancy. Not the PaC probe’s Kd. "
         "Vertical lines mark Herman 25 nM and Clements 1.1 mM as hippocampal literature examples. "
