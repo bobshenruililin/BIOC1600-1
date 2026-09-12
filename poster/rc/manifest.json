@@ -47,8 +47,21 @@
   ],
   "off_repo_review_pdf": {
     "path": "/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/media/BIOC1600_poster_review.pdf",
+    "sha256": "18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf",
+    "bytes": 111254,
+    "pages": 1,
+    "page_size_mm": [
+      841,
+      594
+    ],
+    "page_size_pts": [
+      2383.94,
+      1683.78
+    ],
+    "fonts_embedded": true,
+    "raster_xobjects": 0,
     "git": false,
-    "status": "pending_after_push"
+    "status": "written_outside_worktree"
   },
   "files": {
     "poster/rc/poster_rc.svg": {
@@ -108,8 +121,8 @@
       "bytes": 1202
     },
     "poster/rc/qa_report.md": {
-      "sha256": "04853edbb1a4984e9fb34a5b45c6ad7dd4f330166b7675971e081bcf765284cd",
-      "bytes": 1676
+      "sha256": "c90dcd884f9f5d55d9b432cb9077eb2c99b59820122fc1f7af2569510c60f166",
+      "bytes": 2146
     },
     "poster/rc/checkpoint.md": {
       "sha256": "9876e9c2ba1d5983a653dab9e2a5220f08bdddfff84069de82bb8cffa9f04167",

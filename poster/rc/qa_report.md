@@ -28,8 +28,17 @@ INTERNAL RELEASE CANDIDATE — NOT FINAL. Gate **REVISE**. Flagship **NONE**. As
 
 Visible “not Thesis E” on the spikes face is a refusal copied from the exported card, not Thesis E as a finding. Source XML comments mention Nyquist / recognition-first / protocol_clocks as **not** those objects; they are not masthead findings.
 
-## Off-repo review PDF
+## Off-repo review PDF (not in git)
 
 Path: `/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/media/BIOC1600_poster_review.pdf`
 
-Hash and page-size verification are filled after first complete SVG render. Do not git-add that PDF or its PNG crops.
+- SHA-256: `18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf`
+- Pages: 1
+- Page size: 2383.94 × 1683.78 pts = **841 × 594 mm (A1 landscape)**
+- Fonts: subset-embedded (DejaVu / Tinos / Noto; `pdffonts` emb=yes)
+- Images: no raster XObjects (`pdfimages` empty); nested faces are cairo vectors
+- Rasterized **from this PDF** (not from the SVG) at 150 dpi: `poster_review_page.png` plus `crop_00`–`crop_09`
+
+Inherited source issue (not redrawn): clocks-calfix 10 min C028 token overflows the 420-px source viewBox.
+
+Do not git-add that PDF or its PNG crops.
