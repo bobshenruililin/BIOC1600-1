@@ -25,10 +25,10 @@
   },
   "png": {
     "path": "poster/rc/poster_rc.png",
-    "sha256": "f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9",
-    "pixel_sha256": "4e10acace751c9f71cbca14ad803672121622eabad4e7a4cea267b4024d0d9a1",
+    "sha256": "09f4ecc2d447222515676f78676a67715e9c3a538b09221046adee2184f51935",
+    "pixel_sha256": "fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94",
     "ci_gate": "decoded_pixels",
-    "bytes": 2342143,
+    "bytes": 2355325,
     "width_px": 4967,
     "height_px": 3508,
     "requested_px": [
@@ -37,6 +37,7 @@
     ],
     "rebuild": "scripts/build_poster_rc.sh",
     "compare": "scripts/compare_poster_png.py",
+    "fontconfig": "scripts/poster_fontconfig.conf",
     "file_sha256_note": "renderer-local zlib/filter encoding; not the CI gate",
     "status": "ok"
   },
@@ -79,12 +80,12 @@
       "bytes": 72653
     },
     "poster/rc/poster_rc.png": {
-      "sha256": "f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9",
-      "bytes": 2342143
+      "sha256": "09f4ecc2d447222515676f78676a67715e9c3a538b09221046adee2184f51935",
+      "bytes": 2355325
     },
     "scripts/build_poster_rc.sh": {
-      "sha256": "da411d8074b6e6990165c74cce64282ddcec0aeceba168a40d1c6f22ab2deab4",
-      "bytes": 2502
+      "sha256": "db0691a3813e609c1df4882628468bba2cba915675b20d01cf8327c2843151b6",
+      "bytes": 2729
     },
     "poster/rc/astra_design_contract_report.md": {
       "sha256": "0a7c130e1bc95be5da16cd6a0f73fab82da010b763b471ff9c6f6b3e632dd406",
@@ -99,16 +100,16 @@
       "bytes": 5432
     },
     "poster/rc/astra_disposition.md": {
-      "sha256": "65aabc4ca8e0894f1464b92873f0666f83afb9600ae3f08c86e0a8b1d9863fa5",
-      "bytes": 2618
+      "sha256": "cc4c7480a349fb0d3da869e5564d0493ee5aa30cc8641964a14226668819027f",
+      "bytes": 2710
     },
     "poster/rc/astra_bundle/index.md": {
       "sha256": "f549a9a9d6cd00d50794de9dc13a149ec95b90a3456770839a370fdd9536227e",
       "bytes": 696
     },
     "poster/rc/README.md": {
-      "sha256": "75afc474cd2def1ad01af143a18f369cf84603a07f5ff10578adcb7850f7518c",
-      "bytes": 2231
+      "sha256": "b232b591f9dcf96b03d70e3d394865bd5066dc3740d0e9a83d8a87f8b8b35e2e",
+      "bytes": 2343
     },
     "poster/rc/copy.md": {
       "sha256": "acd794012285002ca101ef89f954658890e759e76b3261a62755d5bd7e61a2c3",
@@ -143,12 +144,12 @@
       "bytes": 1202
     },
     "poster/rc/qa_report.md": {
-      "sha256": "0db64638b4a438549fb96649c53f3ad1ff8fd0871415a82a67552fc8cb9b7ca0",
-      "bytes": 2761
+      "sha256": "154eaeb7a92989f7c146ab897acc17723ec0ef18f824359195db5a7da525482f",
+      "bytes": 2920
     },
     "poster/rc/checkpoint.md": {
-      "sha256": "5e9756da8a7a68412bb286a7be382352731d7421e6abe503fc8d908170867860",
-      "bytes": 2483
+      "sha256": "ca361b96f1be155cc169bdc11dc0a9d6b1255ed582beb8d905973c8dfcfd3b31",
+      "bytes": 3029
     },
     "scripts/compare_poster_png.py": {
       "sha256": "87373b0d7c8f2b8003a97e84563cb3f5cd1ae505d1d22d7e4015b53bd9c5cc15",
@@ -157,6 +158,10 @@
     "scripts/ci_rebuild_poster_rc.sh": {
       "sha256": "7cf5c4f1ea1ceddd3aababbb9d5687f2cbf2f16e09fea291953c13daead1b688",
       "bytes": 1168
+    },
+    "scripts/poster_fontconfig.conf": {
+      "sha256": "aa5cba27855b55415addd99c47b0e4860298eab054978ace94da0c3a4d0d6cfc",
+      "bytes": 2671
     }
   }
 }

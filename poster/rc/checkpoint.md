@@ -27,18 +27,20 @@ Phase **F** — PI handoff. INTERNAL RELEASE CANDIDATE — NOT FINAL. Not group-
 | Astra-audited PDF | `18d43961bce4545c38a8a78c265d9dc9251899b249a30827906d9aadd3e02dbf` |
 | Specified-fix visual git | `854a17a117f78b5a65bdf8f7964f7997d493467f` |
 | Specified-fix SVG | `c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782` |
-| Specified-fix PNG (file, this-tree encoding) | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
-| Specified-fix PNG (decoded pixels) | `4e10acace751c9f71cbca14ad803672121622eabad4e7a4cea267b4024d0d9a1` |
+| Specified-fix PNG (file, `854a17a` encoding) | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
+| Specified-fix PNG (decoded pixels, `854a17a`) | `4e10acace751c9f71cbca14ad803672121622eabad4e7a4cea267b4024d0d9a1` |
+| CI-pinned preview PNG (file) | `09f4ecc2d447222515676f78676a67715e9c3a538b09221046adee2184f51935` |
+| CI-pinned preview PNG (decoded pixels) | `fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94` |
 | PDF-hash git record | `44bd1997b54660940e26c31aa3a1527edc014b23` (docs only; visual target unchanged from `854a17a`) |
 | Off-repo PDF (not git) | `bbdac14785ef1ab06ed88638695b49bce2e1c515af61418f60aa828051afdd9a` |
 | Changed-pixel vision | MUST FIX **none** (`docs/mission3-pdf-vision-changed-pixels.md` in Project store) |
 
-**Astra findings were addressed by Cursor/Sol.** Do not transfer Astra’s verdict onto `854a17a`, `44bd199`, PDF `bbdac147`, or later INT commits.
+**Astra findings were addressed by Cursor/Sol.** Do not transfer Astra’s verdict onto `854a17a`, `44bd199`, PDF `bbdac147`, or later INT commits. SVG is unchanged from the specified-fix; the git preview PNG was re-rasterized under `scripts/poster_fontconfig.conf` so Actions can match decoded pixels. Off-repo PDF is unchanged.
 
 ## CI poster gate
 
-PNG **file** SHA-256 is renderer-local (zlib/filter encoding). After pinning Noto Sans, GitHub Actions still differed by 5 bytes from this VM (`c418d77` rebuilt `f54c81f6…` vs committed `f905ba93…`). CI now hashes **decoded RGB samples** via `scripts/compare_poster_png.py` (geometry 4967×3508). Exact-head green is recorded only after that step runs on GitHub.
+GitHub `9aabb85` rebuilt 4967×3508 RGB but **decoded pixels differed** (`4e10acac…` committed vs `9efb2e26…` Actions), not only a 5-byte file encoding. Cause: distro font aliases / rasterization, not zlib. Rebuild now exports `FONTCONFIG_FILE=scripts/poster_fontconfig.conf` (Noto Sans/Serif, DejaVu by name, grayscale AA). CI installs `fonts-noto-core` and `fonts-dejavu-core` only. Gate remains decoded pixels at 4967×3508. Exact-head green is recorded only after that step runs on GitHub.
 
 ## Next executable action
 
-Wait for exact-head `validate` with the pixel-hash rebuild step, then PI visual review of the off-repo A1 PDF. Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.
+Wait for exact-head `validate` with the fontconfig-pinned pixel rebuild, then PI visual review of the off-repo A1 PDF. Keep PR draft. Do not merge. Do not reopen Mission 2. Do not invoke Astra.

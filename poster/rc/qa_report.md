@@ -21,7 +21,7 @@ Science gate stays **REVISE**. Pixel vision does not manufacture PASS or group-f
 
 ## CI checksum (preview PNG)
 
-Committed `poster/rc/poster_rc.png` file SHA-256 `f905ba93…` is this VM’s encoding. GitHub Actions after Noto pin still wrote a 5-byte-different file. The CI gate is decoded RGB SHA-256 `4e10acace751c9f71cbca14ad803672121622eabad4e7a4cea267b4024d0d9a1` at 4967×3508, via `scripts/compare_poster_png.py`.
+`9aabb85` proved the 5-byte file delta was a **real raster difference** (committed pixels `4e10acac…` vs Actions `9efb2e26…`). Preview PNG was re-rasterized with `scripts/poster_fontconfig.conf`. Current file SHA-256 `09f4ecc2d447222515676f78676a67715e9c3a538b09221046adee2184f51935`; decoded RGB `fa920782242d492b6f22b31c5f1c6a6870f556b7c60c2ce7ee7e2f3fd5167d94` at 4967×3508. SVG and off-repo PDF are unchanged. Do not transfer Astra’s verdict onto this PNG.
 
 ## Stylistic leftovers (not MUST FIX)
 

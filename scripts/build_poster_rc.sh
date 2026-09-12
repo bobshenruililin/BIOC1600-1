@@ -7,12 +7,19 @@ set -eu
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SVG="${ROOT}/poster/rc/poster_rc.svg"
 OUT="${ROOT}/poster/rc/poster_rc.png"
+FONTCONFIG_FILE="${ROOT}/scripts/poster_fontconfig.conf"
+export FONTCONFIG_FILE
+export PANGOCAIRO_BACKEND=fontconfig
 # A1 landscape at 150 dpi: 841 mm × 594 mm → 4967 × 3508 px
 WIDTH_PX=4967
 HEIGHT_PX=3508
 
 if [[ ! -f "${SVG}" ]]; then
   echo "build_poster_rc: missing input ${SVG}" >&2
+  exit 1
+fi
+if [[ ! -f "${FONTCONFIG_FILE}" ]]; then
+  echo "build_poster_rc: missing ${FONTCONFIG_FILE}" >&2
   exit 1
 fi
 

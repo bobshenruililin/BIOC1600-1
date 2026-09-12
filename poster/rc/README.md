@@ -20,9 +20,9 @@ Canonical poster: `poster/rc/poster_rc.svg` (A1 landscape 841 × 594 mm). Previe
 bash scripts/build_poster_rc.sh
 ```
 
-Fails nonzero if the SVG or renderer (`rsvg-convert` or `inkscape`) is missing. Does not silently reuse a committed PNG. Does not write PDF.
+Fails nonzero if the SVG, `scripts/poster_fontconfig.conf`, or renderer (`rsvg-convert` or `inkscape`) is missing. Exports `FONTCONFIG_FILE` so GitHub Actions uses the same family fallbacks and grayscale AA as this rebuild. Does not silently reuse a committed PNG. Does not write PDF.
 
-CI (`scripts/ci_rebuild_poster_rc.sh`) deletes the committed PNG, rebuilds, and compares **decoded pixels**, not `.png` file bytes. File SHA-256 is renderer-local.
+CI (`scripts/ci_rebuild_poster_rc.sh`) deletes the committed PNG, rebuilds, and compares **decoded pixels**, not `.png` file bytes.
 
 ## Reading order (nested exported faces)
 
