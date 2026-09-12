@@ -1,0 +1,10 @@
+n,span_10_90,span_vs_44000_example,overlay_theta_25nM_if_1p8nM_c50,quantity_class
+0.300,2.29941e+06,wider,0.6877,MODELED
+0.400,59049,wider,0.7412,MODELED
+0.411,44006.4,wider,0.7468,MODELED
+0.500,6561,narrower,0.7884,MODELED
+0.700,532.607,narrower,0.8632,MODELED
+1.000,81,narrower,0.9328,MODELED
+1.500,18.7208,narrower,0.9810,MODELED
+2.000,9,narrower,0.9948,MODELED
+0.411006,44000,equal (critical n*),0.7468,MODELED
