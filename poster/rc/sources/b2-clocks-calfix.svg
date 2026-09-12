@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 268" width="420" height="268" role="img" aria-label="B2 card 2C: clocks of the scan, not a Glu assay. Caption-only MEASURED times: 14 s scan, about 1 min per point, 10 min plateau (buffer calibration, 10 nM Glu step). Not Leg A, not Leg B. Identity still UNKNOWN. Not on the hero.">
+  <!-- B2 2C caption-only clocks calfix. Copy of b2-clocks.svg. Parent not overwritten. Communication only. Not on the hero. Not protocol_clocks.svg.
+       No 1.2 ms. No Nyquist. No Clements. No extra clocks. No bar lengths. No invented numbers.
+       Mission 2 not reopened. No PR. Astra not invoked. -->
+  <rect width="420" height="268" fill="#ffffff"/>
+  <rect x="3" y="3" width="414" height="262" fill="none" stroke="#111111" stroke-width="2.5"/>
+
+  <!-- Demotion tabs -->
+  <g font-family="sans-serif">
+    <rect x="12" y="12" width="118" height="22" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="71" y="27" text-anchor="middle" font-size="10" font-weight="bold">NOT LEG A</text>
+    <rect x="136" y="12" width="118" height="22" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="195" y="27" text-anchor="middle" font-size="10" font-weight="bold">NOT LEG B</text>
+    <text x="408" y="27" text-anchor="end" font-size="9" fill="#555">2C</text>
+  </g>
+
+  <!-- Title: exact -->
+  <g font-family="sans-serif">
+    <text x="210" y="56" text-anchor="middle" font-size="15" font-weight="bold">Clocks of the scan, not a Glu assay</text>
+  </g>
+
+  <!-- MEASURED stamp: protocol times, not an analyte -->
+  <g font-family="sans-serif">
+    <rect x="12" y="66" width="396" height="28" fill="#b7e4c7" stroke="#111" stroke-width="2"/>
+    <text x="210" y="85" text-anchor="middle" font-size="12" font-weight="bold">MEASURED: protocol times &#183; not a current ID</text>
+  </g>
+
+  <!-- Caption-only face: equal text tokens, not bars, not a selected figure -->
+  <rect x="12" y="102" width="396" height="88" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+  <g font-family="sans-serif">
+    <text x="210" y="122" text-anchor="middle" font-size="9" fill="#555">caption text &#183; no selected figure</text>
+    <text x="210" y="146" text-anchor="middle" font-size="12" font-weight="bold">MEASURED clocks &#183; not Leg A &#183; not Leg B &#183; identity still UNKNOWN</text>
+    <!-- Three equal-weight tokens. Same type size. No duration encoding. -->
+    <text x="78" y="176" text-anchor="middle" font-size="14" font-weight="bold">14 s scan</text>
+    <text x="210" y="176" text-anchor="middle" font-size="14" font-weight="bold">~1 min/point</text>
+    <text x="342" y="176" text-anchor="middle" font-size="14" font-weight="bold">10 min plateau (buffer calibration, 10 nM Glu step)</text>
+  </g>
+
+  <!-- Identity + empty rates. No 1.2 ms on this face. -->
+  <g font-family="sans-serif">
+    <rect x="12" y="198" width="192" height="36" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="108" y="213" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN</text>
+    <text x="108" y="227" text-anchor="middle" font-size="9">identity still unnamed</text>
+    <rect x="212" y="198" width="196" height="36" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="310" y="213" text-anchor="middle" font-size="10" font-weight="bold">UNMEASURED</text>
+    <text x="310" y="227" text-anchor="middle" font-size="9">rapid-transient &#183; C007 empty</text>
+  </g>
+
+  <!-- ID rail: exact list -->
+  <g font-family="sans-serif">
+    <text x="210" y="254" text-anchor="middle" font-size="10">C031 &#183; E045 &#183; E046 &#183; C028 &#183; C007</text>
+  </g>
+</svg>

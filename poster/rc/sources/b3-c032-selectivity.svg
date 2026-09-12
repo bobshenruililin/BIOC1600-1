@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Supporting B3 card, not the finding. Aptamer buffer selectivity C032 S066 Figure 6.8A. One hundred nanomolar glutamate versus ten micromolar serotonin, dopamine, tyrosine, and lactate were run in probe calibration. No ratio printed. C032 value empty. Aspartate and glutamine not in that panel, stamped UNKNOWN. GABA stamped UNKNOWN, empty. This is not tissue identity and not a Kd. Gate REVISE. Flagship NONE. Supporting only. Not next experiment.">
+  <!-- B3 supporting C032 selectivity. Skeleton from prompt contract; locators from freeze C032 only.
+       Communication only. Not the finding. Not the hero. Not recognition-first.
+       No PaC Kd well. No 1.8 nM. No 12 µM. No occupancy. No U1. No Ames-as-confounder.
+       Appendix II g/l unconverted — not drawn. No ratio. C032 value kept empty.
+       Stamp vocabulary: MEASURED / UNKNOWN only. Do not invent MODELED.
+       Mission 2 not reopened. No PR. Astra not invoked. Flagship NONE. -->
+  <rect width="900" height="440" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="432" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">SUPPORTING &#8212; not the finding</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B3 &#183; C032 &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">supporting card &#183; prototype</text>
+
+  <text x="450" y="68" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Buffer interferents that were run &#8212; not tissue identity, not a Kd</text>
+  <text x="450" y="88" text-anchor="middle" font-family="sans-serif" font-size="12">Aptamer challenge in buffer. Does not name the tissue current. Not a molecular Kd.</text>
+
+  <rect x="16" y="104" width="428" height="252" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="230" y="126" text-anchor="middle" font-size="13" font-weight="bold">MEASURED half &#183; interferents that were run</text>
+    <text x="230" y="144" text-anchor="middle" font-size="11">100 nM glutamate versus 10 &#181;M of each</text>
+    <text x="230" y="160" text-anchor="middle" font-size="10" fill="#333">probe calibration &#183; not tissue</text>
+    <rect x="32" y="168" width="396" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="230" y="183" text-anchor="middle" font-size="11" font-weight="bold">MEASURED: these four were run</text>
+    <text x="230" y="204" text-anchor="middle" font-size="10" fill="#333">C032 value empty &#183; no ratio printed</text>
+  </g>
+
+  <g font-family="sans-serif">
+    <rect x="32" y="214" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="126" y="236" text-anchor="middle" font-size="12" font-weight="bold">serotonin</text>
+    <text x="126" y="254" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+    <rect x="228" y="214" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="322" y="236" text-anchor="middle" font-size="12" font-weight="bold">dopamine</text>
+    <text x="322" y="254" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+    <rect x="32" y="276" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="126" y="298" text-anchor="middle" font-size="12" font-weight="bold">tyrosine</text>
+    <text x="126" y="316" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+    <rect x="228" y="276" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="322" y="298" text-anchor="middle" font-size="12" font-weight="bold">lactate</text>
+    <text x="322" y="316" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+  </g>
+
+  <rect x="456" y="104" width="428" height="252" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="670" y="126" text-anchor="middle" font-size="13" font-weight="bold">UNKNOWN half &#183; not filled</text>
+    <text x="670" y="146" text-anchor="middle" font-size="11">Do not fill. Do not invent a ratio.</text>
+    <rect x="472" y="156" width="396" height="22" fill="#d3d3d3" stroke="#111"/>
+    <text x="670" y="171" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN: empty</text>
+  </g>
+
+  <g font-family="sans-serif">
+    <rect x="472" y="190" width="396" height="46" fill="#ffffff" stroke="#111" stroke-dasharray="5 3"/>
+    <text x="670" y="210" text-anchor="middle" font-size="12" font-weight="bold">aspartate (Asp)</text>
+    <text x="670" y="226" text-anchor="middle" font-size="10">UNKNOWN &#183; not in that panel</text>
+    <rect x="472" y="244" width="396" height="46" fill="#ffffff" stroke="#111" stroke-dasharray="5 3"/>
+    <text x="670" y="264" text-anchor="middle" font-size="12" font-weight="bold">glutamine (Gln)</text>
+    <text x="670" y="280" text-anchor="middle" font-size="10">UNKNOWN &#183; not in that panel</text>
+    <rect x="472" y="298" width="396" height="46" fill="#ffffff" stroke="#111" stroke-dasharray="5 3"/>
+    <text x="670" y="318" text-anchor="middle" font-size="12" font-weight="bold">GABA</text>
+    <text x="670" y="334" text-anchor="middle" font-size="10">UNKNOWN &#183; empty</text>
+  </g>
+
+  <rect x="16" y="366" width="868" height="28" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <text x="450" y="385" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c1121f">Not tissue identity. Not a Kd. Ames not drawn as a demonstrated confounder.</text>
+
+  <g font-family="sans-serif">
+    <text x="450" y="412" text-anchor="middle" font-size="12" font-weight="bold">IDs: C032 &#183; S066 &#183; Fig. 6.8A</text>
+    <text x="450" y="428" text-anchor="middle" font-size="10" fill="#333">Gate REVISE &#183; Flagship NONE &#183; not group-final &#183; supporting only &#183; not next experiment</text>
+  </g>
+</svg>

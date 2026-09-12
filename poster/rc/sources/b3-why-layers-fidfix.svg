@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Supporting B3 card, not the finding. Why three objects differ. 1d04 Kd_molecular is not AuED-MEA PBS EC50 is not tissue percent gain. Wu 1d04 isolate molecular Kd 12 micromolar, not this Fc-thiol 39-mer; Hu methods is a Wu citation chip C021, separate from measured C001, not a remeasurement. AuED-MEA film 1.8 nanomolar PBS EC50, not this PaC 39-mer's Kd. Tissue ACV current measured as percent gain; identity unknown. U1 isotherm is not identity, different question, not next.">
+  <!-- B3 supporting why-layers fidfix. Copy-repair sibling of b3-why-layers.svg.
+       Parent not overwritten. Communication only. Not the finding. Not 3Q. Not 3H.
+       Not fidfix2 / clocks / maps / spikes / U2 close. Not recognition-first.
+       No empty PaC Kd well. No occupancy theta. No 81-fold figure. No U2 homework.
+       U1 appears only as a red-X different question, not next. Mission 2 not reopened.
+       No PR. Astra not invoked. Freeze numbers only: 12 µM (C001/C021); 1.8 nM (C005).
+       F1: NOT this Fc-thiol 39-mer on Wu 1d04; C021 is a separate citation chip,
+           not nested in the green MEASURED on 1d04 · C001 well.
+       F2: mechanism operands 1d04 Kd_molecular ` AuED-MEA PBS EC50 ` tissue %gain;
+           identity is not a ` operand on that line; UNKNOWN: identity stamp retained.
+       F3: U1 isotherm ` identity · different question / not next. No vacancy. No gold NEXT. -->
+  <rect width="900" height="420" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="412" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Governing tab: SUPPORTING  not the finding -->
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">SUPPORTING &#8212; not the finding</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B3 &#183; why-layers &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">supporting card &#183; schematic</text>
+
+  <text x="450" y="68" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Why three objects differ</text>
+  <text x="450" y="90" text-anchor="middle" font-family="sans-serif" font-size="13">1d04 Kd_molecular &#8800; AuED-MEA PBS EC50 &#8800; tissue %gain</text>
+
+  <!-- Object 1: Wu 1d04 isolate. Filled. Not a 39-mer Kd well. C021 is its own chip. -->
+  <rect x="16" y="108" width="268" height="218" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="150" y="130" text-anchor="middle" font-size="13" font-weight="bold">Wu 1d04 isolate</text>
+    <text x="150" y="148" text-anchor="middle" font-size="11">solution binding</text>
+    <text x="150" y="168" text-anchor="middle" font-size="10" fill="#333">Kd_molecular</text>
+    <text x="150" y="190" text-anchor="middle" font-size="13" font-weight="bold">12 &#181;M</text>
+    <rect x="32" y="202" width="236" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="150" y="217" text-anchor="middle" font-size="11" font-weight="bold">MEASURED on 1d04 &#183; C001</text>
+    <rect x="32" y="232" width="236" height="22" fill="#ffffff" stroke="#111"/>
+    <text x="150" y="247" text-anchor="middle" font-size="10">Hu methods = Wu citation &#183; C021</text>
+    <text x="150" y="274" text-anchor="middle" font-size="11" font-weight="bold">NOT this Fc-thiol 39-mer</text>
+    <text x="150" y="292" text-anchor="middle" font-size="11" font-weight="bold">not a remeasurement</text>
+    <text x="150" y="310" text-anchor="middle" font-size="9" fill="#333">named object &#183; chips filled</text>
+  </g>
+
+  <!-- Layer inequality, not a vacancy -->
+  <g font-family="sans-serif">
+    <text x="300" y="200" text-anchor="middle" font-size="20" font-weight="bold">&#8800;</text>
+    <text x="300" y="218" text-anchor="middle" font-size="8">not the</text>
+    <text x="300" y="230" text-anchor="middle" font-size="8">same</text>
+    <text x="300" y="242" text-anchor="middle" font-size="8">layer</text>
+  </g>
+
+  <!-- Object 2: AuED-MEA film. Filled EC50. Not an empty PaC Kd well. -->
+  <rect x="316" y="108" width="268" height="218" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="450" y="130" text-anchor="middle" font-size="13" font-weight="bold">AuED-MEA film</text>
+    <text x="450" y="148" text-anchor="middle" font-size="11">immobilized-film transduction</text>
+    <text x="450" y="168" text-anchor="middle" font-size="10" fill="#333">PBS &#183; EC50</text>
+    <text x="450" y="190" text-anchor="middle" font-size="13" font-weight="bold">1.8 nM</text>
+    <rect x="332" y="202" width="236" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="450" y="217" text-anchor="middle" font-size="11" font-weight="bold">MEASURED on AuED-MEA &#183; C005</text>
+    <text x="450" y="250" text-anchor="middle" font-size="11" font-weight="bold">NOT this PaC 39-mer&#8217;s Kd</text>
+    <text x="450" y="268" text-anchor="middle" font-size="10">text refusal &#183; not a well</text>
+    <text x="450" y="310" text-anchor="middle" font-size="9" fill="#333">named object &#183; chips filled</text>
+  </g>
+
+  <g font-family="sans-serif">
+    <text x="600" y="200" text-anchor="middle" font-size="20" font-weight="bold">&#8800;</text>
+    <text x="600" y="218" text-anchor="middle" font-size="8">not the</text>
+    <text x="600" y="230" text-anchor="middle" font-size="8">same</text>
+    <text x="600" y="242" text-anchor="middle" font-size="8">layer</text>
+  </g>
+
+  <!-- Object 3: tissue ACV current. MEASURED %gain; identity UNKNOWN. Not a Kd well. -->
+  <rect x="616" y="108" width="268" height="218" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="750" y="130" text-anchor="middle" font-size="13" font-weight="bold">Tissue ACV current</text>
+    <text x="750" y="148" text-anchor="middle" font-size="11">tissue faradaic identity</text>
+    <text x="750" y="168" text-anchor="middle" font-size="10" fill="#333">%gain</text>
+    <text x="750" y="190" text-anchor="middle" font-size="13" font-weight="bold">MEASURED current</text>
+    <rect x="632" y="202" width="236" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="750" y="217" text-anchor="middle" font-size="11" font-weight="bold">MEASURED as %gain &#183; C033</text>
+    <rect x="632" y="230" width="236" height="28" fill="#d3d3d3" stroke="#111"/>
+    <text x="750" y="248" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN: identity</text>
+    <text x="750" y="276" text-anchor="middle" font-size="10">filled stamp &#183; not a vacancy</text>
+    <text x="750" y="310" text-anchor="middle" font-size="9" fill="#333">named object &#183; chips filled</text>
+  </g>
+
+  <!-- Red-X: U1 is a different question, not next. Not this card's result. U2 not drawn. -->
+  <rect x="16" y="338" width="868" height="36" fill="#ffffff" stroke="#c1121f" stroke-width="2.5"/>
+  <line x1="36" y1="346" x2="58" y2="366" stroke="#c1121f" stroke-width="3"/>
+  <line x1="58" y1="346" x2="36" y2="366" stroke="#c1121f" stroke-width="3"/>
+  <text x="470" y="361" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c1121f">U1 isotherm &#8800; identity &#183; different question / not next</text>
+
+  <g font-family="sans-serif">
+    <text x="450" y="392" text-anchor="middle" font-size="12" font-weight="bold">IDs: C001 &#183; C021 &#183; C005 &#183; C033</text>
+    <text x="450" y="408" text-anchor="middle" font-size="10" fill="#333">not a next-experiment card &#183; Gate REVISE &#183; Flagship NONE &#183; not group-final</text>
+  </g>
+</svg>

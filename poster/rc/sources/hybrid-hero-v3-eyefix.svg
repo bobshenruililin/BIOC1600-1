@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 630" width="900" height="630" role="img" aria-label="Hybrid hero band v3 eyefix: two different experiments, same unnamed analyte (schematic wireframe, no data; I1 freeze prep in vitro isolated mouse retina; fidfix2 parent untouched)">
+  <!-- v3-eyefix: I1 string-swap sibling of fidfix2. fidfix2 file untouched. Not final. No PR. No Astra. Mission 2 not reopened.
+       Base: hybrid-hero-v3-fidfix.svg (survived hostile with no FATALs).
+       Hostile: internal/mission3/tests/hostile-hybrid-v3-fidfix.md (#1 board question: Hu quote on Leg A + authors p on Leg B).
+       Fix 1 (Leg A): verbatim Hu quote off the well -> orange INFERRED tile caption (7.5 pt, labeled inferred). Well keeps small 7 pt INFERRED chip, no recitable sentence.
+       Fix 2 (Leg B): specific p<0.05 off the 9 pt finding line -> 6.5 pt grey tspan on the stats line; 9 pt line keeps stats-exist only.
+       Keeps: white wells, UNKNOWN-on-well 13 bold, current/unnamed 24 bold, glutamate 11 bold demoted, leaves 12 bold-italic, parked 1.8 nM chip, equal readout cells, earlier/later, F1 gold-loss line, guard strip.
+       Forbids honored: no green wells, no clocks, no unequal polarity, no negation, no theta finding, no directions, no 14 s, no new numbers. -->
+  <rect width="900" height="630" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="622" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- 3-stamp glance row (10-second contract only). MODELED/PROPOSED live in hero footer. -->
+  <g font-family="sans-serif">
+    <rect x="16" y="12" width="284" height="46" fill="#b7e4c7" stroke="#111" stroke-width="2"/>
+    <text x="158" y="31" text-anchor="middle" font-size="15" font-weight="bold">MEASURED</text>
+    <text x="158" y="47" text-anchor="middle" font-size="10">not [Glu], not theta</text>
+    <rect x="308" y="12" width="284" height="46" fill="#ffc8a2" stroke="#111" stroke-width="2"/>
+    <text x="450" y="31" text-anchor="middle" font-size="15" font-weight="bold">INFERRED</text>
+    <text x="450" y="47" text-anchor="middle" font-size="10">not a chemical ID</text>
+    <rect x="600" y="12" width="284" height="46" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="742" y="31" text-anchor="middle" font-size="15" font-weight="bold">UNKNOWN</text>
+    <text x="742" y="47" text-anchor="middle" font-size="10">molecule unnamed</text>
+  </g>
+
+  <!-- Small shank anchor (construct context; neutral disk, no MEASURED-green gravity) -->
+  <rect x="16" y="66" width="868" height="86" fill="#fff8e7" stroke="#111" stroke-width="2"/>
+  <g font-family="sans-serif">
+    <text x="30" y="90" font-size="13" font-weight="bold">The object that went in (in vitro isolated mouse retina)</text>
+    <text x="30" y="109" font-size="11">PaC shank: large ACV disk at GCL/IPL border vs small ephys sites.</text>
+    <text x="30" y="126" font-size="11" font-weight="bold">Same shank &#8800; same measurand.</text>
+    <text x="30" y="143" font-size="10" fill="#333">MEASURED: placement, in vitro, ACV current readout. UNKNOWN: photoreceptor pool.</text>
+    <!-- in vitro isolated mouse retina ellipse -->
+    <ellipse cx="640" cy="112" rx="120" ry="38" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <!-- shank -->
+    <rect x="632" y="78" width="16" height="66" fill="#eeeeee" stroke="#111" stroke-width="2"/>
+    <!-- small ephys dots -->
+    <circle cx="640" cy="92" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="640" cy="104" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="640" cy="116" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <!-- large ACV disk (neutral: the well is not the finding) -->
+    <circle cx="640" cy="136" r="13" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <text x="662" y="140" font-size="10">ACV disk</text>
+    <text x="662" y="108" font-size="10">ephys sites</text>
+    <text x="770" y="140" font-size="9" fill="#555">Not S002. Not in vivo.</text>
+  </g>
+
+  <!-- Shared leg header (no clocks: clocks live in B2 only) -->
+  <g font-family="sans-serif">
+    <text x="450" y="168" text-anchor="middle" font-size="11">&#216; 25 um Fc-thiol 39-mer &#183; same shank &#183; readout on both: current as %gain vs post-insertion baseline &#183; room lights, not 500 ms LED</text>
+    <text x="450" y="183" text-anchor="middle" font-size="9" fill="#555">Scan clocks are not part of this finding &#8212; see B2 clocks card.</text>
+  </g>
+
+  <!-- Leg A card: WHITE well. Time IV drawn as two equal windows, no rise arrow. -->
+  <rect x="16" y="192" width="400" height="214" fill="#ffffff" stroke="#111" stroke-width="3"/>
+  <g font-family="sans-serif">
+    <text x="216" y="214" text-anchor="middle" font-size="15" font-weight="bold">Leg A &#183; IV = time (light held ON)</text>
+    <!-- light-held chip -->
+    <rect x="44" y="222" width="160" height="20" fill="#ffd166" stroke="#111" stroke-width="1.5"/>
+    <text x="124" y="236" text-anchor="middle" font-size="10">room light ON (held)</text>
+    <!-- unlike axis: time with two equal observation windows (no vertical, no rise) -->
+    <text x="216" y="254" text-anchor="middle" font-size="10" font-weight="bold">current compared across time &#8212; shape not drawn</text>
+    <rect x="116" y="260" width="90" height="26" fill="#e9ecef" stroke="#111" stroke-width="1.5"/>
+    <text x="161" y="278" text-anchor="middle" font-size="10">earlier</text>
+    <rect x="236" y="260" width="90" height="26" fill="#e9ecef" stroke="#111" stroke-width="1.5"/>
+    <text x="281" y="278" text-anchor="middle" font-size="10">later</text>
+    <line x1="44" y1="296" x2="388" y2="296" stroke="#111" stroke-width="2"/>
+    <polygon points="388,296 378,291 378,301" fill="#111"/>
+    <line x1="161" y1="296" x2="161" y2="290" stroke="#111" stroke-width="1.5"/>
+    <line x1="281" y1="296" x2="281" y2="290" stroke="#111" stroke-width="1.5"/>
+    <text x="216" y="310" text-anchor="middle" font-size="11">time after insertion</text>
+    <!-- MEASURED strip: current only, small -->
+    <rect x="44" y="316" width="344" height="18" fill="#b7e4c7" stroke="#111"/>
+    <text x="216" y="329" text-anchor="middle" font-size="9.5" font-weight="bold">MEASURED: current changed (as %gain)</text>
+    <!-- FIDFIX2 Fix 1: small INFERRED chip on the well, no verbatim quote. Verbatim lives on the orange finding tile caption, off-well. -->
+    <rect x="94" y="338" width="244" height="16" fill="#ffc8a2" stroke="#111"/>
+    <text x="216" y="350" text-anchor="middle" font-size="7">INFERRED: authors read as Glu &#8212; not measured</text>
+    <!-- UNKNOWN strip ON the well: largest text on the card -->
+    <rect x="44" y="362" width="344" height="30" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="216" y="383" text-anchor="middle" font-size="13" font-weight="bold">UNKNOWN: which molecule &#8212; unnamed</text>
+    <text x="216" y="400" text-anchor="middle" font-size="9" fill="#333">settling untested &#8212; not the finding</text>
+  </g>
+
+  <!-- Between-cards glyph (no "Glu assays") -->
+  <g font-family="sans-serif">
+    <text x="450" y="300" text-anchor="middle" font-size="30" font-weight="bold">&#8741;</text>
+    <text x="450" y="318" text-anchor="middle" font-size="9">different IVs</text>
+    <text x="450" y="330" text-anchor="middle" font-size="9">same unnamed</text>
+    <text x="450" y="342" text-anchor="middle" font-size="9">analyte</text>
+  </g>
+
+  <!-- Leg B card: WHITE well. Equal-height state blocks AND equal readout cells. -->
+  <rect x="484" y="192" width="400" height="214" fill="#ffffff" stroke="#111" stroke-width="3"/>
+  <g font-family="sans-serif">
+    <text x="684" y="214" text-anchor="middle" font-size="15" font-weight="bold">Leg B &#183; IV = illumination (later)</text>
+    <text x="684" y="230" text-anchor="middle" font-size="10">room light (not 500 ms LED)</text>
+    <!-- three equal state blocks -->
+    <rect x="508" y="238" width="112" height="30" fill="#ffd166" stroke="#111" stroke-width="2"/>
+    <text x="564" y="258" text-anchor="middle" font-size="12" font-weight="bold">ON</text>
+    <rect x="628" y="238" width="112" height="30" fill="#6c757d" stroke="#111" stroke-width="2"/>
+    <text x="684" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">OFF</text>
+    <rect x="748" y="238" width="112" height="30" fill="#ffd166" stroke="#111" stroke-width="2"/>
+    <text x="804" y="258" text-anchor="middle" font-size="12" font-weight="bold">ON</text>
+    <!-- three EQUAL readout cells (no taller/shorter bars, no polarity) -->
+    <rect x="508" y="274" width="112" height="28" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <text x="564" y="292" text-anchor="middle" font-size="9">read current</text>
+    <rect x="628" y="274" width="112" height="28" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <text x="684" y="292" text-anchor="middle" font-size="9">read current</text>
+    <rect x="748" y="274" width="112" height="28" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <text x="804" y="292" text-anchor="middle" font-size="9">read current</text>
+    <text x="684" y="316" text-anchor="middle" font-size="10">illumination state (order shown, not a time series)</text>
+    <!-- FIDFIX2 Fix 2: 9 pt lines keep stats-exist only; specific p demoted to 6.5 pt grey tspan, cannot compete with 13 bold UNKNOWN. -->
+    <text x="684" y="329" text-anchor="middle" font-size="9">Current changed: Probes 1&#8211;2; 3&#8211;4 ns</text>
+    <text x="684" y="341" text-anchor="middle" font-size="9" fill="#333">stats on the current &#8212; not a molecule ID<tspan font-size="6.5" fill="#555"> (authors p &lt; 0.05 on current)</tspan></text>
+    <!-- stamps name the measurand on this well -->
+    <rect x="504" y="348" width="128" height="16" fill="#b7e4c7" stroke="#111"/>
+    <text x="568" y="360" text-anchor="middle" font-size="8.5" font-weight="bold">MEASURED: current</text>
+    <rect x="636" y="348" width="128" height="16" fill="#ffc8a2" stroke="#111"/>
+    <text x="700" y="360" text-anchor="middle" font-size="7.5" font-weight="bold">INFERRED: Glu (authors)</text>
+    <rect x="768" y="348" width="96" height="16" fill="#d3d3d3" stroke="#111"/>
+    <text x="816" y="360" text-anchor="middle" font-size="8.5" font-weight="bold">UNKNOWN</text>
+    <!-- UNKNOWN strip ON the well -->
+    <rect x="508" y="368" width="352" height="30" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="684" y="389" text-anchor="middle" font-size="13" font-weight="bold">UNKNOWN: which molecule &#8212; unnamed</text>
+  </g>
+
+  <!-- Central finding object: TYPEFIX type hierarchy. Giant nouns current + unnamed win; orange glutamate demoted; "leaves" readable. No negation. -->
+  <g font-family="sans-serif">
+    <rect x="16" y="414" width="260" height="64" fill="#b7e4c7" stroke="#111" stroke-width="2.5"/>
+    <text x="146" y="432" text-anchor="middle" font-size="11">MEASURED</text>
+    <text x="146" y="456" text-anchor="middle" font-size="24" font-weight="bold">current</text>
+    <text x="146" y="470" text-anchor="middle" font-size="10">changed, as signal-gain</text>
+    <text x="296" y="455" text-anchor="middle" font-size="28" font-weight="bold">+</text>
+    <rect x="320" y="414" width="260" height="64" fill="#ffc8a2" stroke="#111" stroke-width="2.5"/>
+    <text x="450" y="432" text-anchor="middle" font-size="11">INFERRED</text>
+    <text x="450" y="452" text-anchor="middle" font-size="11" font-weight="bold">glutamate</text>
+    <text x="450" y="468" text-anchor="middle" font-size="7.5">authors&#8217; reading: &#8220;successful detection of Glu&#8221; (Hu, inferred)</text>
+    <text x="600" y="424" text-anchor="middle" font-size="12" font-weight="bold" font-style="italic">leaves</text>
+    <text x="600" y="455" text-anchor="middle" font-size="28" font-weight="bold">&#8594;</text>
+    <rect x="624" y="414" width="260" height="64" fill="#d3d3d3" stroke="#111" stroke-width="2.5"/>
+    <text x="754" y="432" text-anchor="middle" font-size="11">UNKNOWN</text>
+    <text x="754" y="456" text-anchor="middle" font-size="24" font-weight="bold">unnamed</text>
+    <text x="754" y="470" text-anchor="middle" font-size="10">molecule &#8212; naming test not run</text>
+  </g>
+
+  <!-- Guard strip: competes with the finding object in readable type -->
+  <rect x="16" y="484" width="868" height="24" fill="#ffffff" stroke="#111"/>
+  <g font-family="sans-serif">
+    <text x="450" y="500" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN = unnamed &#8212; naming test (U2) not run &#183; not &#8220;not glutamate&#8221; &#183; not &#8220;sensor failed&#8221;</text>
+  </g>
+
+  <!-- Parked trap chip: 1.8 nM reachable from the finding band, small, not a title -->
+  <rect x="16" y="512" width="868" height="24" fill="#fff8e7" stroke="#111" stroke-dasharray="6 3"/>
+  <g font-family="sans-serif">
+    <text x="450" y="528" text-anchor="middle" font-size="9.5">PARKED TRAP &#8212; detail in B3: 1.8 nM = other device (AuED-MEA, PBS EC50), NOT this probe&#8217;s Kd &#183; no occupancy &#952; here</text>
+  </g>
+
+  <!-- Not-failure beat (F1): freeze gold loss, not occupancy / not a saturation measurement. Fig. 6.16A kept as thesis prose. Two lines so freeze tokens fit; box +8 px, footer +5 px. -->
+  <rect x="16" y="540" width="868" height="36" fill="#f8f9fa" stroke="#111"/>
+  <g font-family="sans-serif">
+    <text x="450" y="554" text-anchor="middle" font-size="10">Molecule still unnamed &#8212; sensor not broken &#183; Probes 1&#8211;2 current still changes</text>
+    <text x="450" y="570" text-anchor="middle" font-size="10">Probes 3/4 = gold loss (Fig. 6.16A), not occupancy / not a saturation measurement</text>
+  </g>
+
+  <!-- Hero footer -->
+  <g font-family="sans-serif">
+    <text x="450" y="590" text-anchor="middle" font-size="12" font-weight="bold">Two different experiments &#8212; same unnamed analyte.</text>
+    <text x="450" y="605" text-anchor="middle" font-size="9" fill="#555">Lower-row stamps (not the 10-second claim): MODELED = supporting caption only &#183; PROPOSED = U2 naming test in B4 close, not a result</text>
+    <text x="450" y="619" text-anchor="middle" font-size="9" fill="#555">Schematic wireframe &#183; no Fig. 6.13 pixels &#183; no invented %gain &#183; no concentration axis &#183; clocks in B2 only &#183; prototype, not final</text>
+  </g>
+</svg>

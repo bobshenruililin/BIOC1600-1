@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="220" viewBox="0 0 1420 220" role="img" aria-label="B3 3Q supporting row: four trap cards. 1.8 nanomolar is AuED-MEA PBS EC50, not this probe's Kd. 0.3 picomolar is PaC PBS LOD, not Ames, not tissue. 25 nanomolar is Herman hippocampal slice, not retinal glutamate. 12 micromolar is Wu 1d04 Kd and a Hu citation, not this 39-mer. Supporting, not the finding.">
+  <!-- B3 3Q supporting row. Communication only. Not the finding. Not 3H. Not fidfix.
+       Not recognition-first. No empty PaC Kd cell. No occupancy theta. No 81-fold figure.
+       No experiment named. Mission 2 not reopened. No PR. Astra not invoked. -->
+  <rect width="1420" height="220" fill="#ffffff"/>
+
+  <g font-family="system-ui,sans-serif">
+    <text x="14" y="22" font-size="13" font-weight="700" fill="#1a1a1a">3Q TRAP &#183; SUPPORTING &#8212; not the finding</text>
+    <text x="14" y="38" font-size="11" fill="#495057">wrong object &#183; not this probe&#8217;s Kd</text>
+  </g>
+
+  <!-- Card 1: 1.8 nM -->
+  <g transform="translate(12,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">1.8 nM &#8212; wrong device / PBS EC50</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">Langmuir-Freundlich apparent Kd</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">AuED-MEA &#183; PBS &#183; EC50</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">apparent electrochemical Kd</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT this probe&#8217;s Kd</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on that object &#183; C005</text>
+  </g>
+
+  <!-- Card 2: 0.3 pM -->
+  <g transform="translate(364,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">0.3 pM &#8212; wrong matrix / LOD</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">PBS blank+3 RSD</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">PaC probe &#183; PBS &#183; sensor_LOD</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">lowest calibrant 1 nM</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT Ames &#183; NOT tissue</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on that object &#183; C029</text>
+  </g>
+
+  <!-- Card 3: 25 nM -->
+  <g transform="translate(716,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">25 nM &#8212; wrong preparation</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">Herman slice, not retina</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">Herman &#183; acute hippocampal slice</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">biological_concentration_range</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT retinal [Glu]</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on that object &#183; C012</text>
+  </g>
+
+  <!-- Card 4: 12 micromolar. SURVIVE face from b3-3q-12um-trap.md. Do not add a vacancy. -->
+  <g transform="translate(1068,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">12 &#181;M &#8212; wrong oligo / citation</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">not a remeasurement</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">1d04 isolate &#183; Kd_molecular &#183; abstract</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">Hu methods = Wu citation</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT this Fc-thiol 39-mer</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on those objects &#183; C001 &#183; C021</text>
+  </g>
+</svg>
