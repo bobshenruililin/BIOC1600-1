@@ -1,0 +1,10 @@
+layer,quantity_class,stamp,ledger_id,value_s,vs_tau,on_figure,notes
+2_inferred,biological_tau,INFERRED,E033,0.0012,1,yes,Clements literature waveform timescale; E033; not a sensor t90
+2_inferred,cleft_peak,INFERRED,E032,,,yes,1.1 mM peak used only to draw the inferred decay; not required for T/tau
+2_not_spliced,slice_ambient,MEASURED_elsewhere,E034,,,no,Herman 25 nM not spliced into plotted waveform; not load-bearing for T/tau
+1_measured,interrogation,MEASURED,E045,14,11666.7,yes,ACV scan clock; ratio is T/tau not koff
+1_measured,sampling,MEASURED,E046,60,50000,yes,retina sampling interval after insertion
+off_figure,incubation,MEASURED,E008,900,750000,no,journal 15 min Glu wait C006/E008; off-figure protocol time
+off_figure,plateau,MEASURED,E042,600,500000,no,thesis 10 min 10 nM plateau C028/E042; off-figure protocol time
+3_modeled,clock_ratio_scan,MODELED,derived_E045_over_E033,,11666.7,yes,dimensionless T/tau; computational illustration
+3_modeled,clock_ratio_sample,MODELED,derived_E046_over_E033,,50000,yes,dimensionless T/tau; computational illustration
