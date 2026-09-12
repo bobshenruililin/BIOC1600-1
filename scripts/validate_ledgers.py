@@ -107,6 +107,34 @@ def sha256_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def check_csv_row_widths(path: Path, errors: list[str]) -> None:
+    """Fail if any parsed row width differs from the header (csv.reader).
+
+    DictReader silently drops extra fields, which previously hid unquoted
+    commas in claims.csv notes (C031, C033).
+    """
+    try:
+        rel = path.resolve().relative_to(ROOT)
+    except ValueError:
+        rel = path
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.reader(handle)
+        try:
+            header = next(reader)
+        except StopIteration:
+            errors.append(f"{rel} missing header")
+            return
+        width = len(header)
+        if width == 0:
+            errors.append(f"{rel} empty header")
+            return
+        for i, row in enumerate(reader, start=2):
+            if len(row) != width:
+                errors.append(
+                    f"{rel}:{i} parsed width {len(row)} != header width {width}"
+                )
+
+
 def read_csv(path: Path) -> tuple[list[str], list[dict[str, str]]]:
     with path.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
@@ -166,6 +194,7 @@ def main() -> int:
             errors.append("LOCKED_FILES.sha256 path set does not match constitution files")
 
     sources_path = ROOT / "state/sources.csv"
+    check_csv_row_widths(sources_path, errors)
     header, sources = read_csv(sources_path)
     if header != SOURCES_FIELDS:
         errors.append(f"sources.csv unexpected header: {header}")
@@ -183,6 +212,7 @@ def main() -> int:
             pass
 
     claims_path = ROOT / "state/claims.csv"
+    check_csv_row_widths(claims_path, errors)
     header, claims = read_csv(claims_path)
     if header != CLAIMS_FIELDS:
         errors.append(f"claims.csv unexpected header: {header}")
@@ -202,6 +232,7 @@ def main() -> int:
             errors.append(f"claims.csv:{i} value without units")
 
     evidence_path = ROOT / "research/evidence/core_evidence.csv"
+    check_csv_row_widths(evidence_path, errors)
     header, evidence = read_csv(evidence_path)
     if header != EVIDENCE_FIELDS:
         errors.append(f"core_evidence.csv unexpected header: {header}")

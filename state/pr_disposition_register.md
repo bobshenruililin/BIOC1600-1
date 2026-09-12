@@ -32,7 +32,7 @@ Canonical integration vehicles: Mission 1 PR #28 (`cursor/story-gate-closure-634
 | #29 | Procedural hold rationale for the PASS version of PR #28. | `superseded`; concern resolved by restoring REVISE | `reports/mission1_closure.md` — gate decision | `cursor/pr-policy-pr28-245a` @ `e8d282ee4937602a4790b174287a1ed665202553` |
 | #30 | Partial revised-D canonicalization that kept the gate REVISE. | `superseded` by the complete repaired integration | PR #28 canonical files | `cursor/story-on-poster-245a` @ `1d7d4abf8519092bf3ac359bf4ab11b508561061` |
 | #31 | Senior challenge that keeps revised D, replaces the 81-versus-44,000 flagship, and keeps the paired isotherm with controls. | `audited candidate challenge`; objections preserved, claims not automatically promoted | `state/model_disagreements.md`; `state/mission2_input_queue.md`; `reports/mission1_closure.md` | `cursor/flagship-discrimination-245a` @ `505fdb6a689c99eea695bfa49db003063806ca75` |
-| #32 | Mission 2 evidence-boundary freeze: unequal-IV ACV signal-gain; identity UNKNOWN until U2; QUANTITATIVE FLAGSHIP NONE. | `integration vehicle`; gate REVISE; not group-final | `state/current_thesis.md`; `poster/storyboards/mission3.md`; `reports/mission3_entry.md` | `cursor/m2-int-honesty-245a` @ `721f1695598faef5a211e67567b2280e4cd57284` |
+| #32 | Mission 2 evidence-boundary freeze: unequal-IV ACV signal-gain; identity UNKNOWN until U2; QUANTITATIVE FLAGSHIP NONE. PI 2026-09-12 APPROVE AFTER SMALL FIXES. | `integration vehicle`; gate REVISE; group_final false; ready_for_mission3 true | `state/current_thesis.md`; `poster/storyboards/mission3.md`; `reports/mission3_entry.md` | `cursor/m2-int-honesty-245a` @ `721f1695598faef5a211e67567b2280e4cd57284` |
 
 ## Branch-retention rule
 
@@ -40,4 +40,8 @@ Keep every listed source branch until the relevant artifact is reproduced or exp
 
 ## Mission 2 note (row #32)
 
-Row #32 pins the Mission-2 science-freeze head. Later INT commits on the same branch add entry/clarity files only and do not change frozen science. Mission-2 isolated reproduction heads (sampling-clock, LF-*n*, working-range) are listed in `reports/mission3_entry.md` — fetch those branches explicitly; they are not in this clone's object store.
+Row #32 pins the PI-repaired Mission-2 freeze content tree. Class-A clocks/atlas/ledger commits after 721f169 did change ledgers and figures; do not treat 721f169 as canonical. Codex reviewed 1b19bfd. The table SHA is stamped after the PI bounded-repair content commit. PR HEAD may add this provenance stamp. After merge, Mission 3 uses the merge commit.
+
+Wave C 67/67, Wave D 83/73, and score-blind 80/74 REVISE are coordinator-reported provenance from named agent IDs in `state/scoreboard.json`. The review-report files themselves are not archived in this tree. See `research/reviews/premium/mission2_scores_provenance.md`. Mission 1 Opus reviews in the same folder are a different round.
+
+Mission-2 isolated reproduction heads (sampling-clock, LF-n, working-range) are listed in `reports/mission3_entry.md` — fetch those branches explicitly; they are not in this clone's object store.

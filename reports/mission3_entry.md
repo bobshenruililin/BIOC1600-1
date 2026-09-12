@@ -4,13 +4,13 @@ Not a finished poster. Not group-final. Do not start Mission 3 proper from chat 
 
 **Branch:** `cursor/m2-int-honesty-245a` ([PR 32](https://github.com/bobshenruililin/BIOC1600-1/pull/32)). Canonical `main` is the PR 28 merge.
 
-**Thesis:** `state/current_thesis.md` (one sentence). Gate **REVISE**. QUANTITATIVE FLAGSHIP **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected picture: `analysis/accepted/figures/protocol_clocks.svg`. READY FOR MISSION 3: **NO** until independent readiness judgments and a human row in `state/decisions.md`.
+**Thesis:** `state/current_thesis.md` (one sentence). Gate **REVISE**. QUANTITATIVE FLAGSHIP **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected picture: `analysis/accepted/figures/protocol_clocks.svg`. Highest-information experiment: **U2**. READY FOR MISSION 3: **YES** after the 2026-09-12 PI decision in `state/decisions.md`. `group_final` false. Do not manufacture PASS. Do not reopen Mission 2.
 
 **Locked question:** What does Hu’s retinal ACV result establish, and what does it not? Storyboard: `poster/storyboards/mission3.md`. Mission-2 test-locked storyboard (keep for CI): `poster/storyboards/revised_D.md`.
 
 ## Paths
 
-- Unknowns: `state/high_value_unknowns.md` — U2 (tissue identity) is not a substitute for U1 (paired 39-mer isotherm).
+- Unknowns: `state/high_value_unknowns.md` — **U2 locked** (tissue identity). U1 (paired 39-mer isotherm) is a different question and cannot establish what produced the retinal current.
 - Claims / evidence: `state/claims.csv`, `research/evidence/core_evidence.csv`, `research/evidence/poster_numbers.md`
 - Nightly (PI; score-heavy): `reports/nightly_summary.md`
 - Historical T1: `poster/storyboards/winner.md`
@@ -26,7 +26,7 @@ Rejected as flagship (isolated branches, not merged): sampling-clock `cursor/ana
 
 ## Highest-information experiment
 
-If the claim is retinal identity: pharmacology plus scrambled/binding-null on **both** ACV legs, same shank and room-light protocol (U2), including Leg A’s post-insertion baseline. Do not substitute rates or U1.
+**Locked: U2.** Pharmacology plus scrambled/binding-null on **both** ACV legs, same shank and room-light protocol, including Leg A’s post-insertion baseline. Directly tests the identity inference. U1 cannot establish what produced the retinal current. Do not substitute rates or U1.
 
 ## Validators
 

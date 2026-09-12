@@ -57,4 +57,4 @@ Tag: `unresolved`
 
 ## What would most change the current thesis
 
-Recorded in `reports/mission1_story_tournament.md` §7 and `state/current_thesis.md` (falsifier). Highest-information experiment depends on the locked question: unknown 2 if the claim is tissue identity; unknown 1 if the claim is construct fitness. Mission 2 freeze recommends U2: pharmacology plus scrambled/binding-null on both ACV legs, same shank and room-light protocol. Do not do both and report neither. Tournament 85+ is still not honest on public evidence while U2 is empty; that does not block the REVISE freeze.
+**Locked: U2.** Matched pharmacology plus scrambled/binding-null controls on both ACV legs directly tests the central identity inference. U1 answers construct/interface fitness and cannot establish what produced the retinal current. Do not substitute rates for identity. An optional late-only split of Fig. 6.13 does not name the analyte. Tournament 85+ is still not honest on public evidence while U2 is empty; that does not block the REVISE freeze or Mission 3 entry.

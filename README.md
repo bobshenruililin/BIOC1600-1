@@ -8,7 +8,7 @@ Verified-evidence workspace for HKU BIOC1600 Topic 1 (glutamate aptamer biosenso
 
 Hu’s Ø 25 µm Fc-thiol 39-mer MEASURES ACV signal-gain referenced to a post-insertion baseline on two tissue legs with unequal IVs—post-insertion rise (time; light on) and later on–off–on (illumination)—both INFERRED as glutamate. Printed spiked-buffer `%gain` maps cannot invert tissue ACV; identity stays UNKNOWN until named U2. Rapid-transient readiness remains unmeasured.
 
-Gate **REVISE**. QUANTITATIVE FLAGSHIP **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected picture: measured protocol clocks. `group_final` false. READY FOR MISSION 3: **NO** until a later readiness pair and a human row in `state/decisions.md`.
+Gate **REVISE**. QUANTITATIVE FLAGSHIP **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected picture: measured protocol clocks. `group_final` false. Highest-information experiment: **U2**. READY FOR MISSION 3: **YES** after the 2026-09-12 PI decision in `state/decisions.md`. Do not reopen Mission 2. Do not manufacture PASS.
 
 ## Canonical vs historical
 

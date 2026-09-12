@@ -5,7 +5,7 @@
   "mission1_status": "COMPLETE",
   "group_final": false,
   "ready_for_mission2": true,
-  "ready_for_mission3": false,
+  "ready_for_mission3": true,
   "mission2_status": "REVISE",
   "mission2_science_freeze": "FREEZE",
   "mission2_85_honest": false,
@@ -76,7 +76,8 @@
   ],
   "withdrawn_flagship": "81-fold 1:1 Langmuir identity versus approximately 44000-fold Herman-to-Clements span",
   "withdrawal_reason": "PR #31 identified method- and compartment-dependent basal poles and an unreported Langmuir-Freundlich exponent that can change the conclusion; those challenger claims remain candidate evidence; Mission 2 froze QUANTITATIVE FLAGSHIP: NONE rather than choosing a replacement plot",
-  "next_experiment": "If the locked question is tissue identity: unknown 2 — pharmacology plus scrambled/binding-null on both ACV legs, same shank and room-light protocol. Do not substitute rates for identity if the claim is U2. Optional late-only Fig. 6.13 split does not name the analyte. If a human locks construct fitness: unknown 1. Do not blend. Course cannot pipette either.",
+  "highest_information_experiment": "U2",
+  "next_experiment": "LOCKED U2: pharmacology plus scrambled/binding-null on both ACV legs, same shank and room-light protocol. Directly tests the identity inference that tissue ACV is glutamate. U1 (construct/interface fitness) is a different question and cannot establish what produced the retinal current. Do not substitute rates for identity. Optional late-only Fig. 6.13 split does not name the analyte. Course cannot pipette U2.",
   "mission2_queue": "state/mission2_input_queue.md",
   "pr_disposition_register": "state/pr_disposition_register.md",
   "do_not_promote": [

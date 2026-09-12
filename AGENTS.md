@@ -179,7 +179,7 @@ Allowed: `poster/theses.md` and markdown storyboards (panel title, claim, eviden
 
 Nightly deliverable: `reports/nightly_summary.md` with the 13 required sections. Do not report planned work as completed.
 
-Mission 2/3 note: Rounds 0–6 above are the overnight bootstrap protocol (historical). Mission 2 froze at REVISE with QUANTITATIVE FLAGSHIP NONE; Mission 3 entry is `reports/mission3_entry.md` with storyboard `poster/storyboards/mission3.md`. READY FOR MISSION 3: NO until independent readiness judgments and a human row in `state/decisions.md`.
+Mission 2/3 note: Rounds 0–6 above are the overnight bootstrap protocol (historical). Mission 2 froze at REVISE with QUANTITATIVE FLAGSHIP NONE; highest-information experiment is locked U2. Mission 3 entry is `reports/mission3_entry.md` with storyboard `poster/storyboards/mission3.md`. READY FOR MISSION 3: YES after the 2026-09-12 PI decision in `state/decisions.md`. Gate stays REVISE. Not group-final. Do not reopen Mission 2. Do not manufacture PASS.
 
 ## Research Effort Standard
 

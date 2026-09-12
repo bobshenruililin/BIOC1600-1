@@ -1,6 +1,6 @@
 # Current thesis (revised D)
 
-Status: **canonical working thesis** after Mission 1 closure. Science-story gate **REVISE**. Mission 2 science freeze: **FREEZE** at **REVISE** (evidence-boundary restatement; tournament 85+ still unreached). QUANTITATIVE FLAGSHIP: **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected quantitative **picture**: measured protocol clocks (`analysis/accepted/figures/protocol_clocks.svg`). Not group-final (`state/decisions.md`). READY FOR MISSION 3: **NO**.
+Status: **canonical working thesis** after Mission 1 closure. Science-story gate **REVISE**. Mission 2 science freeze: **FREEZE** at **REVISE** (evidence-boundary restatement; tournament 85+ still unreached). QUANTITATIVE FLAGSHIP: **NONE** as occupancy/Kd/LOD/tissue-[Glu] title. Selected quantitative **picture**: measured protocol clocks (`analysis/accepted/figures/protocol_clocks.svg`). Not group-final (`state/decisions.md`). Highest-information experiment: **U2**. READY FOR MISSION 3: **YES**.
 
 Mission-3-facing storyboard: `poster/storyboards/mission3.md`. Mission-2 test-locked storyboard: `poster/storyboards/revised_D.md`. The flagship analysis is unresolved: **NONE** as occupancy/Kd/LOD/tissue-[Glu] title; do not reopen those rejected plots. The selected handoff **picture** is measured protocol clocks.
 Supersedes overnight T1/T5 as *current consensus*. Those texts remain historical in `poster/theses.md`, `analysis/candidates/theses/`, and `rounds/03/`.
@@ -106,11 +106,11 @@ Glu versus Asp/Gln/GABA is a named open figure of merit (C032), not a fifth titl
 
 ## Highest-value next step
 
-If the locked question is retinal tissue identity, the highest-information next experiment is unknown 2: pharmacology plus scrambled/binding-null on **both** ACV legs, same shank and room-light protocol. Do not substitute rates for identity if the claim is U2. An optional existing-trace split of Fig. 6.13 (late light-on vs off vs return) does not name the analyte.
+**Locked: U2.** Pharmacology plus scrambled/binding-null on **both** ACV legs, same shank and room-light protocol. This directly tests the identity inference that tissue ACV is glutamate. Do not substitute rates for identity. An optional existing-trace split of Fig. 6.13 (late light-on vs off vs return) does not name the analyte.
 
-If a human locks construct fitness, unknown 1: paired solution `Kd_molecular` and surface ACV apparent Kd of Hu’s exact Fc-thiol 39-mer in one justified buffer; include a binding-null point mutant in both arms and L-glutamine/L-aspartate controls at concentrations justified for the intended medium; fit Langmuir and Langmuir–Freundlich; report *n* with uncertainty, coverage, and complete interface chemistry.
+U1 (paired solution `Kd_molecular` and surface ACV apparent Kd of Hu’s exact Fc-thiol 39-mer, with a binding-null point mutant and L-glutamine/L-aspartate controls) answers construct/interface fitness. It cannot establish what produced the retinal current. Do not blend U1 into the locked next experiment.
 
-Do not blend them. The course cannot pipette either. Mission 2 science freeze is **FREEZE** at **REVISE**; 85+ is still not honest on public evidence while U2 is empty.
+The course cannot pipette U2. Mission 2 science freeze is **FREEZE** at **REVISE**; 85+ is still not honest on public evidence while U2 is empty.
 
 ## Historical note
 

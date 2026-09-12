@@ -9,6 +9,8 @@ Canonical file for PI review. Not a finished poster. Not group-final.
 
 **Mission 2 (2026-09-12):** science freeze **FREEZE** at gate **REVISE**. Science-freeze test **PASS** (no flagship plot). Tournament **85+ HONEST: NO** (Wave D 83 NEITHER / 73 DISCARD unchanged; Wave C 67/67 unchanged). Score-blind freeze reviews: independent **80 REVISE**; Opus **74 REVISE**; fatals none. Do not mean 74 with 80, or 73 with 83. Do not manufacture 85. QUANTITATIVE FLAGSHIP: **NONE**. Ames-loaded wording stays dropped. Class B identity bounded, not looped. READY FOR MISSION 3: **NO**. GROUP FINAL: **NO**.
 
+**PI 2026-09-12 (canonical now):** APPROVE AFTER SMALL FIXES. READY FOR MISSION 3: **YES**. Gate stays **REVISE**. Highest-information experiment: **U2**. QUANTITATIVE FLAGSHIP: **NONE**. `group_final` false. Do not reopen Mission 2. Do not manufacture PASS. The dated Mission 2 block above is the freeze-night record. Wave C/D and score-blind review-report files are not in this tree; those scores are coordinator-reported provenance (`research/reviews/premium/mission2_scores_provenance.md`).
+
 Overnight T1/T5 are **not** current consensus and were never group-final.
 
 ## 1. Best current poster thesis
@@ -165,6 +167,8 @@ Parent of this INT: `65971ae19714a783013e22a150cc474d26e9295c` (`origin/main`, m
 3. **Lock unknown 2 vs unknown 1.** Recommendation: U2 — pharmacology plus scrambled/binding-null on both ACV legs, same shank and room-light protocol. Only a human may lock.
 4. **Do not set PASS or group-final** without a measured identity or construct-locked quantity on this film.
 5. **Do not treat this file as group-final** until a human initials `state/decisions.md`.
+
+**Human / PI decision (2026-09-12):** APPROVE AFTER SMALL FIXES. Canonical `ready_for_mission3=true`. Gate stays REVISE. U2 locked. QUANTITATIVE FLAGSHIP NONE. group_final false. Do not reopen Mission 2. The boxed Mission-2 PI record below is historical.
 
 ```
 MISSION 2 STATUS: REVISE
