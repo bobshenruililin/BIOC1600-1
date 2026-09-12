@@ -22,6 +22,8 @@ bash scripts/build_poster_rc.sh
 
 Fails nonzero if the SVG or renderer (`rsvg-convert` or `inkscape`) is missing. Does not silently reuse a committed PNG. Does not write PDF.
 
+CI (`scripts/ci_rebuild_poster_rc.sh`) deletes the committed PNG, rebuilds, and compares **decoded pixels**, not `.png` file bytes. File SHA-256 is renderer-local.
+
 ## Reading order (nested exported faces)
 
 0. `sources/b0-question.svg` — question, not a finding

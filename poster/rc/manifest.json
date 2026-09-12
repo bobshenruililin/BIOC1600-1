@@ -26,6 +26,8 @@
   "png": {
     "path": "poster/rc/poster_rc.png",
     "sha256": "f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9",
+    "pixel_sha256": "4e10acace751c9f71cbca14ad803672121622eabad4e7a4cea267b4024d0d9a1",
+    "ci_gate": "decoded_pixels",
     "bytes": 2342143,
     "width_px": 4967,
     "height_px": 3508,
@@ -34,6 +36,8 @@
       3508
     ],
     "rebuild": "scripts/build_poster_rc.sh",
+    "compare": "scripts/compare_poster_png.py",
+    "file_sha256_note": "renderer-local zlib/filter encoding; not the CI gate",
     "status": "ok"
   },
   "reading_order": [
@@ -95,16 +99,16 @@
       "bytes": 5432
     },
     "poster/rc/astra_disposition.md": {
-      "sha256": "8e867e7572afc5c5dac083212ebfa0be755b704fcf391828060e7423099d0635",
-      "bytes": 1777
+      "sha256": "65aabc4ca8e0894f1464b92873f0666f83afb9600ae3f08c86e0a8b1d9863fa5",
+      "bytes": 2618
     },
     "poster/rc/astra_bundle/index.md": {
       "sha256": "f549a9a9d6cd00d50794de9dc13a149ec95b90a3456770839a370fdd9536227e",
       "bytes": 696
     },
     "poster/rc/README.md": {
-      "sha256": "e2a1558bfd4b033c902137a484b5111ce78cbe8455c8310d4e58d721208d1ed4",
-      "bytes": 1998
+      "sha256": "75afc474cd2def1ad01af143a18f369cf84603a07f5ff10578adcb7850f7518c",
+      "bytes": 2231
     },
     "poster/rc/copy.md": {
       "sha256": "acd794012285002ca101ef89f954658890e759e76b3261a62755d5bd7e61a2c3",
@@ -139,12 +143,20 @@
       "bytes": 1202
     },
     "poster/rc/qa_report.md": {
-      "sha256": "b725ae666963020c4aa531c1b01b6cfe1b5ff3b75c89c3c01cc2c03ada0cc1d4",
-      "bytes": 1985
+      "sha256": "0db64638b4a438549fb96649c53f3ad1ff8fd0871415a82a67552fc8cb9b7ca0",
+      "bytes": 2761
     },
     "poster/rc/checkpoint.md": {
-      "sha256": "9f2b30f7d5ce9c9fb82a037eb0b5117967f415169b04547b6edd6d759492e3b5",
-      "bytes": 1919
+      "sha256": "5e9756da8a7a68412bb286a7be382352731d7421e6abe503fc8d908170867860",
+      "bytes": 2483
+    },
+    "scripts/compare_poster_png.py": {
+      "sha256": "87373b0d7c8f2b8003a97e84563cb3f5cd1ae505d1d22d7e4015b53bd9c5cc15",
+      "bytes": 5687
+    },
+    "scripts/ci_rebuild_poster_rc.sh": {
+      "sha256": "7cf5c4f1ea1ceddd3aababbb9d5687f2cbf2f16e09fea291953c13daead1b688",
+      "bytes": 1168
     }
   }
 }

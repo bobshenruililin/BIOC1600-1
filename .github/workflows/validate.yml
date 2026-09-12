@@ -20,7 +20,7 @@ jobs:
           python3 scripts/validate_ledgers.py
           python3 scripts/forbid_pdfs.py
           python3 -m unittest discover -s tests -v
-      - name: Poster RC rebuild checksum
+      - name: Poster RC rebuild pixel checksum
         if: hashFiles('poster/rc/poster_rc.svg') != ''
         run: |
           sudo apt-get update -qq

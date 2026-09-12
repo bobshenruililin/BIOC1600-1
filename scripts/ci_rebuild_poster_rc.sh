@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
-# CI helper: delete committed PNG, rebuild, require SHA-256 match.
-# Fail if poster RC source is present but renderer/rebuild/checksum fails.
+# CI helper: delete committed PNG, rebuild, require decoded-pixel match.
+# PNG file SHA-256 is renderer-local (zlib/filter encoding) and is printed
+# for diagnosis only. The gate is unfiltered RGB(A) samples.
 set -eu
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "${ROOT}"
 PNG="${ROOT}/poster/rc/poster_rc.png"
 SVG="${ROOT}/poster/rc/poster_rc.svg"
+COMPARE="${ROOT}/scripts/compare_poster_png.py"
 if [[ ! -f "${SVG}" ]]; then
   echo "ci_rebuild_poster_rc: no ${SVG}; skip"
   exit 0
@@ -14,12 +16,16 @@ if [[ ! -f "${PNG}" ]]; then
   echo "ci_rebuild_poster_rc: missing committed PNG" >&2
   exit 1
 fi
-committed="$(sha256sum "${PNG}" | awk '{print $1}')"
-rm -f "${PNG}"
-bash "${ROOT}/scripts/build_poster_rc.sh"
-rebuilt="$(sha256sum "${PNG}" | awk '{print $1}')"
-if [[ "${rebuilt}" != "${committed}" ]]; then
-  echo "ci_rebuild_poster_rc: PNG checksum mismatch rebuilt=${rebuilt} committed=${committed}" >&2
+if [[ ! -f "${COMPARE}" ]]; then
+  echo "ci_rebuild_poster_rc: missing ${COMPARE}" >&2
   exit 1
 fi
-echo "ci_rebuild_poster_rc: OK ${committed}"
+WORKDIR="$(mktemp -d)"
+cleanup() { rm -rf "${WORKDIR}"; }
+trap cleanup EXIT
+cp -f "${PNG}" "${WORKDIR}/committed.png"
+echo "ci_rebuild_poster_rc: committed file sha256=$(sha256sum "${PNG}" | awk '{print $1}') size=$(stat -c%s "${PNG}")"
+rm -f "${PNG}"
+bash "${ROOT}/scripts/build_poster_rc.sh"
+echo "ci_rebuild_poster_rc: rebuilt file sha256=$(sha256sum "${PNG}" | awk '{print $1}') size=$(stat -c%s "${PNG}")"
+python3 "${COMPARE}" "${WORKDIR}/committed.png" "${PNG}"

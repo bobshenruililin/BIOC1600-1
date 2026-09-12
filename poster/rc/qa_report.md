@@ -19,6 +19,10 @@ Inspected rasters were from the A1 PDF, not from the SVG.
 
 Science gate stays **REVISE**. Pixel vision does not manufacture PASS or group-final. Do not transfer Astra’s verdict from PDF `18d43961` onto PDF `bbdac147`.
 
+## CI checksum (preview PNG)
+
+Committed `poster/rc/poster_rc.png` file SHA-256 `f905ba93…` is this VM’s encoding. GitHub Actions after Noto pin still wrote a 5-byte-different file. The CI gate is decoded RGB SHA-256 `4e10acace751c9f71cbca14ad803672121622eabad4e7a4cea267b4024d0d9a1` at 4967×3508, via `scripts/compare_poster_png.py`.
+
 ## Stylistic leftovers (not MUST FIX)
 
 - Clocks-calfix C028 caption overflow inherited from the exported 420-px face; ~1 min not independently readable in `crop_04_clocks.png`

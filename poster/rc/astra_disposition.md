@@ -37,9 +37,10 @@ Clocks-calfix C028 collision / Panel 0 subtitle restyle: **not changed**.
 | Artifact | SHA-256 |
 | --- | --- |
 | `poster/rc/poster_rc.svg` | `c8e3d19035fbe5f8315e87b8969f154f023187fbcdfa014999e0c6b66b5a1782` |
-| `poster/rc/poster_rc.png` | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
+| `poster/rc/poster_rc.png` file | `f905ba9378dd0b24d9ad73072682210d9fd13689641d4ac475c0d481043761c9` |
+| `poster/rc/poster_rc.png` decoded pixels | `4e10acace751c9f71cbca14ad803672121622eabad4e7a4cea267b4024d0d9a1` |
 
-PNG regenerated with `bash scripts/build_poster_rc.sh` (4967 × 3508). No PDF in git. Astra not re-invoked.
+PNG regenerated with `bash scripts/build_poster_rc.sh` (4967 × 3508). File SHA is renderer-local; CI hashes decoded pixels. No PDF in git. Astra not re-invoked.
 
 ## Changed-pixel vision (post-repair PDF)
 
