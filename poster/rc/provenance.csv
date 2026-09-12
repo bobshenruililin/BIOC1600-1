@@ -1,0 +1,12 @@
+panel_id,reading_order,role,source_path,source_sha256,notes
+0_question,0,question_not_finding,poster/rc/sources/b0-question.svg,88fdc7aac31df2783eefa9383e099c2092f56d4e06d7ce7370d7693296c52714,nested; viewBox crop 0 48 1280 140 for A1 type size; copy verbatim
+1_hero_eyefix,1,finding_dominant,poster/rc/sources/hybrid-hero-v3-eyefix.svg,9c7dd0c72980b0e05587fc2caf4bb0260b6f00aa06f9bc2d5f57d6500b448565,isolated mouse retina; 1.8 nM parked visible
+2_maps,2,subordinate,poster/rc/sources/b2-maps.svg,39f433c66929821bcb6af1989e7b7ec73bbf3da2c2bfaa969c3b345936ccd8ed,buffer ≠ tissue; no C028
+3_spikes,3,subordinate,poster/rc/sources/b2-spikes.svg,1c4de53f58d192f9cad05099bc54728b9d92e7c6a828e0288936713a7603f769,physiology not ID; not Thesis E
+4_clocks_calfix,4,subordinate,poster/rc/sources/b2-clocks-calfix.svg,ee33d02de3608c798c8653682bb248a307f11d20545582631edfed0843df6bbe,C028 10 min plateau / 10 nM Glu step; NOT protocol_clocks.svg
+5_3q_traps,5,supporting,poster/rc/sources/b3-3q-traps.svg,16b7f20d7fc8551f5ede142bb10a44bd6235594685bba5bea38555a3ecb54153,keeps 1.8 nM and 12 µM
+6_3h_regimes,6,supporting,poster/rc/sources/b3-3h-regimes.svg,5f7982a2d934fd093b16aaecca1e78c53ab574afc6b096405bbb336e99608e54,not a retinal spec
+7_why_layers_fidfix,7,supporting,poster/rc/sources/b3-why-layers-fidfix.svg,3fe6984141647cc69fe379035b240298d77d6cacf12b2a454e706a1783be1108,U1 ≠ identity / not next
+8_c032_selectivity,8,supporting,poster/rc/sources/b3-c032-selectivity.svg,3ba8fea48b2fb857881eb99abc6cc8d59fa7d9d5dde0803ab0b3f54ad46ae4e8,four interferents MEASURED; Asp/Gln/GABA UNKNOWN
+9_u2_close,9,proposed_close,poster/rc/sources/u2-close.svg,53c1bff9eac1b1886f79943f9da05af0d96d2df2f73cc8399b92618d1d3bec3b,U2 not U1
+chrome_masthead,n/a,composition_chrome,poster/rc/poster_rc.svg,,INTERNAL RELEASE CANDIDATE — NOT FINAL; slogan fallback after Astra skip

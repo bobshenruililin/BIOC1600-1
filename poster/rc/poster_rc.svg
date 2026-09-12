@@ -1,0 +1,905 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="841mm" height="594mm" viewBox="0 0 841 594" role="img" aria-labelledby="rcLabel slogan chain">
+<title>INTERNAL RELEASE CANDIDATE — NOT FINAL. Two ACV measurement protocols; tissue signal attribution remains unresolved.</title>
+<rect width="841" height="594" fill="#efeae2"/>
+<rect x="0" y="0" width="841" height="15.5" fill="#1c1c1c"/>
+<text id="rcLabel" x="8" y="10.6" font-family="DejaVu Sans, sans-serif" font-size="8.2" font-weight="700" fill="#f7f4ee">INTERNAL RELEASE CANDIDATE — NOT FINAL</text>
+<text x="833" y="10.6" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="5.2" fill="#d8d2c8">BIOC1600 Topic 1 · D_revised · Gate REVISE · Flagship NONE · U2 locked · not group-final</text>
+<rect x="0" y="15.5" width="841" height="11.2" fill="#3d4a3a"/>
+<text id="slogan" x="8" y="23.4" font-family="DejaVu Serif, Georgia, serif" font-size="6.4" font-weight="600" fill="#f7f4ee">Two ACV measurement protocols; tissue signal attribution remains unresolved.</text>
+<text id="chain" x="833" y="23.4" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="5.1" fill="#dce8dc">MEASURED ACV signal-gain → INFERRED glutamate → UNKNOWN identity → PROPOSED U2</text>
+<rect x="6" y="28.2" width="829" height="38" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="6" y="28.2" width="128" height="7.2" fill="#3d4a3a"/><text x="8.2" y="33.5" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">0  QUESTION — not a finding</text>
+<svg x="8" y="35.6" width="825" height="29.2" viewBox="0 48 1280 140" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <title id="b0_question_svg_title">What does Hu's retinal ACV result establish, and what does it not?</title>
+  <rect width="1280" height="200" fill="#f7f4ee"/>
+  <rect x="0" y="0" width="12" height="200" fill="#3d4a3a"/>
+  <text id="b0_question_svg_q" x="40" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="600" fill="#1c1c1c">What does Hu's retinal ACV result establish, and what does it not?</text>
+  <text id="b0_question_svg_sub" x="40" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#3d4a3a">aptamer-based glutamate sensing in retinal tissue; two concentration regimes live on the 3H card.</text>
+  <line x1="40" y1="148" x2="1240" y2="148" stroke="#cfc6b8" stroke-width="1"/>
+  <text id="b0_question_svg_footer" x="40" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#5c584f">Gate REVISE · Flagship NONE · not group-final · not a finding</text>
+</svg>
+<rect x="6" y="68.5" width="458" height="322" fill="#ffffff" stroke="#111111" stroke-width="1.15"/>
+<rect x="6" y="68.5" width="248" height="7.2" fill="#1c1c1c"/><text x="8.2" y="73.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">1  FINDING  eyefix  ·  isolated mouse retina</text>
+<svg x="8.2" y="76.2" width="453.6" height="312.6" viewBox="0 0 900 630" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- v3-eyefix: I1 string-swap sibling of fidfix2. fidfix2 file untouched. Not final. No PR. No Astra. Mission 2 not reopened.
+       Base: hybrid-hero-v3-fidfix.svg (survived hostile with no FATALs).
+       Hostile: internal/mission3/tests/hostile-hybrid-v3-fidfix.md (#1 board question: Hu quote on Leg A + authors p on Leg B).
+       Fix 1 (Leg A): verbatim Hu quote off the well -> orange INFERRED tile caption (7.5 pt, labeled inferred). Well keeps small 7 pt INFERRED chip, no recitable sentence.
+       Fix 2 (Leg B): specific p<0.05 off the 9 pt finding line -> 6.5 pt grey tspan on the stats line; 9 pt line keeps stats-exist only.
+       Keeps: white wells, UNKNOWN-on-well 13 bold, current/unnamed 24 bold, glutamate 11 bold demoted, leaves 12 bold-italic, parked 1.8 nM chip, equal readout cells, earlier/later, F1 gold-loss line, guard strip.
+       Forbids honored: no green wells, no clocks, no unequal polarity, no negation, no theta finding, no directions, no 14 s, no new numbers. -->
+  <rect width="900" height="630" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="622" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- 3-stamp glance row (10-second contract only). MODELED/PROPOSED live in hero footer. -->
+  <g font-family="sans-serif">
+    <rect x="16" y="12" width="284" height="46" fill="#b7e4c7" stroke="#111" stroke-width="2"/>
+    <text x="158" y="31" text-anchor="middle" font-size="15" font-weight="bold">MEASURED</text>
+    <text x="158" y="47" text-anchor="middle" font-size="10">not [Glu], not theta</text>
+    <rect x="308" y="12" width="284" height="46" fill="#ffc8a2" stroke="#111" stroke-width="2"/>
+    <text x="450" y="31" text-anchor="middle" font-size="15" font-weight="bold">INFERRED</text>
+    <text x="450" y="47" text-anchor="middle" font-size="10">not a chemical ID</text>
+    <rect x="600" y="12" width="284" height="46" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="742" y="31" text-anchor="middle" font-size="15" font-weight="bold">UNKNOWN</text>
+    <text x="742" y="47" text-anchor="middle" font-size="10">molecule unnamed</text>
+  </g>
+
+  <!-- Small shank anchor (construct context; neutral disk, no MEASURED-green gravity) -->
+  <rect x="16" y="66" width="868" height="86" fill="#fff8e7" stroke="#111" stroke-width="2"/>
+  <g font-family="sans-serif">
+    <text x="30" y="90" font-size="13" font-weight="bold">The object that went in (in vitro isolated mouse retina)</text>
+    <text x="30" y="109" font-size="11">PaC shank: large ACV disk at GCL/IPL border vs small ephys sites.</text>
+    <text x="30" y="126" font-size="11" font-weight="bold">Same shank &#8800; same measurand.</text>
+    <text x="30" y="143" font-size="10" fill="#333">MEASURED: placement, in vitro, ACV current readout. UNKNOWN: photoreceptor pool.</text>
+    <!-- in vitro isolated mouse retina ellipse -->
+    <ellipse cx="640" cy="112" rx="120" ry="38" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <!-- shank -->
+    <rect x="632" y="78" width="16" height="66" fill="#eeeeee" stroke="#111" stroke-width="2"/>
+    <!-- small ephys dots -->
+    <circle cx="640" cy="92" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="640" cy="104" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="640" cy="116" r="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <!-- large ACV disk (neutral: the well is not the finding) -->
+    <circle cx="640" cy="136" r="13" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <text x="662" y="140" font-size="10">ACV disk</text>
+    <text x="662" y="108" font-size="10">ephys sites</text>
+    <text x="770" y="140" font-size="9" fill="#555">Not S002. Not in vivo.</text>
+  </g>
+
+  <!-- Shared leg header (no clocks: clocks live in B2 only) -->
+  <g font-family="sans-serif">
+    <text x="450" y="168" text-anchor="middle" font-size="11">&#216; 25 um Fc-thiol 39-mer &#183; same shank &#183; readout on both: current as %gain vs post-insertion baseline &#183; room lights, not 500 ms LED</text>
+    <text x="450" y="183" text-anchor="middle" font-size="9" fill="#555">Scan clocks are not part of this finding &#8212; see B2 clocks card.</text>
+  </g>
+
+  <!-- Leg A card: WHITE well. Time IV drawn as two equal windows, no rise arrow. -->
+  <rect x="16" y="192" width="400" height="214" fill="#ffffff" stroke="#111" stroke-width="3"/>
+  <g font-family="sans-serif">
+    <text x="216" y="214" text-anchor="middle" font-size="15" font-weight="bold">Leg A &#183; IV = time (light held ON)</text>
+    <!-- light-held chip -->
+    <rect x="44" y="222" width="160" height="20" fill="#ffd166" stroke="#111" stroke-width="1.5"/>
+    <text x="124" y="236" text-anchor="middle" font-size="10">room light ON (held)</text>
+    <!-- unlike axis: time with two equal observation windows (no vertical, no rise) -->
+    <text x="216" y="254" text-anchor="middle" font-size="10" font-weight="bold">current compared across time &#8212; shape not drawn</text>
+    <rect x="116" y="260" width="90" height="26" fill="#e9ecef" stroke="#111" stroke-width="1.5"/>
+    <text x="161" y="278" text-anchor="middle" font-size="10">earlier</text>
+    <rect x="236" y="260" width="90" height="26" fill="#e9ecef" stroke="#111" stroke-width="1.5"/>
+    <text x="281" y="278" text-anchor="middle" font-size="10">later</text>
+    <line x1="44" y1="296" x2="388" y2="296" stroke="#111" stroke-width="2"/>
+    <polygon points="388,296 378,291 378,301" fill="#111"/>
+    <line x1="161" y1="296" x2="161" y2="290" stroke="#111" stroke-width="1.5"/>
+    <line x1="281" y1="296" x2="281" y2="290" stroke="#111" stroke-width="1.5"/>
+    <text x="216" y="310" text-anchor="middle" font-size="11">time after insertion</text>
+    <!-- MEASURED strip: current only, small -->
+    <rect x="44" y="316" width="344" height="18" fill="#b7e4c7" stroke="#111"/>
+    <text x="216" y="329" text-anchor="middle" font-size="9.5" font-weight="bold">MEASURED: current changed (as %gain)</text>
+    <!-- FIDFIX2 Fix 1: small INFERRED chip on the well, no verbatim quote. Verbatim lives on the orange finding tile caption, off-well. -->
+    <rect x="94" y="338" width="244" height="16" fill="#ffc8a2" stroke="#111"/>
+    <text x="216" y="350" text-anchor="middle" font-size="7">INFERRED: authors read as Glu &#8212; not measured</text>
+    <!-- UNKNOWN strip ON the well: largest text on the card -->
+    <rect x="44" y="362" width="344" height="30" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="216" y="383" text-anchor="middle" font-size="13" font-weight="bold">UNKNOWN: which molecule &#8212; unnamed</text>
+    <text x="216" y="400" text-anchor="middle" font-size="9" fill="#333">settling untested &#8212; not the finding</text>
+  </g>
+
+  <!-- Between-cards glyph (no "Glu assays") -->
+  <g font-family="sans-serif">
+    <text x="450" y="300" text-anchor="middle" font-size="30" font-weight="bold">&#8741;</text>
+    <text x="450" y="318" text-anchor="middle" font-size="9">different IVs</text>
+    <text x="450" y="330" text-anchor="middle" font-size="9">same unnamed</text>
+    <text x="450" y="342" text-anchor="middle" font-size="9">analyte</text>
+  </g>
+
+  <!-- Leg B card: WHITE well. Equal-height state blocks AND equal readout cells. -->
+  <rect x="484" y="192" width="400" height="214" fill="#ffffff" stroke="#111" stroke-width="3"/>
+  <g font-family="sans-serif">
+    <text x="684" y="214" text-anchor="middle" font-size="15" font-weight="bold">Leg B &#183; IV = illumination (later)</text>
+    <text x="684" y="230" text-anchor="middle" font-size="10">room light (not 500 ms LED)</text>
+    <!-- three equal state blocks -->
+    <rect x="508" y="238" width="112" height="30" fill="#ffd166" stroke="#111" stroke-width="2"/>
+    <text x="564" y="258" text-anchor="middle" font-size="12" font-weight="bold">ON</text>
+    <rect x="628" y="238" width="112" height="30" fill="#6c757d" stroke="#111" stroke-width="2"/>
+    <text x="684" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">OFF</text>
+    <rect x="748" y="238" width="112" height="30" fill="#ffd166" stroke="#111" stroke-width="2"/>
+    <text x="804" y="258" text-anchor="middle" font-size="12" font-weight="bold">ON</text>
+    <!-- three EQUAL readout cells (no taller/shorter bars, no polarity) -->
+    <rect x="508" y="274" width="112" height="28" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <text x="564" y="292" text-anchor="middle" font-size="9">read current</text>
+    <rect x="628" y="274" width="112" height="28" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <text x="684" y="292" text-anchor="middle" font-size="9">read current</text>
+    <rect x="748" y="274" width="112" height="28" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <text x="804" y="292" text-anchor="middle" font-size="9">read current</text>
+    <text x="684" y="316" text-anchor="middle" font-size="10">illumination state (order shown, not a time series)</text>
+    <!-- FIDFIX2 Fix 2: 9 pt lines keep stats-exist only; specific p demoted to 6.5 pt grey tspan, cannot compete with 13 bold UNKNOWN. -->
+    <text x="684" y="329" text-anchor="middle" font-size="9">Current changed: Probes 1&#8211;2; 3&#8211;4 ns</text>
+    <text x="684" y="341" text-anchor="middle" font-size="9" fill="#333">stats on the current &#8212; not a molecule ID<tspan font-size="6.5" fill="#555"> (authors p &lt; 0.05 on current)</tspan></text>
+    <!-- stamps name the measurand on this well -->
+    <rect x="504" y="348" width="128" height="16" fill="#b7e4c7" stroke="#111"/>
+    <text x="568" y="360" text-anchor="middle" font-size="8.5" font-weight="bold">MEASURED: current</text>
+    <rect x="636" y="348" width="128" height="16" fill="#ffc8a2" stroke="#111"/>
+    <text x="700" y="360" text-anchor="middle" font-size="7.5" font-weight="bold">INFERRED: Glu (authors)</text>
+    <rect x="768" y="348" width="96" height="16" fill="#d3d3d3" stroke="#111"/>
+    <text x="816" y="360" text-anchor="middle" font-size="8.5" font-weight="bold">UNKNOWN</text>
+    <!-- UNKNOWN strip ON the well -->
+    <rect x="508" y="368" width="352" height="30" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="684" y="389" text-anchor="middle" font-size="13" font-weight="bold">UNKNOWN: which molecule &#8212; unnamed</text>
+  </g>
+
+  <!-- Central finding object: TYPEFIX type hierarchy. Giant nouns current + unnamed win; orange glutamate demoted; "leaves" readable. No negation. -->
+  <g font-family="sans-serif">
+    <rect x="16" y="414" width="260" height="64" fill="#b7e4c7" stroke="#111" stroke-width="2.5"/>
+    <text x="146" y="432" text-anchor="middle" font-size="11">MEASURED</text>
+    <text x="146" y="456" text-anchor="middle" font-size="24" font-weight="bold">current</text>
+    <text x="146" y="470" text-anchor="middle" font-size="10">changed, as signal-gain</text>
+    <text x="296" y="455" text-anchor="middle" font-size="28" font-weight="bold">+</text>
+    <rect x="320" y="414" width="260" height="64" fill="#ffc8a2" stroke="#111" stroke-width="2.5"/>
+    <text x="450" y="432" text-anchor="middle" font-size="11">INFERRED</text>
+    <text x="450" y="452" text-anchor="middle" font-size="11" font-weight="bold">glutamate</text>
+    <text x="450" y="468" text-anchor="middle" font-size="7.5">authors&#8217; reading: &#8220;successful detection of Glu&#8221; (Hu, inferred)</text>
+    <text x="600" y="424" text-anchor="middle" font-size="12" font-weight="bold" font-style="italic">leaves</text>
+    <text x="600" y="455" text-anchor="middle" font-size="28" font-weight="bold">&#8594;</text>
+    <rect x="624" y="414" width="260" height="64" fill="#d3d3d3" stroke="#111" stroke-width="2.5"/>
+    <text x="754" y="432" text-anchor="middle" font-size="11">UNKNOWN</text>
+    <text x="754" y="456" text-anchor="middle" font-size="24" font-weight="bold">unnamed</text>
+    <text x="754" y="470" text-anchor="middle" font-size="10">molecule &#8212; naming test not run</text>
+  </g>
+
+  <!-- Guard strip: competes with the finding object in readable type -->
+  <rect x="16" y="484" width="868" height="24" fill="#ffffff" stroke="#111"/>
+  <g font-family="sans-serif">
+    <text x="450" y="500" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN = unnamed &#8212; naming test (U2) not run &#183; not &#8220;not glutamate&#8221; &#183; not &#8220;sensor failed&#8221;</text>
+  </g>
+
+  <!-- Parked trap chip: 1.8 nM reachable from the finding band, small, not a title -->
+  <rect x="16" y="512" width="868" height="24" fill="#fff8e7" stroke="#111" stroke-dasharray="6 3"/>
+  <g font-family="sans-serif">
+    <text x="450" y="528" text-anchor="middle" font-size="9.5">PARKED TRAP &#8212; detail in B3: 1.8 nM = other device (AuED-MEA, PBS EC50), NOT this probe&#8217;s Kd &#183; no occupancy &#952; here</text>
+  </g>
+
+  <!-- Not-failure beat (F1): freeze gold loss, not occupancy / not a saturation measurement. Fig. 6.16A kept as thesis prose. Two lines so freeze tokens fit; box +8 px, footer +5 px. -->
+  <rect x="16" y="540" width="868" height="36" fill="#f8f9fa" stroke="#111"/>
+  <g font-family="sans-serif">
+    <text x="450" y="554" text-anchor="middle" font-size="10">Molecule still unnamed &#8212; sensor not broken &#183; Probes 1&#8211;2 current still changes</text>
+    <text x="450" y="570" text-anchor="middle" font-size="10">Probes 3/4 = gold loss (Fig. 6.16A), not occupancy / not a saturation measurement</text>
+  </g>
+
+  <!-- Hero footer -->
+  <g font-family="sans-serif">
+    <text x="450" y="590" text-anchor="middle" font-size="12" font-weight="bold">Two different experiments &#8212; same unnamed analyte.</text>
+    <text x="450" y="605" text-anchor="middle" font-size="9" fill="#555">Lower-row stamps (not the 10-second claim): MODELED = supporting caption only &#183; PROPOSED = U2 naming test in B4 close, not a result</text>
+    <text x="450" y="619" text-anchor="middle" font-size="9" fill="#555">Schematic wireframe &#183; no Fig. 6.13 pixels &#183; no invented %gain &#183; no concentration axis &#183; clocks in B2 only &#183; prototype, not final</text>
+  </g>
+</svg>
+<rect x="467.5" y="68.5" width="367.5" height="159" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="467.5" y="68.5" width="98" height="7.2" fill="#3d4a3a"/><text x="469.7" y="73.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">2  MAPS  subordinate</text>
+<svg x="469.4" y="76.2" width="363.7" height="149.5" viewBox="0 0 900 428" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B2 demotion card 2M. Communication only. Does not replace the hybrid hero. Not on B1.
+       Mission 2 not reopened. No PR. No Astra. No invented numbers. No occupancy overlay.
+       No slope-ratio as a result. No C028 (10 min plateau is a 2C clock, not a printed map).
+       Freeze numbers only: E047 PBS 11.86 %/decade (Fig. 6.7B); E048 Ames 57.11 %/decade (Fig. 6.9A);
+       E044/C030 Ames 41.6% blank noise and 10 nM-10 uM window. Tissue well empty. -->
+  <defs>
+    <pattern id="b2_maps_svg_tissue-empty-hatch" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#ffffff"/>
+      <path d="M0,8 L8,0" stroke="#cfcfcf" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="428" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="420" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Card tab: NOT LEG A / NOT LEG B -->
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#c1121f" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c1121f">NOT LEG A &#183; NOT LEG B</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B2 &#183; 2M &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">demotion card &#183; schematic</text>
+
+  <!-- Title: exact 2M title -->
+  <text x="450" y="70" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Printed %gain maps cannot invert tissue ACV</text>
+
+  <!-- Claim (one breath; fidfix sec. 3) -->
+  <g font-family="sans-serif">
+    <text x="450" y="92" text-anchor="middle" font-size="12">PBS 11.86 %/decade and Ames 57.11 %/decade are MEASURED buffer calibrations.</text>
+    <text x="450" y="110" text-anchor="middle" font-size="12">Tissue ACV is a third, unprinted transfer. Empty well UNKNOWN. Do not recover &#952;.</text>
+    <text x="450" y="128" text-anchor="middle" font-size="12">Glu MEASURED only where Glu was the spiked IV.</text>
+  </g>
+
+  <!-- Column labels: printed vs unprinted (not a slope-ratio glyph) -->
+  <g font-family="sans-serif">
+    <text x="292" y="150" text-anchor="middle" font-size="11" font-weight="bold">printed maps &#183; Glu = spiked IV</text>
+    <text x="746" y="150" text-anchor="middle" font-size="11" font-weight="bold">unprinted transfer</text>
+  </g>
+
+  <!-- PBS equation card (E047). White well: green is a strip, not a Glu fill. No plot. -->
+  <rect x="16" y="158" width="268" height="188" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="150" y="178" text-anchor="middle" font-size="13" font-weight="bold">PBS</text>
+    <text x="150" y="194" text-anchor="middle" font-size="10">spiked-buffer calibration</text>
+    <text x="150" y="210" text-anchor="middle" font-size="9" fill="#333">Fig. 6.7B &#183; section 6.2</text>
+    <text x="150" y="232" text-anchor="middle" font-size="15" font-weight="bold">11.86 %/decade</text>
+    <text x="150" y="248" text-anchor="middle" font-size="10">signal_gain &#183; matrix = PBS</text>
+    <rect x="28" y="256" width="244" height="20" fill="#b7e4c7" stroke="#111"/>
+    <text x="150" y="270" text-anchor="middle" font-size="10" font-weight="bold">MEASURED: Glu was the spiked IV</text>
+    <rect x="28" y="282" width="244" height="28" fill="#fff3bf" stroke="#111" stroke-width="1.5"/>
+    <text x="150" y="301" text-anchor="middle" font-size="13" font-weight="bold">buffer &#8800; tissue</text>
+    <text x="150" y="334" text-anchor="middle" font-size="10">E047</text>
+  </g>
+
+  <!-- Ames equation card (E048 slope; E044/C030 caveat). White well. No plot. -->
+  <rect x="300" y="158" width="268" height="188" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="434" y="178" text-anchor="middle" font-size="13" font-weight="bold">Ames</text>
+    <text x="434" y="194" text-anchor="middle" font-size="10">spiked-buffer calibration</text>
+    <text x="434" y="210" text-anchor="middle" font-size="9" fill="#333">Fig. 6.9A &#183; section 6.2</text>
+    <text x="434" y="232" text-anchor="middle" font-size="15" font-weight="bold">57.11 %/decade</text>
+    <text x="434" y="248" text-anchor="middle" font-size="10">signal_gain &#183; matrix = Ames</text>
+    <rect x="312" y="256" width="244" height="20" fill="#b7e4c7" stroke="#111"/>
+    <text x="434" y="270" text-anchor="middle" font-size="10" font-weight="bold">MEASURED: Glu was the spiked IV</text>
+    <rect x="312" y="282" width="244" height="28" fill="#fff3bf" stroke="#111" stroke-width="1.5"/>
+    <text x="434" y="301" text-anchor="middle" font-size="13" font-weight="bold">buffer &#8800; tissue</text>
+    <text x="434" y="322" text-anchor="middle" font-size="9">authors: 41.6% blank noise &#183; 10 nM&#8211;10 &#181;M</text>
+    <text x="434" y="338" text-anchor="middle" font-size="10">E048 &#183; E044 &#183; C030</text>
+  </g>
+
+  <!-- Cannot-invert mark between printed maps and empty tissue well. Not a slope-ratio glyph. -->
+  <g font-family="sans-serif">
+    <text x="588" y="248" text-anchor="middle" font-size="22" font-weight="bold">&#8800;</text>
+    <text x="588" y="266" text-anchor="middle" font-size="8">cannot</text>
+    <text x="588" y="278" text-anchor="middle" font-size="8">invert</text>
+  </g>
+
+  <!-- Tissue well: empty, unprinted, UNKNOWN. No number. -->
+  <rect x="608" y="158" width="276" height="188" fill="url(#b2_maps_svg_tissue-empty-hatch)" stroke="#111" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <g font-family="sans-serif">
+    <text x="746" y="180" text-anchor="middle" font-size="13" font-weight="bold">tissue ACV</text>
+    <text x="746" y="196" text-anchor="middle" font-size="10">third transfer &#183; unprinted</text>
+    <rect x="622" y="208" width="248" height="44" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="746" y="227" text-anchor="middle" font-size="15" font-weight="bold">UNKNOWN</text>
+    <text x="746" y="244" text-anchor="middle" font-size="12" font-weight="bold">tissue transfer</text>
+    <text x="746" y="268" text-anchor="middle" font-size="11">empty &#183; no map &#183; no number</text>
+    <text x="746" y="286" text-anchor="middle" font-size="11">Glu was not the spiked IV</text>
+    <text x="746" y="304" text-anchor="middle" font-size="10">cannot invert from the two</text>
+    <text x="746" y="318" text-anchor="middle" font-size="10">reported buffer calibrations</text>
+    <text x="746" y="334" text-anchor="middle" font-size="9" fill="#333">not uncalibratable in principle</text>
+  </g>
+
+  <!-- Refusal strip: do not recover theta; no slope-ratio as a result -->
+  <rect x="16" y="354" width="868" height="28" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <text x="450" y="373" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c1121f">Do not recover &#952; from either printed %gain law. No occupancy overlay. No slope-ratio as a result.</text>
+
+  <!-- ID rail: fidfix F3 list. C028 stays off this card. -->
+  <g font-family="sans-serif">
+    <text x="450" y="402" text-anchor="middle" font-size="12" font-weight="bold">IDs: C030 &#183; E044 &#183; E047 &#183; E048</text>
+    <text x="450" y="416" text-anchor="middle" font-size="10" fill="#333">no C028 &#183; no flagship plot &#183; no data pixels &#183; Gate REVISE &#183; Flagship NONE &#183; not group-final</text>
+  </g>
+</svg>
+<rect x="467.5" y="230.5" width="367.5" height="160" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="467.5" y="230.5" width="112" height="7.2" fill="#3d4a3a"/><text x="469.7" y="235.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">3  SPIKES  subordinate</text>
+<svg x="469.4" y="238.2" width="363.7" height="150.5" viewBox="0 0 900 436" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B2 demotion card 2S. Communication only. Does not replace the hybrid hero. Not on B1.
+       Mission 2 not reopened. No PR. No Astra. No invented numbers. No Hz. No dark/light
+       direction. No ON-pathway label. No spike-rate panel. No Thesis E (ephys does not
+       disconfirm glutamate). White ACV disk. Governing stamp UNKNOWN for ID.
+       Traced spine: C034/E045 placement; C033 same-probe ACV current unnamed. -->
+  <rect width="900" height="436" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="428" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Card tab: NOT LEG A · NOT LEG B -->
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#c1121f" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c1121f">NOT LEG A &#183; NOT LEG B</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B2 &#183; 2S &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">demotion card &#183; schematic</text>
+
+  <!-- Title: exact 2S title -->
+  <text x="450" y="70" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Same-shank firing does not name the current</text>
+
+  <!-- Claim (one breath; fidfix §3). No direction in the claim. -->
+  <g font-family="sans-serif">
+    <text x="450" y="92" text-anchor="middle" font-size="12">Same-shank spikes are physiology on the shank, not a chemical ID of the faradaic current.</text>
+    <text x="450" y="110" text-anchor="middle" font-size="12">Large ACV disk vs small ephys sites; pool UNKNOWN. No direction claimed.</text>
+  </g>
+
+  <!-- Column labels -->
+  <g font-family="sans-serif">
+    <text x="156" y="134" text-anchor="middle" font-size="11" font-weight="bold">same shank (schematic)</text>
+    <text x="450" y="134" text-anchor="middle" font-size="11" font-weight="bold">physiology on the shank</text>
+    <text x="746" y="134" text-anchor="middle" font-size="11" font-weight="bold">faradaic current</text>
+  </g>
+
+  <!-- Shank cartoon: large white ACV disk vs small ephys sites. Neutral disk. No green. -->
+  <rect x="16" y="142" width="280" height="208" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="156" y="162" text-anchor="middle" font-size="11" font-weight="bold">PaC shank &#183; in vitro</text>
+    <!-- shank body -->
+    <rect x="146" y="172" width="20" height="118" fill="#eeeeee" stroke="#111" stroke-width="2"/>
+    <!-- small ephys sites (equal, no rate encoding) -->
+    <circle cx="156" cy="186" r="5" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="156" cy="204" r="5" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="156" cy="222" r="5" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="156" cy="240" r="5" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="176" y="210" font-size="10">ephys sites</text>
+    <text x="176" y="224" font-size="9" fill="#333">small contacts</text>
+    <!-- large ACV disk (white: not a named Glu electrode) -->
+    <circle cx="156" cy="278" r="22" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <text x="176" y="274" font-size="10" font-weight="bold">ACV disk</text>
+    <text x="176" y="288" font-size="9" fill="#333">large &#183; GCL</text>
+    <text x="156" y="328" text-anchor="middle" font-size="11" font-weight="bold">Same shank &#8800; same measurand.</text>
+    <text x="156" y="342" text-anchor="middle" font-size="9" fill="#333">no rasters &#183; no rate bars</text>
+  </g>
+
+  <!-- Ephys object card: physiology, not an ID. No Hz. -->
+  <rect x="308" y="142" width="276" height="208" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="446" y="166" text-anchor="middle" font-size="13" font-weight="bold">ephys sites</text>
+    <text x="446" y="184" text-anchor="middle" font-size="10">spikes on this shank</text>
+    <rect x="324" y="196" width="244" height="20" fill="#b7e4c7" stroke="#111"/>
+    <text x="446" y="210" text-anchor="middle" font-size="10" font-weight="bold">MEASURED: placement</text>
+    <text x="446" y="232" text-anchor="middle" font-size="11">physiology on the shank</text>
+    <text x="446" y="250" text-anchor="middle" font-size="10">sites exist &#183; not a Glu assay</text>
+    <rect x="324" y="262" width="244" height="44" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="446" y="280" text-anchor="middle" font-size="13" font-weight="bold">does not name</text>
+    <text x="446" y="296" text-anchor="middle" font-size="11">the faradaic current</text>
+    <text x="446" y="326" text-anchor="middle" font-size="10">no spike-rate panel</text>
+    <text x="446" y="340" text-anchor="middle" font-size="10">no Hz &#183; no ON-pathway label</text>
+  </g>
+
+  <!-- Connector: "does not name" is the teaching, not a disconfirm glyph. -->
+  <g font-family="sans-serif">
+    <text x="598" y="248" text-anchor="middle" font-size="18" font-weight="bold">&#8800;</text>
+    <text x="598" y="264" text-anchor="middle" font-size="8">does</text>
+    <text x="598" y="276" text-anchor="middle" font-size="8">not name</text>
+  </g>
+
+  <!-- Current object card: unnamed molecule + UNKNOWN pool. White well. -->
+  <rect x="608" y="142" width="276" height="208" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="746" y="166" text-anchor="middle" font-size="13" font-weight="bold">ACV disk</text>
+    <text x="746" y="184" text-anchor="middle" font-size="10">large bottom electrode &#183; GCL</text>
+    <rect x="624" y="196" width="244" height="20" fill="#b7e4c7" stroke="#111"/>
+    <text x="746" y="210" text-anchor="middle" font-size="10" font-weight="bold">MEASURED: placement</text>
+    <text x="746" y="232" text-anchor="middle" font-size="11">faradaic current</text>
+    <text x="746" y="250" text-anchor="middle" font-size="10">not a chemical ID</text>
+    <rect x="624" y="262" width="244" height="52" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="746" y="282" text-anchor="middle" font-size="15" font-weight="bold">UNKNOWN</text>
+    <text x="746" y="298" text-anchor="middle" font-size="11" font-weight="bold">which molecule &#8212; unnamed</text>
+    <text x="746" y="326" text-anchor="middle" font-size="10" font-weight="bold">UNKNOWN: photoreceptor pool</text>
+    <text x="746" y="340" text-anchor="middle" font-size="9" fill="#333">pool not resolved by same-shank ephys</text>
+  </g>
+
+  <!-- Refusal strip: direction dropped; Thesis E not a finding -->
+  <rect x="16" y="360" width="868" height="36" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <text x="450" y="375" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#c1121f">No dark-higher %gain. No light-rising rates. No Hz. No ON-pathway label.</text>
+  <text x="450" y="390" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#c1121f">Ephys does not disconfirm glutamate &#183; not Thesis E &#183; not &#8220;not glutamate.&#8221;</text>
+
+  <!-- ID rail: fidfix §3 list only -->
+  <g font-family="sans-serif">
+    <text x="450" y="414" text-anchor="middle" font-size="12" font-weight="bold">IDs: C034 &#183; E045 &#183; C033</text>
+    <text x="450" y="428" text-anchor="middle" font-size="10" fill="#333">no 14 s here (clocks live on 2C) &#183; Gate REVISE &#183; Flagship NONE &#183; not group-final</text>
+  </g>
+</svg>
+<rect x="6" y="393.5" width="248" height="78" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="6" y="393.5" width="168" height="7.2" fill="#3d4a3a"/><text x="8.2" y="398.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">4  CLOCKS-CALFIX  C028 buffer</text>
+<svg x="8" y="401.2" width="244" height="68.5" viewBox="0 0 420 268" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B2 2C caption-only clocks calfix. Copy of b2-clocks.svg. Parent not overwritten. Communication only. Not on the hero. Not protocol_clocks.svg.
+       No 1.2 ms. No Nyquist. No Clements. No extra clocks. No bar lengths. No invented numbers.
+       Mission 2 not reopened. No PR. Astra not invoked. -->
+  <rect width="420" height="268" fill="#ffffff"/>
+  <rect x="3" y="3" width="414" height="262" fill="none" stroke="#111111" stroke-width="2.5"/>
+
+  <!-- Demotion tabs -->
+  <g font-family="sans-serif">
+    <rect x="12" y="12" width="118" height="22" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="71" y="27" text-anchor="middle" font-size="10" font-weight="bold">NOT LEG A</text>
+    <rect x="136" y="12" width="118" height="22" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="195" y="27" text-anchor="middle" font-size="10" font-weight="bold">NOT LEG B</text>
+    <text x="408" y="27" text-anchor="end" font-size="9" fill="#555">2C</text>
+  </g>
+
+  <!-- Title: exact -->
+  <g font-family="sans-serif">
+    <text x="210" y="56" text-anchor="middle" font-size="15" font-weight="bold">Clocks of the scan, not a Glu assay</text>
+  </g>
+
+  <!-- MEASURED stamp: protocol times, not an analyte -->
+  <g font-family="sans-serif">
+    <rect x="12" y="66" width="396" height="28" fill="#b7e4c7" stroke="#111" stroke-width="2"/>
+    <text x="210" y="85" text-anchor="middle" font-size="12" font-weight="bold">MEASURED: protocol times &#183; not a current ID</text>
+  </g>
+
+  <!-- Caption-only face: equal text tokens, not bars, not a selected figure -->
+  <rect x="12" y="102" width="396" height="88" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+  <g font-family="sans-serif">
+    <text x="210" y="122" text-anchor="middle" font-size="9" fill="#555">caption text &#183; no selected figure</text>
+    <text x="210" y="146" text-anchor="middle" font-size="12" font-weight="bold">MEASURED clocks &#183; not Leg A &#183; not Leg B &#183; identity still UNKNOWN</text>
+    <!-- Three equal-weight tokens. Same type size. No duration encoding. -->
+    <text x="78" y="176" text-anchor="middle" font-size="14" font-weight="bold">14 s scan</text>
+    <text x="210" y="176" text-anchor="middle" font-size="14" font-weight="bold">~1 min/point</text>
+    <text x="342" y="176" text-anchor="middle" font-size="14" font-weight="bold">10 min plateau (buffer calibration, 10 nM Glu step)</text>
+  </g>
+
+  <!-- Identity + empty rates. No 1.2 ms on this face. -->
+  <g font-family="sans-serif">
+    <rect x="12" y="198" width="192" height="36" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="108" y="213" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN</text>
+    <text x="108" y="227" text-anchor="middle" font-size="9">identity still unnamed</text>
+    <rect x="212" y="198" width="196" height="36" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="310" y="213" text-anchor="middle" font-size="10" font-weight="bold">UNMEASURED</text>
+    <text x="310" y="227" text-anchor="middle" font-size="9">rapid-transient &#183; C007 empty</text>
+  </g>
+
+  <!-- ID rail: exact list -->
+  <g font-family="sans-serif">
+    <text x="210" y="254" text-anchor="middle" font-size="10">C031 &#183; E045 &#183; E046 &#183; C028 &#183; C007</text>
+  </g>
+</svg>
+<rect x="257.5" y="393.5" width="577.5" height="78" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="257.5" y="393.5" width="188" height="7.2" fill="#3d4a3a"/><text x="259.7" y="398.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">5  3Q TRAPS  incl. 12 µM · 1.8 nM</text>
+<svg x="259.5" y="401.2" width="573.5" height="68.5" viewBox="0 0 1420 220" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B3 3Q supporting row. Communication only. Not the finding. Not 3H. Not fidfix.
+       Not recognition-first. No empty PaC Kd cell. No occupancy theta. No 81-fold figure.
+       No experiment named. Mission 2 not reopened. No PR. Astra not invoked. -->
+  <rect width="1420" height="220" fill="#ffffff"/>
+
+  <g font-family="system-ui,sans-serif">
+    <text x="14" y="22" font-size="13" font-weight="700" fill="#1a1a1a">3Q TRAP &#183; SUPPORTING &#8212; not the finding</text>
+    <text x="14" y="38" font-size="11" fill="#495057">wrong object &#183; not this probe&#8217;s Kd</text>
+  </g>
+
+  <!-- Card 1: 1.8 nM -->
+  <g transform="translate(12,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">1.8 nM &#8212; wrong device / PBS EC50</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">Langmuir-Freundlich apparent Kd</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">AuED-MEA &#183; PBS &#183; EC50</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">apparent electrochemical Kd</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT this probe&#8217;s Kd</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on that object &#183; C005</text>
+  </g>
+
+  <!-- Card 2: 0.3 pM -->
+  <g transform="translate(364,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">0.3 pM &#8212; wrong matrix / LOD</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">PBS blank+3 RSD</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">PaC probe &#183; PBS &#183; sensor_LOD</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">lowest calibrant 1 nM</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT Ames &#183; NOT tissue</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on that object &#183; C029</text>
+  </g>
+
+  <!-- Card 3: 25 nM -->
+  <g transform="translate(716,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">25 nM &#8212; wrong preparation</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">Herman slice, not retina</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">Herman &#183; acute hippocampal slice</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">biological_concentration_range</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT retinal [Glu]</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on that object &#183; C012</text>
+  </g>
+
+  <!-- Card 4: 12 micromolar. SURVIVE face from b3-3q-12um-trap.md. Do not add a vacancy. -->
+  <g transform="translate(1068,48)">
+    <rect x="3" y="3" width="334" height="150" rx="8" fill="#fffdf7" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <text x="14" y="20" font-size="9" font-family="system-ui,sans-serif" fill="#6c757d" letter-spacing=".06em">3Q TRAP &#183; SUPPORTING</text>
+    <text x="14" y="44" font-size="14" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">12 &#181;M &#8212; wrong oligo / citation</text>
+    <text x="14" y="62" font-size="11" font-family="system-ui,sans-serif" fill="#1a1a1a">not a remeasurement</text>
+    <rect x="14" y="74" width="150" height="28" rx="4" fill="#e9ecef"/>
+    <text x="22" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">1d04 isolate &#183; Kd_molecular &#183; abstract</text>
+    <rect x="172" y="74" width="154" height="28" rx="4" fill="#e9ecef"/>
+    <text x="180" y="92" font-size="9" font-family="system-ui,sans-serif" fill="#1a1a1a">Hu methods = Wu citation</text>
+    <text x="14" y="122" font-size="11" font-weight="700" font-family="system-ui,sans-serif" fill="#1a1a1a">NOT this Fc-thiol 39-mer</text>
+    <text x="14" y="140" font-size="9" font-family="system-ui,sans-serif" fill="#495057">MEASURED on those objects &#183; C001 &#183; C021</text>
+  </g>
+</svg>
+<rect x="6" y="474.5" width="203" height="102" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="6" y="474.5" width="122" height="7.2" fill="#3d4a3a"/><text x="8.2" y="479.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">6  3H  two-regime</text>
+<svg x="8" y="482.2" width="199" height="92.5" viewBox="0 0 900 436" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B3 supporting card 3H. Communication only. Does not replace the hybrid hero. Not on B1.
+       Not 3Q. Not fidfix / fidfix2 / clocks / maps / spikes / U2. Mission 2 not reopened.
+       No PR. No Astra. No invented numbers. No span bar. No occupancy theta. No 81-fold.
+       No U1/U2. No Nyquist. No 14 s. No koff. No recognition-first graft.
+       Freeze numbers only: Herman ~25 nM (C012); Clements ~1.1 mM / ~1.2 ms (C011). -->
+  <rect width="900" height="436" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="428" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Governing tab: SUPPORTING   not the finding. Not Leg A. Not Leg B. -->
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">SUPPORTING &#8212; not the finding</text>
+
+  <rect x="316" y="12" width="196" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="414" y="34" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">NOT LEG A &#183; NOT LEG B</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B3 &#183; 3H &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">supporting card &#183; schematic</text>
+
+  <!-- Title: exact 3H title -->
+  <text x="450" y="70" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Two hippocampal examples, not a retinal range</text>
+
+  <!-- Claim (one breath). No span arithmetic. -->
+  <g font-family="sans-serif">
+    <text x="450" y="92" text-anchor="middle" font-size="12">Different hippocampal preparations. Not a retinal range. Not this PaC probe&#8217;s spec.</text>
+    <text x="450" y="110" text-anchor="middle" font-size="12">Transfer to retina UNKNOWN. Not a license to call Hu a failed cleft sensor.</text>
+  </g>
+
+  <!-- Column labels: two preps, not a continuum -->
+  <g font-family="sans-serif">
+    <text x="216" y="134" text-anchor="middle" font-size="11" font-weight="bold">Herman &#183; acute hippocampal slice</text>
+    <text x="684" y="134" text-anchor="middle" font-size="11" font-weight="bold">Clements &#183; cultured hippocampal synapses</text>
+  </g>
+
+  <!-- Herman well. Cream. MEASURED ambient in that prep. Text only: two-component sentence. -->
+  <rect x="16" y="142" width="400" height="198" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="216" y="166" text-anchor="middle" font-size="13" font-weight="bold">Herman</text>
+    <text x="216" y="184" text-anchor="middle" font-size="10">acute hippocampal slice</text>
+    <text x="216" y="210" text-anchor="middle" font-size="15" font-weight="bold">~25 nM</text>
+    <text x="216" y="226" text-anchor="middle" font-size="10">ambient &#183; biological_concentration_range</text>
+    <rect x="32" y="236" width="368" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="216" y="251" text-anchor="middle" font-size="11" font-weight="bold">MEASURED: ambient in this prep</text>
+    <rect x="32" y="264" width="368" height="44" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+    <text x="216" y="282" text-anchor="middle" font-size="11" font-weight="bold">transients on a low baseline</text>
+    <text x="216" y="298" text-anchor="middle" font-size="10">two components &#183; not three occupancy windows</text>
+    <text x="216" y="326" text-anchor="middle" font-size="10">C012</text>
+  </g>
+
+  <!-- Connector: different preps. Not a span bar. Not a range glyph. -->
+  <g font-family="sans-serif">
+    <text x="450" y="232" text-anchor="middle" font-size="22" font-weight="bold">&#8800;</text>
+    <text x="450" y="250" text-anchor="middle" font-size="8">different</text>
+    <text x="450" y="262" text-anchor="middle" font-size="8">preps</text>
+    <text x="450" y="278" text-anchor="middle" font-size="8">not a</text>
+    <text x="450" y="290" text-anchor="middle" font-size="8">range</text>
+  </g>
+
+  <!-- Clements well. Cream. INFERRED kinetic inference, abstract-only. 1.2 ms = inferred decay only. -->
+  <rect x="484" y="142" width="400" height="198" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="684" y="166" text-anchor="middle" font-size="13" font-weight="bold">Clements</text>
+    <text x="684" y="184" text-anchor="middle" font-size="10">cultured hippocampal synapses</text>
+    <text x="684" y="208" text-anchor="middle" font-size="15" font-weight="bold">~1.1 mM</text>
+    <text x="684" y="224" text-anchor="middle" font-size="10">peak &#183; biological_concentration_range</text>
+    <text x="684" y="246" text-anchor="middle" font-size="14" font-weight="bold">decay &#964; ~1.2 ms</text>
+    <text x="684" y="262" text-anchor="middle" font-size="9">INFERRED decay in this prep &#183; abstract-only</text>
+    <rect x="500" y="272" width="368" height="22" fill="#ffc8a2" stroke="#111"/>
+    <text x="684" y="287" text-anchor="middle" font-size="11" font-weight="bold">INFERRED: kinetic inference</text>
+    <text x="684" y="310" text-anchor="middle" font-size="10">not a chemical assay</text>
+    <text x="684" y="326" text-anchor="middle" font-size="10">C011</text>
+  </g>
+
+  <!-- UNKNOWN stamp: transfer. Not a third well. Not a span. -->
+  <rect x="16" y="348" width="868" height="28" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+  <text x="450" y="367" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">UNKNOWN: transfer to retina</text>
+
+  <!-- Refusal: not PaC spec; not Hu as failed cleft sensor -->
+  <rect x="16" y="382" width="868" height="28" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <text x="450" y="401" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c1121f">Not this PaC probe&#8217;s spec. Not a license to call Hu a failed cleft sensor.</text>
+
+  <!-- ID rail: Claim 1 + Claim 3 freeze IDs only -->
+  <g font-family="sans-serif">
+    <text x="450" y="422" text-anchor="middle" font-size="12" font-weight="bold">IDs: C012 &#183; C011</text>
+    <text x="450" y="434" text-anchor="middle" font-size="10" fill="#333">no span bar &#183; Gate REVISE &#183; Flagship NONE &#183; not group-final</text>
+  </g>
+</svg>
+<rect x="213" y="474.5" width="203" height="102" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="213" y="474.5" width="152" height="7.2" fill="#3d4a3a"/><text x="215.2" y="479.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">7  WHY-LAYERS-FIDFIX</text>
+<svg x="215" y="482.2" width="199" height="92.5" viewBox="0 0 900 420" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B3 supporting why-layers fidfix. Copy-repair sibling of b3-why-layers.svg.
+       Parent not overwritten. Communication only. Not the finding. Not 3Q. Not 3H.
+       Not fidfix2 / clocks / maps / spikes / U2 close. Not recognition-first.
+       No empty PaC Kd well. No occupancy theta. No 81-fold figure. No U2 homework.
+       U1 appears only as a red-X different question, not next. Mission 2 not reopened.
+       No PR. Astra not invoked. Freeze numbers only: 12 µM (C001/C021); 1.8 nM (C005).
+       F1: NOT this Fc-thiol 39-mer on Wu 1d04; C021 is a separate citation chip,
+           not nested in the green MEASURED on 1d04 · C001 well.
+       F2: mechanism operands 1d04 Kd_molecular ` AuED-MEA PBS EC50 ` tissue %gain;
+           identity is not a ` operand on that line; UNKNOWN: identity stamp retained.
+       F3: U1 isotherm ` identity · different question / not next. No vacancy. No gold NEXT. -->
+  <rect width="900" height="420" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="412" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Governing tab: SUPPORTING   not the finding -->
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">SUPPORTING &#8212; not the finding</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B3 &#183; why-layers &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">supporting card &#183; schematic</text>
+
+  <text x="450" y="68" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Why three objects differ</text>
+  <text x="450" y="90" text-anchor="middle" font-family="sans-serif" font-size="13">1d04 Kd_molecular &#8800; AuED-MEA PBS EC50 &#8800; tissue %gain</text>
+
+  <!-- Object 1: Wu 1d04 isolate. Filled. Not a 39-mer Kd well. C021 is its own chip. -->
+  <rect x="16" y="108" width="268" height="218" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="150" y="130" text-anchor="middle" font-size="13" font-weight="bold">Wu 1d04 isolate</text>
+    <text x="150" y="148" text-anchor="middle" font-size="11">solution binding</text>
+    <text x="150" y="168" text-anchor="middle" font-size="10" fill="#333">Kd_molecular</text>
+    <text x="150" y="190" text-anchor="middle" font-size="13" font-weight="bold">12 &#181;M</text>
+    <rect x="32" y="202" width="236" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="150" y="217" text-anchor="middle" font-size="11" font-weight="bold">MEASURED on 1d04 &#183; C001</text>
+    <rect x="32" y="232" width="236" height="22" fill="#ffffff" stroke="#111"/>
+    <text x="150" y="247" text-anchor="middle" font-size="10">Hu methods = Wu citation &#183; C021</text>
+    <text x="150" y="274" text-anchor="middle" font-size="11" font-weight="bold">NOT this Fc-thiol 39-mer</text>
+    <text x="150" y="292" text-anchor="middle" font-size="11" font-weight="bold">not a remeasurement</text>
+    <text x="150" y="310" text-anchor="middle" font-size="9" fill="#333">named object &#183; chips filled</text>
+  </g>
+
+  <!-- Layer inequality, not a vacancy -->
+  <g font-family="sans-serif">
+    <text x="300" y="200" text-anchor="middle" font-size="20" font-weight="bold">&#8800;</text>
+    <text x="300" y="218" text-anchor="middle" font-size="8">not the</text>
+    <text x="300" y="230" text-anchor="middle" font-size="8">same</text>
+    <text x="300" y="242" text-anchor="middle" font-size="8">layer</text>
+  </g>
+
+  <!-- Object 2: AuED-MEA film. Filled EC50. Not an empty PaC Kd well. -->
+  <rect x="316" y="108" width="268" height="218" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="450" y="130" text-anchor="middle" font-size="13" font-weight="bold">AuED-MEA film</text>
+    <text x="450" y="148" text-anchor="middle" font-size="11">immobilized-film transduction</text>
+    <text x="450" y="168" text-anchor="middle" font-size="10" fill="#333">PBS &#183; EC50</text>
+    <text x="450" y="190" text-anchor="middle" font-size="13" font-weight="bold">1.8 nM</text>
+    <rect x="332" y="202" width="236" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="450" y="217" text-anchor="middle" font-size="11" font-weight="bold">MEASURED on AuED-MEA &#183; C005</text>
+    <text x="450" y="250" text-anchor="middle" font-size="11" font-weight="bold">NOT this PaC 39-mer&#8217;s Kd</text>
+    <text x="450" y="268" text-anchor="middle" font-size="10">text refusal &#183; not a well</text>
+    <text x="450" y="310" text-anchor="middle" font-size="9" fill="#333">named object &#183; chips filled</text>
+  </g>
+
+  <g font-family="sans-serif">
+    <text x="600" y="200" text-anchor="middle" font-size="20" font-weight="bold">&#8800;</text>
+    <text x="600" y="218" text-anchor="middle" font-size="8">not the</text>
+    <text x="600" y="230" text-anchor="middle" font-size="8">same</text>
+    <text x="600" y="242" text-anchor="middle" font-size="8">layer</text>
+  </g>
+
+  <!-- Object 3: tissue ACV current. MEASURED %gain; identity UNKNOWN. Not a Kd well. -->
+  <rect x="616" y="108" width="268" height="218" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="750" y="130" text-anchor="middle" font-size="13" font-weight="bold">Tissue ACV current</text>
+    <text x="750" y="148" text-anchor="middle" font-size="11">tissue faradaic identity</text>
+    <text x="750" y="168" text-anchor="middle" font-size="10" fill="#333">%gain</text>
+    <text x="750" y="190" text-anchor="middle" font-size="13" font-weight="bold">MEASURED current</text>
+    <rect x="632" y="202" width="236" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="750" y="217" text-anchor="middle" font-size="11" font-weight="bold">MEASURED as %gain &#183; C033</text>
+    <rect x="632" y="230" width="236" height="28" fill="#d3d3d3" stroke="#111"/>
+    <text x="750" y="248" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN: identity</text>
+    <text x="750" y="276" text-anchor="middle" font-size="10">filled stamp &#183; not a vacancy</text>
+    <text x="750" y="310" text-anchor="middle" font-size="9" fill="#333">named object &#183; chips filled</text>
+  </g>
+
+  <!-- Red-X: U1 is a different question, not next. Not this card's result. U2 not drawn. -->
+  <rect x="16" y="338" width="868" height="36" fill="#ffffff" stroke="#c1121f" stroke-width="2.5"/>
+  <line x1="36" y1="346" x2="58" y2="366" stroke="#c1121f" stroke-width="3"/>
+  <line x1="58" y1="346" x2="36" y2="366" stroke="#c1121f" stroke-width="3"/>
+  <text x="470" y="361" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c1121f">U1 isotherm &#8800; identity &#183; different question / not next</text>
+
+  <g font-family="sans-serif">
+    <text x="450" y="392" text-anchor="middle" font-size="12" font-weight="bold">IDs: C001 &#183; C021 &#183; C005 &#183; C033</text>
+    <text x="450" y="408" text-anchor="middle" font-size="10" fill="#333">not a next-experiment card &#183; Gate REVISE &#183; Flagship NONE &#183; not group-final</text>
+  </g>
+</svg>
+<rect x="420" y="474.5" width="203" height="102" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="420" y="474.5" width="132" height="7.2" fill="#3d4a3a"/><text x="422.2" y="479.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">8  C032  selectivity</text>
+<svg x="422" y="482.2" width="199" height="92.5" viewBox="0 0 900 440" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B3 supporting C032 selectivity. Skeleton from prompt contract; locators from freeze C032 only.
+       Communication only. Not the finding. Not the hero. Not recognition-first.
+       No PaC Kd well. No 1.8 nM. No 12 µM. No occupancy. No U1. No Ames-as-confounder.
+       Appendix II g/l unconverted  not drawn. No ratio. C032 value kept empty.
+       Stamp vocabulary: MEASURED / UNKNOWN only. Do not invent MODELED.
+       Mission 2 not reopened. No PR. Astra not invoked. Flagship NONE. -->
+  <rect width="900" height="440" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="432" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <rect x="16" y="12" width="292" height="34" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="162" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold">SUPPORTING &#8212; not the finding</text>
+
+  <rect x="620" y="12" width="264" height="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="752" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">B3 &#183; C032 &#183; not the hero</text>
+  <text x="752" y="40" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">supporting card &#183; prototype</text>
+
+  <text x="450" y="68" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Buffer interferents that were run &#8212; not tissue identity, not a Kd</text>
+  <text x="450" y="88" text-anchor="middle" font-family="sans-serif" font-size="12">Aptamer challenge in buffer. Does not name the tissue current. Not a molecular Kd.</text>
+
+  <rect x="16" y="104" width="428" height="252" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="230" y="126" text-anchor="middle" font-size="13" font-weight="bold">MEASURED half &#183; interferents that were run</text>
+    <text x="230" y="144" text-anchor="middle" font-size="11">100 nM glutamate versus 10 &#181;M of each</text>
+    <text x="230" y="160" text-anchor="middle" font-size="10" fill="#333">probe calibration &#183; not tissue</text>
+    <rect x="32" y="168" width="396" height="22" fill="#b7e4c7" stroke="#111"/>
+    <text x="230" y="183" text-anchor="middle" font-size="11" font-weight="bold">MEASURED: these four were run</text>
+    <text x="230" y="204" text-anchor="middle" font-size="10" fill="#333">C032 value empty &#183; no ratio printed</text>
+  </g>
+
+  <g font-family="sans-serif">
+    <rect x="32" y="214" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="126" y="236" text-anchor="middle" font-size="12" font-weight="bold">serotonin</text>
+    <text x="126" y="254" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+    <rect x="228" y="214" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="322" y="236" text-anchor="middle" font-size="12" font-weight="bold">dopamine</text>
+    <text x="322" y="254" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+    <rect x="32" y="276" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="126" y="298" text-anchor="middle" font-size="12" font-weight="bold">tyrosine</text>
+    <text x="126" y="316" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+    <rect x="228" y="276" width="188" height="54" fill="#ffffff" stroke="#111"/>
+    <text x="322" y="298" text-anchor="middle" font-size="12" font-weight="bold">lactate</text>
+    <text x="322" y="316" text-anchor="middle" font-size="10">10 &#181;M &#183; run</text>
+  </g>
+
+  <rect x="456" y="104" width="428" height="252" fill="#fff8e7" stroke="#111" stroke-width="2.5"/>
+  <g font-family="sans-serif">
+    <text x="670" y="126" text-anchor="middle" font-size="13" font-weight="bold">UNKNOWN half &#183; not filled</text>
+    <text x="670" y="146" text-anchor="middle" font-size="11">Do not fill. Do not invent a ratio.</text>
+    <rect x="472" y="156" width="396" height="22" fill="#d3d3d3" stroke="#111"/>
+    <text x="670" y="171" text-anchor="middle" font-size="11" font-weight="bold">UNKNOWN: empty</text>
+  </g>
+
+  <g font-family="sans-serif">
+    <rect x="472" y="190" width="396" height="46" fill="#ffffff" stroke="#111" stroke-dasharray="5 3"/>
+    <text x="670" y="210" text-anchor="middle" font-size="12" font-weight="bold">aspartate (Asp)</text>
+    <text x="670" y="226" text-anchor="middle" font-size="10">UNKNOWN &#183; not in that panel</text>
+    <rect x="472" y="244" width="396" height="46" fill="#ffffff" stroke="#111" stroke-dasharray="5 3"/>
+    <text x="670" y="264" text-anchor="middle" font-size="12" font-weight="bold">glutamine (Gln)</text>
+    <text x="670" y="280" text-anchor="middle" font-size="10">UNKNOWN &#183; not in that panel</text>
+    <rect x="472" y="298" width="396" height="46" fill="#ffffff" stroke="#111" stroke-dasharray="5 3"/>
+    <text x="670" y="318" text-anchor="middle" font-size="12" font-weight="bold">GABA</text>
+    <text x="670" y="334" text-anchor="middle" font-size="10">UNKNOWN &#183; empty</text>
+  </g>
+
+  <rect x="16" y="366" width="868" height="28" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <text x="450" y="385" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c1121f">Not tissue identity. Not a Kd. Ames not drawn as a demonstrated confounder.</text>
+
+  <g font-family="sans-serif">
+    <text x="450" y="412" text-anchor="middle" font-size="12" font-weight="bold">IDs: C032 &#183; S066 &#183; Fig. 6.8A</text>
+    <text x="450" y="428" text-anchor="middle" font-size="10" fill="#333">Gate REVISE &#183; Flagship NONE &#183; not group-final &#183; supporting only &#183; not next experiment</text>
+  </g>
+</svg>
+<rect x="627" y="474.5" width="208" height="102" fill="#ffffff" stroke="#111111" stroke-width="0.55"/>
+<rect x="627" y="474.5" width="96" height="7.2" fill="#3d4a3a"/><text x="629.2" y="479.8" font-family="DejaVu Sans, sans-serif" font-size="4.2" font-weight="700" fill="#f7f4ee">9  U2 CLOSE</text>
+<svg x="629" y="482.2" width="204" height="92.5" viewBox="0 0 900 368" preserveAspectRatio="xMidYMid meet" overflow="hidden">
+  <!-- B4 close for hybrid v3. Does not replace hybrid-hero-v3.svg. Not a result. No PR. Mission 2 not reopened.
+       No occupancy theta, no 1.8 nM, no clocks, no green MEASURED glutamate, no invented Kd / %gain / p. -->
+  <defs>
+    <pattern id="u2_close_svg_empty-hatch" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#ffffff"/>
+      <path d="M0,8 L8,0" stroke="#cfcfcf" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="368" fill="#ffffff"/>
+  <rect x="4" y="4" width="892" height="360" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- Title: exact B4 title -->
+  <g font-family="sans-serif">
+    <text x="450" y="28" text-anchor="middle" font-size="17" font-weight="bold">Name both currents (U2) &#8212; proposed, not a result.</text>
+  </g>
+
+  <!-- Governing stamp is PROPOSED. No MEASURED-green on this card. -->
+  <g font-family="sans-serif">
+    <rect x="178" y="38" width="248" height="36" fill="#ffd166" stroke="#111" stroke-width="2.5"/>
+    <text x="302" y="54" text-anchor="middle" font-size="15" font-weight="bold">PROPOSED</text>
+    <text x="302" y="68" text-anchor="middle" font-size="10">not a result</text>
+    <rect x="438" y="38" width="200" height="36" fill="#d3d3d3" stroke="#111" stroke-width="2"/>
+    <text x="538" y="54" text-anchor="middle" font-size="13" font-weight="bold">UNKNOWN</text>
+    <text x="538" y="68" text-anchor="middle" font-size="10">until U2 is run</text>
+    <rect x="650" y="38" width="148" height="36" fill="#ffffff" stroke="#111" stroke-width="2"/>
+    <text x="724" y="54" text-anchor="middle" font-size="13" font-weight="bold">Gate REVISE</text>
+    <text x="724" y="68" text-anchor="middle" font-size="9">U2 locked</text>
+  </g>
+
+  <!-- Protocol header (no clocks) -->
+  <g font-family="sans-serif">
+    <text x="450" y="92" text-anchor="middle" font-size="11">same shank &#183; same room-light protocol &#183; include Leg A&#8217;s post-insertion baseline &#183; both ACV legs</text>
+  </g>
+
+  <!-- Column headers: working 39-mer | scrambled/binding-null | pharmacology -->
+  <g font-family="sans-serif">
+    <text x="252" y="114" text-anchor="middle" font-size="12" font-weight="bold">working 39-mer</text>
+    <text x="508" y="114" text-anchor="middle" font-size="12" font-weight="bold">scrambled / binding-null</text>
+    <text x="764" y="114" text-anchor="middle" font-size="12" font-weight="bold">pharmacology</text>
+  </g>
+
+  <!-- Row labels -->
+  <g font-family="sans-serif">
+    <text x="72" y="148" text-anchor="middle" font-size="12" font-weight="bold">Leg A</text>
+    <text x="72" y="164" text-anchor="middle" font-size="10">IV = time</text>
+    <text x="72" y="178" text-anchor="middle" font-size="9">light held ON</text>
+    <text x="72" y="192" text-anchor="middle" font-size="9">baseline included</text>
+    <text x="72" y="222" text-anchor="middle" font-size="12" font-weight="bold">Leg B</text>
+    <text x="72" y="238" text-anchor="middle" font-size="10">IV = illumination</text>
+    <text x="72" y="252" text-anchor="middle" font-size="9">ON | OFF | ON</text>
+    <text x="72" y="266" text-anchor="middle" font-size="9">later</text>
+  </g>
+
+  <!-- Six empty dashed cells. Hatch = result not in hand. No bars, no numbers, no green Glu. -->
+  <g>
+    <rect x="132" y="122" width="240" height="70" fill="url(#u2_close_svg_empty-hatch)" stroke="#111" stroke-width="2" stroke-dasharray="7 4"/>
+    <rect x="388" y="122" width="240" height="70" fill="url(#u2_close_svg_empty-hatch)" stroke="#111" stroke-width="2" stroke-dasharray="7 4"/>
+    <rect x="644" y="122" width="240" height="70" fill="url(#u2_close_svg_empty-hatch)" stroke="#111" stroke-width="2" stroke-dasharray="7 4"/>
+    <rect x="132" y="200" width="240" height="70" fill="url(#u2_close_svg_empty-hatch)" stroke="#111" stroke-width="2" stroke-dasharray="7 4"/>
+    <rect x="388" y="200" width="240" height="70" fill="url(#u2_close_svg_empty-hatch)" stroke="#111" stroke-width="2" stroke-dasharray="7 4"/>
+    <rect x="644" y="200" width="240" height="70" fill="url(#u2_close_svg_empty-hatch)" stroke="#111" stroke-width="2" stroke-dasharray="7 4"/>
+  </g>
+
+  <!-- Gold PROPOSED watermark across the grid so the 2x3 cannot be read as data -->
+  <text x="508" y="204" text-anchor="middle" font-family="sans-serif" font-size="42" font-weight="bold" fill="#ffd166" fill-opacity="0.38">PROPOSED</text>
+
+  <g font-family="sans-serif" fill="#333">
+    <text x="252" y="152" text-anchor="middle" font-size="11" font-weight="bold">empty</text>
+    <text x="252" y="168" text-anchor="middle" font-size="10">result not in hand</text>
+    <text x="252" y="182" text-anchor="middle" font-size="9">read current</text>
+    <text x="508" y="152" text-anchor="middle" font-size="11" font-weight="bold">empty</text>
+    <text x="508" y="168" text-anchor="middle" font-size="10">result not in hand</text>
+    <text x="508" y="182" text-anchor="middle" font-size="9">read current</text>
+    <text x="764" y="152" text-anchor="middle" font-size="11" font-weight="bold">empty</text>
+    <text x="764" y="168" text-anchor="middle" font-size="10">result not in hand</text>
+    <text x="764" y="182" text-anchor="middle" font-size="9">read current</text>
+    <text x="252" y="230" text-anchor="middle" font-size="11" font-weight="bold">empty</text>
+    <text x="252" y="246" text-anchor="middle" font-size="10">result not in hand</text>
+    <text x="252" y="260" text-anchor="middle" font-size="9">read current</text>
+    <text x="508" y="230" text-anchor="middle" font-size="11" font-weight="bold">empty</text>
+    <text x="508" y="246" text-anchor="middle" font-size="10">result not in hand</text>
+    <text x="508" y="260" text-anchor="middle" font-size="9">read current</text>
+    <text x="764" y="230" text-anchor="middle" font-size="11" font-weight="bold">empty</text>
+    <text x="764" y="246" text-anchor="middle" font-size="10">result not in hand</text>
+    <text x="764" y="260" text-anchor="middle" font-size="9">read current</text>
+  </g>
+
+  <!-- Exact substitute line, red-X captions -->
+  <rect x="16" y="278" width="868" height="22" fill="#ffffff" stroke="#c1121f" stroke-width="1.5"/>
+  <g font-family="sans-serif">
+    <text x="28" y="294" font-size="14" font-weight="bold" fill="#c1121f">&#215;</text>
+    <text x="450" y="294" text-anchor="middle" font-size="11" font-weight="bold" fill="#c1121f">U1 isotherm &#8800; identity &#183; C007 rates &#8800; identity &#183; late-only rebin names no analyte.</text>
+  </g>
+
+  <!-- Exact falsifier (two lines so the sentence is not clipped) -->
+  <rect x="16" y="304" width="868" height="38" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+  <g font-family="sans-serif">
+    <text x="450" y="320" text-anchor="middle" font-size="11">If currents survive pharmacology + binding-null on both legs, the glutamate-occupancy reading is falsified.</text>
+    <text x="450" y="336" text-anchor="middle" font-size="11">If they die on both legs, the inference is strengthened &#8212; still not an inverted tissue [Glu].</text>
+  </g>
+
+  <!-- Close rules -->
+  <g font-family="sans-serif">
+    <text x="450" y="358" text-anchor="middle" font-size="11" font-weight="bold">U2 closes, never opens. U1 is a different question. Course cannot pipette U2. Gate stays REVISE.</text>
+  </g>
+</svg>
+<rect x="0" y="579.5" width="841" height="14.5" fill="#1c1c1c"/>
+<text x="8" y="589.2" font-family="DejaVu Sans, sans-serif" font-size="4.6" fill="#f7f4ee">Science freeze origin/main @ 3fa11240c85df9ebac58dcc6879494911968f75c · thesis D_revised · gate REVISE · QUANTITATIVE FLAGSHIP NONE · U2 locked · group_final false · PRE-COMPOSITION ASTRA SKIPPED — PACKET INCOMPLETE · SVG authoritative · not FINAL</text>
+<text x="833" y="589.2" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="4.6" fill="#cfc6b8">Faces nested from poster/rc/sources/ · no Fig. 6.13 data pixels</text>
+</svg>

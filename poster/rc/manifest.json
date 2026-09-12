@@ -1,0 +1,119 @@
+{
+  "package": "eyefix-package internal RC",
+  "label": "INTERNAL RELEASE CANDIDATE \u2014 NOT FINAL",
+  "not_final": true,
+  "group_final": false,
+  "science_freeze": "3fa11240c85df9ebac58dcc6879494911968f75c",
+  "thesis": "D_revised",
+  "gate": "REVISE",
+  "quantitative_flagship": "NONE",
+  "highest_information_experiment": "U2",
+  "pre_composition_astra": "SKIPPED \u2014 PACKET INCOMPLETE",
+  "astra_invoked": false,
+  "canonical": "poster/rc/poster_rc.svg",
+  "svg": {
+    "path": "poster/rc/poster_rc.svg",
+    "sha256": "dd487bff52cbbd3a343bfcf0d9fea9181463cfe569c3046cc52b8944038f3eaa",
+    "bytes": 72646,
+    "width_mm": 841,
+    "height_mm": 594,
+    "viewBox": "0 0 841 594",
+    "authoritative": true
+  },
+  "png": {
+    "path": "poster/rc/poster_rc.png",
+    "sha256": "7b0fd5a69df9917a6dd9fcf4411d8ce58b2e0a0f2149532ea34cdc9b65cc0b74",
+    "bytes": 2337595,
+    "width_px": 4967,
+    "height_px": 3508,
+    "requested_px": [
+      4967,
+      3508
+    ],
+    "rebuild": "scripts/build_poster_rc.sh",
+    "status": "ok"
+  },
+  "reading_order": [
+    "b0-question.svg",
+    "hybrid-hero-v3-eyefix.svg",
+    "b2-maps.svg",
+    "b2-spikes.svg",
+    "b2-clocks-calfix.svg",
+    "b3-3q-traps.svg",
+    "b3-3h-regimes.svg",
+    "b3-why-layers-fidfix.svg",
+    "b3-c032-selectivity.svg",
+    "u2-close.svg"
+  ],
+  "off_repo_review_pdf": {
+    "path": "/cursor/stores/bc-036c0435-1c1d-46ee-b329-3ec20161245a/media/BIOC1600_poster_review.pdf",
+    "git": false,
+    "status": "pending_after_push"
+  },
+  "files": {
+    "poster/rc/poster_rc.svg": {
+      "sha256": "dd487bff52cbbd3a343bfcf0d9fea9181463cfe569c3046cc52b8944038f3eaa",
+      "bytes": 72646
+    },
+    "poster/rc/poster_rc.png": {
+      "sha256": "7b0fd5a69df9917a6dd9fcf4411d8ce58b2e0a0f2149532ea34cdc9b65cc0b74",
+      "bytes": 2337595
+    },
+    "scripts/build_poster_rc.sh": {
+      "sha256": "da411d8074b6e6990165c74cce64282ddcec0aeceba168a40d1c6f22ab2deab4",
+      "bytes": 2502
+    },
+    "poster/rc/astra_design_contract_report.md": {
+      "sha256": "0a7c130e1bc95be5da16cd6a0f73fab82da010b763b471ff9c6f6b3e632dd406",
+      "bytes": 1582
+    },
+    "poster/rc/astra_design_contract_disposition.md": {
+      "sha256": "f7d54562b37d97556e2779119ff565a3d2a1b8864499e1c226b9db98fa47fc7f",
+      "bytes": 1478
+    },
+    "poster/rc/README.md": {
+      "sha256": "e2a1558bfd4b033c902137a484b5111ce78cbe8455c8310d4e58d721208d1ed4",
+      "bytes": 1998
+    },
+    "poster/rc/copy.md": {
+      "sha256": "f0275d88195887b6885e81b1cb697d94510edd3faa0d6a0b58fb13f20e310f53",
+      "bytes": 3131
+    },
+    "poster/rc/captions.md": {
+      "sha256": "9561052515b2487ecde15e93dd17194802ba19094ff9ec28fb6c32e492a3db91",
+      "bytes": 2579
+    },
+    "poster/rc/talk_90s.md": {
+      "sha256": "29629583ce1ddb2951740504a50da73bf04c28b7d173e6f046fb27126569674e",
+      "bytes": 1306
+    },
+    "poster/rc/talk_3min.md": {
+      "sha256": "ab34172bd4fe713c277b7147173a465296b2eb64b803875b275728c4d1f21408",
+      "bytes": 2195
+    },
+    "poster/rc/oral_defense.md": {
+      "sha256": "d17b85be2a6d5d63c85e54303caffbcfce13f48613e481c81b6cee076a8a08f2",
+      "bytes": 3701
+    },
+    "poster/rc/provenance.csv": {
+      "sha256": "5b747fc1af3579c686dda52b7f38298d2ce9ddc2967092622edb3d7ab31f85a8",
+      "bytes": 1860
+    },
+    "poster/rc/decision_record.md": {
+      "sha256": "29fcc4249d5fdf0e9472775e01a59a538a093cebec7287c72b6c4062ff3c3faa",
+      "bytes": 1449
+    },
+    "poster/rc/review_index.md": {
+      "sha256": "e018122cf3a2fda347c8ef04a5fa43a23580db12ecf9793c20d10f4c097e7ac6",
+      "bytes": 1202
+    },
+    "poster/rc/qa_report.md": {
+      "sha256": "04853edbb1a4984e9fb34a5b45c6ad7dd4f330166b7675971e081bcf765284cd",
+      "bytes": 1676
+    },
+    "poster/rc/checkpoint.md": {
+      "sha256": "9876e9c2ba1d5983a653dab9e2a5220f08bdddfff84069de82bb8cffa9f04167",
+      "bytes": 1780
+    }
+  }
+}
